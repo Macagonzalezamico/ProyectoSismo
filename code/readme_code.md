@@ -1,1 +1,1 @@
-Esta carpeta está destinada a contener el código ejecutable del proyecto
+Esta carpeta está destinada a contener el código ejecutable del proyecto, EDAs y otros

@@ -1,0 +1,1 @@
+Esta carpeta está destinada a contener los programas que forman parte de la Extracción, transformación y carga de los datos (ETL)

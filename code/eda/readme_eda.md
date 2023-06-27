@@ -1,0 +1,1 @@
+Esta carpeta está destinada a contener los Análisis exploratorios de datos (EDA) del proyecto

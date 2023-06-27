@@ -1,0 +1,1 @@
+Esta carpeta está destinada a documentación del proyecto que no necesariamente sea un entregable

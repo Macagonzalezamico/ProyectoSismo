@@ -1,0 +1,1 @@
+Esta carpeta está destinada a código y datos que usamos para realizar pruebas, pruebas de concepto y procesos controlados para detectar errores

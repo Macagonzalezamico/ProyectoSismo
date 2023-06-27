@@ -1,0 +1,1 @@
+Esta carpeta está destinada a documentación que forma parte de los entregables del proyecto. P.Ej. Documento de alcance

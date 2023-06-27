@@ -1,0 +1,1 @@
+Esta carpeta está destinada a contener el código ejecutable del proyecto

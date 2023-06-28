@@ -1,6 +1,7 @@
 # Stack Tecnologico
 
 `Python`: Para la extraccion de informacion.
+
 `Dependecias de Python`:
   * `Pandas`: Para la manipulacion de datos y limpieza de los mismos
   * `Requests`: Para realizar "web scrapping" de las paginas donde no se tiene una API para obtener la informacion, paginas estaticas.

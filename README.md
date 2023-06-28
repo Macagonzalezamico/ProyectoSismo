@@ -18,11 +18,18 @@ Este es el proyecto final del grupo 3 de la cohorte 11 de Data Full Time de Henr
 
 Fecha: Junio-Julio de 2023
 
-TODO: *** Mencionar de qué se trata el proyecto, los entregables, etc. ***
+El proyecto consiste en el análisis y generación de información sobre la base de información sismológica. La información generada (Medidas e indicadores) podrá ser consultada via web.
 
+Se espera que los destinatarios de la información generada sean aseguradoras, bancos y desarrolladores inmobiliarios.
+
+El alcance, los objetivos de detalle y el stack tecnológico se encuentran en la carpeta `entregables`.
 
 ## Repositorio y Scrum board
 
 El proyecto se encuentra versionado en el siguiente repositorio github: https://github.com/Macagonzalezamico/ProyectoSismo.git
 
 El scrum board del proyecto se encuentra en: https://michelvillot.atlassian.net/jira/software/projects/SCRUM/boards/1
+
+## Gantt del proyecto
+
+El Gantt del proyecto se encuentra en Jira y ha sido realizado utilizando epicas.

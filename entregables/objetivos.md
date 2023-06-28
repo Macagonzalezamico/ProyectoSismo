@@ -1,0 +1,12 @@
+# Objetivos del proyecto
+
+Hemos definido que nuestra perspectiva de trabajo es el de `proveer información a compañías de seguro` en relación con la actividad sísmica de distintas ubicaciones en el mundo, comenzando por `Chile, Estados Unidos y Japón`.
+
+Los objetivos de este proyecto son:
+
+- Para un territorio dado, proveer información de zonas según su actividad sísmica (Nula, Baja, Media, Alta).
+
+- Para un territorio dado, proveer información de zonas según su intensidad de actividad sísmica (Nula, Baja, Media, Alta).
+
+- Sobre la base de información histórica, y dado un evento sísmico con un epicentro "E", informar la probabilidad de ocurrencia de un evento sísmico de magnitud "M" en un radio "R" dentro de un plazo "P".
+

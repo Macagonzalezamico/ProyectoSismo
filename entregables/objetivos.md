@@ -10,3 +10,8 @@ Los objetivos de este proyecto son:
 
 - Sobre la base de información histórica, y dado un evento sísmico con un epicentro "E", informar la probabilidad de ocurrencia de un evento sísmico de magnitud "M" en un radio "R" dentro de un plazo "P".
 
+- Dada una locación y un radio "R", establecer la profundidad promedio en que ocurre el hipocentro.
+
+- Dada una locación y un radio "R", recuperar la cantidad de sismos ocurridos allí en un plazo "P" determinado junto con sus magnitudes mínima, promedio y máxima.
+
+- Implementar mecanismos de comunicación con la comunidad vía web.

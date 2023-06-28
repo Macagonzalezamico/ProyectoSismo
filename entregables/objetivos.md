@@ -1,6 +1,6 @@
 # Objetivos del proyecto
 
-Hemos definido que nuestra perspectiva de trabajo es el de `proveer información a compañías de seguro` en relación con la actividad sísmica de distintas ubicaciones en el mundo, comenzando por `Chile, Estados Unidos y Japón`.
+Hemos definido que nuestra perspectiva de trabajo es el de `proveer información a compañías de seguro, bancos y desarrolladores inmobiliarios` en relación con la actividad sísmica de distintas ubicaciones en el mundo, comenzando por `Chile, Estados Unidos y Japón`.
 
 Los objetivos de este proyecto son:
 

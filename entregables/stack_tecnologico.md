@@ -8,4 +8,5 @@
   * `Selenium`: Para realizar tareas en chrome de manera automatica.
     
 `GCP - Vertex AI o BigQuery`: Para almacenar y procesar los datos en la nube
+
 `Power BI`: Para mostrar el dashboard/KPIs

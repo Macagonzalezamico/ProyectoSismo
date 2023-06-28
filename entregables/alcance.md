@@ -26,6 +26,8 @@ El servicio contará con una base de datos donde la información se almacenará 
 
 El servicio contará con una web que permitirá realizar consultas según los objetivos definidos (Ver documento objetivos.md).
 
+Esta web contará con un apartado que permitirá consultar si hay alguna alarma de sismo de gran magnitud.
+
 ## Fuera del alcance
 
 Queda fuera del alcance de este proyecto la generación de un feed, como así también la generación de alertas a teléfonos celulares.

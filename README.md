@@ -33,7 +33,7 @@ El alcance, los objetivos de detalle y el stack tecnológico se encuentran en la
 
 * README.md : Archivo principal con información detallada del proyecto.
 
-* Entregables : Contiene Objetivos, alcances.
+* Entregables : Contiene Objetivos, Alcances, Stack_tecnologico
 
 * Códigos : Contiene el EDA y ETL.
   

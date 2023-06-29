@@ -10,13 +10,14 @@ Proyecto final del grupo 3 de la cohorte 11 de Data Full Time de Henry.
 Contamos con un equipo altamente colaborativo compuesto por 4 integrantes, cada uno con roles específicos y enfoques particulares:
 
 ### Data Engineer :
-### Data Analytics :
-### Machine Learning :
-
-- Michel Saul Villot Villot
-- Macarena Lilian Gonzalez Amico
-- Francisco Andres Krapovickas
 - Fernando Jose Embrioni
+- Michel Saul Villot Villot
+  
+### Data Analytics :
+- Macarena Lilian Gonzalez Amico
+
+### Data Scientist :
+- Francisco Andres Krapovickas
 
 
 ## Descripción del proyecto

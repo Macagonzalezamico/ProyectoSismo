@@ -37,6 +37,8 @@ El alcance, los objetivos de detalle y el stack tecnológico se encuentran en la
 * Entregables : Contiene Objetivos, Alcances, Stack_tecnologico
 
 * Códigos : Contiene el EDA y ETL.
+
+* Diagrama de Gantt : Contiene el diagrama de Gantt que muestra la trayectoria del proyecto.
   
 
 ## Repositorio y Scrum board

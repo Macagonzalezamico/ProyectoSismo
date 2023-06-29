@@ -1,16 +1,21 @@
+![logo-henry-white-lg](https://github.com/Macagonzalezamico/ProyectoSismo/assets/108033123/b27dfef2-99b1-409a-bb21-14f05daf0539)
+
 # ProyectoSismo
 
 Este es el proyecto final del grupo 3 de la cohorte 11 de Data Full Time de Henry.
 
 
-## Integrantes del equipo
+## Integrantes del Equipo
+
+Contamos con un equipo altamente colaborativo compuesto por 4 integrantes, cada uno con roles específicos y enfoques particulares:
+
+### Data Engineer :
+### Data Analytics :
+### Machine Learning :
 
 - Michel Saul Villot Villot
-
 - Macarena Lilian Gonzalez Amico
-
 - Francisco Andres Krapovickas
-
 - Fernando Jose Embrioni
 
 

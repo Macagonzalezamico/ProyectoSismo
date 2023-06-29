@@ -30,7 +30,7 @@ Se espera que los destinatarios de la información generada sean aseguradoras, b
 
 El alcance, los objetivos de detalle y el stack tecnológico se encuentran en la carpeta `entregables`.
 
-# Estructura del repositorio
+## Estructura del repositorio
 
 * README.md : Archivo principal con información detallada del proyecto.
 

@@ -1,5 +1,5 @@
 <p align="center">
-![logo-henry-white-lg]  <img src="(https://github.com/Macagonzalezamico/ProyectoSismo/assets/108033123/db5e2dcc-80a3-4329-bbd0-275024e7dd2a)" alt="Descripción de la imagen">
+  <img src="https://github.com/Macagonzalezamico/ProyectoSismo/assets/108033123/f5a47e23-f5a4-4c1c-907f-c6843a77c075" alt="Descripción de la imagen">
 </p>
 
 

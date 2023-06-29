@@ -1,7 +1,7 @@
 <p align="center">
-  <img src="(https://github.com/Macagonzalezamico/ProyectoSismo/assets/108033123/db5e2dcc-80a3-4329-bbd0-275024e7dd2a)" alt="Descripción de la imagen">
+![logo-henry-white-lg]  <img src="(https://github.com/Macagonzalezamico/ProyectoSismo/assets/108033123/db5e2dcc-80a3-4329-bbd0-275024e7dd2a)" alt="Descripción de la imagen">
 </p>
-![logo-henry-white-lg]
+
 
 <h1 align="center">PROYECTO SISMOS</h1>
 

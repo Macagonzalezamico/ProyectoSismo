@@ -30,12 +30,13 @@ Se espera que los destinatarios de la información generada sean aseguradoras, b
 El alcance, los objetivos de detalle y el stack tecnológico se encuentran en la carpeta `entregables`.
 
 # Estructura del repositorio
-*README.md
-*Entregables: Contiene Objetivos 
-*
-*
-*
-*
+
+* README.md : Archivo principal con información detallada del proyecto.
+
+* Entregables : Contiene Objetivos, alcances.
+
+* Códigos : Contiene el EDA y ETL.
+  
 
 ## Repositorio y Scrum board
 

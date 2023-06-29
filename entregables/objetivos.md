@@ -4,14 +4,38 @@ Hemos definido que nuestra perspectiva de trabajo es el de `proveer información
 
 Los objetivos de este proyecto son:
 
-- Para un territorio dado, proveer información de zonas según su actividad sísmica (Nula, Baja, Media, Alta).
+- Estudiar las tendencias temporales de los sismos para identificar patrones.
 
-- Para un territorio dado, proveer información de zonas según su intensidad de actividad sísmica (Nula, Baja, Media, Alta).
+- Analizar y comprender los impactos poblacionales y económicos de los sismos.
 
-- Sobre la base de información histórica, y dado un evento sísmico con un epicentro "E", informar la probabilidad de ocurrencia de un evento sísmico de magnitud "M" en un radio "R" dentro de un plazo "P".
+- Utilizar los datos de sismos para proveer información a nuestros clientes.
+
+- Para un territorio dado, proveer información de zonas según su frecuencia de actividad sísmica (Nula, Baja, Media, Alta).
+
+- Para un territorio dado, proveer información de zonas según su magnitud de actividad sísmica (Nula, Baja, Media, Alta).
 
 - Dada una locación y un radio "R", establecer la profundidad promedio en que ocurre el hipocentro.
 
 - Dada una locación y un radio "R", recuperar la cantidad de sismos ocurridos allí en un plazo "P" determinado junto con sus magnitudes mínima, promedio y máxima.
 
-- Implementar mecanismos de comunicación con la comunidad vía web.
+- Colaborar con la comunidad para ofrecer alertas de sismos.
+
+# Soluciones propuestas
+
+- Implementar modelos de ML para la identificación de patrones.
+
+- Generar modelos analíticos de los impactos poblacionales y económicos de los sismos.
+
+- Generar un conjunto de productos que permitan a nuestros clientes obtener información sísmica relacionada con sus negocios.
+
+- Implementar mecanismos de comunicación con la comunidad vía web para proveer alertas.
+
+# Nuestros KPIs
+
+Estos KPIs tienen por objetivo guiarnos en la operación de nuestro negocio.
+
+- KPI 1: Vía el uso de nuestras alertas, colaborar en la reducción de la tasa de mortalidad en un 5% respecto al año anterior.
+
+- KPI 2: Vía el uso de nuestros productos, colaborar en la urbanización antisísmica para aquellas zonas con sismos de magnitudes altas.
+
+- 

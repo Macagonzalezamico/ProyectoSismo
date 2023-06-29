@@ -1,7 +1,7 @@
 
 ![logo-henry-white-lg](https://github.com/Macagonzalezamico/ProyectoSismo/assets/108033123/db5e2dcc-80a3-4329-bbd0-275024e7dd2a)
 
-# ProyectoSismo
+<h1 align="center">PROYECTO SISMOS</h1>
 
 Este es el proyecto final del grupo 3 de la cohorte 11 de Data Full Time de Henry.
 

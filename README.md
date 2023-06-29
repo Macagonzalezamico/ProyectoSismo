@@ -1,4 +1,7 @@
-![logo-henry-white-lg](https://github.com/Macagonzalezamico/ProyectoSismo/assets/108033123/db5e2dcc-80a3-4329-bbd0-275024e7dd2a)
+<p align="center">
+  <img src="https://github.com/Macagonzalezamico/ProyectoSismo/assets/108033123/f5a47e23-f5a4-4c1c-907f-c6843a77c075" alt="Descripción de la imagen">
+</p>
+
 
 <h1 align="center">PROYECTO SISMOS</h1>
 
@@ -37,6 +40,8 @@ El alcance, los objetivos de detalle y el stack tecnológico se encuentran en la
 * Entregables : Contiene Objetivos, Alcances, Stack_tecnologico
 
 * Códigos : Contiene el EDA y ETL.
+
+* Diagrama de Gantt : Contiene el diagrama de Gantt que muestra la trayectoria del proyecto.
   
 
 ## Repositorio y Scrum board

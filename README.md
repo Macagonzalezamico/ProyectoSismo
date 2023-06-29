@@ -1,5 +1,5 @@
-![logo-henry-white-lg]
-(https://github.com/Macagonzalezamico/ProyectoSismo/assets/108033123/b27dfef2-99b1-409a-bb21-14f05daf0539)
+
+![logo-henry-white-lg](https://github.com/Macagonzalezamico/ProyectoSismo/assets/108033123/db5e2dcc-80a3-4329-bbd0-275024e7dd2a)
 
 # ProyectoSismo
 

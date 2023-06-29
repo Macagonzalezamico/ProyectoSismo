@@ -19,7 +19,7 @@ Contamos con un equipo altamente colaborativo compuesto por 4 integrantes, cada 
 - Fernando Jose Embrioni
 
 
-## Info del proyecto
+## Descripción del proyecto
 
 Fecha: Junio-Julio de 2023
 

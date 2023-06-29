@@ -29,6 +29,14 @@ Se espera que los destinatarios de la información generada sean aseguradoras, b
 
 El alcance, los objetivos de detalle y el stack tecnológico se encuentran en la carpeta `entregables`.
 
+# Estructura del repositorio
+*README.md
+*Entregables: Contiene Objetivos 
+*
+*
+*
+*
+
 ## Repositorio y Scrum board
 
 El proyecto se encuentra versionado en el siguiente repositorio github: https://github.com/Macagonzalezamico/ProyectoSismo.git

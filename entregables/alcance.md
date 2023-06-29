@@ -14,9 +14,11 @@ Los servicios de datos a utilizar son:
 
 - Japón: https://www.data.jma.go.jp/multi/quake/index.html?lang=es
 
-La información a ser analizada se recopilará desde el 1 de Enero del año NNNN. `TODO: Definir el año`.
+La información a ser analizada se recopilará para sismos desde el 1 de Enero del año 2000.
 
-Nuestro servicio buscará novedades cada NN minutos (`TODO: Definir la periodicidad`) y las agregará a la base de datos, quedando la misma disponible para realizar análisis.
+La información adicional de impactos económicos y poblacionales se recopilará para sismos ocurridos desde el año 1800.
+
+Nuestro servicio buscará novedades cada hora y las agregará a la base de datos (Carga incremental), quedando la misma disponible para realizar análisis.
 
 ### Base de datos
 

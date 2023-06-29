@@ -38,6 +38,6 @@ Estos KPIs tienen por objetivo guiarnos en la operación de nuestro negocio.
 
 - KPI 2: Vía el uso de nuestras alertas, colaborar en la reducción de la tasa de impacto económico en un 2% respecto al último sismo con la misma intensidad registrada.
 
-- KPI 3: 
+- KPI 3: Vía el uso de nuestras alertas, colaborar en la reducción de la tasa de destrucción de viviendas en un 2% respecto al último sismo con la misma intensidad registrada.
 
-- KPI 4:
+- KPI 4: Vía el uso de nuestras alertas, colaborar en la reducción de la tasa de heridos en un 2% respecto al último sismo con la misma intensidad registrada.

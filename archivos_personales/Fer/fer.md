@@ -12,3 +12,5 @@ Impactos economicos: https://www.researchgate.net/publication/258434390_The_Worl
 https://sedac.ciesin.columbia.edu/data/set/ndh-earthquake-total-economic-loss-risk-deciles/data-download
 
 https://www.ngdc.noaa.gov/hazel/view/hazards/earthquake/search
+
+https://www.kaggle.com/datasets/arashnic/earthquake-magnitude-damage-and-impact?resource=download

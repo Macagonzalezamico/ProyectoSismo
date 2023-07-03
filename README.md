@@ -53,3 +53,9 @@ El scrum board del proyecto se encuentra en: https://michelvillot.atlassian.net/
 ## Gantt del proyecto
 
 El Gantt del proyecto se encuentra en Jira y ha sido realizado utilizando epicas.
+
+# Anexos
+
+## Tipos de archivos
+
+Los archivos con extensión `.drawio` pueden ser abiertos con `diagrams.net`.

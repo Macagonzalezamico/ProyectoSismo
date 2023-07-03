@@ -1,3 +1,0 @@
-# ProyectoSismo
-
-Holiiis

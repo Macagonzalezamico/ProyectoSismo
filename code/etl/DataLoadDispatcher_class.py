@@ -7,7 +7,7 @@ from enum import Enum
 import InfoExtractor_class as iex
 #import extractor_CL_dataset class
 #import extractor_CL_url class
-#import extractor_USA_api class
+import InfoExtractorUSA_class as iex_usa
 #import extractor_JP_url class
 #import extractor_Damage_url class
 

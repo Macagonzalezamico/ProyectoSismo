@@ -6,7 +6,7 @@ import datetime as dt
 from enum import Enum
 import InfoExtractor_class as iex
 #import extractor_CL_dataset class
-#import extractor_CL_url class
+import InfoExtractorChileURL_class as iex_chile
 import InfoExtractorUSA_class as iex_usa
 #import extractor_JP_url class
 #import extractor_Damage_url class
@@ -36,12 +36,8 @@ class DataLoadDispatcher():
                                'JP_urlJapon' : self.extractor_JP_url,
                                'urlDamage' : self.extractor_Damage_url}
 
-        self.context_d = {'countries' : [{'CL' : {'sources' : [('datasetChile', # Fuente de la información
-                                                                dt.datetime(2000,  1,  1,  0,  0,  0), # Fecha desde validez de esta fuente
-                                                                dt.datetime(2015,  8, 19, 23, 59, 59), # Fecha hasta validez de esta fuente
-                                                                30), # Cantidad máxima de días a extraer por lote
-                                                               ('urlChile',
-                                                                dt.datetime(2015,  8, 20,  0,  0,  0),
+        self.context_d = {'countries' : [{'CL' : {'sources' : [('urlChile',
+                                                                dt.datetime(2000,  1,  1,  0,  0,  0),
                                                                 dt.datetime(9999, 12, 31, 23, 59, 59),
                                                                 30)]}},
                                          {'US' : {'sources' : [('urlUSA',

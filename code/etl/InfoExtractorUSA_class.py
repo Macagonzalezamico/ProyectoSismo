@@ -13,6 +13,9 @@ class InfoExtractorUSA(iex.InfoExtractor):
     El objetivo de esta clase es el de extraer información desde la API de USA.
     '''
 
+    def __init__(self) -> None:
+        super().__init__()
+
     def extractInfo(self, country: str, source: str, fromDateTime: dt.datetime, toDateTime: dt.datetime) -> (str, json):
         '''
         Este metodo permite extraer información de un país dado utilizando source como origen de los datos

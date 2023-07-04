@@ -14,6 +14,9 @@ class InfoFormatter(ABC):
     Esta clase es una clase abstracta que plantea los mensajes que sus instancias deben implementar.
     '''
 
+    def __init__(self) -> None:
+        super().__init__()
+
     @abstractmethod
     def formatInfo(self, country: str, jsonData: json) -> (str, pd.DataFrame):
         '''

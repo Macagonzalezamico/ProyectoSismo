@@ -34,10 +34,14 @@ Los objetivos de este proyecto son:
 
 Estos KPIs tienen por objetivo guiarnos en la operación de nuestro negocio.
 
-- KPI 1: Vía el uso de nuestras alertas, colaborar en la reducción de la tasa de mortalidad en un 5% respecto al último sismo con la misma intensidad registrada.
+## KPIs para compañías de seguro
 
-- KPI 2: Vía el uso de nuestras alertas, colaborar en la reducción de la tasa de impacto económico en un 2% respecto al último sismo con la misma intensidad registrada.
+- KPI 1: Disminuir la sumatoria de montos pagados en siniestros debidos a sismos en un 2% con relación al año anterior.
 
-- KPI 3: Vía el uso de nuestras alertas, colaborar en la reducción de la tasa de destrucción de viviendas en un 2% respecto al último sismo con la misma intensidad registrada.
+- KPI 2: Incrementar la tasa de asegurados en lugares con baja actividad sísmica en un 5% respecto al año anterior.
 
-- KPI 4: Vía el uso de nuestras alertas, colaborar en la reducción de la tasa de heridos en un 2% respecto al último sismo con la misma intensidad registrada.
+## KPIs para bancos:
+
+- KPI 3: Disminuir la tasa de hipotecas tomadas en lugares de alta actividad sísmica en un 2% respecto al año anterior.
+
+- KPI 4: Incrementar la tasa de prestamos para victimas de sismos en un 5% respecto al año anterior.

@@ -1,169 +1,169 @@
-Fecha del sismo,Hora del sismo,Latitud,Longitud,Profundidad(Km),Magnitud,Lugar del Epicentro,ID_País
-2023-06-30,00:48:00,36.5,140.7,50km,4.0,Alta mar de Prefectura de Ibaraki,JP
-2023-06-29,22:20:00,24.8,124.2,80km,3.8,Mares cercanos de Isla Ishigaki,JP
-2023-06-29,20:01:00,28.4,129.5,30km,3.1,Mares cercanos de Islas de Amamioshima,JP
-2023-06-29,02:27:00,35.0,135.6,Poco profundo,2.2,Sur de Prefectura de Kioto,JP
-2023-06-28,17:22:00,44.9,142.1,10km,3.0,Norte de región Soya,JP
-2023-06-28,15:02:00,36.4,140.6,60km,3.1,Norte de Prefectura de Ibaraki,JP
-2023-06-28,14:25:00,42.3,142.8,30km,3.4,Este de región Hidaka,JP
-2023-06-28,13:27:00,35.7,141.4,10km,4.3,Alta mar este de Prefectura de Chiba,JP
-2023-06-28,12:08:00,35.7,141.5,10km,4.8,Alta mar este de Prefectura de Chiba,JP
-2023-06-28,08:39:00,42.1,134.4,480km,6.2,Norte de Mar de Japón,JP
-2023-06-28,00:55:00,37.5,137.4,10km,3.3,Alta mar de Península de Noto,JP
-2023-06-27,03:24:00,36.2,137.1,10km,2.3,"Región Hida, Prefectura de Gifu",JP
-2023-06-26,01:49:00,39.1,142.1,50km,3.4,Alta mar de Prefectura de Iwate,JP
-2023-06-25,23:52:00,36.5,137.8,10km,2.9,Norte de Prefectura de Nagano,JP
-2023-06-25,18:18:00,37.5,141.4,50km,3.8,Alta mar de Prefectura de Fukushima,JP
-2023-06-25,17:46:00,40.2,142.0,60km,3.7,Alta mar de Prefectura de Iwate,JP
-2023-06-25,09:07:00,36.0,137.5,10km,3.0,"Región Hida, Prefectura de Gifu",JP
-2023-06-24,22:50:00,36.5,137.8,10km,2.5,Norte de Prefectura de Nagano,JP
-2023-06-24,21:24:00,37.1,140.9,100km,3.5,"Hamadori, Prefectura de Fukushima",JP
-2023-06-24,20:39:00,38.5,142.1,50km,3.8,Alta mar de Prefectura de Miyagi,JP
-2023-06-24,09:58:00,37.3,141.8,40km,4.9,Alta mar de Prefectura de Fukushima,JP
-2023-06-24,04:04:00,35.0,137.8,10km,2.9,Oeste de Prefectura de Shizuoka,JP
-2023-06-24,02:39:00,45.8,143.2,330km,5.8,Alta mar este de Soya,JP
-2023-06-24,00:43:00,25.3,141.7,120km,4.9,Mares cercanos de Isla Ioto,JP
-2023-06-23,20:07:00,36.5,137.9,10km,1.8,Norte de Prefectura de Nagano,JP
-2023-06-23,11:57:00,34.0,135.3,Poco profundo,2.6,Norte de Prefectura de Wakayama,JP
-2023-06-23,07:06:00,34.1,135.2,10km,2.3,Norte de Prefectura de Wakayama,JP
-2023-06-22,21:47:00,29.9,130.0,10km,3.1,Mares cercanos de Islas Tokara,JP
-2023-06-22,19:31:00,43.1,141.9,160km,4.5,Sur de región Sorachi,JP
-2023-06-22,18:31:00,36.7,140.9,40km,3.7,Alta mar de Prefectura de Ibaraki,JP
-2023-06-22,16:39:00,41.6,142.1,50km,4.1,Alta mar de Uraga,JP
-2023-06-22,10:24:00,26.4,127.9,40km,5.2,Mares cercanos de Isla principal de Okinawa,JP
-2023-06-22,01:07:00,29.9,130.0,10km,3.0,Mares cercanos de Islas Tokara,JP
-2023-06-21,17:46:00,35.6,139.9,70km,3.4,Bahía de Tokio,JP
-2023-06-21,15:55:00,37.5,137.2,10km,3.0,"Región Noto, Prefectura de Ishikawa",JP
-2023-06-21,09:21:00,35.2,137.3,40km,3.4,Oeste de Prefectura de Aichi,JP
-2023-06-21,06:22:00,39.1,142.2,40km,3.6,Alta mar de Prefectura de Iwate,JP
-2023-06-21,06:17:00,35.1,137.1,40km,3.2,Oeste de Prefectura de Aichi,JP
-2023-06-21,01:10:00,39.1,140.9,10km,3.3,Interior sur de Prefectura de Iwate,JP
-2023-06-21,00:10:00,37.1,139.4,Poco profundo,2.4,"Aizu, Prefectura de Fukushima",JP
-2023-06-20,20:10:00,36.5,137.8,10km,3.9,Norte de Prefectura de Nagano,JP
-2023-06-20,18:25:00,38.5,141.7,50km,3.6,Alta mar de Prefectura de Miyagi,JP
-2023-06-20,10:53:00,29.9,130.0,10km,3.0,Mares cercanos de Islas Tokara,JP
-2023-06-20,08:47:00,31.3,131.6,30km,3.9,Alta mar este de Península de Osumi,JP
-2023-06-20,08:44:00,35.9,139.6,60km,3.8,Sur de Prefectura de Saitama,JP
-2023-06-19,13:50:00,42.5,143.0,60km,5.2,Sur de región Tokachi,JP
-2023-06-19,10:39:00,29.9,130.1,10km,3.0,Mares cercanos de Islas Tokara,JP
-2023-06-19,10:32:00,34.7,139.3,10km,2.9,Mares cercanos de Isla de Izu-Oshima,JP
-2023-06-19,10:31:00,34.7,139.3,10km,2.9,Mares cercanos de Isla de Izu-Oshima,JP
-2023-06-19,10:26:00,34.7,139.3,10km,2.3,Mares cercanos de Isla de Izu-Oshima,JP
-2023-06-19,10:19:00,34.8,139.3,10km,2.2,Mares cercanos de Isla de Izu-Oshima,JP
-2023-06-19,09:44:00,34.8,139.3,10km,2.6,Mares cercanos de Isla de Izu-Oshima,JP
-2023-06-19,05:37:00,31.3,131.6,30km,4.2,Alta mar este de Península de Osumi,JP
-2023-06-19,04:59:00,37.1,139.4,10km,2.5,"Aizu, Prefectura de Fukushima",JP
-2023-06-19,01:58:00,31.3,131.6,30km,4.8,Alta mar este de Península de Osumi,JP
-2023-06-19,00:53:00,34.8,139.3,10km,2.7,Mares cercanos de Isla de Izu-Oshima,JP
-2023-06-18,19:33:00,36.4,137.6,10km,3.3,Este de Prefectura de Toyama,JP
-2023-06-17,20:42:00,41.4,142.7,50km,4.8,Alta mar este de Prefectura de Aomori,JP
-2023-06-17,20:37:00,47.2,148.0,450km,5.8,Sur de Mar de Okhotsk (Ohotsuku),JP
-2023-06-17,18:37:00,42.2,142.9,60km,4.1,Este de región Hidaka,JP
-2023-06-17,09:26:00,41.2,142.9,20km,5.7,Alta mar este de Prefectura de Aomori,JP
-2023-06-17,03:49:00,30.0,130.0,10km,2.2,Mares cercanos de Islas Tokara,JP
-2023-06-16,21:24:00,35.7,140.7,50km,4.9,Nodeste de Prefectura de Chiba,JP
-2023-06-16,21:14:00,35.8,140.1,70km,4.0,Noroeste de Prefectura de Chiba,JP
-2023-06-16,12:53:00,31.6,130.3,10km,2.3,Alta mar oeste de Península de Satsuma,JP
-2023-06-16,12:20:00,30.0,130.0,10km,2.4,Mares cercanos de Islas Tokara,JP
-2023-06-16,03:06:00,22.9,176.6,210km,7.0,Pacífico Meridional,JP
-2023-06-15,16:31:00,37.6,137.3,10km,3.5,Alta mar de Península de Noto,JP
-2023-06-15,07:42:00,34.5,139.2,10km,2.4,"Mares cercanas de Isla Niijima, Kozujima",JP
-2023-06-15,05:24:00,36.8,140.6,10km,3.1,Norte de Prefectura de Ibaraki,JP
-2023-06-15,03:49:00,37.5,137.4,10km,2.7,Alta mar de Península de Noto,JP
-2023-06-15,00:06:00,35.7,140.7,40km,4.2,Nodeste de Prefectura de Chiba,JP
-2023-06-14,23:25:00,29.2,130.5,70km,4.3,Alta mar nodeste de Amamioshima,JP
-2023-06-14,19:01:00,37.6,137.3,10km,3.9,Alta mar de Península de Noto,JP
-2023-06-14,08:43:00,29.7,129.9,10km,2.7,Mares cercanos de Islas Tokara,JP
-2023-06-14,08:30:00,29.7,129.9,10km,2.4,Mares cercanos de Islas Tokara,JP
-2023-06-14,08:23:00,29.8,129.8,10km,3.1,Mares cercanos de Islas Tokara,JP
-2023-06-13,17:03:00,29.7,129.8,10km,2.5,Mares cercanos de Islas Tokara,JP
-2023-06-13,15:49:00,29.7,129.8,10km,2.4,Mares cercanos de Islas Tokara,JP
-2023-06-13,07:32:00,37.5,137.2,10km,3.3,"Región Noto, Prefectura de Ishikawa",JP
-2023-06-12,13:51:00,39.4,141.9,60km,3.8,Costa norte de Prefectura de Iwate,JP
-2023-06-12,10:06:00,29.9,130.0,10km,1.8,Mares cercanos de Islas Tokara,JP
-2023-06-12,06:27:00,35.2,135.0,10km,2.5,Sudeste de Prefectura de Hyogo,JP
-2023-06-12,03:56:00,29.9,130.0,10km,2.3,Mares cercanos de Islas Tokara,JP
-2023-06-11,21:25:00,24.2,122.5,40km,4.7,Mares cercanos de Isla Yonaguni,JP
-2023-06-11,18:55:00,42.5,142.0,140km,6.2,Alta mar de Uraga,JP
-2023-06-11,05:53:00,45.2,141.8,10km,2.7,Norte de región Soya,JP
-2023-06-11,02:45:00,37.0,140.4,80km,2.9,"Nakadori, Prefectura de Fukushima",JP
-2023-06-11,01:21:00,33.9,135.2,50km,4.1,Norte de Prefectura de Wakayama,JP
-2023-06-11,01:01:00,37.5,137.3,10km,3.3,"Región Noto, Prefectura de Ishikawa",JP
-2023-06-10,18:22:00,45.2,141.8,20km,2.5,Norte de región Soya,JP
-2023-06-10,17:57:00,38.7,142.0,60km,3.6,Alta mar de Prefectura de Miyagi,JP
-2023-06-10,06:21:00,37.5,137.2,10km,3.1,"Región Noto, Prefectura de Ishikawa",JP
-2023-06-10,03:45:00,34.5,139.2,10km,2.6,"Mares cercanas de Isla Niijima, Kozujima",JP
-2023-06-10,03:41:00,32.9,131.0,10km,2.1,"Región Aso, Prefectura de Kumamoto",JP
-2023-06-10,03:30:00,34.5,139.2,10km,3.7,"Mares cercanas de Isla Niijima, Kozujima",JP
-2023-06-09,22:48:00,37.5,137.2,10km,3.3,"Región Noto, Prefectura de Ishikawa",JP
-2023-06-09,20:45:00,37.5,137.4,10km,3.8,Alta mar de Península de Noto,JP
-2023-06-09,08:35:00,28.7,129.4,70km,3.7,Mares cercanos de Islas de Amamioshima,JP
-2023-06-09,06:21:00,31.2,130.3,190km,4.6,Alta mar oeste de Península de Satsuma,JP
-2023-06-09,05:11:00,37.5,137.3,10km,2.5,"Región Noto, Prefectura de Ishikawa",JP
-2023-06-09,01:43:00,34.0,135.5,50km,3.0,Norte de Prefectura de Wakayama,JP
-2023-06-08,21:49:00,37.6,137.3,10km,3.2,Alta mar de Península de Noto,JP
-2023-06-08,21:37:00,35.6,140.7,40km,3.0,Alta mar este de Prefectura de Chiba,JP
-2023-06-08,19:34:00,37.7,141.7,70km,4.1,Alta mar de Prefectura de Fukushima,JP
-2023-06-08,18:02:00,32.5,130.6,10km,2.1,"Región Kumamoto, Prefectura de Kumamoto",JP
-2023-06-08,04:54:00,36.5,140.5,60km,3.6,Norte de Prefectura de Ibaraki,JP
-2023-06-07,18:43:00,29.9,130.0,10km,2.5,Mares cercanos de Islas Tokara,JP
-2023-06-07,16:50:00,29.9,130.1,10km,2.2,Mares cercanos de Islas Tokara,JP
-2023-06-07,07:46:00,29.9,129.9,10km,2.0,Mares cercanos de Islas Tokara,JP
-2023-06-06,21:17:00,30.0,130.0,10km,2.5,Mares cercanos de Islas Tokara,JP
-2023-06-06,18:17:00,36.1,137.3,10km,3.0,"Región Hida, Prefectura de Gifu",JP
-2023-06-06,10:26:00,39.6,140.6,20km,2.7,Interior sur de Prefectura de Akita,JP
-2023-06-06,07:18:00,30.0,130.0,10km,2.5,Mares cercanos de Islas Tokara,JP
-2023-06-06,06:25:00,36.8,140.6,10km,3.8,Norte de Prefectura de Ibaraki,JP
-2023-06-06,06:05:00,38.9,141.9,50km,3.9,Alta mar de Prefectura de Miyagi,JP
-2023-06-06,05:46:00,35.9,141.0,30km,3.6,Alta mar de Prefectura de Ibaraki,JP
-2023-06-06,04:52:00,30.0,130.0,20km,2.7,Mares cercanos de Islas Tokara,JP
-2023-06-05,21:46:00,36.5,141.2,40km,3.6,Alta mar de Prefectura de Ibaraki,JP
-2023-06-05,13:01:00,37.6,137.3,10km,3.3,Alta mar de Península de Noto,JP
-2023-06-05,11:35:00,38.5,142.1,40km,4.5,Alta mar de Prefectura de Miyagi,JP
-2023-06-05,10:28:00,34.9,132.8,10km,2.9,Norte de Prefectura de Hiroshima,JP
-2023-06-04,22:59:00,37.2,142.2,20km,4.4,Alta mar de Prefectura de Fukushima,JP
-2023-06-04,20:45:00,29.7,129.8,10km,2.1,Mares cercanos de Islas Tokara,JP
-2023-06-04,20:35:00,29.7,129.9,10km,2.5,Mares cercanos de Islas Tokara,JP
-2023-06-04,19:42:00,29.9,130.0,10km,3.2,Mares cercanos de Islas Tokara,JP
-2023-06-04,15:50:00,35.6,140.2,60km,4.0,Noroeste de Prefectura de Chiba,JP
-2023-06-04,14:37:00,39.6,140.6,10km,2.7,Interior sur de Prefectura de Akita,JP
-2023-06-04,10:58:00,35.8,140.1,70km,4.6,Noroeste de Prefectura de Chiba,JP
-2023-06-04,06:12:00,37.5,137.4,Poco profundo,3.0,Alta mar de Península de Noto,JP
-2023-06-04,04:45:00,29.9,130.0,10km,2.2,Mares cercanos de Islas Tokara,JP
-2023-06-04,03:57:00,42.9,145.5,30km,3.5,Alta mar de Kushiro,JP
-2023-06-04,02:19:00,29.9,130.0,10km,2.4,Mares cercanos de Islas Tokara,JP
-2023-06-04,01:17:00,29.9,130.0,10km,2.8,Mares cercanos de Islas Tokara,JP
-2023-06-03,19:35:00,42.0,142.6,60km,5.1,Alta mar de Uraga,JP
-2023-06-03,14:59:00,37.3,138.9,20km,2.6,"Región Chuetsu, Prefectura de Niigata",JP
-2023-06-03,14:13:00,37.5,137.2,10km,2.5,"Región Noto, Prefectura de Ishikawa",JP
-2023-06-03,01:51:00,34.0,135.2,10km,2.3,Norte de Prefectura de Wakayama,JP
-2023-06-02,17:06:00,36.0,137.4,10km,2.7,"Región Hida, Prefectura de Gifu",JP
-2023-06-02,16:45:00,41.6,140.6,10km,3.4,Estrecho de Tsugaru,JP
-2023-06-02,13:04:00,36.7,140.9,50km,3.1,Alta mar de Prefectura de Ibaraki,JP
-2023-06-02,06:36:00,29.9,130.0,10km,2.1,Mares cercanos de Islas Tokara,JP
-2023-06-02,02:57:00,36.0,137.4,Poco profundo,2.5,"Región Hida, Prefectura de Gifu",JP
-2023-06-02,02:55:00,36.1,137.4,10km,2.8,"Región Hida, Prefectura de Gifu",JP
-2023-06-01,22:14:00,30.0,130.0,10km,2.4,Mares cercanos de Islas Tokara,JP
-2023-06-01,20:47:00,29.9,130.0,10km,2.4,Mares cercanos de Islas Tokara,JP
-2023-06-01,20:27:00,29.9,130.0,10km,3.1,Mares cercanos de Islas Tokara,JP
-2023-06-01,20:11:00,30.0,129.9,10km,3.6,Mares cercanos de Islas Tokara,JP
-2023-06-01,19:34:00,29.9,130.0,10km,2.1,Mares cercanos de Islas Tokara,JP
-2023-06-01,17:49:00,30.0,130.0,10km,2.2,Mares cercanos de Islas Tokara,JP
-2023-06-01,16:40:00,28.3,129.6,30km,3.5,Mares cercanos de Islas de Amamioshima,JP
-2023-06-01,15:00:00,29.9,130.1,10km,2.4,Mares cercanos de Islas Tokara,JP
-2023-06-01,12:04:00,36.2,141.2,30km,3.6,Alta mar de Prefectura de Ibaraki,JP
-2023-06-01,11:58:00,29.9,130.0,10km,2.2,Mares cercanos de Islas Tokara,JP
-2023-06-01,11:42:00,29.9,130.0,Poco profundo,2.1,Mares cercanos de Islas Tokara,JP
-2023-06-01,11:32:00,29.9,130.0,Poco profundo,2.4,Mares cercanos de Islas Tokara,JP
-2023-06-01,11:28:00,29.9,130.0,10km,4.4,Mares cercanos de Islas Tokara,JP
-2023-06-01,10:29:00,29.9,130.0,10km,2.4,Mares cercanos de Islas Tokara,JP
-2023-06-01,00:03:00,38.7,142.3,40km,4.4,Alta mar de Prefectura de Miyagi,JP
-2023-06-01,00:03:00,37.5,137.4,10km,4.2,Alta mar de Península de Noto,JP
-2023-05-31,23:41:00,35.7,140.8,50km,3.4,Alta mar este de Prefectura de Chiba,JP
-2023-05-31,21:15:00,33.9,135.2,10km,2.6,Norte de Prefectura de Wakayama,JP
-2023-05-31,20:12:00,34.2,133.5,10km,3.3,Centro de Mar interior de Seto,JP
-2023-05-31,15:20:00,33.8,135.0,10km,3.1,Canal de Kii,JP
-2023-05-31,10:04:00,38.9,142.0,50km,3.7,Alta mar de Prefectura de Miyagi,JP
-2023-05-31,07:49:00,33.4,139.3,10km,4.3,Mares cercanos de Isla de Hachijyo,JP
-2023-05-31,04:06:00,36.0,137.4,10km,2.8,"Región Hida, Prefectura de Gifu",JP
-2023-05-31,03:41:00,37.5,137.3,10km,2.5,"Región Noto, Prefectura de Ishikawa",JP
+Fecha_del_sismo,Hora_del_sismo,Latitud,Longitud,Profundidad_Km,Magnitud,Tipo_Magnitud,Lugar_del_Epicentro,ID_Pais
+2023-06-30,00:48:00,36.5,140.7,50km,4.0,ML,Alta mar de Prefectura de Ibaraki,JP
+2023-06-29,22:20:00,24.8,124.2,80km,3.8,ML,Mares cercanos de Isla Ishigaki,JP
+2023-06-29,20:01:00,28.4,129.5,30km,3.1,ML,Mares cercanos de Islas de Amamioshima,JP
+2023-06-29,02:27:00,35.0,135.6,Poco profundo,2.2,ML,Sur de Prefectura de Kioto,JP
+2023-06-28,17:22:00,44.9,142.1,10km,3.0,ML,Norte de región Soya,JP
+2023-06-28,15:02:00,36.4,140.6,60km,3.1,ML,Norte de Prefectura de Ibaraki,JP
+2023-06-28,14:25:00,42.3,142.8,30km,3.4,ML,Este de región Hidaka,JP
+2023-06-28,13:27:00,35.7,141.4,10km,4.3,ML,Alta mar este de Prefectura de Chiba,JP
+2023-06-28,12:08:00,35.7,141.5,10km,4.8,ML,Alta mar este de Prefectura de Chiba,JP
+2023-06-28,08:39:00,42.1,134.4,480km,6.2,ML,Norte de Mar de Japón,JP
+2023-06-28,00:55:00,37.5,137.4,10km,3.3,ML,Alta mar de Península de Noto,JP
+2023-06-27,03:24:00,36.2,137.1,10km,2.3,ML,"Región Hida, Prefectura de Gifu",JP
+2023-06-26,01:49:00,39.1,142.1,50km,3.4,ML,Alta mar de Prefectura de Iwate,JP
+2023-06-25,23:52:00,36.5,137.8,10km,2.9,ML,Norte de Prefectura de Nagano,JP
+2023-06-25,18:18:00,37.5,141.4,50km,3.8,ML,Alta mar de Prefectura de Fukushima,JP
+2023-06-25,17:46:00,40.2,142.0,60km,3.7,ML,Alta mar de Prefectura de Iwate,JP
+2023-06-25,09:07:00,36.0,137.5,10km,3.0,ML,"Región Hida, Prefectura de Gifu",JP
+2023-06-24,22:50:00,36.5,137.8,10km,2.5,ML,Norte de Prefectura de Nagano,JP
+2023-06-24,21:24:00,37.1,140.9,100km,3.5,ML,"Hamadori, Prefectura de Fukushima",JP
+2023-06-24,20:39:00,38.5,142.1,50km,3.8,ML,Alta mar de Prefectura de Miyagi,JP
+2023-06-24,09:58:00,37.3,141.8,40km,4.9,ML,Alta mar de Prefectura de Fukushima,JP
+2023-06-24,04:04:00,35.0,137.8,10km,2.9,ML,Oeste de Prefectura de Shizuoka,JP
+2023-06-24,02:39:00,45.8,143.2,330km,5.8,ML,Alta mar este de Soya,JP
+2023-06-24,00:43:00,25.3,141.7,120km,4.9,ML,Mares cercanos de Isla Ioto,JP
+2023-06-23,20:07:00,36.5,137.9,10km,1.8,ML,Norte de Prefectura de Nagano,JP
+2023-06-23,11:57:00,34.0,135.3,Poco profundo,2.6,ML,Norte de Prefectura de Wakayama,JP
+2023-06-23,07:06:00,34.1,135.2,10km,2.3,ML,Norte de Prefectura de Wakayama,JP
+2023-06-22,21:47:00,29.9,130.0,10km,3.1,ML,Mares cercanos de Islas Tokara,JP
+2023-06-22,19:31:00,43.1,141.9,160km,4.5,ML,Sur de región Sorachi,JP
+2023-06-22,18:31:00,36.7,140.9,40km,3.7,ML,Alta mar de Prefectura de Ibaraki,JP
+2023-06-22,16:39:00,41.6,142.1,50km,4.1,ML,Alta mar de Uraga,JP
+2023-06-22,10:24:00,26.4,127.9,40km,5.2,ML,Mares cercanos de Isla principal de Okinawa,JP
+2023-06-22,01:07:00,29.9,130.0,10km,3.0,ML,Mares cercanos de Islas Tokara,JP
+2023-06-21,17:46:00,35.6,139.9,70km,3.4,ML,Bahía de Tokio,JP
+2023-06-21,15:55:00,37.5,137.2,10km,3.0,ML,"Región Noto, Prefectura de Ishikawa",JP
+2023-06-21,09:21:00,35.2,137.3,40km,3.4,ML,Oeste de Prefectura de Aichi,JP
+2023-06-21,06:22:00,39.1,142.2,40km,3.6,ML,Alta mar de Prefectura de Iwate,JP
+2023-06-21,06:17:00,35.1,137.1,40km,3.2,ML,Oeste de Prefectura de Aichi,JP
+2023-06-21,01:10:00,39.1,140.9,10km,3.3,ML,Interior sur de Prefectura de Iwate,JP
+2023-06-21,00:10:00,37.1,139.4,Poco profundo,2.4,ML,"Aizu, Prefectura de Fukushima",JP
+2023-06-20,20:10:00,36.5,137.8,10km,3.9,ML,Norte de Prefectura de Nagano,JP
+2023-06-20,18:25:00,38.5,141.7,50km,3.6,ML,Alta mar de Prefectura de Miyagi,JP
+2023-06-20,10:53:00,29.9,130.0,10km,3.0,ML,Mares cercanos de Islas Tokara,JP
+2023-06-20,08:47:00,31.3,131.6,30km,3.9,ML,Alta mar este de Península de Osumi,JP
+2023-06-20,08:44:00,35.9,139.6,60km,3.8,ML,Sur de Prefectura de Saitama,JP
+2023-06-19,13:50:00,42.5,143.0,60km,5.2,ML,Sur de región Tokachi,JP
+2023-06-19,10:39:00,29.9,130.1,10km,3.0,ML,Mares cercanos de Islas Tokara,JP
+2023-06-19,10:32:00,34.7,139.3,10km,2.9,ML,Mares cercanos de Isla de Izu-Oshima,JP
+2023-06-19,10:31:00,34.7,139.3,10km,2.9,ML,Mares cercanos de Isla de Izu-Oshima,JP
+2023-06-19,10:26:00,34.7,139.3,10km,2.3,ML,Mares cercanos de Isla de Izu-Oshima,JP
+2023-06-19,10:19:00,34.8,139.3,10km,2.2,ML,Mares cercanos de Isla de Izu-Oshima,JP
+2023-06-19,09:44:00,34.8,139.3,10km,2.6,ML,Mares cercanos de Isla de Izu-Oshima,JP
+2023-06-19,05:37:00,31.3,131.6,30km,4.2,ML,Alta mar este de Península de Osumi,JP
+2023-06-19,04:59:00,37.1,139.4,10km,2.5,ML,"Aizu, Prefectura de Fukushima",JP
+2023-06-19,01:58:00,31.3,131.6,30km,4.8,ML,Alta mar este de Península de Osumi,JP
+2023-06-19,00:53:00,34.8,139.3,10km,2.7,ML,Mares cercanos de Isla de Izu-Oshima,JP
+2023-06-18,19:33:00,36.4,137.6,10km,3.3,ML,Este de Prefectura de Toyama,JP
+2023-06-17,20:42:00,41.4,142.7,50km,4.8,ML,Alta mar este de Prefectura de Aomori,JP
+2023-06-17,20:37:00,47.2,148.0,450km,5.8,ML,Sur de Mar de Okhotsk (Ohotsuku),JP
+2023-06-17,18:37:00,42.2,142.9,60km,4.1,ML,Este de región Hidaka,JP
+2023-06-17,09:26:00,41.2,142.9,20km,5.7,ML,Alta mar este de Prefectura de Aomori,JP
+2023-06-17,03:49:00,30.0,130.0,10km,2.2,ML,Mares cercanos de Islas Tokara,JP
+2023-06-16,21:24:00,35.7,140.7,50km,4.9,ML,Nodeste de Prefectura de Chiba,JP
+2023-06-16,21:14:00,35.8,140.1,70km,4.0,ML,Noroeste de Prefectura de Chiba,JP
+2023-06-16,12:53:00,31.6,130.3,10km,2.3,ML,Alta mar oeste de Península de Satsuma,JP
+2023-06-16,12:20:00,30.0,130.0,10km,2.4,ML,Mares cercanos de Islas Tokara,JP
+2023-06-16,03:06:00,22.9,176.6,210km,7.0,ML,Pacífico Meridional,JP
+2023-06-15,16:31:00,37.6,137.3,10km,3.5,ML,Alta mar de Península de Noto,JP
+2023-06-15,07:42:00,34.5,139.2,10km,2.4,ML,"Mares cercanas de Isla Niijima, Kozujima",JP
+2023-06-15,05:24:00,36.8,140.6,10km,3.1,ML,Norte de Prefectura de Ibaraki,JP
+2023-06-15,03:49:00,37.5,137.4,10km,2.7,ML,Alta mar de Península de Noto,JP
+2023-06-15,00:06:00,35.7,140.7,40km,4.2,ML,Nodeste de Prefectura de Chiba,JP
+2023-06-14,23:25:00,29.2,130.5,70km,4.3,ML,Alta mar nodeste de Amamioshima,JP
+2023-06-14,19:01:00,37.6,137.3,10km,3.9,ML,Alta mar de Península de Noto,JP
+2023-06-14,08:43:00,29.7,129.9,10km,2.7,ML,Mares cercanos de Islas Tokara,JP
+2023-06-14,08:30:00,29.7,129.9,10km,2.4,ML,Mares cercanos de Islas Tokara,JP
+2023-06-14,08:23:00,29.8,129.8,10km,3.1,ML,Mares cercanos de Islas Tokara,JP
+2023-06-13,17:03:00,29.7,129.8,10km,2.5,ML,Mares cercanos de Islas Tokara,JP
+2023-06-13,15:49:00,29.7,129.8,10km,2.4,ML,Mares cercanos de Islas Tokara,JP
+2023-06-13,07:32:00,37.5,137.2,10km,3.3,ML,"Región Noto, Prefectura de Ishikawa",JP
+2023-06-12,13:51:00,39.4,141.9,60km,3.8,ML,Costa norte de Prefectura de Iwate,JP
+2023-06-12,10:06:00,29.9,130.0,10km,1.8,ML,Mares cercanos de Islas Tokara,JP
+2023-06-12,06:27:00,35.2,135.0,10km,2.5,ML,Sudeste de Prefectura de Hyogo,JP
+2023-06-12,03:56:00,29.9,130.0,10km,2.3,ML,Mares cercanos de Islas Tokara,JP
+2023-06-11,21:25:00,24.2,122.5,40km,4.7,ML,Mares cercanos de Isla Yonaguni,JP
+2023-06-11,18:55:00,42.5,142.0,140km,6.2,ML,Alta mar de Uraga,JP
+2023-06-11,05:53:00,45.2,141.8,10km,2.7,ML,Norte de región Soya,JP
+2023-06-11,02:45:00,37.0,140.4,80km,2.9,ML,"Nakadori, Prefectura de Fukushima",JP
+2023-06-11,01:21:00,33.9,135.2,50km,4.1,ML,Norte de Prefectura de Wakayama,JP
+2023-06-11,01:01:00,37.5,137.3,10km,3.3,ML,"Región Noto, Prefectura de Ishikawa",JP
+2023-06-10,18:22:00,45.2,141.8,20km,2.5,ML,Norte de región Soya,JP
+2023-06-10,17:57:00,38.7,142.0,60km,3.6,ML,Alta mar de Prefectura de Miyagi,JP
+2023-06-10,06:21:00,37.5,137.2,10km,3.1,ML,"Región Noto, Prefectura de Ishikawa",JP
+2023-06-10,03:45:00,34.5,139.2,10km,2.6,ML,"Mares cercanas de Isla Niijima, Kozujima",JP
+2023-06-10,03:41:00,32.9,131.0,10km,2.1,ML,"Región Aso, Prefectura de Kumamoto",JP
+2023-06-10,03:30:00,34.5,139.2,10km,3.7,ML,"Mares cercanas de Isla Niijima, Kozujima",JP
+2023-06-09,22:48:00,37.5,137.2,10km,3.3,ML,"Región Noto, Prefectura de Ishikawa",JP
+2023-06-09,20:45:00,37.5,137.4,10km,3.8,ML,Alta mar de Península de Noto,JP
+2023-06-09,08:35:00,28.7,129.4,70km,3.7,ML,Mares cercanos de Islas de Amamioshima,JP
+2023-06-09,06:21:00,31.2,130.3,190km,4.6,ML,Alta mar oeste de Península de Satsuma,JP
+2023-06-09,05:11:00,37.5,137.3,10km,2.5,ML,"Región Noto, Prefectura de Ishikawa",JP
+2023-06-09,01:43:00,34.0,135.5,50km,3.0,ML,Norte de Prefectura de Wakayama,JP
+2023-06-08,21:49:00,37.6,137.3,10km,3.2,ML,Alta mar de Península de Noto,JP
+2023-06-08,21:37:00,35.6,140.7,40km,3.0,ML,Alta mar este de Prefectura de Chiba,JP
+2023-06-08,19:34:00,37.7,141.7,70km,4.1,ML,Alta mar de Prefectura de Fukushima,JP
+2023-06-08,18:02:00,32.5,130.6,10km,2.1,ML,"Región Kumamoto, Prefectura de Kumamoto",JP
+2023-06-08,04:54:00,36.5,140.5,60km,3.6,ML,Norte de Prefectura de Ibaraki,JP
+2023-06-07,18:43:00,29.9,130.0,10km,2.5,ML,Mares cercanos de Islas Tokara,JP
+2023-06-07,16:50:00,29.9,130.1,10km,2.2,ML,Mares cercanos de Islas Tokara,JP
+2023-06-07,07:46:00,29.9,129.9,10km,2.0,ML,Mares cercanos de Islas Tokara,JP
+2023-06-06,21:17:00,30.0,130.0,10km,2.5,ML,Mares cercanos de Islas Tokara,JP
+2023-06-06,18:17:00,36.1,137.3,10km,3.0,ML,"Región Hida, Prefectura de Gifu",JP
+2023-06-06,10:26:00,39.6,140.6,20km,2.7,ML,Interior sur de Prefectura de Akita,JP
+2023-06-06,07:18:00,30.0,130.0,10km,2.5,ML,Mares cercanos de Islas Tokara,JP
+2023-06-06,06:25:00,36.8,140.6,10km,3.8,ML,Norte de Prefectura de Ibaraki,JP
+2023-06-06,06:05:00,38.9,141.9,50km,3.9,ML,Alta mar de Prefectura de Miyagi,JP
+2023-06-06,05:46:00,35.9,141.0,30km,3.6,ML,Alta mar de Prefectura de Ibaraki,JP
+2023-06-06,04:52:00,30.0,130.0,20km,2.7,ML,Mares cercanos de Islas Tokara,JP
+2023-06-05,21:46:00,36.5,141.2,40km,3.6,ML,Alta mar de Prefectura de Ibaraki,JP
+2023-06-05,13:01:00,37.6,137.3,10km,3.3,ML,Alta mar de Península de Noto,JP
+2023-06-05,11:35:00,38.5,142.1,40km,4.5,ML,Alta mar de Prefectura de Miyagi,JP
+2023-06-05,10:28:00,34.9,132.8,10km,2.9,ML,Norte de Prefectura de Hiroshima,JP
+2023-06-04,22:59:00,37.2,142.2,20km,4.4,ML,Alta mar de Prefectura de Fukushima,JP
+2023-06-04,20:45:00,29.7,129.8,10km,2.1,ML,Mares cercanos de Islas Tokara,JP
+2023-06-04,20:35:00,29.7,129.9,10km,2.5,ML,Mares cercanos de Islas Tokara,JP
+2023-06-04,19:42:00,29.9,130.0,10km,3.2,ML,Mares cercanos de Islas Tokara,JP
+2023-06-04,15:50:00,35.6,140.2,60km,4.0,ML,Noroeste de Prefectura de Chiba,JP
+2023-06-04,14:37:00,39.6,140.6,10km,2.7,ML,Interior sur de Prefectura de Akita,JP
+2023-06-04,10:58:00,35.8,140.1,70km,4.6,ML,Noroeste de Prefectura de Chiba,JP
+2023-06-04,06:12:00,37.5,137.4,Poco profundo,3.0,ML,Alta mar de Península de Noto,JP
+2023-06-04,04:45:00,29.9,130.0,10km,2.2,ML,Mares cercanos de Islas Tokara,JP
+2023-06-04,03:57:00,42.9,145.5,30km,3.5,ML,Alta mar de Kushiro,JP
+2023-06-04,02:19:00,29.9,130.0,10km,2.4,ML,Mares cercanos de Islas Tokara,JP
+2023-06-04,01:17:00,29.9,130.0,10km,2.8,ML,Mares cercanos de Islas Tokara,JP
+2023-06-03,19:35:00,42.0,142.6,60km,5.1,ML,Alta mar de Uraga,JP
+2023-06-03,14:59:00,37.3,138.9,20km,2.6,ML,"Región Chuetsu, Prefectura de Niigata",JP
+2023-06-03,14:13:00,37.5,137.2,10km,2.5,ML,"Región Noto, Prefectura de Ishikawa",JP
+2023-06-03,01:51:00,34.0,135.2,10km,2.3,ML,Norte de Prefectura de Wakayama,JP
+2023-06-02,17:06:00,36.0,137.4,10km,2.7,ML,"Región Hida, Prefectura de Gifu",JP
+2023-06-02,16:45:00,41.6,140.6,10km,3.4,ML,Estrecho de Tsugaru,JP
+2023-06-02,13:04:00,36.7,140.9,50km,3.1,ML,Alta mar de Prefectura de Ibaraki,JP
+2023-06-02,06:36:00,29.9,130.0,10km,2.1,ML,Mares cercanos de Islas Tokara,JP
+2023-06-02,02:57:00,36.0,137.4,Poco profundo,2.5,ML,"Región Hida, Prefectura de Gifu",JP
+2023-06-02,02:55:00,36.1,137.4,10km,2.8,ML,"Región Hida, Prefectura de Gifu",JP
+2023-06-01,22:14:00,30.0,130.0,10km,2.4,ML,Mares cercanos de Islas Tokara,JP
+2023-06-01,20:47:00,29.9,130.0,10km,2.4,ML,Mares cercanos de Islas Tokara,JP
+2023-06-01,20:27:00,29.9,130.0,10km,3.1,ML,Mares cercanos de Islas Tokara,JP
+2023-06-01,20:11:00,30.0,129.9,10km,3.6,ML,Mares cercanos de Islas Tokara,JP
+2023-06-01,19:34:00,29.9,130.0,10km,2.1,ML,Mares cercanos de Islas Tokara,JP
+2023-06-01,17:49:00,30.0,130.0,10km,2.2,ML,Mares cercanos de Islas Tokara,JP
+2023-06-01,16:40:00,28.3,129.6,30km,3.5,ML,Mares cercanos de Islas de Amamioshima,JP
+2023-06-01,15:00:00,29.9,130.1,10km,2.4,ML,Mares cercanos de Islas Tokara,JP
+2023-06-01,12:04:00,36.2,141.2,30km,3.6,ML,Alta mar de Prefectura de Ibaraki,JP
+2023-06-01,11:58:00,29.9,130.0,10km,2.2,ML,Mares cercanos de Islas Tokara,JP
+2023-06-01,11:42:00,29.9,130.0,Poco profundo,2.1,ML,Mares cercanos de Islas Tokara,JP
+2023-06-01,11:32:00,29.9,130.0,Poco profundo,2.4,ML,Mares cercanos de Islas Tokara,JP
+2023-06-01,11:28:00,29.9,130.0,10km,4.4,ML,Mares cercanos de Islas Tokara,JP
+2023-06-01,10:29:00,29.9,130.0,10km,2.4,ML,Mares cercanos de Islas Tokara,JP
+2023-06-01,00:03:00,38.7,142.3,40km,4.4,ML,Alta mar de Prefectura de Miyagi,JP
+2023-06-01,00:03:00,37.5,137.4,10km,4.2,ML,Alta mar de Península de Noto,JP
+2023-05-31,23:41:00,35.7,140.8,50km,3.4,ML,Alta mar este de Prefectura de Chiba,JP
+2023-05-31,21:15:00,33.9,135.2,10km,2.6,ML,Norte de Prefectura de Wakayama,JP
+2023-05-31,20:12:00,34.2,133.5,10km,3.3,ML,Centro de Mar interior de Seto,JP
+2023-05-31,15:20:00,33.8,135.0,10km,3.1,ML,Canal de Kii,JP
+2023-05-31,10:04:00,38.9,142.0,50km,3.7,ML,Alta mar de Prefectura de Miyagi,JP
+2023-05-31,07:49:00,33.4,139.3,10km,4.3,ML,Mares cercanos de Isla de Hachijyo,JP
+2023-05-31,04:06:00,36.0,137.4,10km,2.8,ML,"Región Hida, Prefectura de Gifu",JP
+2023-05-31,03:41:00,37.5,137.3,10km,2.5,ML,"Región Noto, Prefectura de Ishikawa",JP

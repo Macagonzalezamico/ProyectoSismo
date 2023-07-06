@@ -3,8 +3,12 @@
 
 # Imports
 from DataLoadDispatcher_class import DataLoadDispatcher
+from InfoExtractorChileURL_class import InfoExtractorChileURL
+from InfoExtractorUSA_class import InfoExtractorUSA
+from InfoFormatterChile_class import InfoFormatterChile
 from google.cloud import bigquery
 from google.oauth2 import service_account
+import datetime as dt
 
 def get_google_cloud_client():
     '''
@@ -64,10 +68,63 @@ def set_flag_process_in_progress(value: bool):
     job = client.query(query)
 
     return job.result()
-    
-if __name__ == '__main__':
 
-    country_data = [('CL', 'ultima_fecha_chile'), ('JP', 'ultima_fecha_japon'), ('US', 'ultima_fecha_usa')]
+def get_last_dates():
+    '''
+    Esta función busca en la base de datos las últimas fechas de carga de cada país.
+    Retorna ult_fecha_japon, ult_fecha_chile, ult_fecha_usa en una tupla
+    '''
+
+    client = get_google_cloud_client()
+    query = '''
+            SELECT *
+            FROM
+                sismos_db.fechas
+            LIMIT 1;
+            '''
+    
+    job = client.query(query)
+
+    ult_fecha_japon = dt.datetime.now() - dt.timedelta(days=7)
+    ult_fecha_chile = dt.datetime.now() - dt.timedelta(days=7)
+    ult_fecha_usa = dt.datetime.now() - dt.timedelta(days=7)
+
+    for row in job.result():
+        print(row)
+        date_japon = row[0]
+        date_chile = row[1]
+        date_usa = row[2]
+
+        ult_fecha_japon = dt.datetime(date_japon.year, date_japon.month, date_japon.day, 23, 59, 59)
+        ult_fecha_chile = dt.datetime(date_chile.year, date_chile.month, date_chile.day, 23, 59, 59)
+        ult_fecha_usa = dt.datetime(date_usa.year, date_usa.month, date_usa.day, 23, 59, 59)
+
+    return (ult_fecha_japon, ult_fecha_chile, ult_fecha_usa)
+
+def get_dispatcher() -> DataLoadDispatcher:
+    '''
+    Esta función devuelve un dispatcher configurado con los distintos extractors y formatters.
+    '''
+
+    # Instancio los módulos
+    ieUSA = InfoExtractorUSA()
+    ieChile = InfoExtractorChileURL()
+    ifChile = InfoFormatterChile()
+
+    d = DataLoadDispatcher(extractor_CL_dataset=None,\
+                           extractor_CL_url=ieChile,\
+                           extractor_JP_url=None,\
+                           extractor_USA_api=ieUSA,\
+                           extractor_Damage_url=None,\
+                           formatter_CL=ifChile,\
+                           formatter_JP=None,\
+                           formatter_USA=None,\
+                           formatter_Damage=None)
+    
+    # Retorno el dispatcher
+    return d
+
+if __name__ == '__main__':
 
     # Obtengo el flag de proceso en curso
     process_in_progress = get_flag_process_in_progress()
@@ -79,9 +136,17 @@ if __name__ == '__main__':
         set_flag_process_in_progress(True)
 
         # Se obtienen las ultimas fechas de proceso desde la base de datos
+        ult_fecha_chile, ult_fecha_japon, ult_fecha_usa = get_last_dates()
 
         # Se invoca el dispatcher por cada país y última fecha de carga
+        dispatcher = get_dispatcher()
 
-        # Se actualiza la base de datos con la última fecha de carga por cada país
+        dispatcher.startLoadingSince('CL', ult_fecha_chile)
+        dispatcher.startLoadingSince('JP', ult_fecha_japon)
+        dispatcher.startLoadingSince('US', ult_fecha_usa)
+
+        # La base de datos se actualiza con la última fecha de carga por cada país cuando se almacena la
+        # información en la base de datos (Ultima actividad de los InfoFormatters)
 
         # Se pone el flag de proceso en progreso en False
+        set_flag_process_in_progress(False)

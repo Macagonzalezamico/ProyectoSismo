@@ -4,12 +4,8 @@
 
 import datetime as dt
 from enum import Enum
-import InfoExtractor_class as iex
-#import extractor_CL_dataset class
-import InfoExtractorChileURL_class as iex_chile
-import InfoExtractorUSA_class as iex_usa
-#import extractor_JP_url class
-#import extractor_Damage_url class
+from InfoExtractor_class import InfoExtractor
+from InfoFormatter_class import InfoFormatter
 
 class DataLoadDispatcher():
     '''
@@ -17,11 +13,15 @@ class DataLoadDispatcher():
     Esta clase tiene por objetivo servir como dispatcher de las tareas de ETL.
     '''
 
-    def __init__(self, extractor_CL_dataset: iex.InfoExtractor,
-                       extractor_CL_url: iex.InfoExtractor,
-                       extractor_USA_api: iex.InfoExtractor,
-                       extractor_JP_url: iex.InfoExtractor,
-                       extractor_Damage_url: iex.InfoExtractor) -> None:
+    def __init__(self, extractor_CL_dataset: InfoExtractor,
+                       extractor_CL_url: InfoExtractor,
+                       extractor_USA_api: InfoExtractor,
+                       extractor_JP_url: InfoExtractor,
+                       extractor_Damage_url: InfoExtractor,
+                       formatter_CL: InfoFormatter,
+                       formatter_USA: InfoFormatter,
+                       formatter_JP: InfoFormatter,
+                       formatter_Damage: InfoFormatter) -> None:
         
         self.extractor_CL_dataset = extractor_CL_dataset
         self.extractor_CL_url = extractor_CL_url
@@ -29,12 +29,22 @@ class DataLoadDispatcher():
         self.extractor_JP_url = extractor_JP_url
         self.extractor_Damage_url = extractor_Damage_url
 
+        self.formatter_CL = formatter_CL
+        self.formatter_USA = formatter_USA
+        self.formatter_JP = formatter_JP
+        self.formatter_Damage = formatter_Damage
+
         self.map_extractors = {'CL_datasetChile' : self.extractor_CL_dataset,
                                'CL_urlChile' : self.extractor_CL_url,
                                'US_urlUSA' : self.extractor_USA_api,
                                'JP_urlUSA' : self.extractor_USA_api,
                                'JP_urlJapon' : self.extractor_JP_url,
                                'urlDamage' : self.extractor_Damage_url}
+        
+        self.map_formatters = {'CL' : self.formatter_CL,
+                               'US' : self.formatter_USA,
+                               'JP' : self.formatter_JP,
+                               'Damage' : self.formatter_Damage}
 
         self.context_d = {'countries' : [{'CL' : {'sources' : [('urlChile',
                                                                 dt.datetime(2000,  1,  1,  0,  0,  0),
@@ -128,11 +138,12 @@ class DataLoadDispatcher():
 
         return countrySourcesAndDates
 
-    def dispatch_workflow(self, country_and_source: str, parameters_tuple: tuple):
+    def dispatch_workflow(self, country: str, country_and_source: str, parameters_tuple: tuple):
         '''
         Este método dispara la ejecución de los distintos módulos del workflow por cada país.
         '''
 
+        # Dispatch módulo de extracción de datos
         extractor = self.map_extractors[country_and_source]
         error = None
         extracted_info = None
@@ -141,10 +152,24 @@ class DataLoadDispatcher():
             if error != '':
                 print('Error en extracción de {}: '.format(country_and_source) + error)
                 return
+            
+        # Dispatch módulo de formateo de datos
+        formatter = self.map_formatters[country]
+        error = None
+        formatted_info = None
+        if formatter != None:
+            error, formatted_info = formatter.formatInfo(country=country, jsonData=extracted_info)
+            if error != '':
+                print('Error en formateo de {}: '.format(country) + error)
+                return
         
-        # TODO: Incluir los formateadores
-        # error, formatted_info = self.map_formatters['CL_urlChile']
-
+        # TODO: Borrar este conjunto de comandos
+        if type(formatted_info) != 'NoneType':
+            print('\nFormateador {}'.format(country))
+            print(formatted_info.head())
+            
+        # TODO: Dispatch database writter o file writter
+        
     def startLoadingPeriod(self, sinceDateTime: dt.datetime, upToDateTime: dt.datetime):
         '''
         Este método pone a trabajar al dispatcher desde una fecha (excluida) y hasta la fecha y hora informada.
@@ -165,7 +190,7 @@ class DataLoadDispatcher():
 
                 # Las tuplas de parámetros contienen: (country, source, fromDateTime, toDateTime)
                 country_and_source = tupla_param[0] + '_' + tupla_param[1]
-                self.dispatch_workflow(country_and_source, tupla_param)
+                self.dispatch_workflow(country, country_and_source, tupla_param)
 
     def startLoadingSince(self, sinceDateTime: dt.datetime):
         '''

@@ -90,7 +90,6 @@ def get_last_dates():
     ult_fecha_usa = dt.datetime.now() - dt.timedelta(days=7)
 
     for row in job.result():
-        print(row)
         date_japon = row[0]
         date_chile = row[1]
         date_usa = row[2]

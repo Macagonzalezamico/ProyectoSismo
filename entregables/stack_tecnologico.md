@@ -1,13 +1,19 @@
-# Stack Tecnologico
+# Stack Tecnológico
 
-`Python`: Para la extraccion de informacion.
+`Python`: Para la extracción y formateo de información.
 
-`Dependecias de Python`:
-  * `Pandas`: Para la manipulacion de datos y limpieza de los mismos
-  * `Requests`: Para realizar "web scrapping" de las paginas donde no se tiene una API para obtener la informacion, paginas estaticas.
-  * `BeautifullSoup`: Para realizar "web scrapping" de las paginas donde no se tiene una API para obtener la informacion, paginas interactivas.
-  * `Selenium`: Para realizar tareas en chrome de manera automatica.
+`Dependencias de Python`:
+
+  * `Pandas`: Para la manipulación de datos y limpieza de los mismos
+
+  * `Requests`: Para realizar "web scrapping" de las páginas donde no se tiene una API para obtener la información, paginas estaticas.
+
+  * `BeautifullSoup`: Para realizar "web scrapping" de las páginas donde no se tiene una API para obtener la información, paginas interactivas.
+
+  * `Selenium`: Para realizar tareas en chrome de manera automática.
     
-`GCP - Vertex AI o BigQuery`: Para almacenar y procesar los datos en la nube
+`GCP - BigQuery`: Para almacenar y procesar los datos en la nube.
 
-`Power BI`: Para mostrar el dashboard/KPIs
+`GCP - Compute Engine`: Para procesar el pipeline del ETL incremental.
+
+`Power BI`: Para analizar datos y mostrar el dashboard/KPIs

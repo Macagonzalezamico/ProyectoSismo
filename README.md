@@ -67,3 +67,5 @@ Cuenta de servicios del proyecto sismos:
 - Nombre de la cuenta: cta-serv-proy-sismos
 
 - Correo: cta-serv-proy-sismos@project-sismos.iam.gserviceaccount.com
+
+- Credenciales: export GOOGLE_APPLICATION_CREDENTIALS="/pathAlRepositorio/ProyectoSismo/data/project-sismos-f5e5a5846eab.json"

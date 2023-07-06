@@ -1,4 +1,4 @@
-Fecha del sismo,Hora del sismo,Latitud,Longitud,Profundidad(Km),Magnitud,Tipo_Magnitud,Lugar del Epicentro,ID_País
+Fecha_del_sismo,Hora_del_sismo,Latitud,Longitud,Profundidad_Km,Magnitud,Tipo_Magnitud,Lugar_del_Epicentro,ID_Pais
 1970-01-20,07:52:18.935960,17.97,-66.9463333333333,9.86,2.41,md,"3 km WSW of Fuig, Puerto Rico",US
 1970-01-20,07:52:18.925200,58.237,-155.136,-2.19,-0.85,ml,"84 km NNW of Karluk, Alaska",US
 1970-01-20,07:52:18.756020,34.0483333,-117.2341667,16.33,1.01,ml,"2km E of Loma Linda, CA",US

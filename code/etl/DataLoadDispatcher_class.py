@@ -147,7 +147,7 @@ class DataLoadDispatcher():
         extractor = self.map_extractors[country_and_source]
         error = None
         extracted_info = None
-        if extractor != None:
+        if extractor is not None:
             error, extracted_info = extractor.extractInfo(country=parameters_tuple[0], source=parameters_tuple[1], fromDateTime=parameters_tuple[2], toDateTime=parameters_tuple[3])
             if error != '':
                 print('Error en extracción de {}: '.format(country_and_source) + error)
@@ -157,49 +157,46 @@ class DataLoadDispatcher():
         formatter = self.map_formatters[country]
         error = None
         formatted_info = None
-        if formatter != None:
+        if formatter is not None:
             error, formatted_info = formatter.formatInfo(country=country, jsonData=extracted_info)
             if error != '':
                 print('Error en formateo de {}: '.format(country) + error)
                 return
         
         # TODO: Borrar este conjunto de comandos
-        if type(formatted_info) != 'NoneType':
+        if formatted_info is not None:
             print('\nFormateador {}'.format(country))
             print(formatted_info.head())
             
         # TODO: Dispatch database writter o file writter
         
-    def startLoadingPeriod(self, sinceDateTime: dt.datetime, upToDateTime: dt.datetime):
+    def startLoadingPeriod(self, country: str, sinceDateTime: dt.datetime, upToDateTime: dt.datetime):
         '''
         Este método pone a trabajar al dispatcher desde una fecha (excluida) y hasta la fecha y hora informada.
         '''
 
-        # TODO: Implementar este método.
         # TODO: Considerar que otro proceso podría estar en curso
+        #       Esta consideración también puede quedar para el main
         #       Para esto necesito acceso a la base de datos Big Query
         #       Ver tabla flags
 
-        countries = ['CL', 'JP', 'US']
-        for country in countries:
+        # Recupero las tuplas de parametros iniciando en la fecha informada más un día
+        tuplas_parametros_ejec = self.getSourcesFor(sinceDateTime=sinceDateTime + dt.timedelta(days=1), upToDateTime=upToDateTime, country=country)
 
-            # Recupero las tuplas de parametros iniciando en la fecha informada más un día
-            tuplas_parametros_ejec = self.getSourcesFor(sinceDateTime=sinceDateTime + dt.timedelta(days=1), upToDateTime=upToDateTime, country=country)
+        for tupla_param in tuplas_parametros_ejec:
 
-            for tupla_param in tuplas_parametros_ejec:
+            # Las tuplas de parámetros contienen: (country, source, fromDateTime, toDateTime)
+            country_and_source = tupla_param[0] + '_' + tupla_param[1]
+            self.dispatch_workflow(country, country_and_source, tupla_param)
 
-                # Las tuplas de parámetros contienen: (country, source, fromDateTime, toDateTime)
-                country_and_source = tupla_param[0] + '_' + tupla_param[1]
-                self.dispatch_workflow(country, country_and_source, tupla_param)
-
-    def startLoadingSince(self, sinceDateTime: dt.datetime):
+    def startLoadingSince(self, country: str, sinceDateTime: dt.datetime):
         '''
         Este método pone a trabajar al dispatcher desde una fecha (excluida) y hasta la fecha y hora en que
         se ejecuta este método.
         '''
 
         ahora = dt.datetime.now()
-        self.startLoadingPeriod(sinceDateTime=sinceDateTime, upToDateTime=ahora)
+        self.startLoadingPeriod(country=country, sinceDateTime=sinceDateTime, upToDateTime=ahora)
 
 if __name__ == '__main__':
 

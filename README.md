@@ -59,3 +59,11 @@ El Gantt del proyecto se encuentra en Jira y ha sido realizado utilizando epicas
 ## Tipos de archivos
 
 Los archivos con extensión `.drawio` pueden ser abiertos con `diagrams.net`.
+
+## Cuentas de servicio
+
+Cuenta de servicios del proyecto sismos:
+
+- Nombre de la cuenta: cta-serv-proy-sismos
+
+- Correo: cta-serv-proy-sismos@project-sismos.iam.gserviceaccount.com

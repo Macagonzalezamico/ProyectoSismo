@@ -94,12 +94,56 @@ class DataLoadDispatcher():
                                 toDateTime = s_tuple[2]
 
                             # TODO: Hacer los cortes por la cantidad de días máxima. P.Ej. Cortes cada 30 días
+                            diferencia = toDateTime - fromDateTime
+                            diferencia_dias = diferencia.days
+                            segmentoFromDateTime = fromDateTime
+                            segmentoToDateTime = toDateTime
+                            continuar_procesando = True
 
-                            # Preparo y agrego el output
-                            output_tuple = (country, s_tuple[0], fromDateTime, toDateTime)
-                            countrySourcesAndDates.append(output_tuple)
+                            while continuar_procesando:
+
+                                if diferencia_dias > s_tuple[3]:
+                                    segmentoToDateTime = segmentoFromDateTime + dt.timedelta(days=s_tuple[3] - 1)
+                                    segmentoToDateTime = segmentoToDateTime + dt.timedelta(hours=23, minutes=59, seconds=59)
+                                    if segmentoToDateTime > toDateTime:
+                                        segmentoToDateTime = toDateTime
+
+                                    # Preparo y agrego el output
+                                    output_tuple = (country, s_tuple[0], segmentoFromDateTime, segmentoToDateTime)
+                                    countrySourcesAndDates.append(output_tuple)
+
+                                    # Recalculo from y to
+                                    segmentoFromDateTime = segmentoToDateTime + dt.timedelta(days=1, hours=-23, minutes=-59, seconds=-59) # Sumo un día al desde
+                                    if segmentoFromDateTime > toDateTime:
+                                        continuar_procesando = False
+                                    else:
+                                        diferencia = toDateTime - segmentoFromDateTime
+                                        diferencia_dias = diferencia.days
+                                else:
+
+                                    # Preparo y agrego el output
+                                    output_tuple = (country, s_tuple[0], segmentoFromDateTime, toDateTime)
+                                    countrySourcesAndDates.append(output_tuple)
+                                    continuar_procesando = False
 
         return countrySourcesAndDates
+
+    def dispatch_workflow(self, country_and_source: str, parameters_tuple: tuple):
+        '''
+        Este método dispara la ejecución de los distintos módulos del workflow por cada país.
+        '''
+
+        extractor = self.map_extractors[country_and_source]
+        error = None
+        extracted_info = None
+        if extractor != None:
+            error, extracted_info = extractor.extractInfo(country=parameters_tuple[0], source=parameters_tuple[1], fromDateTime=parameters_tuple[2], toDateTime=parameters_tuple[3])
+            if error != '':
+                print('Error en extracción de {}: '.format(country_and_source) + error)
+                return
+        
+        # TODO: Incluir los formateadores
+        # error, formatted_info = self.map_formatters['CL_urlChile']
 
     def startLoadingPeriod(self, sinceDateTime: dt.datetime, upToDateTime: dt.datetime):
         '''
@@ -107,7 +151,21 @@ class DataLoadDispatcher():
         '''
 
         # TODO: Implementar este método.
-        # Considerar que otro proceso podría estar en curso
+        # TODO: Considerar que otro proceso podría estar en curso
+        #       Para esto necesito acceso a la base de datos Big Query
+        #       Ver tabla flags
+
+        countries = ['CL', 'JP', 'US']
+        for country in countries:
+
+            # Recupero las tuplas de parametros iniciando en la fecha informada más un día
+            tuplas_parametros_ejec = self.getSourcesFor(sinceDateTime=sinceDateTime + dt.timedelta(days=1), upToDateTime=upToDateTime, country=country)
+
+            for tupla_param in tuplas_parametros_ejec:
+
+                # Las tuplas de parámetros contienen: (country, source, fromDateTime, toDateTime)
+                country_and_source = tupla_param[0] + '_' + tupla_param[1]
+                self.dispatch_workflow(country_and_source, tupla_param)
 
     def startLoadingSince(self, sinceDateTime: dt.datetime):
         '''

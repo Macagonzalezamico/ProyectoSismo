@@ -14,8 +14,10 @@ class InfoExtractorChileURL(iex.InfoExtractor):
     Esta clase implementa los métodos solicitados en InfoExtractor.
     El objetivo de esta clase es el de extraer información desde la URL de Chile.
     '''
+    def _init_(self) -> None:
+        super()._init_()
 
-    def extractInfo(self, fromDateTime: datetime, toDateTime: datetime):
+    def extractInfo(self, country: str, source: str, fromDateTime: datetime, toDateTime: datetime):
         '''
         Este metodo permite extraer información de un país dado utilizando source como origen de los datos
         entre dos fechas dadas.
@@ -56,8 +58,6 @@ class InfoExtractorChileURL(iex.InfoExtractor):
         # Para crear el DataFrame con la información almacenada en Data:
         ChileCrudo = pd.DataFrame(data, columns=[1,2,3,4,5])
 
-        #ChileJson = ChileCrudo.to_json()
-
-        return ChileCrudo
+        return ('', ChileCrudo)
 
                 

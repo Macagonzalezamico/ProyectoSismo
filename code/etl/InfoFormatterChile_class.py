@@ -2,19 +2,17 @@
 
 # Imports
 
-import json
 import pandas as pd
-from abc import ABC, abstractmethod
+import InfoFormatter_class as ifc
 
-class InfoFormatterChile(ABC):
+class InfoFormatterChile(ifc.InfoFormatter):
     '''
     Un InfoFormatter es aquel modulo que toma la información en formato Json y produce una salida
     en formato estandarizado con la información extraída.
     Esta clase es una clase abstracta que plantea los mensajes que sus instancias deben implementar.
     '''
 
-    @abstractmethod
-    def formatInfoChile(self, DataFrame):
+    def formatInfo(self, country: str, jsonData: any):
         '''
         Este metodo permite formatear información de un país dado utilizando jsonData como origen de los datos.
         country identifica el país al cual pertenecen los datos.
@@ -29,15 +27,15 @@ class InfoFormatterChile(ABC):
         Tupla de(String de error, objeto DataFrame conteniendo la info formateada según la estandarización)
         '''
 
-        Chile = DataFrame.copy()  # Hacer una copia del DataFrame para evitar modificaciones no deseadas
+        Chile = jsonData.copy()  # Hacer una copia del DataFrame para evitar modificaciones no deseadas
 
         # Para borrar las filas nulas:
         Chile = Chile.dropna(how='all')
 
-        # Para desanidar las columnas 1 y 3:
+        # Para desanidar las columnas 1, 3 y 5:
         Chile.loc[:, "Fecha local"] = Chile[1].str[:19]
 
-        Chile.loc[:, "Referencia"] = Chile[1].str[19:]
+        Chile.loc[:, "Lugar del epicentro"] = Chile[1].str[19:]
 
         Chile.loc[:, "Latitud"] = Chile[3].str[:7]
 
@@ -45,13 +43,18 @@ class InfoFormatterChile(ABC):
 
         Chile.loc[:, "Magnitud"] = Chile[5].str[:4]
 
-        Chile.loc[:, "TipoDeMagnitud"] = Chile[5].str[4:]
+        Chile.loc[:, "Tipo_Magnitud"] = Chile[5].str[4:]
 
-        # Para borrar las columnas 1 y 3:
-        Chile = Chile.drop([1, 3], axis=1)
+        # Para borrar las columnas 1 2 y 3:
+        Chile = Chile.drop([1,2,3], axis=1)
 
-        # Para renombrar las columnas 2, 4 y 5:
-        Chile = Chile.rename(columns={2: "Fecha UTC", 4: "Profundidad(Km)"})
+        # Para renombrar la columna 4:
+        Chile = Chile.rename(columns={4: "Profundidad(Km)"})
+
+        #Para ordenar los elementos por fecha:
+        Chile["Fecha local"] = pd.to_datetime(Chile["Fecha local"])
+
+        Chile = Chile.sort_values("Fecha local")
 
         # Para quitar la nomenclatura km de la columna Profundidad:
         Chile.loc[:, "Profundidad(Km)"] = Chile["Profundidad(Km)"].str.replace("km", "")
@@ -59,16 +62,22 @@ class InfoFormatterChile(ABC):
         # Para resetear el índice de las filas:
         Chile = Chile.reset_index(drop=True)
 
-        # Para normalizar las columnas Datetime:
-        Chile.loc[:, "Fecha local"] = pd.to_datetime(Chile["Fecha local"])
+        # Para separar las fechas de los horarios:
+        Chile.loc[:, "Fecha del sismo"] = pd.to_datetime(Chile["Fecha local"]).dt.date
+        Chile.loc[:, "Hora del sismo"] = pd.to_datetime(Chile["Fecha local"]).dt.time
 
-        Chile.loc[:, "Fecha UTC"] = pd.to_datetime(Chile["Fecha UTC"])
+        #Para eliminar la columna fecha local:
+        Chile.drop(["Fecha local"], axis=1)
+
+        #Para crear una columna con el ID del país:
+        Chile["ID_País"] = "CL"
 
         # Para transformar Profundidad a float:
         Chile.loc[:, "Profundidad(Km)"] = Chile["Profundidad(Km)"].astype(float)
 
-        columnas = ["Fecha local", "Fecha UTC", "Latitud", "Longitud", "Profundidad(Km)", "Magnitud", "TipoDeMagnitud", "Referencia"]
+        #Para reordenar las columnas:
+        columnas = ["Fecha del sismo", "Hora del sismo", "Latitud", "Longitud", "Profundidad(Km)", "Magnitud", "Tipo_Magnitud", "Lugar del epicentro", "ID_País"]
 
         Chile = Chile.reindex(columns=columnas)
 
-        return Chile
+        return ("", Chile)

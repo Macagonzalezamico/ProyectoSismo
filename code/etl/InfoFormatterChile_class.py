@@ -70,13 +70,13 @@ class InfoFormatterChile(ifc.InfoFormatter):
         Chile.drop(["Fecha local"], axis=1)
 
         #Para crear una columna con el ID del país:
-        Chile["ID_País"] = "CL"
+        Chile["ID_Pais"] = "CL"
 
         # Para transformar Profundidad a float:
         Chile.loc[:, "Profundidad_Km"] = Chile["Profundidad_Km"].astype(float)
 
         #Para reordenar las columnas:
-        columnas = ["Fecha_del_sismo", "Hora_del_sismo", "Latitud", "Longitud", "Profundidad_Km", "Magnitud", "Tipo_Magnitud", "Lugar_del_Epicentro", "ID_País"]
+        columnas = ["Fecha_del_sismo", "Hora_del_sismo", "Latitud", "Longitud", "Profundidad_Km", "Magnitud", "Tipo_Magnitud", "Lugar_del_Epicentro", "ID_Pais"]
 
         Chile = Chile.reindex(columns=columnas)
 

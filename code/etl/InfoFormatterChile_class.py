@@ -35,7 +35,7 @@ class InfoFormatterChile(ifc.InfoFormatter):
         # Para desanidar las columnas 1, 3 y 5:
         Chile.loc[:, "Fecha local"] = Chile[1].str[:19]
 
-        Chile.loc[:, "Lugar del epicentro"] = Chile[1].str[19:]
+        Chile.loc[:, "Lugar_del_Epicentro"] = Chile[1].str[19:]
 
         Chile.loc[:, "Latitud"] = Chile[3].str[:7]
 
@@ -49,7 +49,7 @@ class InfoFormatterChile(ifc.InfoFormatter):
         Chile = Chile.drop([1,2,3], axis=1)
 
         # Para renombrar la columna 4:
-        Chile = Chile.rename(columns={4: "Profundidad(Km)"})
+        Chile = Chile.rename(columns={4: "Profundidad_Km"})
 
         #Para ordenar los elementos por fecha:
         Chile["Fecha local"] = pd.to_datetime(Chile["Fecha local"])
@@ -57,14 +57,14 @@ class InfoFormatterChile(ifc.InfoFormatter):
         Chile = Chile.sort_values("Fecha local")
 
         # Para quitar la nomenclatura km de la columna Profundidad:
-        Chile.loc[:, "Profundidad(Km)"] = Chile["Profundidad(Km)"].str.replace("km", "")
+        Chile.loc[:, "Profundidad_Km"] = Chile["Profundidad_Km"].str.replace("km", "")
 
         # Para resetear el índice de las filas:
         Chile = Chile.reset_index(drop=True)
 
         # Para separar las fechas de los horarios:
-        Chile.loc[:, "Fecha del sismo"] = pd.to_datetime(Chile["Fecha local"]).dt.date
-        Chile.loc[:, "Hora del sismo"] = pd.to_datetime(Chile["Fecha local"]).dt.time
+        Chile.loc[:, "Fecha_del_sismo"] = pd.to_datetime(Chile["Fecha local"]).dt.date
+        Chile.loc[:, "Hora_del_sismo"] = pd.to_datetime(Chile["Fecha local"]).dt.time
 
         #Para eliminar la columna fecha local:
         Chile.drop(["Fecha local"], axis=1)
@@ -73,10 +73,10 @@ class InfoFormatterChile(ifc.InfoFormatter):
         Chile["ID_País"] = "CL"
 
         # Para transformar Profundidad a float:
-        Chile.loc[:, "Profundidad(Km)"] = Chile["Profundidad(Km)"].astype(float)
+        Chile.loc[:, "Profundidad_Km"] = Chile["Profundidad_Km"].astype(float)
 
         #Para reordenar las columnas:
-        columnas = ["Fecha del sismo", "Hora del sismo", "Latitud", "Longitud", "Profundidad(Km)", "Magnitud", "Tipo_Magnitud", "Lugar del epicentro", "ID_País"]
+        columnas = ["Fecha_del_sismo", "Hora_del_sismo", "Latitud", "Longitud", "Profundidad_Km", "Magnitud", "Tipo_Magnitud", "Lugar_del_Epicentro", "ID_País"]
 
         Chile = Chile.reindex(columns=columnas)
 

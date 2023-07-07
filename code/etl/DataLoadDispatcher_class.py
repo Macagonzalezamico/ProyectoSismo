@@ -6,6 +6,7 @@ import datetime as dt
 from enum import Enum
 from InfoExtractor_class import InfoExtractor
 from InfoFormatter_class import InfoFormatter
+from DBUpdater_class import DBUpdater
 
 class DataLoadDispatcher():
     '''
@@ -103,7 +104,7 @@ class DataLoadDispatcher():
                             if s_tuple[2] < toDateTime:
                                 toDateTime = s_tuple[2]
 
-                            # TODO: Hacer los cortes por la cantidad de días máxima. P.Ej. Cortes cada 30 días
+                            # Hacer los cortes por la cantidad de días máxima. P.Ej. Cortes cada 30 días
                             diferencia = toDateTime - fromDateTime
                             diferencia_dias = diferencia.days
                             segmentoFromDateTime = fromDateTime
@@ -169,16 +170,14 @@ class DataLoadDispatcher():
             print(formatted_info.head())
             
         # TODO: Dispatch database writter o file writter
+        if formatted_info is not None:
+            db_updater = DBUpdater()
+            db_updater.update_sismos(country, formatted_info)
         
     def startLoadingPeriod(self, country: str, sinceDateTime: dt.datetime, upToDateTime: dt.datetime):
         '''
         Este método pone a trabajar al dispatcher desde una fecha (excluida) y hasta la fecha y hora informada.
         '''
-
-        # TODO: Considerar que otro proceso podría estar en curso
-        #       Esta consideración también puede quedar para el main
-        #       Para esto necesito acceso a la base de datos Big Query
-        #       Ver tabla flags
 
         # Recupero las tuplas de parametros iniciando en la fecha informada más un día
         tuplas_parametros_ejec = self.getSourcesFor(sinceDateTime=sinceDateTime + dt.timedelta(days=1), upToDateTime=upToDateTime, country=country)

@@ -76,6 +76,13 @@ class DBUpdater():
             job = client.query(query)
             result = job.result()
 
+    def get_fields_from_row(self, row):
+        '''
+        Esta función recupera los valores de los campos desde la fila del dataframe.
+        '''
+
+        print(row)
+
     def update_sismos(self, country: str, data: pd.DataFrame):
         '''
         Esta función actualiza la base de datos Big Query con el dataframe recibido.
@@ -95,6 +102,9 @@ class DBUpdater():
         # la carga en Big Query
         if columns_ok:
             last_date = dt.date(2000,1,1)
+            info_para_cargar_list = []
+            for row in data:
+                info_para_cargar = self.get_fields_from_row(row)
             # TODO: Carga en bigquery
             print('Pendiente hacer la carga de los sismos en Big Query')
         else:

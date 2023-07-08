@@ -60,7 +60,7 @@ El Gantt del proyecto se encuentra en Jira y ha sido realizado utilizando epicas
 
 Los archivos con extensión `.drawio` pueden ser abiertos con `diagrams.net`.
 
-## Cuentas de servicio
+## Cuentas de servicio en GCP
 
 Cuenta de servicios del proyecto sismos:
 
@@ -69,3 +69,9 @@ Cuenta de servicios del proyecto sismos:
 - Correo: cta-serv-proy-sismos@project-sismos.iam.gserviceaccount.com
 
 - Credenciales: export GOOGLE_APPLICATION_CREDENTIALS="/pathAlRepositorio/ProyectoSismo/data/project-sismos-f5e5a5846eab.json"
+
+## Usuarios en máquina virtual de GCP
+
+### Usuario: sismos
+
+El mismo tiene seteada una crontab para ejecutar la carga de ETL diariamente a las 0 horas.

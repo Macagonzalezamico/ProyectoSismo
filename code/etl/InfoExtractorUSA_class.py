@@ -8,6 +8,7 @@ import requests
 import pandas as pd
 import geopandas as gpd
 from shapely.geometry import Point
+from ETLEnvironment_class import ETLEnvironment
 
 # Para probar esta clase, puede utilizar el siguiente código
 # a = InfoExtractorUSA()
@@ -33,7 +34,8 @@ class InfoExtractorUSA(InfoExtractor):
         '''
 
         # Obtengo los mapas
-        countries_boundaries = gpd.read_file('../../data/countries.geojson')
+        env = ETLEnvironment().root_project_path
+        countries_boundaries = gpd.read_file(env + 'ProyectoSismo/data/countries.geojson')
 
         # Obtengo la info del país desde el dataframe
         country_data = countries_boundaries[countries_boundaries['ISO_A3'] == iso_a3_country_code]

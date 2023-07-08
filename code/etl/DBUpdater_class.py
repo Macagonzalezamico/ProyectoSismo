@@ -43,7 +43,6 @@ class DBUpdater():
             query = '''
                     UPDATE sismos_db.fechas
                     SET ultima_fecha_japon = DATE(''' + ult_fecha_japon.strftime("%Y,%m,%d") + ''')
-                        sismos_db.fechas
                     WHERE 1 = 1;
                     '''
             
@@ -56,7 +55,6 @@ class DBUpdater():
             query = '''
                     UPDATE sismos_db.fechas
                     SET ultima_fecha_chile = DATE(''' + ult_fecha_chile.strftime("%Y,%m,%d") + ''')
-                        sismos_db.fechas
                     WHERE 1 = 1;
                     '''
             
@@ -69,7 +67,6 @@ class DBUpdater():
             query = '''
                     UPDATE sismos_db.fechas
                     SET ultima_fecha_usa = DATE(''' + ult_fecha_usa.strftime("%Y,%m,%d") + ''')
-                        sismos_db.fechas
                     WHERE 1 = 1;
                     '''
             
@@ -100,11 +97,11 @@ class DBUpdater():
                         ', ' +\
                         str(row['Magnitud']) +\
                         ', ' +\
-                        '"' + row['Tipo_Magnitud'] + '"' +\
+                        '\'' + row['Tipo_Magnitud'] + '\'' +\
                         ', ' +\
-                        '"' + row['Lugar_del_Epicentro'] + '"' +\
+                        '\'' + row['Lugar_del_Epicentro'] + '\'' +\
                         ', ' +\
-                        '"' + row['ID_Pais'] + '"' +\
+                        '\'' + row['ID_Pais'] + '\'' +\
                     ')'
         
         return query_row
@@ -144,7 +141,7 @@ class DBUpdater():
             last_date = data['Fecha_del_sismo'].max()
             
             # Defino la query de inserción de datos
-            query_begin = 'INSERT INTO sismos_db.sismos VALUES ('
+            query_begin = 'INSERT INTO `sismos_db.sismos` (`Fecha_del_sismo`, `Hora_del_sismo`, `Latitud`, `Longitud`, `Profundidad_Km`, `Magnitud`, `Tipo_Magnitud`, `Lugar_del_Epicentro`, `ID_Pais`) VALUES '
             query_body = ''
 
             intercalar_coma = False
@@ -156,7 +153,7 @@ class DBUpdater():
                 query_row = self.get_query_row(row)
                 query_body = query_body + query_row
 
-            query_end = ');'
+            query_end = ';'
 
             insert_query = query_begin + query_body + query_end
 

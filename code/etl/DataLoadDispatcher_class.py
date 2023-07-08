@@ -154,7 +154,7 @@ class DataLoadDispatcher():
         if extractor is not None:
             error, extracted_info = extractor.extractInfo(country=parameters_tuple[0], source=parameters_tuple[1], fromDateTime=parameters_tuple[2], toDateTime=parameters_tuple[3])
             if error != '':
-                print('Error en extracción de {}: '.format(country_and_source) + error)
+                print('  Error en extracción de {}: '.format(country_and_source) + error)
                 return
             
         # Dispatch módulo de formateo de datos
@@ -165,7 +165,7 @@ class DataLoadDispatcher():
         if formatter is not None:
             error, formatted_info = formatter.formatInfo(country=country, jsonData=extracted_info)
             if error != '':
-                print('Error en formateo de {}: '.format(country) + error)
+                print('  Error en formateo de {}: '.format(country) + error)
                 return
         
         # TODO: Borrar este conjunto de comandos
@@ -195,10 +195,10 @@ class DataLoadDispatcher():
                 country_and_source = tupla_param[0] + '_' + tupla_param[1]
                 self.dispatch_workflow(country, country_and_source, tupla_param)
 
-        except:
+        except Exception as e:
 
             # Informo de una excepción ocurrida
-            print('Ocurrió una excepción')
+            print('Ocurrió una excepción', f'error {e}')
 
     def startLoadingSince(self, country: str, sinceDateTime: dt.datetime):
         '''

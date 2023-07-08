@@ -11,4 +11,5 @@ class ETLEnvironment():
         # La siguiente propiedad debe identificar el path previo al del directorio del proyecto
         # Ejemplo:
         #  Si el proyecto está instalado en /repo/ProyectoSismo, entonces esta propiedad contendrá /repo/
-        self.root_project_path = '/DefinaAquiElPathDondeElProyectoEstaInstalado/'
+        #self.root_project_path = '/DefinaAquiElPathDondeElProyectoEstaInstalado/'
+        self.root_project_path = '/Users/fernandoembrioni/Documents/Fer/Capacitacion/soyhenry/data_science/repos/50_Proyectos/PGrupal/repo/'

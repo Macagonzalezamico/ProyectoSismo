@@ -9,14 +9,15 @@ from InfoFormatterChile_class import InfoFormatterChile
 from google.cloud import bigquery
 from google.oauth2 import service_account
 import datetime as dt
+from ETLEnvironment_class import ETLEnvironment
 
 def get_google_cloud_client():
     '''
     Esta función devuelve un cliente de Google Cloud listo para ser utilizado en el proyecto sismos
     '''
 
-    # IMPORTANTE! MODIFICAR path_root EN PRODUCCION
-    path_root = "/Users/fernandoembrioni/Documents/Fer/Capacitacion/soyhenry/data_science/repos/50_Proyectos/PGrupal/repo/"
+    # Preparo el path y scope para recuperar las credenciales
+    path_root = ETLEnvironment().root_project_path
     json_credentials = "ProyectoSismo/data/project-sismos-f5e5a5846eab.json"
     first_scope = "https://www.googleapis.com/auth/cloud-platform"
     credentials = service_account.Credentials.from_service_account_file(path_root + json_credentials, scopes=[first_scope],)

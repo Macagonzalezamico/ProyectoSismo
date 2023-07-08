@@ -92,7 +92,6 @@ class DataLoadDispatcher():
             for c in d_countries:
                 if c == country:
                     for s_tuple in d_countries[c]['sources']:
-                        print(s_tuple)
                         if sinceDateTime <= s_tuple[2] and\
                            upToDateTime >= s_tuple[1]:
                             
@@ -144,7 +143,11 @@ class DataLoadDispatcher():
         Este método dispara la ejecución de los distintos módulos del workflow por cada país.
         '''
 
+        # Informo el inicio de un workflow
+        print('Workflow para ' + country_and_source + ' despachado')
+
         # Dispatch módulo de extracción de datos
+        print(' Modulo de extracción de datos despachado')
         extractor = self.map_extractors[country_and_source]
         error = None
         extracted_info = None
@@ -155,6 +158,7 @@ class DataLoadDispatcher():
                 return
             
         # Dispatch módulo de formateo de datos
+        print(' Modulo de formateo de datos despachado')
         formatter = self.map_formatters[country]
         error = None
         formatted_info = None
@@ -165,12 +169,13 @@ class DataLoadDispatcher():
                 return
         
         # TODO: Borrar este conjunto de comandos
-        if formatted_info is not None:
-            print('\nFormateador {}'.format(country))
-            print(formatted_info.head())
+        #if formatted_info is not None:
+        #    print('\nFormateador {}'.format(country))
+        #    print(formatted_info.head())
             
-        # TODO: Dispatch database writter o file writter
+        # Dispatch database writter o file writter
         if formatted_info is not None:
+            print(' Modulo de inserción de datos despachado')
             db_updater = DBUpdater()
             db_updater.update_sismos(country, formatted_info)
         
@@ -179,14 +184,21 @@ class DataLoadDispatcher():
         Este método pone a trabajar al dispatcher desde una fecha (excluida) y hasta la fecha y hora informada.
         '''
 
-        # Recupero las tuplas de parametros iniciando en la fecha informada más un día
-        tuplas_parametros_ejec = self.getSourcesFor(sinceDateTime=sinceDateTime + dt.timedelta(days=1), upToDateTime=upToDateTime, country=country)
+        try:
 
-        for tupla_param in tuplas_parametros_ejec:
+            # Recupero las tuplas de parametros iniciando en la fecha informada más un día
+            tuplas_parametros_ejec = self.getSourcesFor(sinceDateTime=sinceDateTime + dt.timedelta(days=1), upToDateTime=upToDateTime, country=country)
 
-            # Las tuplas de parámetros contienen: (country, source, fromDateTime, toDateTime)
-            country_and_source = tupla_param[0] + '_' + tupla_param[1]
-            self.dispatch_workflow(country, country_and_source, tupla_param)
+            for tupla_param in tuplas_parametros_ejec:
+
+                # Las tuplas de parámetros contienen: (country, source, fromDateTime, toDateTime)
+                country_and_source = tupla_param[0] + '_' + tupla_param[1]
+                self.dispatch_workflow(country, country_and_source, tupla_param)
+
+        except:
+
+            # Informo de una excepción ocurrida
+            print('Ocurrió una excepción')
 
     def startLoadingSince(self, country: str, sinceDateTime: dt.datetime):
         '''

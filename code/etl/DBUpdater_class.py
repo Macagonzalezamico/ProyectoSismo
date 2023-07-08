@@ -30,7 +30,7 @@ class DBUpdater():
 
         return client
 
-    def set_last_dates(self, ult_fecha_japon: dt.date=None, ult_fecha_chile: dt.date=None, ult_fecha_usa: dt.date=None):
+    def update_last_dates(self, ult_fecha_japon: dt.date=None, ult_fecha_chile: dt.date=None, ult_fecha_usa: dt.date=None):
         '''
         Esta función actualiza la base de datos con la fecha o las fechas que se le ha informado
         '''
@@ -76,12 +76,49 @@ class DBUpdater():
             job = client.query(query)
             result = job.result()
 
-    def get_fields_from_row(self, row):
+    def get_query_row(self, row):
         '''
-        Esta función recupera los valores de los campos desde la fila del dataframe.
+        Esta función devuelve un string que se corresponde con una fila para el insert de datos en la tabla sismos.
         '''
 
-        print(row)
+        query_row = '(' +\
+                        'DATE(' +\
+                        str(row['Fecha_del_sismo'].year) + ',' +\
+                        str(row['Fecha_del_sismo'].month) + ',' +\
+                        str(row['Fecha_del_sismo'].day) +\
+                        '), ' +\
+                        'TIME(' +\
+                        str(row['Hora_del_sismo'].hour) + ',' +\
+                        str(row['Hora_del_sismo'].minute) + ',' +\
+                        str(row['Hora_del_sismo'].second) +\
+                        '), ' +\
+                        str(row['Latitud']) +\
+                        ', ' +\
+                        str(row['Longitud']) +\
+                        ', ' +\
+                        str(row['Profundidad_Km']) +\
+                        ', ' +\
+                        str(row['Magnitud']) +\
+                        ', ' +\
+                        '"' + row['Tipo_Magnitud'] + '"' +\
+                        ', ' +\
+                        '"' + row['Lugar_del_Epicentro'] + '"' +\
+                        ', ' +\
+                        '"' + row['ID_Pais'] + '"' +\
+                    ')'
+        
+        return query_row
+    
+    def insert_rows(self, insert_query: str):
+        '''
+        Esta función inserta los registros en la base de datos en la tabla sismos.
+        '''
+
+        client = self.get_google_cloud_client()
+
+        # Ejecuta la inserción
+        job = client.query(insert_query)
+        result = job.result()
 
     def update_sismos(self, country: str, data: pd.DataFrame):
         '''
@@ -101,13 +138,40 @@ class DBUpdater():
         # Si las columnas obtenidas son las esperadas, procedo con
         # la carga en Big Query
         if columns_ok:
-            last_date = dt.date(2000,1,1)
-            info_para_cargar_list = []
-            for row in data:
-                info_para_cargar = self.get_fields_from_row(row)
-            # TODO: Carga en bigquery
-            print('Pendiente hacer la carga de los sismos en Big Query')
+
+            # Defino una last date que luego utilizaré para actualizar la última fecha de actualización
+            # de ese país en Big Query
+            last_date = data['Fecha_del_sismo'].max()
+            
+            # Defino la query de inserción de datos
+            query_begin = 'INSERT INTO sismos_db.sismos VALUES ('
+            query_body = ''
+
+            intercalar_coma = False
+            for idx, row in data.iterrows():
+                if intercalar_coma:
+                    query_body = query_body + ', '
+                else:
+                    intercalar_coma = True
+                query_row = self.get_query_row(row)
+                query_body = query_body + query_row
+
+            query_end = ');'
+
+            insert_query = query_begin + query_body + query_end
+
+            self.insert_rows(insert_query)
+
+            # Actualizo la ultima fecha del país que se trate
+            if country == 'JP':
+                self.update_last_dates(ult_fecha_japon=last_date)
+            elif country == 'CL':
+                self.update_last_dates(ult_fecha_chile=last_date)
+            else:
+                self.update_last_dates(ult_fecha_usa=last_date)
+
         else:
+
             print('Los nombres de las columnas en el dataFrame difieren de lo esperado')
             print(' Las columnas esperadas son:')
             print(expected_columns)

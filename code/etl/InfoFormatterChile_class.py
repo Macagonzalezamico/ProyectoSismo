@@ -59,6 +59,9 @@ class InfoFormatterChile(ifc.InfoFormatter):
         # Para quitar la nomenclatura km de la columna Profundidad:
         Chile.loc[:, "Profundidad_Km"] = Chile["Profundidad_Km"].str.replace("km", "")
 
+        #Para eliminas espacios vacios:
+        Chile["Profundidad_Km"] = Chile["Profundidad_Km"].str.strip()
+
         # Para resetear el índice de las filas:
         Chile = Chile.reset_index(drop=True)
 

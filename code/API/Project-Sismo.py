@@ -5,6 +5,9 @@ from ETLEnvironment_class import ETLEnvironment
 import pandas as pd
 import numpy as np
 import googlemaps
+import os
+
+apikey = os.environ.get('apikey')
 
 def main(latitud, longitud, distancia_km):
     # Título de la aplicación
@@ -121,7 +124,7 @@ def opcion1():
 
 
 def opcion2():
-    gmaps = googlemaps.Client(key='apikey')
+    gmaps = googlemaps.Client(key=apikey)
 
     lugar = st.text_input("Ingrese el nombre del lugar y el país (Chile, Japon o EEUU):")
 

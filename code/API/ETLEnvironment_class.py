@@ -10,9 +10,8 @@ class ETLEnvironment():
 
     def __init__(self) -> None:
         #Obtener la ruta del directorio actual
-        current_dir = os.path.dirname(os.path.abspath(__file__))
         # La siguiente propiedad debe identificar el path previo al del directorio del proyecto
         # Ejemplo:
         #  Si el proyecto está instalado en /repo/ProyectoSismo, entonces esta propiedad contendrá /repo/
         #self.root_project_path = '/DefinaAquiElPathDondeElProyectoEstaInstalado/'
-        self.root_project_path = current_dir
+        self.root_project_path = "./"

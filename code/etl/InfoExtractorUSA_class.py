@@ -86,7 +86,7 @@ class InfoExtractorUSA(InfoExtractor):
         '''
         Esta función convierte la fecha según lo informa la API a un formato iso.
         '''
-        print(' convert_date', fecha)
+        print(' convert_date', fecha, type(fecha))
         
         fecha = fecha / 1000 # Elimino los milisegundos
         fechaFormateada = dt.datetime.isoformat(dt.datetime.fromtimestamp(fecha))

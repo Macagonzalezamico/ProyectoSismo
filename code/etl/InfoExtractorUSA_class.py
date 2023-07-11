@@ -90,6 +90,9 @@ class InfoExtractorUSA(InfoExtractor):
         
         fecha = fecha / 1000 # Elimino los milisegundos
         fechaFormateada = dt.datetime.isoformat(dt.datetime.fromtimestamp(fecha))
+        if len(fechaFormateada) < 26:
+            if len(fechaFormateada) == 19:
+                fechaFormateada = fechaFormateada + '.000000'
         return fechaFormateada
 
     def get_dataframe_from_json(self, data: dict):
@@ -146,11 +149,12 @@ class InfoExtractorUSA(InfoExtractor):
         usa_df['time'] = usa_df['time'].apply(self.convert_date)
         usa_df['updated'] = usa_df['updated'].apply(self.convert_date)
         print(' Fuera de convert_date')
+        print(usa_df['time'])
 
         usa_df['fechaGeneracion'] = usa_df['fechaGeneracion'].astype('datetime64[s]')
         usa_df['time'] = usa_df['time'].astype('datetime64[s]')
         usa_df['updated'] = usa_df['updated'].astype('datetime64[s]')
-        print(' Luego de hacer astype("datetime64[us]")')
+        print(' Luego de hacer astype("datetime64[s]")')
 
         # Devuelvo el dataframe
         return usa_df

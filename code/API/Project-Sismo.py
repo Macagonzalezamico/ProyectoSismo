@@ -121,7 +121,7 @@ def opcion1():
 
 
 def opcion2():
-    gmaps = googlemaps.Client(key='AIzaSyC_qS5na3IL6B4VwQz9YoZ2sKgkEDSP6Gs')
+    gmaps = googlemaps.Client(key='apikey')
 
     lugar = st.text_input("Ingrese el nombre del lugar y el país (Chile, Japon o EEUU):")
 

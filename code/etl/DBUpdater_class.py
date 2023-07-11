@@ -83,12 +83,12 @@ class DBUpdater():
         print(' get_query_row')
         print(' Fecha_del_sismo', row['Fecha_del_sismo'])
         print(' Hora_del_sismo', row['Hora_del_sismo'])
-        print(' Latitud', row['Latitud'])
-        print(' Longitud', row['Longitud'])
-        print(' Profundidad_Km', row['Profundidad_Km'])
-        print(' Magnitud', row['Magnitud'])
-        print(' Tipo_Magnitud', row['Tipo_Magnitud'])
-        print(' Lugar_del_Epicentro', row['Lugar_del_Epicentro'])
+        #print(' Latitud', row['Latitud'])
+        #print(' Longitud', row['Longitud'])
+        #print(' Profundidad_Km', row['Profundidad_Km'])
+        #print(' Magnitud', row['Magnitud'])
+        #print(' Tipo_Magnitud', row['Tipo_Magnitud'])
+        #print(' Lugar_del_Epicentro', row['Lugar_del_Epicentro'])
         print(' ID_Pais', row['ID_Pais'])
 
         query_row = '(' +\

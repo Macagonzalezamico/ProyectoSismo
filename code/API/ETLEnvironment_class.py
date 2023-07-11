@@ -14,4 +14,4 @@ class ETLEnvironment():
         # Ejemplo:
         #  Si el proyecto está instalado en /repo/ProyectoSismo, entonces esta propiedad contendrá /repo/
         #self.root_project_path = '/DefinaAquiElPathDondeElProyectoEstaInstalado/'
-        self.root_project_path = "ProyectoSismo/tree/main/code/API"
+        self.root_project_path = "./"

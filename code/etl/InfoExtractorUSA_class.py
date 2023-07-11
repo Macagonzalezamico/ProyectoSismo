@@ -145,6 +145,7 @@ class InfoExtractorUSA(InfoExtractor):
         usa_df['fechaGeneracion'] = usa_df['fechaGeneracion'].apply(self.convert_date)
         usa_df['time'] = usa_df['time'].apply(self.convert_date)
         usa_df['updated'] = usa_df['updated'].apply(self.convert_date)
+        print(' Fuera de convert_date')
 
         usa_df['fechaGeneracion'] = usa_df['fechaGeneracion'].astype('datetime64[us]')
         usa_df['time'] = usa_df['time'].astype('datetime64[us]')

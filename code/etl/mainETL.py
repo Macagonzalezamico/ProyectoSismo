@@ -137,6 +137,11 @@ if __name__ == '__main__':
     logging.basicConfig(filename="logETL.txt", level=logging.INFO) # Este es el nivel usual de debugging
     #logging.basicConfig(filename="logETL.txt", level=logging.DEBUG)
 
+    # Logeo la fecha de procesamiento
+    logging.info('.')
+    logging.info('----------------------------------------------')
+    logging.info('Proceso iniciado el ' + str(dt.datetime.now()))
+
     # Obtengo el flag de proceso en curso
     process_in_progress = get_flag_process_in_progress()
     if process_in_progress:

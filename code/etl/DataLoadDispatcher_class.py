@@ -145,7 +145,7 @@ class DataLoadDispatcher():
         '''
 
         # Informo el inicio de un workflow
-        logging.info('Workflow para ' + country_and_source + ' despachado')
+        logging.info('Workflow para __' + country_and_source + '__ despachado')
 
         # Dispatch módulo de extracción de datos
         logging.info('Modulo de extracción de datos despachado')
@@ -157,23 +157,30 @@ class DataLoadDispatcher():
             if error != '':
                 logging.warning('Error en extracción de {}: '.format(country_and_source) + ' ' + error)
                 return
-            
-        # Dispatch módulo de formateo de datos
-        logging.info('Modulo de formateo de datos despachado')
-        formatter = self.map_formatters[country]
-        error = None
-        formatted_info = None
-        if formatter is not None:
-            error, formatted_info = formatter.formatInfo(country=country, jsonData=extracted_info)
-            if error != '':
-                logging.warning('Error en formateo de {}: '.format(country) + ' ' + error)
-                return
         
-        # Dispatch database writter o file writter
-        if formatted_info is not None:
-            logging.info('Modulo de inserción de datos despachado')
-            db_updater = DBUpdater()
-            db_updater.update_sismos(country, formatted_info)
+            # Si corresponde, hago dispatch del módulo de formateo de datos
+            if extracted_info is not None:
+                if extracted_info.empty:
+                    logging.info('Dataframe vacío. Se aborta este workflow')
+                else:
+                    logging.info('Modulo de formateo de datos despachado')
+                    formatter = self.map_formatters[country]
+                    error = None
+                    formatted_info = None
+                    if formatter is not None:
+                        error, formatted_info = formatter.formatInfo(country=country, jsonData=extracted_info)
+                        if error != '':
+                            logging.warning('Error en formateo de {}: '.format(country) + ' ' + error)
+                            return
+            
+                        # Si corresponde, hago Dispatch del database writter o file writter
+                        if formatted_info is not None:
+                            if formatted_info.empty:
+                                logging.info('Dataframe vacío. Se aborta este workflow')
+                            else:
+                                logging.info('Modulo de inserción de datos despachado')
+                                db_updater = DBUpdater()
+                                db_updater.update_sismos(country, formatted_info)
         
     def startLoadingPeriod(self, country: str, sinceDateTime: dt.datetime, upToDateTime: dt.datetime):
         '''

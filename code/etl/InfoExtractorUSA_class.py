@@ -105,54 +105,57 @@ class InfoExtractorUSA(InfoExtractor):
         # Preparo un dataframe para incorporar la info
         usa_df = pd.DataFrame()
 
-        # Recorro el diccionario para ir extrayendo la info
-        fechaGeneracion = data['metadata']['generated']
-        titulo = data['metadata']['title']
-        versionAPI = data['metadata']['api']
-        cantRegistros = data['metadata']['count']
+        # Si el dataframe no está vacío, obtengo los datos desde el mismo
+        if not usa_df.empty:
 
-        # Extraigo info de los sismos
-        # Recorro los registros para des-anidar los datos
-        for registro in data['features']:
+            # Recorro el diccionario para ir extrayendo la info
+            fechaGeneracion = data['metadata']['generated']
+            titulo = data['metadata']['title']
+            versionAPI = data['metadata']['api']
+            cantRegistros = data['metadata']['count']
 
-            tipoReg = registro['type']
-            idReg = registro['id']
+            # Extraigo info de los sismos
+            # Recorro los registros para des-anidar los datos
+            for registro in data['features']:
 
-            # Desanido properties
-            properties_df = pd.DataFrame(registro['properties'], index=[0, 1, 2])
-            properties_df.drop_duplicates(inplace=True, ignore_index=True)
+                tipoReg = registro['type']
+                idReg = registro['id']
 
-            # Desanido geometry
-            pointCoord = {}
-            if registro['geometry']['type'] == 'Point':
-                pointCoord['type'] = 'Point'
-                pointCoord['coord1'] = registro['geometry']['coordinates'][0]
-                pointCoord['coord2'] = registro['geometry']['coordinates'][1]
-                pointCoord['coord3'] = registro['geometry']['coordinates'][2]
+                # Desanido properties
+                properties_df = pd.DataFrame(registro['properties'], index=[0, 1, 2])
+                properties_df.drop_duplicates(inplace=True, ignore_index=True)
 
-                # Agrego las coordenadas si es que la geometria es un Point
-                properties_df['geometry_type'] = pointCoord['type']
-                properties_df['geometry_coord1'] = pointCoord['coord1']
-                properties_df['geometry_coord2'] = pointCoord['coord2']
-                properties_df['geometry_coord3'] = pointCoord['coord3']
+                # Desanido geometry
+                pointCoord = {}
+                if registro['geometry']['type'] == 'Point':
+                    pointCoord['type'] = 'Point'
+                    pointCoord['coord1'] = registro['geometry']['coordinates'][0]
+                    pointCoord['coord2'] = registro['geometry']['coordinates'][1]
+                    pointCoord['coord3'] = registro['geometry']['coordinates'][2]
 
-            # Incorporo info del dataset
-            properties_df['fechaGeneracion'] = fechaGeneracion
-            properties_df['titulo'] = titulo
-            properties_df['versionAPI'] = versionAPI
-            properties_df['cantRegistros'] = cantRegistros
+                    # Agrego las coordenadas si es que la geometria es un Point
+                    properties_df['geometry_type'] = pointCoord['type']
+                    properties_df['geometry_coord1'] = pointCoord['coord1']
+                    properties_df['geometry_coord2'] = pointCoord['coord2']
+                    properties_df['geometry_coord3'] = pointCoord['coord3']
 
-            # Agrego la info al dataframe de USA
-            usa_df = pd.concat([usa_df, properties_df], ignore_index=True)
+                # Incorporo info del dataset
+                properties_df['fechaGeneracion'] = fechaGeneracion
+                properties_df['titulo'] = titulo
+                properties_df['versionAPI'] = versionAPI
+                properties_df['cantRegistros'] = cantRegistros
 
-        # Quito los milisegundos y modifico tipos de datos
-        usa_df['fechaGeneracion'] = usa_df['fechaGeneracion'].apply(self.convert_date)
-        usa_df['time'] = usa_df['time'].apply(self.convert_date)
-        usa_df['updated'] = usa_df['updated'].apply(self.convert_date)
+                # Agrego la info al dataframe de USA
+                usa_df = pd.concat([usa_df, properties_df], ignore_index=True)
 
-        usa_df['fechaGeneracion'] = usa_df['fechaGeneracion'].astype('datetime64[s]')
-        usa_df['time'] = usa_df['time'].astype('datetime64[s]')
-        usa_df['updated'] = usa_df['updated'].astype('datetime64[s]')
+            # Quito los milisegundos y modifico tipos de datos
+            usa_df['fechaGeneracion'] = usa_df['fechaGeneracion'].apply(self.convert_date)
+            usa_df['time'] = usa_df['time'].apply(self.convert_date)
+            usa_df['updated'] = usa_df['updated'].apply(self.convert_date)
+
+            usa_df['fechaGeneracion'] = usa_df['fechaGeneracion'].astype('datetime64[s]')
+            usa_df['time'] = usa_df['time'].astype('datetime64[s]')
+            usa_df['updated'] = usa_df['updated'].astype('datetime64[s]')
 
         # Devuelvo el dataframe
         return usa_df
@@ -210,8 +213,9 @@ class InfoExtractorUSA(InfoExtractor):
         # Transformo lo obtenido en un dataframe
         seismic_df = self.get_dataframe_from_json(data=data)
 
-        # Me quedo sólo con la info del país solicitado
-        seismic_df = self.keep_only_records_for_boundaries(data=seismic_df, country_boundaries=country_boundaries)
+        # Si el dataframe no está vacío, me quedo sólo con la info del país solicitado
+        if not seismic_df.empty:
+            seismic_df = self.keep_only_records_for_boundaries(data=seismic_df, country_boundaries=country_boundaries)
 
         # Preparo la tupla de salida
         tupla_output = (error, seismic_df)

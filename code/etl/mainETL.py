@@ -13,6 +13,7 @@ from google.cloud import bigquery
 from google.oauth2 import service_account
 import datetime as dt
 from ETLEnvironment_class import ETLEnvironment
+import logging
 
 def get_google_cloud_client():
     '''
@@ -132,11 +133,18 @@ def get_dispatcher() -> DataLoadDispatcher:
 
 if __name__ == '__main__':
 
+    # Seteo el logging
+    logging.basicConfig(filename="logETL.txt", level=logging.INFO) # Este es el nivel usual de debugging
+    #logging.basicConfig(filename="logETL.txt", level=logging.DEBUG)
+
     # Obtengo el flag de proceso en curso
     process_in_progress = get_flag_process_in_progress()
     if process_in_progress:
-        print('Este proceso no puede ejecutarse porque ya hay un proceso de carga en progreso')
+        logging.info('Este proceso no puede ejecutarse porque ya hay un proceso de carga en progreso')
     else:
+
+        # Se inicia el proceso
+        logging.info('Proceso de ETL iniciado')
 
         # Se pone el flag de proceso en progreso
         set_flag_process_in_progress(True)

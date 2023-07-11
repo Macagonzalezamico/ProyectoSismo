@@ -7,6 +7,7 @@ from enum import Enum
 from InfoExtractor_class import InfoExtractor
 from InfoFormatter_class import InfoFormatter
 from DBUpdater_class import DBUpdater
+import logging
 
 class DataLoadDispatcher():
     '''
@@ -144,38 +145,33 @@ class DataLoadDispatcher():
         '''
 
         # Informo el inicio de un workflow
-        print('Workflow para ' + country_and_source + ' despachado')
+        logging.info('Workflow para ' + country_and_source + ' despachado')
 
         # Dispatch módulo de extracción de datos
-        print(' Modulo de extracción de datos despachado')
+        logging.info('Modulo de extracción de datos despachado')
         extractor = self.map_extractors[country_and_source]
         error = None
         extracted_info = None
         if extractor is not None:
             error, extracted_info = extractor.extractInfo(country=parameters_tuple[0], source=parameters_tuple[1], fromDateTime=parameters_tuple[2], toDateTime=parameters_tuple[3])
             if error != '':
-                print('  Error en extracción de {}: '.format(country_and_source) + error)
+                logging.warning('Error en extracción de {}: '.format(country_and_source) + ' ' + error)
                 return
             
         # Dispatch módulo de formateo de datos
-        print(' Modulo de formateo de datos despachado')
+        logging.info('Modulo de formateo de datos despachado')
         formatter = self.map_formatters[country]
         error = None
         formatted_info = None
         if formatter is not None:
             error, formatted_info = formatter.formatInfo(country=country, jsonData=extracted_info)
             if error != '':
-                print('  Error en formateo de {}: '.format(country) + error)
+                logging.warning('Error en formateo de {}: '.format(country) + ' ' + error)
                 return
         
-        # TODO: Borrar este conjunto de comandos
-        #if formatted_info is not None:
-        #    print('\nFormateador {}'.format(country))
-        #    print(formatted_info.head())
-            
         # Dispatch database writter o file writter
         if formatted_info is not None:
-            print(' Modulo de inserción de datos despachado')
+            logging.info('Modulo de inserción de datos despachado')
             db_updater = DBUpdater()
             db_updater.update_sismos(country, formatted_info)
         
@@ -198,7 +194,7 @@ class DataLoadDispatcher():
         except Exception as e:
 
             # Informo de una excepción ocurrida
-            print('Ocurrió una excepción', f'error {e}')
+            logging.warning('Ocurrió una excepción: ' + f'error {e}')
 
     def startLoadingSince(self, country: str, sinceDateTime: dt.datetime):
         '''

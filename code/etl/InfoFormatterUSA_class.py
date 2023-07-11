@@ -5,6 +5,7 @@
 from InfoFormatter_class import InfoFormatter
 import pandas as pd
 import datetime as dt
+import logging
 
 class InfoFormatterUSA(InfoFormatter):
     '''
@@ -30,7 +31,8 @@ class InfoFormatterUSA(InfoFormatter):
         Tupla de(String de error, objeto DataFrame conteniendo la info formateada según la estandarización)
         '''
 
-        print('formatInfo', country)
+        # Logging para debug
+        logging.debug('formatInfo ' + country)
 
         # Identifico mi dataFrame de entrada como df
         df = jsonData

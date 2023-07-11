@@ -9,6 +9,7 @@ import pandas as pd
 import geopandas as gpd
 from shapely.geometry import Point
 from ETLEnvironment_class import ETLEnvironment
+import logging
 
 # Para probar esta clase, puede utilizar el siguiente código
 # a = InfoExtractorUSA()
@@ -32,7 +33,7 @@ class InfoExtractorUSA(InfoExtractor):
         Este método recupera la información relacionada con el país solicitado.
         Incluye geometry que puede contener POLYGON o MULTIPOLYGON
         '''
-        print(' get_country_boundaries')
+        logging.debug('En método get_country_boundaries')
 
         # Obtengo los mapas
         env = ETLEnvironment().root_project_path
@@ -51,7 +52,7 @@ class InfoExtractorUSA(InfoExtractor):
         Este método devuelve los registros sismológicos entre dos fechas dadas.
         No diferencia entre un país y otro
         '''
-        print(' get_seismic_records')
+        logging.debug('En método get_seismic_records')
 
         # Defino URL base para la consulta
         urlBase = 'https://earthquake.usgs.gov/fdsnws/event/1/query'
@@ -86,7 +87,7 @@ class InfoExtractorUSA(InfoExtractor):
         '''
         Esta función convierte la fecha según lo informa la API a un formato iso.
         '''
-        print(' convert_date', fecha, type(fecha))
+        logging.debug('En método convert_date')
         
         fecha = fecha / 1000 # Elimino los milisegundos
         fechaFormateada = dt.datetime.isoformat(dt.datetime.fromtimestamp(fecha))
@@ -99,7 +100,7 @@ class InfoExtractorUSA(InfoExtractor):
         '''
         Dado un GeoJson con registros sismológicos, este método devuelve un dataframe.
         '''
-        print(' get_dataframe_from_json')
+        logging.debug('En método get_dataframe_from_json')
 
         # Preparo un dataframe para incorporar la info
         usa_df = pd.DataFrame()
@@ -148,13 +149,10 @@ class InfoExtractorUSA(InfoExtractor):
         usa_df['fechaGeneracion'] = usa_df['fechaGeneracion'].apply(self.convert_date)
         usa_df['time'] = usa_df['time'].apply(self.convert_date)
         usa_df['updated'] = usa_df['updated'].apply(self.convert_date)
-        print(' Fuera de convert_date')
-        print(usa_df['time'])
 
         usa_df['fechaGeneracion'] = usa_df['fechaGeneracion'].astype('datetime64[s]')
         usa_df['time'] = usa_df['time'].astype('datetime64[s]')
         usa_df['updated'] = usa_df['updated'].astype('datetime64[s]')
-        print(' Luego de hacer astype("datetime64[s]")')
 
         # Devuelvo el dataframe
         return usa_df
@@ -163,7 +161,7 @@ class InfoExtractorUSA(InfoExtractor):
         '''
         Este método devuelve el dataframe recibido donde el Point queda dentro de las boundaries
         '''
-        print(' keep_only_records_for_boundaries')
+        logging.debug('En método keep_only_records_for_boundaries')
 
         data['keep_record'] = 'no'
         for idx, row in data.iterrows():
@@ -196,7 +194,7 @@ class InfoExtractorUSA(InfoExtractor):
 
         Tupla de(String de error, objeto Json conteniendo la info extraida)
         '''
-        print(' extractInfo')
+        logging.debug('En método extractInfo')
 
         # Obtengo el mapa del país que correspnda
         iso_a3_country_code = 'USA'

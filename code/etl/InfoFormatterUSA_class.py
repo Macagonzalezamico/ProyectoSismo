@@ -30,6 +30,8 @@ class InfoFormatterUSA(InfoFormatter):
         Tupla de(String de error, objeto DataFrame conteniendo la info formateada según la estandarización)
         '''
 
+        print('formatInfo', country)
+
         # Identifico mi dataFrame de entrada como df
         df = jsonData
 
@@ -54,7 +56,9 @@ class InfoFormatterUSA(InfoFormatter):
         df = df[['Fecha_del_sismo', 'Hora_del_sismo', 'Latitud', 'Longitud', 'Profundidad_Km', 'Magnitud', 'Tipo_Magnitud', 'Lugar_del_Epicentro']]
 
         # Agrego la columna de ID del país
-        df = df.assign(ID_Pais=country) 
+        df = df.assign(ID_Pais=country)
 
-        # Devuelvo el dataFrame
-        return df
+        print(df.head())
+
+        # Devuelvo el dataFrame con mensaje de error vacío
+        return ('', df)

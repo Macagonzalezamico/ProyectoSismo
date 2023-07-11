@@ -4,8 +4,11 @@
 # Imports
 from DataLoadDispatcher_class import DataLoadDispatcher
 from InfoExtractorChileURL_class import InfoExtractorChileURL
-from InfoExtractorUSA_class import InfoExtractorUSA
 from InfoFormatterChile_class import InfoFormatterChile
+from InfoExtractorUSA_class import InfoExtractorUSA
+from InfoFormatterUSA_class import InfoFormatterUSA
+from InfoExtractorJaponURL_class import InfoExtractorJaponURL
+from InfoFormatterJapon_class import InfoFormatterJapon
 from google.cloud import bigquery
 from google.oauth2 import service_account
 import datetime as dt
@@ -108,17 +111,20 @@ def get_dispatcher() -> DataLoadDispatcher:
 
     # Instancio los módulos
     ieUSA = InfoExtractorUSA()
+    ifUSA = InfoFormatterUSA()
     ieChile = InfoExtractorChileURL()
     ifChile = InfoFormatterChile()
+    ieJapon = InfoExtractorJaponURL()
+    ifJapon = InfoFormatterJapon()
 
     d = DataLoadDispatcher(extractor_CL_dataset=None,\
                            extractor_CL_url=ieChile,\
-                           extractor_JP_url=None,\
+                           extractor_JP_url=ieJapon,\
                            extractor_USA_api=ieUSA,\
                            extractor_Damage_url=None,\
                            formatter_CL=ifChile,\
-                           formatter_JP=None,\
-                           formatter_USA=None,\
+                           formatter_JP=ifJapon,\
+                           formatter_USA=ifUSA,\
                            formatter_Damage=None)
     
     # Retorno el dispatcher

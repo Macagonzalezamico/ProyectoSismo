@@ -20,6 +20,7 @@ class DBUpdater():
         '''
         Esta función devuelve un cliente de Google Cloud listo para ser utilizado en el proyecto sismos
         '''
+        print('get_google_cloud_client')
 
         # Preparo el path y scope para recuperar las credenciales
         path_root = ETLEnvironment().root_project_path
@@ -35,6 +36,7 @@ class DBUpdater():
         '''
         Esta función actualiza la base de datos con la fecha o las fechas que se le ha informado
         '''
+        print('update_last_dates')
 
         client = self.get_google_cloud_client()
 
@@ -78,6 +80,16 @@ class DBUpdater():
         '''
         Esta función devuelve un string que se corresponde con una fila para el insert de datos en la tabla sismos.
         '''
+        print(' get_query_row')
+        print(' Fecha_del_sismo', row['Fecha_del_sismo'])
+        print(' Hora_del_sismo', row['Hora_del_sismo'])
+        print(' Latitud', row['Latitud'])
+        print(' Longitud', row['Longitud'])
+        print(' Profundidad_Km', row['Profundidad_Km'])
+        print(' Magnitud', row['Magnitud'])
+        print(' Tipo_Magnitud', row['Tipo_Magnitud'])
+        print(' Lugar_del_Epicentro', row['Lugar_del_Epicentro'])
+        print(' ID_Pais', row['ID_Pais'])
 
         query_row = '(' +\
                         'DATE(' +\
@@ -100,7 +112,7 @@ class DBUpdater():
                         ', ' +\
                         '\'' + row['Tipo_Magnitud'] + '\'' +\
                         ', ' +\
-                        '\'' + row['Lugar_del_Epicentro'] + '\'' +\
+                        '\'' + ('' if row['Lugar_del_Epicentro'] is None else row['Lugar_del_Epicentro']) + '\'' +\
                         ', ' +\
                         '\'' + row['ID_Pais'] + '\'' +\
                     ')'
@@ -111,6 +123,7 @@ class DBUpdater():
         '''
         Esta función inserta los registros en la base de datos en la tabla sismos.
         '''
+        print('insert_rows')
 
         client = self.get_google_cloud_client()
 
@@ -124,6 +137,7 @@ class DBUpdater():
         Además almacena la última fecha que aparece en los registros por país para que
         sirva como input a futuras cargas
         '''
+        print('update_sismos')
         
         # Verifico si las columnas obtenidas son las esperadas
         expected_columns = ['Fecha_del_sismo', 'Hora_del_sismo', 'Latitud', 'Longitud', 'Profundidad_Km', 'Magnitud', 'Tipo_Magnitud', 'Lugar_del_Epicentro', 'ID_Pais']

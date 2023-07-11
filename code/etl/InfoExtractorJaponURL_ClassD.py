@@ -36,7 +36,7 @@ class InfoExtractorJaponURL(iex.InfoExtractor):
             lista_fechas_incremental.append(fromDateTime)
             fromDateTime += delta
 
-        browser = webdriver.Firefox() #Cargamos el driver a una variable
+        browser = webdriver.Chrome() #Cargamos el driver a una variable
         myUrl = "https://www.data.jma.go.jp/multi/quake/?lang=es" #Url de la pagina donde vamos a ingresar
         browser.get(myUrl) #Abrimos Chrome
         time.sleep(5)
@@ -82,7 +82,7 @@ class InfoExtractorJaponURL(iex.InfoExtractor):
         datos = [] #Lista vacia para almacenar los datos de cada fecha
         for indice in range(len(lista_incremental)): #iteramos sobre la lista de links
             url_unico = "https://www.data.jma.go.jp/multi/quake/"+lista_incremental[indice] #concatenamos la informacionn de cada elemento con el url.
-            browser_2 = webdriver.Firefox() #Cargamos el driver a una variable
+            browser_2 = webdriver.Chrome() #Cargamos el driver a una variable
             myUrl = url_unico #Url de Yapo para venta de celulares en la region metropolitana
             browser_2.get(myUrl) #Abrimos Chrome
             time.sleep(5) 

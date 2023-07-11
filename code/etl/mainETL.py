@@ -7,8 +7,8 @@ from InfoExtractorChileURL_class import InfoExtractorChileURL
 from InfoFormatterChile_class import InfoFormatterChile
 from InfoExtractorUSA_class import InfoExtractorUSA
 from InfoFormatterUSA_class import InfoFormatterUSA
-from InfoExtractorJaponURL_class import InfoExtractorJaponURL
-from InfoFormatterJapon_class import InfoFormatterJapon
+from InfoExtractorJaponURL_ClassD import InfoExtractorJaponURL
+from InfoFormatterJapon_ClassD import InfoFormatterJapon
 from google.cloud import bigquery
 from google.oauth2 import service_account
 import datetime as dt

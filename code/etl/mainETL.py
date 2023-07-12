@@ -95,9 +95,9 @@ def get_last_dates():
     ult_fecha_usa = dt.datetime.now() - dt.timedelta(days=7)
 
     for row in job.result():
-        date_japon = row[0]
-        date_chile = row[1]
-        date_usa = row[2]
+        date_japon = row['ultima_fecha_japon']
+        date_chile = row['ultima_fecha_chile']
+        date_usa = row['ultima_fecha_usa']
 
         logging.debug('En get_last_dates')
         logging.debug(' date_japon ' + str(date_japon))
@@ -160,7 +160,7 @@ if __name__ == '__main__':
         set_flag_process_in_progress(True)
 
         # Se obtienen las ultimas fechas de proceso desde la base de datos
-        ult_fecha_chile, ult_fecha_japon, ult_fecha_usa = get_last_dates()
+        ult_fecha_japon, ult_fecha_chile, ult_fecha_usa = get_last_dates()
 
         # Se invoca el dispatcher por cada país y última fecha de carga
         dispatcher = get_dispatcher()

@@ -1,0 +1,3865 @@
+ID;cliente;anio;mes;Total_desastres; total_gasto 
+1;Banco BCI;2000;enero;2; $91.297 
+2;Banco BCI;2000;febrero;4; $96.295 
+3;Banco BCI;2000;marzo;5; $95.211 
+4;Banco BCI;2000;abril;3; $7.352 
+5;Banco BCI;2000;mayo;3; $30.915 
+6;Banco BCI;2000;junio;3; $73.809 
+7;Banco BCI;2000;julio;5; $97.672 
+8;Banco BCI;2000;agosto;5; $80.180 
+9;Banco BCI;2000;septiembre;1; $6.787 
+10;Banco BCI;2000;octubre;2; $22.030 
+11;Banco BCI;2000;noviembre;2; $31.487 
+12;Banco BCI;2000;diciembre;5; $22.787 
+13;Banco BCI;2001;enero;1; $66.686 
+14;Banco BCI;2001;febrero;0; $- 
+15;Banco BCI;2001;marzo;2; $32.377 
+16;Banco BCI;2001;abril;5; $56.373 
+17;Banco BCI;2001;mayo;4; $7.302 
+18;Banco BCI;2001;junio;3; $95.081 
+19;Banco BCI;2001;julio;0; $- 
+20;Banco BCI;2001;agosto;4; $56.963 
+21;Banco BCI;2001;septiembre;4; $17.487 
+22;Banco BCI;2001;octubre;2; $57.640 
+23;Banco BCI;2001;noviembre;1; $73.155 
+24;Banco BCI;2001;diciembre;5; $86.372 
+25;Banco BCI;2002;enero;1; $44.662 
+26;Banco BCI;2002;febrero;4; $20.021 
+27;Banco BCI;2002;marzo;2; $73.164 
+28;Banco BCI;2002;abril;2; $98.442 
+29;Banco BCI;2002;mayo;2; $56.217 
+30;Banco BCI;2002;junio;2; $49.357 
+31;Banco BCI;2002;julio;5; $46.537 
+32;Banco BCI;2002;agosto;2; $79.236 
+33;Banco BCI;2002;septiembre;2; $84.070 
+34;Banco BCI;2002;octubre;0; $- 
+35;Banco BCI;2002;noviembre;2; $83.624 
+36;Banco BCI;2002;diciembre;0; $- 
+37;Banco BCI;2003;enero;0; $- 
+38;Banco BCI;2003;febrero;1; $34.131 
+39;Banco BCI;2003;marzo;2; $46.091 
+40;Banco BCI;2003;abril;3; $59.742 
+41;Banco BCI;2003;mayo;1; $63.289 
+42;Banco BCI;2003;junio;3; $75.763 
+43;Banco BCI;2003;julio;0; $- 
+44;Banco BCI;2003;agosto;0; $- 
+45;Banco BCI;2003;septiembre;4; $6.996 
+46;Banco BCI;2003;octubre;0; $- 
+47;Banco BCI;2003;noviembre;5; $64.526 
+48;Banco BCI;2003;diciembre;2; $23.401 
+49;Banco BCI;2004;enero;3; $44.156 
+50;Banco BCI;2004;febrero;1; $47.323 
+51;Banco BCI;2004;marzo;3; $62.269 
+52;Banco BCI;2004;abril;5; $88.220 
+53;Banco BCI;2004;mayo;2; $70.162 
+54;Banco BCI;2004;junio;2; $29.260 
+55;Banco BCI;2004;julio;2; $10.552 
+56;Banco BCI;2004;agosto;3; $10.544 
+57;Banco BCI;2004;septiembre;4; $57.658 
+58;Banco BCI;2004;octubre;2; $83.136 
+59;Banco BCI;2004;noviembre;4; $83.647 
+60;Banco BCI;2004;diciembre;3; $43.213 
+61;Banco BCI;2005;enero;1; $67.847 
+62;Banco BCI;2005;febrero;2; $70.507 
+63;Banco BCI;2005;marzo;4; $8.174 
+64;Banco BCI;2005;abril;4; $66.862 
+65;Banco BCI;2005;mayo;2; $29.577 
+66;Banco BCI;2005;junio;3; $90.923 
+67;Banco BCI;2005;julio;3; $20.136 
+68;Banco BCI;2005;agosto;2; $19.760 
+69;Banco BCI;2005;septiembre;4; $84.225 
+70;Banco BCI;2005;octubre;2; $17.804 
+71;Banco BCI;2005;noviembre;3; $58.651 
+72;Banco BCI;2005;diciembre;0; $- 
+73;Banco BCI;2006;enero;5; $41.457 
+74;Banco BCI;2006;febrero;2; $41.768 
+75;Banco BCI;2006;marzo;1; $60.092 
+76;Banco BCI;2006;abril;3; $60.373 
+77;Banco BCI;2006;mayo;0; $- 
+78;Banco BCI;2006;junio;2; $25.595 
+79;Banco BCI;2006;julio;5; $94.755 
+80;Banco BCI;2006;agosto;2; $90.145 
+81;Banco BCI;2006;septiembre;3; $50.471 
+82;Banco BCI;2006;octubre;3; $87.277 
+83;Banco BCI;2006;noviembre;5; $44.198 
+84;Banco BCI;2006;diciembre;3; $28.176 
+85;Banco BCI;2007;enero;0; $- 
+86;Banco BCI;2007;febrero;5; $17.634 
+87;Banco BCI;2007;marzo;5; $72.106 
+88;Banco BCI;2007;abril;0; $- 
+89;Banco BCI;2007;mayo;3; $98.554 
+90;Banco BCI;2007;junio;4; $64.872 
+91;Banco BCI;2007;julio;4; $36.656 
+92;Banco BCI;2007;agosto;2; $71.888 
+93;Banco BCI;2007;septiembre;1; $78.083 
+94;Banco BCI;2007;octubre;4; $9.823 
+95;Banco BCI;2007;noviembre;4; $90.051 
+96;Banco BCI;2007;diciembre;3; $68.799 
+97;Banco BCI;2008;enero;3; $44.278 
+98;Banco BCI;2008;febrero;5; $85.317 
+99;Banco BCI;2008;marzo;4; $27.822 
+100;Banco BCI;2008;abril;1; $85.797 
+101;Banco BCI;2008;mayo;0; $- 
+102;Banco BCI;2008;junio;5; $89.967 
+103;Banco BCI;2008;julio;3; $42.322 
+104;Banco BCI;2008;agosto;5; $72.498 
+105;Banco BCI;2008;septiembre;2; $42.522 
+106;Banco BCI;2008;octubre;1; $87.759 
+107;Banco BCI;2008;noviembre;4; $72.191 
+108;Banco BCI;2008;diciembre;3; $58.301 
+109;Banco BCI;2009;enero;0; $- 
+110;Banco BCI;2009;febrero;0; $- 
+111;Banco BCI;2009;marzo;3; $33.404 
+112;Banco BCI;2009;abril;1; $39.692 
+113;Banco BCI;2009;mayo;1; $13.304 
+114;Banco BCI;2009;junio;1; $15.451 
+115;Banco BCI;2009;julio;4; $6.789 
+116;Banco BCI;2009;agosto;0; $- 
+117;Banco BCI;2009;septiembre;3; $89.945 
+118;Banco BCI;2009;octubre;2; $5.135 
+119;Banco BCI;2009;noviembre;1; $19.406 
+120;Banco BCI;2009;diciembre;4; $76.130 
+121;Banco BCI;2010;enero;1; $63.378 
+122;Banco BCI;2010;febrero;1; $11.185 
+123;Banco BCI;2010;marzo;3; $54.210 
+124;Banco BCI;2010;abril;4; $89.258 
+125;Banco BCI;2010;mayo;0; $- 
+126;Banco BCI;2010;junio;5; $35.792 
+127;Banco BCI;2010;julio;3; $6.907 
+128;Banco BCI;2010;agosto;4; $54.609 
+129;Banco BCI;2010;septiembre;4; $89.134 
+130;Banco BCI;2010;octubre;5; $25.408 
+131;Banco BCI;2010;noviembre;1; $68.953 
+132;Banco BCI;2010;diciembre;3; $13.249 
+133;Banco BCI;2011;enero;4; $17.717 
+134;Banco BCI;2011;febrero;1; $57.492 
+135;Banco BCI;2011;marzo;4; $98.534 
+136;Banco BCI;2011;abril;5; $18.200 
+137;Banco BCI;2011;mayo;3; $42.068 
+138;Banco BCI;2011;junio;4; $82.175 
+139;Banco BCI;2011;julio;3; $58.233 
+140;Banco BCI;2011;agosto;3; $50.484 
+141;Banco BCI;2011;septiembre;1; $14.612 
+142;Banco BCI;2011;octubre;4; $68.429 
+143;Banco BCI;2011;noviembre;1; $18.879 
+144;Banco BCI;2011;diciembre;3; $81.388 
+145;Banco BCI;2012;enero;0; $- 
+146;Banco BCI;2012;febrero;2; $7.739 
+147;Banco BCI;2012;marzo;0; $- 
+148;Banco BCI;2012;abril;5; $17.236 
+149;Banco BCI;2012;mayo;3; $24.458 
+150;Banco BCI;2012;junio;0; $- 
+151;Banco BCI;2012;julio;3; $49.740 
+152;Banco BCI;2012;agosto;1; $59.351 
+153;Banco BCI;2012;septiembre;0; $- 
+154;Banco BCI;2012;octubre;5; $53.840 
+155;Banco BCI;2012;noviembre;4; $94.838 
+156;Banco BCI;2012;diciembre;1; $45.309 
+157;Banco BCI;2013;enero;0; $- 
+158;Banco BCI;2013;febrero;4; $39.934 
+159;Banco BCI;2013;marzo;2; $30.820 
+160;Banco BCI;2013;abril;2; $64.107 
+161;Banco BCI;2013;mayo;0; $- 
+162;Banco BCI;2013;junio;0; $- 
+163;Banco BCI;2013;julio;4; $71.792 
+164;Banco BCI;2013;agosto;5; $47.648 
+165;Banco BCI;2013;septiembre;4; $87.744 
+166;Banco BCI;2013;octubre;0; $- 
+167;Banco BCI;2013;noviembre;2; $97.506 
+168;Banco BCI;2013;diciembre;4; $67.809 
+169;Banco BCI;2014;enero;3; $47.546 
+170;Banco BCI;2014;febrero;5; $57.435 
+171;Banco BCI;2014;marzo;1; $10.295 
+172;Banco BCI;2014;abril;4; $22.776 
+173;Banco BCI;2014;mayo;4; $77.822 
+174;Banco BCI;2014;junio;0; $- 
+175;Banco BCI;2014;julio;5; $62.963 
+176;Banco BCI;2014;agosto;2; $86.226 
+177;Banco BCI;2014;septiembre;1; $54.825 
+178;Banco BCI;2014;octubre;2; $25.505 
+179;Banco BCI;2014;noviembre;1; $69.649 
+180;Banco BCI;2014;diciembre;0; $- 
+181;Banco BCI;2015;enero;0; $- 
+182;Banco BCI;2015;febrero;0; $- 
+183;Banco BCI;2015;marzo;0; $- 
+184;Banco BCI;2015;abril;3; $9.525 
+185;Banco BCI;2015;mayo;1; $39.662 
+186;Banco BCI;2015;junio;2; $10.614 
+187;Banco BCI;2015;julio;5; $56.037 
+188;Banco BCI;2015;agosto;1; $61.181 
+189;Banco BCI;2015;septiembre;3; $12.719 
+190;Banco BCI;2015;octubre;0; $- 
+191;Banco BCI;2015;noviembre;5; $21.062 
+192;Banco BCI;2015;diciembre;3; $89.833 
+193;Banco BCI;2016;enero;3; $56.246 
+194;Banco BCI;2016;febrero;0; $- 
+195;Banco BCI;2016;marzo;0; $- 
+196;Banco BCI;2016;abril;1; $76.323 
+197;Banco BCI;2016;mayo;2; $52.543 
+198;Banco BCI;2016;junio;3; $50.352 
+199;Banco BCI;2016;julio;2; $40.974 
+200;Banco BCI;2016;agosto;1; $23.074 
+201;Banco BCI;2016;septiembre;0; $- 
+202;Banco BCI;2016;octubre;2; $44.731 
+203;Banco BCI;2016;noviembre;3; $24.416 
+204;Banco BCI;2016;diciembre;5; $89.326 
+205;Banco BCI;2017;enero;0; $- 
+206;Banco BCI;2017;febrero;3; $30.354 
+207;Banco BCI;2017;marzo;0; $- 
+208;Banco BCI;2017;abril;2; $35.645 
+209;Banco BCI;2017;mayo;2; $64.030 
+210;Banco BCI;2017;junio;1; $39.949 
+211;Banco BCI;2017;julio;3; $12.672 
+212;Banco BCI;2017;agosto;0; $- 
+213;Banco BCI;2017;septiembre;0; $- 
+214;Banco BCI;2017;octubre;1; $33.733 
+215;Banco BCI;2017;noviembre;5; $5.830 
+216;Banco BCI;2017;diciembre;2; $86.432 
+217;Banco BCI;2018;enero;1; $84.920 
+218;Banco BCI;2018;febrero;1; $18.381 
+219;Banco BCI;2018;marzo;0; $- 
+220;Banco BCI;2018;abril;2; $66.757 
+221;Banco BCI;2018;mayo;3; $10.704 
+222;Banco BCI;2018;junio;1; $97.998 
+223;Banco BCI;2018;julio;2; $73.001 
+224;Banco BCI;2018;agosto;4; $40.488 
+225;Banco BCI;2018;septiembre;3; $97.018 
+226;Banco BCI;2018;octubre;2; $24.239 
+227;Banco BCI;2018;noviembre;5; $16.377 
+228;Banco BCI;2018;diciembre;0; $- 
+229;Banco BCI;2019;enero;3; $84.098 
+230;Banco BCI;2019;febrero;5; $39.052 
+231;Banco BCI;2019;marzo;2; $6.141 
+232;Banco BCI;2019;abril;2; $27.197 
+233;Banco BCI;2019;mayo;3; $93.949 
+234;Banco BCI;2019;junio;0; $- 
+235;Banco BCI;2019;julio;2; $54.764 
+236;Banco BCI;2019;agosto;4; $22.648 
+237;Banco BCI;2019;septiembre;3; $73.366 
+238;Banco BCI;2019;octubre;0; $- 
+239;Banco BCI;2019;noviembre;1; $37.506 
+240;Banco BCI;2019;diciembre;3; $27.289 
+241;Banco BCI;2020;enero;4; $94.218 
+242;Banco BCI;2020;febrero;4; $71.869 
+243;Banco BCI;2020;marzo;2; $40.719 
+244;Banco BCI;2020;abril;1; $84.092 
+245;Banco BCI;2020;mayo;1; $6.130 
+246;Banco BCI;2020;junio;2; $8.941 
+247;Banco BCI;2020;julio;0; $- 
+248;Banco BCI;2020;agosto;0; $- 
+249;Banco BCI;2020;septiembre;2; $26.088 
+250;Banco BCI;2020;octubre;5; $27.219 
+251;Banco BCI;2020;noviembre;5; $98.117 
+252;Banco BCI;2020;diciembre;5; $88.810 
+253;Banco BCI;2021;enero;3; $92.040 
+254;Banco BCI;2021;febrero;4; $84.604 
+255;Banco BCI;2021;marzo;0; $- 
+256;Banco BCI;2021;abril;0; $- 
+257;Banco BCI;2021;mayo;4; $81.399 
+258;Banco BCI;2021;junio;1; $61.013 
+259;Banco BCI;2021;julio;4; $51.768 
+260;Banco BCI;2021;agosto;4; $87.508 
+261;Banco BCI;2021;septiembre;3; $61.821 
+262;Banco BCI;2021;octubre;1; $35.951 
+263;Banco BCI;2021;noviembre;2; $87.771 
+264;Banco BCI;2021;diciembre;4; $77.679 
+265;Banco BCI;2022;enero;2; $35.998 
+266;Banco BCI;2022;febrero;3; $50.029 
+267;Banco BCI;2022;marzo;2; $94.114 
+268;Banco BCI;2022;abril;5; $88.014 
+269;Banco BCI;2022;mayo;3; $67.154 
+270;Banco BCI;2022;junio;1; $94.030 
+271;Banco BCI;2022;julio;3; $52.042 
+272;Banco BCI;2022;agosto;3; $85.386 
+273;Banco BCI;2022;septiembre;2; $13.441 
+274;Banco BCI;2022;octubre;5; $79.106 
+275;Banco BCI;2022;noviembre;5; $57.420 
+276;Banco BCI;2022;diciembre;3; $6.095 
+277;Banco BCI;2000;enero;2; $31.046 
+278;Banco BCI;2000;febrero;5; $81.876 
+279;Banco BCI;2000;marzo;1; $74.793 
+280;Banco BCI;2000;abril;0; $- 
+281;Banco BCI;2000;mayo;1; $69.873 
+282;Banco BCI;2000;junio;2; $18.741 
+283;Banco BCI;2000;julio;4; $69.518 
+284;Banco BCI;2000;agosto;1; $29.272 
+285;Banco BCI;2000;septiembre;3; $20.848 
+286;Banco BCI;2000;octubre;1; $37.541 
+287;Banco BCI;2000;noviembre;3; $86.319 
+288;Banco BCI;2000;diciembre;2; $41.973 
+289;Banco BCI;2001;enero;0; $- 
+290;Banco BCI;2001;febrero;0; $- 
+291;Banco BCI;2001;marzo;3; $66.702 
+292;Banco BCI;2001;abril;5; $83.104 
+293;Banco BCI;2001;mayo;4; $5.838 
+294;Banco BCI;2001;junio;3; $85.391 
+295;Banco BCI;2001;julio;4; $24.029 
+296;Banco BCI;2001;agosto;3; $95.486 
+297;Banco BCI;2001;septiembre;4; $54.091 
+298;Banco BCI;2001;octubre;5; $17.744 
+299;Banco BCI;2001;noviembre;0; $- 
+300;Banco BCI;2001;diciembre;4; $88.363 
+301;Banco BCI;2002;enero;1; $70.032 
+302;Banco BCI;2002;febrero;1; $30.836 
+303;Banco BCI;2002;marzo;3; $45.629 
+304;Banco BCI;2002;abril;5; $98.448 
+305;Banco BCI;2002;mayo;4; $98.912 
+306;Banco BCI;2002;junio;3; $64.866 
+307;Banco BCI;2002;julio;5; $67.551 
+308;Banco BCI;2002;agosto;2; $42.105 
+309;Banco BCI;2002;septiembre;2; $81.614 
+310;Banco BCI;2002;octubre;1; $67.106 
+311;Banco BCI;2002;noviembre;1; $68.008 
+312;Banco BCI;2002;diciembre;1; $35.809 
+313;Banco BCI;2003;enero;0; $- 
+314;Banco BCI;2003;febrero;3; $71.119 
+315;Banco BCI;2003;marzo;4; $44.250 
+316;Banco BCI;2003;abril;2; $50.998 
+317;Banco BCI;2003;mayo;5; $93.395 
+318;Banco BCI;2003;junio;5; $59.523 
+319;Banco BCI;2003;julio;4; $61.820 
+320;Banco BCI;2003;agosto;0; $- 
+321;Banco BCI;2003;septiembre;3; $97.805 
+322;Banco BCI;2003;octubre;0; $- 
+323;Banco BCI;2003;noviembre;2; $15.643 
+324;Banco BCI;2003;diciembre;4; $99.453 
+325;Banco BCI;2004;enero;4; $27.468 
+326;Banco BCI;2004;febrero;4; $37.870 
+327;Banco BCI;2004;marzo;3; $45.897 
+328;Banco BCI;2004;abril;0; $- 
+329;Banco BCI;2004;mayo;4; $46.868 
+330;Banco BCI;2004;junio;3; $91.264 
+331;Banco BCI;2004;julio;0; $- 
+332;Banco BCI;2004;agosto;4; $24.648 
+333;Banco BCI;2004;septiembre;4; $73.891 
+334;Banco BCI;2004;octubre;3; $88.037 
+335;Banco BCI;2004;noviembre;3; $69.143 
+336;Banco BCI;2004;diciembre;5; $70.789 
+337;Banco BCI;2005;enero;1; $96.013 
+338;Banco BCI;2005;febrero;2; $50.821 
+339;Banco BCI;2005;marzo;2; $44.561 
+340;Banco BCI;2005;abril;3; $7.089 
+341;Banco BCI;2005;mayo;1; $46.411 
+342;Banco BCI;2005;junio;1; $23.562 
+343;Banco BCI;2005;julio;2; $21.847 
+344;Banco BCI;2005;agosto;1; $91.885 
+345;Banco BCI;2005;septiembre;5; $86.747 
+346;Banco BCI;2005;octubre;2; $93.995 
+347;Banco BCI;2005;noviembre;0; $- 
+348;Banco BCI;2005;diciembre;2; $52.576 
+349;Banco BCI;2006;enero;5; $54.573 
+350;Banco BCI;2006;febrero;3; $75.178 
+351;Banco BCI;2006;marzo;4; $37.846 
+352;Banco BCI;2006;abril;1; $56.794 
+353;Banco BCI;2006;mayo;0; $- 
+354;Banco BCI;2006;junio;0; $- 
+355;Banco BCI;2006;julio;4; $9.075 
+356;Banco BCI;2006;agosto;3; $71.820 
+357;Banco BCI;2006;septiembre;5; $29.010 
+358;Banco BCI;2006;octubre;2; $52.980 
+359;Banco BCI;2006;noviembre;2; $95.941 
+360;Banco BCI;2006;diciembre;1; $96.301 
+361;Banco BCI;2007;enero;0; $- 
+362;Banco BCI;2007;febrero;1; $96.731 
+363;Banco BCI;2007;marzo;3; $18.340 
+364;Banco BCI;2007;abril;3; $54.321 
+365;Banco BCI;2007;mayo;3; $76.560 
+366;Banco BCI;2007;junio;0; $- 
+367;Banco BCI;2007;julio;3; $71.186 
+368;Banco BCI;2007;agosto;1; $32.584 
+369;Banco BCI;2007;septiembre;3; $52.514 
+370;Banco BCI;2007;octubre;5; $83.673 
+371;Banco BCI;2007;noviembre;4; $53.255 
+372;Banco BCI;2007;diciembre;3; $80.355 
+373;Banco BCI;2008;enero;3; $64.532 
+374;Banco BCI;2008;febrero;1; $36.534 
+375;Banco BCI;2008;marzo;2; $57.837 
+376;Banco BCI;2008;abril;4; $86.193 
+377;Banco BCI;2008;mayo;3; $72.717 
+378;Banco BCI;2008;junio;0; $- 
+379;Banco BCI;2008;julio;0; $- 
+380;Banco BCI;2008;agosto;1; $37.360 
+381;Banco BCI;2008;septiembre;3; $84.598 
+382;Banco BCI;2008;octubre;5; $86.122 
+383;Banco BCI;2008;noviembre;0; $- 
+384;Banco BCI;2008;diciembre;2; $70.573 
+385;Banco BCI;2009;enero;4; $6.036 
+386;Banco BCI;2009;febrero;2; $34.621 
+387;Banco BCI;2009;marzo;5; $15.863 
+388;Banco BCI;2009;abril;5; $46.966 
+389;Banco BCI;2009;mayo;5; $79.311 
+390;Banco BCI;2009;junio;4; $78.426 
+391;Banco BCI;2009;julio;1; $38.837 
+392;Banco BCI;2009;agosto;0; $- 
+393;Banco BCI;2009;septiembre;5; $27.699 
+394;Banco BCI;2009;octubre;4; $41.813 
+395;Banco BCI;2009;noviembre;3; $62.421 
+396;Banco BCI;2009;diciembre;4; $17.381 
+397;Banco BCI;2010;enero;0; $- 
+398;Banco BCI;2010;febrero;5; $27.833 
+399;Banco BCI;2010;marzo;4; $77.815 
+400;Banco BCI;2010;abril;1; $14.974 
+401;Banco BCI;2010;mayo;0; $- 
+402;Banco BCI;2010;junio;0; $- 
+403;Banco BCI;2010;julio;5; $19.333 
+404;Banco BCI;2010;agosto;0; $- 
+405;Banco BCI;2010;septiembre;1; $67.734 
+406;Banco BCI;2010;octubre;1; $48.901 
+407;Banco BCI;2010;noviembre;5; $34.277 
+408;Banco BCI;2010;diciembre;5; $79.915 
+409;Banco BCI;2011;enero;4; $82.312 
+410;Banco BCI;2011;febrero;4; $39.225 
+411;Banco BCI;2011;marzo;5; $56.109 
+412;Banco BCI;2011;abril;4; $80.402 
+413;Banco BCI;2011;mayo;4; $27.798 
+414;Banco BCI;2011;junio;2; $32.094 
+415;Banco BCI;2011;julio;3; $85.006 
+416;Banco BCI;2011;agosto;1; $33.241 
+417;Banco BCI;2011;septiembre;3; $90.372 
+418;Banco BCI;2011;octubre;1; $72.514 
+419;Banco BCI;2011;noviembre;4; $63.632 
+420;Banco BCI;2011;diciembre;3; $78.679 
+421;Banco BCI;2012;enero;1; $40.887 
+422;Banco BCI;2012;febrero;3; $90.660 
+423;Banco BCI;2012;marzo;1; $49.875 
+424;Banco BCI;2012;abril;3; $36.364 
+425;Banco BCI;2012;mayo;3; $25.335 
+426;Banco BCI;2012;junio;2; $74.823 
+427;Banco BCI;2012;julio;5; $18.060 
+428;Banco BCI;2012;agosto;3; $74.186 
+429;Banco BCI;2012;septiembre;1; $6.177 
+430;Banco BCI;2012;octubre;0; $- 
+431;Banco BCI;2012;noviembre;2; $83.012 
+432;Banco BCI;2012;diciembre;0; $- 
+433;Banco BCI;2013;enero;0; $- 
+434;Banco BCI;2013;febrero;5; $46.365 
+435;Banco BCI;2013;marzo;0; $- 
+436;Banco BCI;2013;abril;3; $60.091 
+437;Banco BCI;2013;mayo;2; $64.190 
+438;Banco BCI;2013;junio;5; $96.818 
+439;Banco BCI;2013;julio;2; $60.273 
+440;Banco BCI;2013;agosto;1; $52.649 
+441;Banco BCI;2013;septiembre;5; $36.700 
+442;Banco BCI;2013;octubre;1; $78.586 
+443;Banco BCI;2013;noviembre;4; $20.574 
+444;Banco BCI;2013;diciembre;2; $17.841 
+445;Banco BCI;2014;enero;0; $- 
+446;Banco BCI;2014;febrero;0; $- 
+447;Banco BCI;2014;marzo;5; $70.290 
+448;Banco BCI;2014;abril;5; $32.746 
+449;Banco BCI;2014;mayo;1; $48.327 
+450;Banco BCI;2014;junio;2; $62.223 
+451;Banco BCI;2014;julio;5; $52.002 
+452;Banco BCI;2014;agosto;1; $66.664 
+453;Banco BCI;2014;septiembre;2; $50.967 
+454;Banco BCI;2014;octubre;4; $18.427 
+455;Banco BCI;2014;noviembre;1; $35.903 
+456;Banco BCI;2014;diciembre;2; $76.261 
+457;Banco BCI;2015;enero;0; $- 
+458;Banco BCI;2015;febrero;1; $40.125 
+459;Banco BCI;2015;marzo;4; $93.510 
+460;Banco BCI;2015;abril;3; $21.013 
+461;Banco BCI;2015;mayo;5; $74.586 
+462;Banco BCI;2015;junio;4; $96.959 
+463;Banco BCI;2015;julio;4; $99.012 
+464;Banco BCI;2015;agosto;3; $26.521 
+465;Banco BCI;2015;septiembre;5; $13.984 
+466;Banco BCI;2015;octubre;1; $8.922 
+467;Banco BCI;2015;noviembre;2; $78.437 
+468;Banco BCI;2015;diciembre;1; $93.867 
+469;Banco BCI;2016;enero;1; $20.861 
+470;Banco BCI;2016;febrero;0; $- 
+471;Banco BCI;2016;marzo;1; $34.882 
+472;Banco BCI;2016;abril;0; $- 
+473;Banco BCI;2016;mayo;4; $8.398 
+474;Banco BCI;2016;junio;4; $65.155 
+475;Banco BCI;2016;julio;5; $36.356 
+476;Banco BCI;2016;agosto;3; $72.588 
+477;Banco BCI;2016;septiembre;1; $30.307 
+478;Banco BCI;2016;octubre;1; $58.455 
+479;Banco BCI;2016;noviembre;0; $- 
+480;Banco BCI;2016;diciembre;2; $23.022 
+481;Banco BCI;2017;enero;0; $- 
+482;Banco BCI;2017;febrero;1; $72.879 
+483;Banco BCI;2017;marzo;4; $37.202 
+484;Banco BCI;2017;abril;3; $67.219 
+485;Banco BCI;2017;mayo;5; $20.639 
+486;Banco BCI;2017;junio;4; $16.560 
+487;Banco BCI;2017;julio;3; $14.091 
+488;Banco BCI;2017;agosto;3; $9.423 
+489;Banco BCI;2017;septiembre;0; $- 
+490;Banco BCI;2017;octubre;0; $- 
+491;Banco BCI;2017;noviembre;2; $81.977 
+492;Banco BCI;2017;diciembre;1; $91.973 
+493;Banco BCI;2018;enero;4; $87.271 
+494;Banco BCI;2018;febrero;0; $- 
+495;Banco BCI;2018;marzo;0; $- 
+496;Banco BCI;2018;abril;4; $89.052 
+497;Banco BCI;2018;mayo;1; $77.765 
+498;Banco BCI;2018;junio;5; $15.680 
+499;Banco BCI;2018;julio;1; $96.495 
+500;Banco BCI;2018;agosto;5; $30.115 
+501;Banco BCI;2018;septiembre;0; $- 
+502;Banco BCI;2018;octubre;5; $82.566 
+503;Banco BCI;2018;noviembre;4; $61.878 
+504;Banco BCI;2018;diciembre;2; $10.074 
+505;Banco BCI;2019;enero;2; $74.856 
+506;Banco BCI;2019;febrero;5; $65.786 
+507;Banco BCI;2019;marzo;2; $5.504 
+508;Banco BCI;2019;abril;3; $10.959 
+509;Banco BCI;2019;mayo;0; $- 
+510;Banco BCI;2019;junio;5; $42.808 
+511;Banco BCI;2019;julio;1; $31.972 
+512;Banco BCI;2019;agosto;5; $72.428 
+513;Banco BCI;2019;septiembre;1; $52.853 
+514;Banco BCI;2019;octubre;5; $15.733 
+515;Banco BCI;2019;noviembre;1; $26.512 
+516;Banco BCI;2019;diciembre;3; $30.326 
+517;Banco BCI;2020;enero;0; $- 
+518;Banco BCI;2020;febrero;3; $60.728 
+519;Banco BCI;2020;marzo;4; $13.134 
+520;Banco BCI;2020;abril;3; $51.521 
+521;Banco BCI;2020;mayo;1; $32.280 
+522;Banco BCI;2020;junio;2; $72.455 
+523;Banco BCI;2020;julio;5; $18.548 
+524;Banco BCI;2020;agosto;5; $49.177 
+525;Banco BCI;2020;septiembre;2; $65.765 
+526;Banco BCI;2020;octubre;1; $55.877 
+527;Banco BCI;2020;noviembre;4; $73.450 
+528;Banco BCI;2020;diciembre;2; $29.365 
+529;Banco BCI;2021;enero;0; $- 
+530;Banco BCI;2021;febrero;0; $- 
+531;Banco BCI;2021;marzo;2; $96.600 
+532;Banco BCI;2021;abril;4; $48.110 
+533;Banco BCI;2021;mayo;4; $30.464 
+534;Banco BCI;2021;junio;0; $- 
+535;Banco BCI;2021;julio;5; $51.617 
+536;Banco BCI;2021;agosto;3; $11.732 
+537;Banco BCI;2021;septiembre;2; $98.399 
+538;Banco BCI;2021;octubre;2; $15.184 
+539;Banco BCI;2021;noviembre;1; $98.464 
+540;Banco BCI;2021;diciembre;0; $- 
+541;Banco BCI;2022;enero;4; $58.293 
+542;Banco BCI;2022;febrero;1; $53.765 
+543;Banco BCI;2022;marzo;4; $33.129 
+544;Banco BCI;2022;abril;1; $94.275 
+545;Banco BCI;2022;mayo;4; $62.333 
+546;Banco BCI;2022;junio;0; $- 
+547;Banco BCI;2022;julio;0; $- 
+548;Banco BCI;2022;agosto;4; $75.669 
+549;Banco BCI;2022;septiembre;4; $68.195 
+550;Banco BCI;2022;octubre;0; $- 
+551;Banco BCI;2022;noviembre;3; $90.844 
+552;Banco BCI;2022;diciembre;3; $11.216 
+553;Banco de Chile;2000;enero;1; $65.297 
+554;Banco de Chile;2000;febrero;5; $97.024 
+555;Banco de Chile;2000;marzo;2; $73.711 
+556;Banco de Chile;2000;abril;3; $11.053 
+557;Banco de Chile;2000;mayo;2; $7.905 
+558;Banco de Chile;2000;junio;2; $28.004 
+559;Banco de Chile;2000;julio;2; $30.662 
+560;Banco de Chile;2000;agosto;2; $5.297 
+561;Banco de Chile;2000;septiembre;3; $92.426 
+562;Banco de Chile;2000;octubre;4; $16.070 
+563;Banco de Chile;2000;noviembre;0; $- 
+564;Banco de Chile;2000;diciembre;3; $9.690 
+565;Banco de Chile;2001;enero;4; $11.292 
+566;Banco de Chile;2001;febrero;0; $- 
+567;Banco de Chile;2001;marzo;5; $9.241 
+568;Banco de Chile;2001;abril;2; $12.453 
+569;Banco de Chile;2001;mayo;5; $87.228 
+570;Banco de Chile;2001;junio;5; $72.537 
+571;Banco de Chile;2001;julio;3; $36.043 
+572;Banco de Chile;2001;agosto;0; $- 
+573;Banco de Chile;2001;septiembre;1; $22.660 
+574;Banco de Chile;2001;octubre;4; $53.233 
+575;Banco de Chile;2001;noviembre;1; $72.490 
+576;Banco de Chile;2001;diciembre;3; $15.117 
+577;Banco de Chile;2002;enero;1; $52.438 
+578;Banco de Chile;2002;febrero;2; $43.182 
+579;Banco de Chile;2002;marzo;1; $46.802 
+580;Banco de Chile;2002;abril;5; $23.641 
+581;Banco de Chile;2002;mayo;3; $53.527 
+582;Banco de Chile;2002;junio;1; $24.308 
+583;Banco de Chile;2002;julio;5; $29.086 
+584;Banco de Chile;2002;agosto;0; $- 
+585;Banco de Chile;2002;septiembre;2; $51.730 
+586;Banco de Chile;2002;octubre;2; $30.487 
+587;Banco de Chile;2002;noviembre;5; $56.515 
+588;Banco de Chile;2002;diciembre;1; $9.074 
+589;Banco de Chile;2003;enero;0; $- 
+590;Banco de Chile;2003;febrero;0; $- 
+591;Banco de Chile;2003;marzo;1; $89.783 
+592;Banco de Chile;2003;abril;4; $61.621 
+593;Banco de Chile;2003;mayo;2; $53.996 
+594;Banco de Chile;2003;junio;5; $95.419 
+595;Banco de Chile;2003;julio;5; $43.641 
+596;Banco de Chile;2003;agosto;4; $31.428 
+597;Banco de Chile;2003;septiembre;4; $86.469 
+598;Banco de Chile;2003;octubre;2; $99.662 
+599;Banco de Chile;2003;noviembre;0; $- 
+600;Banco de Chile;2003;diciembre;1; $5.801 
+601;Banco de Chile;2004;enero;1; $64.242 
+602;Banco de Chile;2004;febrero;5; $16.999 
+603;Banco de Chile;2004;marzo;0; $- 
+604;Banco de Chile;2004;abril;1; $18.850 
+605;Banco de Chile;2004;mayo;0; $- 
+606;Banco de Chile;2004;junio;1; $61.301 
+607;Banco de Chile;2004;julio;3; $35.108 
+608;Banco de Chile;2004;agosto;2; $13.724 
+609;Banco de Chile;2004;septiembre;0; $- 
+610;Banco de Chile;2004;octubre;2; $90.672 
+611;Banco de Chile;2004;noviembre;5; $78.434 
+612;Banco de Chile;2004;diciembre;5; $21.166 
+613;Banco de Chile;2005;enero;0; $- 
+614;Banco de Chile;2005;febrero;2; $22.575 
+615;Banco de Chile;2005;marzo;3; $13.453 
+616;Banco de Chile;2005;abril;1; $24.977 
+617;Banco de Chile;2005;mayo;4; $52.841 
+618;Banco de Chile;2005;junio;4; $27.181 
+619;Banco de Chile;2005;julio;2; $94.458 
+620;Banco de Chile;2005;agosto;4; $40.887 
+621;Banco de Chile;2005;septiembre;5; $95.470 
+622;Banco de Chile;2005;octubre;2; $81.539 
+623;Banco de Chile;2005;noviembre;1; $30.497 
+624;Banco de Chile;2005;diciembre;5; $10.694 
+625;Banco de Chile;2006;enero;0; $- 
+626;Banco de Chile;2006;febrero;2; $12.998 
+627;Banco de Chile;2006;marzo;4; $94.782 
+628;Banco de Chile;2006;abril;1; $88.645 
+629;Banco de Chile;2006;mayo;5; $91.989 
+630;Banco de Chile;2006;junio;3; $81.224 
+631;Banco de Chile;2006;julio;4; $32.566 
+632;Banco de Chile;2006;agosto;2; $43.499 
+633;Banco de Chile;2006;septiembre;4; $27.987 
+634;Banco de Chile;2006;octubre;1; $74.652 
+635;Banco de Chile;2006;noviembre;2; $39.515 
+636;Banco de Chile;2006;diciembre;0; $- 
+637;Banco de Chile;2007;enero;4; $13.126 
+638;Banco de Chile;2007;febrero;3; $96.896 
+639;Banco de Chile;2007;marzo;3; $53.379 
+640;Banco de Chile;2007;abril;0; $- 
+641;Banco de Chile;2007;mayo;5; $80.611 
+642;Banco de Chile;2007;junio;1; $33.968 
+643;Banco de Chile;2007;julio;2; $80.093 
+644;Banco de Chile;2007;agosto;3; $71.460 
+645;Banco de Chile;2007;septiembre;0; $- 
+646;Banco de Chile;2007;octubre;5; $54.530 
+647;Banco de Chile;2007;noviembre;5; $53.958 
+648;Banco de Chile;2007;diciembre;1; $47.831 
+649;Banco de Chile;2008;enero;4; $90.013 
+650;Banco de Chile;2008;febrero;1; $11.543 
+651;Banco de Chile;2008;marzo;5; $32.828 
+652;Banco de Chile;2008;abril;4; $68.901 
+653;Banco de Chile;2008;mayo;3; $79.590 
+654;Banco de Chile;2008;junio;1; $50.461 
+655;Banco de Chile;2008;julio;5; $16.862 
+656;Banco de Chile;2008;agosto;5; $20.956 
+657;Banco de Chile;2008;septiembre;4; $88.817 
+658;Banco de Chile;2008;octubre;1; $59.971 
+659;Banco de Chile;2008;noviembre;3; $14.505 
+660;Banco de Chile;2008;diciembre;2; $10.859 
+661;Banco de Chile;2009;enero;4; $46.615 
+662;Banco de Chile;2009;febrero;2; $27.797 
+663;Banco de Chile;2009;marzo;3; $60.532 
+664;Banco de Chile;2009;abril;5; $46.963 
+665;Banco de Chile;2009;mayo;3; $32.667 
+666;Banco de Chile;2009;junio;0; $- 
+667;Banco de Chile;2009;julio;5; $89.402 
+668;Banco de Chile;2009;agosto;5; $36.983 
+669;Banco de Chile;2009;septiembre;5; $22.165 
+670;Banco de Chile;2009;octubre;5; $94.663 
+671;Banco de Chile;2009;noviembre;5; $8.692 
+672;Banco de Chile;2009;diciembre;1; $19.056 
+673;Banco de Chile;2010;enero;4; $48.513 
+674;Banco de Chile;2010;febrero;5; $81.331 
+675;Banco de Chile;2010;marzo;4; $45.102 
+676;Banco de Chile;2010;abril;2; $9.990 
+677;Banco de Chile;2010;mayo;4; $18.311 
+678;Banco de Chile;2010;junio;5; $89.552 
+679;Banco de Chile;2010;julio;3; $79.300 
+680;Banco de Chile;2010;agosto;0; $- 
+681;Banco de Chile;2010;septiembre;1; $55.622 
+682;Banco de Chile;2010;octubre;3; $66.393 
+683;Banco de Chile;2010;noviembre;4; $35.193 
+684;Banco de Chile;2010;diciembre;2; $92.056 
+685;Banco de Chile;2011;enero;4; $35.777 
+686;Banco de Chile;2011;febrero;1; $36.583 
+687;Banco de Chile;2011;marzo;4; $79.074 
+688;Banco de Chile;2011;abril;2; $98.578 
+689;Banco de Chile;2011;mayo;3; $90.799 
+690;Banco de Chile;2011;junio;3; $75.085 
+691;Banco de Chile;2011;julio;2; $91.950 
+692;Banco de Chile;2011;agosto;2; $66.397 
+693;Banco de Chile;2011;septiembre;5; $52.237 
+694;Banco de Chile;2011;octubre;3; $5.440 
+695;Banco de Chile;2011;noviembre;1; $29.265 
+696;Banco de Chile;2011;diciembre;4; $73.827 
+697;Banco de Chile;2012;enero;0; $- 
+698;Banco de Chile;2012;febrero;1; $20.365 
+699;Banco de Chile;2012;marzo;2; $33.321 
+700;Banco de Chile;2012;abril;2; $36.825 
+701;Banco de Chile;2012;mayo;3; $83.663 
+702;Banco de Chile;2012;junio;4; $25.726 
+703;Banco de Chile;2012;julio;5; $53.505 
+704;Banco de Chile;2012;agosto;1; $6.774 
+705;Banco de Chile;2012;septiembre;2; $7.234 
+706;Banco de Chile;2012;octubre;3; $14.389 
+707;Banco de Chile;2012;noviembre;5; $31.821 
+708;Banco de Chile;2012;diciembre;2; $93.317 
+709;Banco de Chile;2013;enero;2; $49.779 
+710;Banco de Chile;2013;febrero;1; $29.043 
+711;Banco de Chile;2013;marzo;1; $36.842 
+712;Banco de Chile;2013;abril;0; $- 
+713;Banco de Chile;2013;mayo;1; $41.701 
+714;Banco de Chile;2013;junio;5; $25.396 
+715;Banco de Chile;2013;julio;2; $33.067 
+716;Banco de Chile;2013;agosto;2; $8.111 
+717;Banco de Chile;2013;septiembre;2; $39.295 
+718;Banco de Chile;2013;octubre;2; $49.286 
+719;Banco de Chile;2013;noviembre;4; $51.669 
+720;Banco de Chile;2013;diciembre;4; $63.843 
+721;Banco de Chile;2014;enero;1; $59.938 
+722;Banco de Chile;2014;febrero;4; $50.433 
+723;Banco de Chile;2014;marzo;2; $77.881 
+724;Banco de Chile;2014;abril;4; $80.094 
+725;Banco de Chile;2014;mayo;1; $50.235 
+726;Banco de Chile;2014;junio;2; $80.055 
+727;Banco de Chile;2014;julio;2; $83.727 
+728;Banco de Chile;2014;agosto;5; $27.088 
+729;Banco de Chile;2014;septiembre;5; $95.418 
+730;Banco de Chile;2014;octubre;3; $11.197 
+731;Banco de Chile;2014;noviembre;0; $- 
+732;Banco de Chile;2014;diciembre;3; $50.350 
+733;Banco de Chile;2015;enero;1; $50.274 
+734;Banco de Chile;2015;febrero;2; $32.228 
+735;Banco de Chile;2015;marzo;3; $27.752 
+736;Banco de Chile;2015;abril;3; $38.065 
+737;Banco de Chile;2015;mayo;4; $7.206 
+738;Banco de Chile;2015;junio;3; $84.758 
+739;Banco de Chile;2015;julio;5; $46.129 
+740;Banco de Chile;2015;agosto;1; $40.004 
+741;Banco de Chile;2015;septiembre;2; $72.949 
+742;Banco de Chile;2015;octubre;1; $18.011 
+743;Banco de Chile;2015;noviembre;1; $93.882 
+744;Banco de Chile;2015;diciembre;3; $46.738 
+745;Banco de Chile;2016;enero;4; $85.792 
+746;Banco de Chile;2016;febrero;1; $52.784 
+747;Banco de Chile;2016;marzo;0; $- 
+748;Banco de Chile;2016;abril;2; $46.527 
+749;Banco de Chile;2016;mayo;2; $35.537 
+750;Banco de Chile;2016;junio;4; $42.753 
+751;Banco de Chile;2016;julio;2; $87.808 
+752;Banco de Chile;2016;agosto;1; $77.495 
+753;Banco de Chile;2016;septiembre;1; $53.952 
+754;Banco de Chile;2016;octubre;0; $- 
+755;Banco de Chile;2016;noviembre;0; $- 
+756;Banco de Chile;2016;diciembre;0; $- 
+757;Banco de Chile;2017;enero;4; $6.144 
+758;Banco de Chile;2017;febrero;0; $- 
+759;Banco de Chile;2017;marzo;0; $- 
+760;Banco de Chile;2017;abril;3; $14.084 
+761;Banco de Chile;2017;mayo;1; $29.919 
+762;Banco de Chile;2017;junio;5; $14.584 
+763;Banco de Chile;2017;julio;4; $26.628 
+764;Banco de Chile;2017;agosto;3; $81.179 
+765;Banco de Chile;2017;septiembre;4; $84.914 
+766;Banco de Chile;2017;octubre;0; $- 
+767;Banco de Chile;2017;noviembre;2; $50.598 
+768;Banco de Chile;2017;diciembre;2; $26.528 
+769;Banco de Chile;2018;enero;5; $88.399 
+770;Banco de Chile;2018;febrero;3; $36.539 
+771;Banco de Chile;2018;marzo;3; $62.983 
+772;Banco de Chile;2018;abril;3; $52.798 
+773;Banco de Chile;2018;mayo;4; $19.010 
+774;Banco de Chile;2018;junio;0; $- 
+775;Banco de Chile;2018;julio;0; $- 
+776;Banco de Chile;2018;agosto;2; $45.962 
+777;Banco de Chile;2018;septiembre;2; $33.689 
+778;Banco de Chile;2018;octubre;2; $52.044 
+779;Banco de Chile;2018;noviembre;1; $8.368 
+780;Banco de Chile;2018;diciembre;3; $77.202 
+781;Banco de Chile;2019;enero;4; $93.226 
+782;Banco de Chile;2019;febrero;5; $65.179 
+783;Banco de Chile;2019;marzo;2; $83.793 
+784;Banco de Chile;2019;abril;3; $63.082 
+785;Banco de Chile;2019;mayo;5; $43.064 
+786;Banco de Chile;2019;junio;4; $78.406 
+787;Banco de Chile;2019;julio;4; $85.792 
+788;Banco de Chile;2019;agosto;0; $- 
+789;Banco de Chile;2019;septiembre;5; $21.627 
+790;Banco de Chile;2019;octubre;1; $98.112 
+791;Banco de Chile;2019;noviembre;4; $91.447 
+792;Banco de Chile;2019;diciembre;1; $29.431 
+793;Banco de Chile;2020;enero;0; $- 
+794;Banco de Chile;2020;febrero;2; $44.765 
+795;Banco de Chile;2020;marzo;5; $94.924 
+796;Banco de Chile;2020;abril;5; $66.300 
+797;Banco de Chile;2020;mayo;4; $29.290 
+798;Banco de Chile;2020;junio;3; $28.789 
+799;Banco de Chile;2020;julio;3; $98.720 
+800;Banco de Chile;2020;agosto;1; $97.595 
+801;Banco de Chile;2020;septiembre;2; $57.653 
+802;Banco de Chile;2020;octubre;0; $- 
+803;Banco de Chile;2020;noviembre;1; $40.995 
+804;Banco de Chile;2020;diciembre;2; $73.145 
+805;Banco de Chile;2021;enero;5; $25.889 
+806;Banco de Chile;2021;febrero;0; $- 
+807;Banco de Chile;2021;marzo;0; $- 
+808;Banco de Chile;2021;abril;4; $5.422 
+809;Banco de Chile;2021;mayo;5; $65.602 
+810;Banco de Chile;2021;junio;3; $11.067 
+811;Banco de Chile;2021;julio;0; $- 
+812;Banco de Chile;2021;agosto;3; $46.005 
+813;Banco de Chile;2021;septiembre;3; $90.234 
+814;Banco de Chile;2021;octubre;0; $- 
+815;Banco de Chile;2021;noviembre;2; $10.424 
+816;Banco de Chile;2021;diciembre;2; $8.044 
+817;Banco de Chile;2022;enero;5; $19.415 
+818;Banco de Chile;2022;febrero;1; $94.965 
+819;Banco de Chile;2022;marzo;3; $66.578 
+820;Banco de Chile;2022;abril;0; $- 
+821;Banco de Chile;2022;mayo;3; $26.368 
+822;Banco de Chile;2022;junio;2; $7.798 
+823;Banco de Chile;2022;julio;2; $27.691 
+824;Banco de Chile;2022;agosto;0; $- 
+825;Banco de Chile;2022;septiembre;1; $49.676 
+826;Banco de Chile;2022;octubre;3; $78.093 
+827;Banco de Chile;2022;noviembre;1; $61.833 
+828;Banco de Chile;2022;diciembre;4; $52.907 
+829;Banco de Chile;2000;enero;0; $- 
+830;Banco de Chile;2000;febrero;3; $96.224 
+831;Banco de Chile;2000;marzo;0; $- 
+832;Banco de Chile;2000;abril;2; $62.073 
+833;Banco de Chile;2000;mayo;2; $46.614 
+834;Banco de Chile;2000;junio;5; $65.012 
+835;Banco de Chile;2000;julio;4; $19.054 
+836;Banco de Chile;2000;agosto;4; $69.390 
+837;Banco de Chile;2000;septiembre;5; $68.415 
+838;Banco de Chile;2000;octubre;5; $70.113 
+839;Banco de Chile;2000;noviembre;5; $75.080 
+840;Banco de Chile;2000;diciembre;1; $7.306 
+841;Banco de Chile;2001;enero;2; $90.759 
+842;Banco de Chile;2001;febrero;2; $55.101 
+843;Banco de Chile;2001;marzo;4; $79.368 
+844;Banco de Chile;2001;abril;5; $31.626 
+845;Banco de Chile;2001;mayo;1; $49.292 
+846;Banco de Chile;2001;junio;0; $- 
+847;Banco de Chile;2001;julio;0; $- 
+848;Banco de Chile;2001;agosto;0; $- 
+849;Banco de Chile;2001;septiembre;2; $19.789 
+850;Banco de Chile;2001;octubre;5; $15.993 
+851;Banco de Chile;2001;noviembre;3; $6.990 
+852;Banco de Chile;2001;diciembre;5; $82.981 
+853;Banco de Chile;2002;enero;5; $89.456 
+854;Banco de Chile;2002;febrero;0; $- 
+855;Banco de Chile;2002;marzo;2; $87.759 
+856;Banco de Chile;2002;abril;5; $14.041 
+857;Banco de Chile;2002;mayo;4; $31.684 
+858;Banco de Chile;2002;junio;3; $82.430 
+859;Banco de Chile;2002;julio;4; $82.663 
+860;Banco de Chile;2002;agosto;2; $51.237 
+861;Banco de Chile;2002;septiembre;0; $- 
+862;Banco de Chile;2002;octubre;4; $50.936 
+863;Banco de Chile;2002;noviembre;5; $25.891 
+864;Banco de Chile;2002;diciembre;2; $65.141 
+865;Banco de Chile;2003;enero;2; $83.300 
+866;Banco de Chile;2003;febrero;2; $88.107 
+867;Banco de Chile;2003;marzo;3; $95.309 
+868;Banco de Chile;2003;abril;2; $49.100 
+869;Banco de Chile;2003;mayo;4; $45.607 
+870;Banco de Chile;2003;junio;2; $74.237 
+871;Banco de Chile;2003;julio;3; $30.864 
+872;Banco de Chile;2003;agosto;0; $- 
+873;Banco de Chile;2003;septiembre;1; $45.641 
+874;Banco de Chile;2003;octubre;1; $96.795 
+875;Banco de Chile;2003;noviembre;0; $- 
+876;Banco de Chile;2003;diciembre;5; $74.100 
+877;Banco de Chile;2004;enero;1; $41.241 
+878;Banco de Chile;2004;febrero;5; $34.629 
+879;Banco de Chile;2004;marzo;3; $7.141 
+880;Banco de Chile;2004;abril;3; $51.271 
+881;Banco de Chile;2004;mayo;2; $52.826 
+882;Banco de Chile;2004;junio;5; $45.359 
+883;Banco de Chile;2004;julio;1; $34.231 
+884;Banco de Chile;2004;agosto;3; $98.409 
+885;Banco de Chile;2004;septiembre;1; $48.638 
+886;Banco de Chile;2004;octubre;5; $29.360 
+887;Banco de Chile;2004;noviembre;5; $41.936 
+888;Banco de Chile;2004;diciembre;4; $69.813 
+889;Banco de Chile;2005;enero;5; $20.685 
+890;Banco de Chile;2005;febrero;4; $65.366 
+891;Banco de Chile;2005;marzo;0; $- 
+892;Banco de Chile;2005;abril;0; $- 
+893;Banco de Chile;2005;mayo;4; $73.382 
+894;Banco de Chile;2005;junio;0; $- 
+895;Banco de Chile;2005;julio;0; $- 
+896;Banco de Chile;2005;agosto;2; $30.549 
+897;Banco de Chile;2005;septiembre;1; $78.687 
+898;Banco de Chile;2005;octubre;1; $27.973 
+899;Banco de Chile;2005;noviembre;5; $32.290 
+900;Banco de Chile;2005;diciembre;4; $31.894 
+901;Banco de Chile;2006;enero;3; $89.814 
+902;Banco de Chile;2006;febrero;1; $49.878 
+903;Banco de Chile;2006;marzo;2; $84.640 
+904;Banco de Chile;2006;abril;1; $87.409 
+905;Banco de Chile;2006;mayo;5; $68.066 
+906;Banco de Chile;2006;junio;3; $48.299 
+907;Banco de Chile;2006;julio;3; $5.499 
+908;Banco de Chile;2006;agosto;0; $- 
+909;Banco de Chile;2006;septiembre;1; $63.974 
+910;Banco de Chile;2006;octubre;5; $48.125 
+911;Banco de Chile;2006;noviembre;4; $47.869 
+912;Banco de Chile;2006;diciembre;4; $52.459 
+913;Banco de Chile;2007;enero;2; $6.575 
+914;Banco de Chile;2007;febrero;2; $95.426 
+915;Banco de Chile;2007;marzo;5; $77.371 
+916;Banco de Chile;2007;abril;5; $52.938 
+917;Banco de Chile;2007;mayo;1; $58.773 
+918;Banco de Chile;2007;junio;0; $- 
+919;Banco de Chile;2007;julio;1; $53.001 
+920;Banco de Chile;2007;agosto;1; $55.210 
+921;Banco de Chile;2007;septiembre;1; $45.348 
+922;Banco de Chile;2007;octubre;5; $17.689 
+923;Banco de Chile;2007;noviembre;2; $44.559 
+924;Banco de Chile;2007;diciembre;1; $97.851 
+925;Banco de Chile;2008;enero;2; $54.398 
+926;Banco de Chile;2008;febrero;5; $46.482 
+927;Banco de Chile;2008;marzo;0; $- 
+928;Banco de Chile;2008;abril;0; $- 
+929;Banco de Chile;2008;mayo;5; $34.526 
+930;Banco de Chile;2008;junio;2; $14.101 
+931;Banco de Chile;2008;julio;4; $10.673 
+932;Banco de Chile;2008;agosto;0; $- 
+933;Banco de Chile;2008;septiembre;3; $54.748 
+934;Banco de Chile;2008;octubre;1; $57.889 
+935;Banco de Chile;2008;noviembre;2; $35.914 
+936;Banco de Chile;2008;diciembre;2; $64.751 
+937;Banco de Chile;2009;enero;1; $28.378 
+938;Banco de Chile;2009;febrero;1; $23.148 
+939;Banco de Chile;2009;marzo;3; $67.569 
+940;Banco de Chile;2009;abril;0; $- 
+941;Banco de Chile;2009;mayo;0; $- 
+942;Banco de Chile;2009;junio;2; $82.571 
+943;Banco de Chile;2009;julio;1; $97.494 
+944;Banco de Chile;2009;agosto;1; $51.873 
+945;Banco de Chile;2009;septiembre;0; $- 
+946;Banco de Chile;2009;octubre;5; $86.479 
+947;Banco de Chile;2009;noviembre;2; $15.256 
+948;Banco de Chile;2009;diciembre;5; $89.164 
+949;Banco de Chile;2010;enero;4; $16.139 
+950;Banco de Chile;2010;febrero;4; $45.723 
+951;Banco de Chile;2010;marzo;2; $78.201 
+952;Banco de Chile;2010;abril;3; $76.538 
+953;Banco de Chile;2010;mayo;4; $67.116 
+954;Banco de Chile;2010;junio;3; $35.449 
+955;Banco de Chile;2010;julio;3; $59.694 
+956;Banco de Chile;2010;agosto;5; $85.210 
+957;Banco de Chile;2010;septiembre;1; $15.696 
+958;Banco de Chile;2010;octubre;4; $85.140 
+959;Banco de Chile;2010;noviembre;1; $45.112 
+960;Banco de Chile;2010;diciembre;2; $94.981 
+961;Banco de Chile;2011;enero;0; $- 
+962;Banco de Chile;2011;febrero;3; $79.008 
+963;Banco de Chile;2011;marzo;1; $16.248 
+964;Banco de Chile;2011;abril;3; $94.561 
+965;Banco de Chile;2011;mayo;0; $- 
+966;Banco de Chile;2011;junio;4; $29.685 
+967;Banco de Chile;2011;julio;2; $33.348 
+968;Banco de Chile;2011;agosto;0; $- 
+969;Banco de Chile;2011;septiembre;3; $20.627 
+970;Banco de Chile;2011;octubre;1; $51.667 
+971;Banco de Chile;2011;noviembre;3; $69.919 
+972;Banco de Chile;2011;diciembre;2; $57.298 
+973;Banco de Chile;2012;enero;3; $75.036 
+974;Banco de Chile;2012;febrero;3; $23.373 
+975;Banco de Chile;2012;marzo;3; $91.491 
+976;Banco de Chile;2012;abril;1; $81.650 
+977;Banco de Chile;2012;mayo;5; $94.139 
+978;Banco de Chile;2012;junio;5; $11.068 
+979;Banco de Chile;2012;julio;3; $83.043 
+980;Banco de Chile;2012;agosto;4; $19.101 
+981;Banco de Chile;2012;septiembre;4; $24.880 
+982;Banco de Chile;2012;octubre;4; $80.826 
+983;Banco de Chile;2012;noviembre;0; $- 
+984;Banco de Chile;2012;diciembre;3; $87.578 
+985;Banco de Chile;2013;enero;1; $7.553 
+986;Banco de Chile;2013;febrero;5; $15.282 
+987;Banco de Chile;2013;marzo;4; $86.988 
+988;Banco de Chile;2013;abril;5; $30.944 
+989;Banco de Chile;2013;mayo;0; $- 
+990;Banco de Chile;2013;junio;2; $11.815 
+991;Banco de Chile;2013;julio;2; $24.997 
+992;Banco de Chile;2013;agosto;3; $82.701 
+993;Banco de Chile;2013;septiembre;0; $- 
+994;Banco de Chile;2013;octubre;4; $29.021 
+995;Banco de Chile;2013;noviembre;2; $50.539 
+996;Banco de Chile;2013;diciembre;4; $98.021 
+997;Banco de Chile;2014;enero;5; $35.685 
+998;Banco de Chile;2014;febrero;4; $25.914 
+999;Banco de Chile;2014;marzo;1; $49.396 
+1000;Banco de Chile;2014;abril;4; $68.871 
+1001;Banco de Chile;2014;mayo;2; $26.589 
+1002;Banco de Chile;2014;junio;5; $66.998 
+1003;Banco de Chile;2014;julio;5; $39.004 
+1004;Banco de Chile;2014;agosto;3; $59.611 
+1005;Banco de Chile;2014;septiembre;5; $68.662 
+1006;Banco de Chile;2014;octubre;2; $39.856 
+1007;Banco de Chile;2014;noviembre;1; $12.732 
+1008;Banco de Chile;2014;diciembre;4; $6.976 
+1009;Banco de Chile;2015;enero;3; $6.024 
+1010;Banco de Chile;2015;febrero;3; $31.504 
+1011;Banco de Chile;2015;marzo;4; $21.018 
+1012;Banco de Chile;2015;abril;2; $30.267 
+1013;Banco de Chile;2015;mayo;3; $26.816 
+1014;Banco de Chile;2015;junio;0; $- 
+1015;Banco de Chile;2015;julio;0; $- 
+1016;Banco de Chile;2015;agosto;0; $- 
+1017;Banco de Chile;2015;septiembre;0; $- 
+1018;Banco de Chile;2015;octubre;2; $96.040 
+1019;Banco de Chile;2015;noviembre;0; $- 
+1020;Banco de Chile;2015;diciembre;1; $27.032 
+1021;Banco de Chile;2016;enero;5; $43.842 
+1022;Banco de Chile;2016;febrero;0; $- 
+1023;Banco de Chile;2016;marzo;4; $17.582 
+1024;Banco de Chile;2016;abril;5; $63.228 
+1025;Banco de Chile;2016;mayo;4; $51.416 
+1026;Banco de Chile;2016;junio;4; $74.618 
+1027;Banco de Chile;2016;julio;4; $65.912 
+1028;Banco de Chile;2016;agosto;0; $- 
+1029;Banco de Chile;2016;septiembre;3; $21.303 
+1030;Banco de Chile;2016;octubre;4; $74.081 
+1031;Banco de Chile;2016;noviembre;1; $44.927 
+1032;Banco de Chile;2016;diciembre;4; $72.843 
+1033;Banco de Chile;2017;enero;3; $86.246 
+1034;Banco de Chile;2017;febrero;2; $91.050 
+1035;Banco de Chile;2017;marzo;1; $72.296 
+1036;Banco de Chile;2017;abril;1; $52.528 
+1037;Banco de Chile;2017;mayo;2; $56.426 
+1038;Banco de Chile;2017;junio;3; $27.529 
+1039;Banco de Chile;2017;julio;1; $84.778 
+1040;Banco de Chile;2017;agosto;3; $34.771 
+1041;Banco de Chile;2017;septiembre;5; $85.071 
+1042;Banco de Chile;2017;octubre;5; $71.988 
+1043;Banco de Chile;2017;noviembre;1; $62.632 
+1044;Banco de Chile;2017;diciembre;3; $75.975 
+1045;Banco de Chile;2018;enero;3; $78.631 
+1046;Banco de Chile;2018;febrero;1; $33.001 
+1047;Banco de Chile;2018;marzo;4; $55.040 
+1048;Banco de Chile;2018;abril;3; $15.134 
+1049;Banco de Chile;2018;mayo;2; $56.116 
+1050;Banco de Chile;2018;junio;4; $83.630 
+1051;Banco de Chile;2018;julio;1; $9.890 
+1052;Banco de Chile;2018;agosto;2; $58.167 
+1053;Banco de Chile;2018;septiembre;1; $58.573 
+1054;Banco de Chile;2018;octubre;4; $19.558 
+1055;Banco de Chile;2018;noviembre;5; $13.984 
+1056;Banco de Chile;2018;diciembre;4; $25.849 
+1057;Banco de Chile;2019;enero;4; $33.549 
+1058;Banco de Chile;2019;febrero;2; $53.999 
+1059;Banco de Chile;2019;marzo;1; $58.666 
+1060;Banco de Chile;2019;abril;3; $21.391 
+1061;Banco de Chile;2019;mayo;1; $10.685 
+1062;Banco de Chile;2019;junio;1; $70.861 
+1063;Banco de Chile;2019;julio;2; $96.992 
+1064;Banco de Chile;2019;agosto;3; $83.877 
+1065;Banco de Chile;2019;septiembre;1; $61.127 
+1066;Banco de Chile;2019;octubre;4; $37.910 
+1067;Banco de Chile;2019;noviembre;0; $- 
+1068;Banco de Chile;2019;diciembre;4; $71.330 
+1069;Banco de Chile;2020;enero;1; $19.640 
+1070;Banco de Chile;2020;febrero;3; $84.504 
+1071;Banco de Chile;2020;marzo;2; $48.248 
+1072;Banco de Chile;2020;abril;2; $78.866 
+1073;Banco de Chile;2020;mayo;2; $9.481 
+1074;Banco de Chile;2020;junio;1; $26.489 
+1075;Banco de Chile;2020;julio;1; $84.783 
+1076;Banco de Chile;2020;agosto;4; $63.826 
+1077;Banco de Chile;2020;septiembre;3; $17.757 
+1078;Banco de Chile;2020;octubre;0; $- 
+1079;Banco de Chile;2020;noviembre;2; $54.874 
+1080;Banco de Chile;2020;diciembre;1; $70.101 
+1081;Banco de Chile;2021;enero;5; $40.500 
+1082;Banco de Chile;2021;febrero;4; $71.585 
+1083;Banco de Chile;2021;marzo;3; $97.555 
+1084;Banco de Chile;2021;abril;3; $41.343 
+1085;Banco de Chile;2021;mayo;3; $24.678 
+1086;Banco de Chile;2021;junio;0; $- 
+1087;Banco de Chile;2021;julio;3; $73.279 
+1088;Banco de Chile;2021;agosto;4; $90.605 
+1089;Banco de Chile;2021;septiembre;1; $37.546 
+1090;Banco de Chile;2021;octubre;4; $81.098 
+1091;Banco de Chile;2021;noviembre;0; $- 
+1092;Banco de Chile;2021;diciembre;4; $62.620 
+1093;Banco de Chile;2022;enero;2; $42.519 
+1094;Banco de Chile;2022;febrero;0; $- 
+1095;Banco de Chile;2022;marzo;0; $- 
+1096;Banco de Chile;2022;abril;5; $21.092 
+1097;Banco de Chile;2022;mayo;1; $72.406 
+1098;Banco de Chile;2022;junio;5; $40.487 
+1099;Banco de Chile;2022;julio;2; $7.597 
+1100;Banco de Chile;2022;agosto;1; $10.138 
+1101;Banco de Chile;2022;septiembre;2; $62.232 
+1102;Banco de Chile;2022;octubre;0; $- 
+1103;Banco de Chile;2022;noviembre;5; $27.841 
+1104;Banco de Chile;2022;diciembre;2; $64.510 
+1105;Banco Falabella;2000;enero;4; $29.986 
+1106;Banco Falabella;2000;febrero;5; $14.177 
+1107;Banco Falabella;2000;marzo;1; $68.617 
+1108;Banco Falabella;2000;abril;0; $- 
+1109;Banco Falabella;2000;mayo;2; $25.626 
+1110;Banco Falabella;2000;junio;4; $54.934 
+1111;Banco Falabella;2000;julio;3; $35.681 
+1112;Banco Falabella;2000;agosto;2; $26.682 
+1113;Banco Falabella;2000;septiembre;1; $19.715 
+1114;Banco Falabella;2000;octubre;0; $- 
+1115;Banco Falabella;2000;noviembre;3; $86.489 
+1116;Banco Falabella;2000;diciembre;4; $46.703 
+1117;Banco Falabella;2001;enero;0; $- 
+1118;Banco Falabella;2001;febrero;5; $9.699 
+1119;Banco Falabella;2001;marzo;3; $10.683 
+1120;Banco Falabella;2001;abril;5; $40.242 
+1121;Banco Falabella;2001;mayo;5; $82.723 
+1122;Banco Falabella;2001;junio;2; $79.311 
+1123;Banco Falabella;2001;julio;4; $56.340 
+1124;Banco Falabella;2001;agosto;1; $46.302 
+1125;Banco Falabella;2001;septiembre;5; $8.564 
+1126;Banco Falabella;2001;octubre;4; $6.916 
+1127;Banco Falabella;2001;noviembre;4; $27.803 
+1128;Banco Falabella;2001;diciembre;5; $93.140 
+1129;Banco Falabella;2002;enero;0; $- 
+1130;Banco Falabella;2002;febrero;4; $62.998 
+1131;Banco Falabella;2002;marzo;1; $25.045 
+1132;Banco Falabella;2002;abril;5; $34.489 
+1133;Banco Falabella;2002;mayo;3; $6.007 
+1134;Banco Falabella;2002;junio;4; $53.600 
+1135;Banco Falabella;2002;julio;1; $90.917 
+1136;Banco Falabella;2002;agosto;1; $98.373 
+1137;Banco Falabella;2002;septiembre;0; $- 
+1138;Banco Falabella;2002;octubre;4; $93.152 
+1139;Banco Falabella;2002;noviembre;0; $- 
+1140;Banco Falabella;2002;diciembre;1; $55.719 
+1141;Banco Falabella;2003;enero;2; $43.540 
+1142;Banco Falabella;2003;febrero;0; $- 
+1143;Banco Falabella;2003;marzo;2; $29.896 
+1144;Banco Falabella;2003;abril;4; $21.572 
+1145;Banco Falabella;2003;mayo;1; $79.963 
+1146;Banco Falabella;2003;junio;1; $20.743 
+1147;Banco Falabella;2003;julio;5; $19.575 
+1148;Banco Falabella;2003;agosto;4; $61.160 
+1149;Banco Falabella;2003;septiembre;5; $89.132 
+1150;Banco Falabella;2003;octubre;2; $95.077 
+1151;Banco Falabella;2003;noviembre;1; $99.206 
+1152;Banco Falabella;2003;diciembre;3; $93.909 
+1153;Banco Falabella;2004;enero;2; $41.943 
+1154;Banco Falabella;2004;febrero;3; $88.599 
+1155;Banco Falabella;2004;marzo;0; $- 
+1156;Banco Falabella;2004;abril;3; $36.245 
+1157;Banco Falabella;2004;mayo;0; $- 
+1158;Banco Falabella;2004;junio;3; $53.029 
+1159;Banco Falabella;2004;julio;4; $30.865 
+1160;Banco Falabella;2004;agosto;0; $- 
+1161;Banco Falabella;2004;septiembre;1; $40.326 
+1162;Banco Falabella;2004;octubre;3; $68.089 
+1163;Banco Falabella;2004;noviembre;4; $90.624 
+1164;Banco Falabella;2004;diciembre;4; $67.440 
+1165;Banco Falabella;2005;enero;5; $10.453 
+1166;Banco Falabella;2005;febrero;1; $29.073 
+1167;Banco Falabella;2005;marzo;2; $64.362 
+1168;Banco Falabella;2005;abril;0; $- 
+1169;Banco Falabella;2005;mayo;4; $11.376 
+1170;Banco Falabella;2005;junio;0; $- 
+1171;Banco Falabella;2005;julio;3; $23.408 
+1172;Banco Falabella;2005;agosto;1; $19.136 
+1173;Banco Falabella;2005;septiembre;5; $28.612 
+1174;Banco Falabella;2005;octubre;4; $89.451 
+1175;Banco Falabella;2005;noviembre;0; $- 
+1176;Banco Falabella;2005;diciembre;3; $50.232 
+1177;Banco Falabella;2006;enero;2; $62.680 
+1178;Banco Falabella;2006;febrero;2; $53.740 
+1179;Banco Falabella;2006;marzo;2; $10.616 
+1180;Banco Falabella;2006;abril;4; $35.385 
+1181;Banco Falabella;2006;mayo;2; $68.262 
+1182;Banco Falabella;2006;junio;5; $87.297 
+1183;Banco Falabella;2006;julio;2; $40.402 
+1184;Banco Falabella;2006;agosto;1; $83.126 
+1185;Banco Falabella;2006;septiembre;2; $25.292 
+1186;Banco Falabella;2006;octubre;1; $46.555 
+1187;Banco Falabella;2006;noviembre;5; $83.578 
+1188;Banco Falabella;2006;diciembre;5; $68.070 
+1189;Banco Falabella;2007;enero;4; $39.734 
+1190;Banco Falabella;2007;febrero;2; $83.003 
+1191;Banco Falabella;2007;marzo;2; $36.829 
+1192;Banco Falabella;2007;abril;1; $60.467 
+1193;Banco Falabella;2007;mayo;2; $34.905 
+1194;Banco Falabella;2007;junio;2; $39.014 
+1195;Banco Falabella;2007;julio;3; $47.694 
+1196;Banco Falabella;2007;agosto;1; $42.539 
+1197;Banco Falabella;2007;septiembre;4; $74.617 
+1198;Banco Falabella;2007;octubre;1; $8.608 
+1199;Banco Falabella;2007;noviembre;3; $86.498 
+1200;Banco Falabella;2007;diciembre;0; $- 
+1201;Banco Falabella;2008;enero;3; $85.510 
+1202;Banco Falabella;2008;febrero;1; $93.034 
+1203;Banco Falabella;2008;marzo;4; $23.446 
+1204;Banco Falabella;2008;abril;3; $48.612 
+1205;Banco Falabella;2008;mayo;5; $29.842 
+1206;Banco Falabella;2008;junio;3; $96.655 
+1207;Banco Falabella;2008;julio;1; $96.110 
+1208;Banco Falabella;2008;agosto;3; $8.553 
+1209;Banco Falabella;2008;septiembre;3; $55.043 
+1210;Banco Falabella;2008;octubre;5; $31.256 
+1211;Banco Falabella;2008;noviembre;2; $14.828 
+1212;Banco Falabella;2008;diciembre;0; $- 
+1213;Banco Falabella;2009;enero;2; $49.587 
+1214;Banco Falabella;2009;febrero;4; $11.513 
+1215;Banco Falabella;2009;marzo;1; $62.315 
+1216;Banco Falabella;2009;abril;3; $85.754 
+1217;Banco Falabella;2009;mayo;5; $86.146 
+1218;Banco Falabella;2009;junio;0; $- 
+1219;Banco Falabella;2009;julio;4; $52.437 
+1220;Banco Falabella;2009;agosto;3; $53.027 
+1221;Banco Falabella;2009;septiembre;5; $92.476 
+1222;Banco Falabella;2009;octubre;0; $- 
+1223;Banco Falabella;2009;noviembre;2; $7.571 
+1224;Banco Falabella;2009;diciembre;2; $18.649 
+1225;Banco Falabella;2010;enero;5; $37.600 
+1226;Banco Falabella;2010;febrero;3; $71.005 
+1227;Banco Falabella;2010;marzo;1; $30.803 
+1228;Banco Falabella;2010;abril;5; $67.814 
+1229;Banco Falabella;2010;mayo;0; $- 
+1230;Banco Falabella;2010;junio;2; $46.987 
+1231;Banco Falabella;2010;julio;3; $24.859 
+1232;Banco Falabella;2010;agosto;4; $20.205 
+1233;Banco Falabella;2010;septiembre;2; $31.589 
+1234;Banco Falabella;2010;octubre;5; $33.781 
+1235;Banco Falabella;2010;noviembre;4; $78.219 
+1236;Banco Falabella;2010;diciembre;3; $65.790 
+1237;Banco Falabella;2011;enero;4; $48.454 
+1238;Banco Falabella;2011;febrero;1; $17.789 
+1239;Banco Falabella;2011;marzo;2; $31.582 
+1240;Banco Falabella;2011;abril;4; $32.867 
+1241;Banco Falabella;2011;mayo;2; $38.934 
+1242;Banco Falabella;2011;junio;2; $98.540 
+1243;Banco Falabella;2011;julio;1; $85.970 
+1244;Banco Falabella;2011;agosto;0; $- 
+1245;Banco Falabella;2011;septiembre;1; $53.282 
+1246;Banco Falabella;2011;octubre;4; $15.107 
+1247;Banco Falabella;2011;noviembre;3; $90.638 
+1248;Banco Falabella;2011;diciembre;5; $20.763 
+1249;Banco Falabella;2012;enero;3; $23.624 
+1250;Banco Falabella;2012;febrero;4; $34.529 
+1251;Banco Falabella;2012;marzo;1; $23.673 
+1252;Banco Falabella;2012;abril;1; $52.818 
+1253;Banco Falabella;2012;mayo;2; $91.319 
+1254;Banco Falabella;2012;junio;0; $- 
+1255;Banco Falabella;2012;julio;4; $38.223 
+1256;Banco Falabella;2012;agosto;2; $73.159 
+1257;Banco Falabella;2012;septiembre;2; $57.744 
+1258;Banco Falabella;2012;octubre;1; $13.499 
+1259;Banco Falabella;2012;noviembre;2; $50.408 
+1260;Banco Falabella;2012;diciembre;0; $- 
+1261;Banco Falabella;2013;enero;4; $75.160 
+1262;Banco Falabella;2013;febrero;0; $- 
+1263;Banco Falabella;2013;marzo;4; $86.075 
+1264;Banco Falabella;2013;abril;0; $- 
+1265;Banco Falabella;2013;mayo;5; $10.481 
+1266;Banco Falabella;2013;junio;3; $77.397 
+1267;Banco Falabella;2013;julio;3; $41.809 
+1268;Banco Falabella;2013;agosto;1; $97.132 
+1269;Banco Falabella;2013;septiembre;1; $20.833 
+1270;Banco Falabella;2013;octubre;0; $- 
+1271;Banco Falabella;2013;noviembre;5; $74.208 
+1272;Banco Falabella;2013;diciembre;2; $94.498 
+1273;Banco Falabella;2014;enero;5; $67.703 
+1274;Banco Falabella;2014;febrero;2; $86.118 
+1275;Banco Falabella;2014;marzo;2; $27.435 
+1276;Banco Falabella;2014;abril;2; $97.793 
+1277;Banco Falabella;2014;mayo;0; $- 
+1278;Banco Falabella;2014;junio;5; $58.176 
+1279;Banco Falabella;2014;julio;1; $8.799 
+1280;Banco Falabella;2014;agosto;1; $44.222 
+1281;Banco Falabella;2014;septiembre;4; $33.760 
+1282;Banco Falabella;2014;octubre;0; $- 
+1283;Banco Falabella;2014;noviembre;4; $27.965 
+1284;Banco Falabella;2014;diciembre;2; $7.114 
+1285;Banco Falabella;2015;enero;2; $60.739 
+1286;Banco Falabella;2015;febrero;0; $- 
+1287;Banco Falabella;2015;marzo;0; $- 
+1288;Banco Falabella;2015;abril;5; $55.840 
+1289;Banco Falabella;2015;mayo;0; $- 
+1290;Banco Falabella;2015;junio;4; $65.539 
+1291;Banco Falabella;2015;julio;2; $45.794 
+1292;Banco Falabella;2015;agosto;2; $35.875 
+1293;Banco Falabella;2015;septiembre;5; $28.203 
+1294;Banco Falabella;2015;octubre;5; $39.881 
+1295;Banco Falabella;2015;noviembre;1; $50.544 
+1296;Banco Falabella;2015;diciembre;1; $20.852 
+1297;Banco Falabella;2016;enero;5; $80.207 
+1298;Banco Falabella;2016;febrero;2; $15.835 
+1299;Banco Falabella;2016;marzo;2; $55.294 
+1300;Banco Falabella;2016;abril;3; $69.808 
+1301;Banco Falabella;2016;mayo;0; $- 
+1302;Banco Falabella;2016;junio;5; $45.774 
+1303;Banco Falabella;2016;julio;2; $27.267 
+1304;Banco Falabella;2016;agosto;2; $42.428 
+1305;Banco Falabella;2016;septiembre;0; $- 
+1306;Banco Falabella;2016;octubre;4; $8.322 
+1307;Banco Falabella;2016;noviembre;1; $21.760 
+1308;Banco Falabella;2016;diciembre;2; $90.996 
+1309;Banco Falabella;2017;enero;1; $95.494 
+1310;Banco Falabella;2017;febrero;4; $68.244 
+1311;Banco Falabella;2017;marzo;0; $- 
+1312;Banco Falabella;2017;abril;4; $50.992 
+1313;Banco Falabella;2017;mayo;1; $76.309 
+1314;Banco Falabella;2017;junio;0; $- 
+1315;Banco Falabella;2017;julio;4; $71.102 
+1316;Banco Falabella;2017;agosto;3; $35.493 
+1317;Banco Falabella;2017;septiembre;0; $- 
+1318;Banco Falabella;2017;octubre;5; $21.318 
+1319;Banco Falabella;2017;noviembre;0; $- 
+1320;Banco Falabella;2017;diciembre;5; $72.678 
+1321;Banco Falabella;2018;enero;5; $73.251 
+1322;Banco Falabella;2018;febrero;0; $- 
+1323;Banco Falabella;2018;marzo;1; $80.393 
+1324;Banco Falabella;2018;abril;3; $47.503 
+1325;Banco Falabella;2018;mayo;0; $- 
+1326;Banco Falabella;2018;junio;2; $33.478 
+1327;Banco Falabella;2018;julio;4; $58.352 
+1328;Banco Falabella;2018;agosto;1; $78.108 
+1329;Banco Falabella;2018;septiembre;5; $77.677 
+1330;Banco Falabella;2018;octubre;1; $94.492 
+1331;Banco Falabella;2018;noviembre;5; $47.344 
+1332;Banco Falabella;2018;diciembre;3; $28.318 
+1333;Banco Falabella;2019;enero;0; $- 
+1334;Banco Falabella;2019;febrero;2; $77.226 
+1335;Banco Falabella;2019;marzo;2; $55.421 
+1336;Banco Falabella;2019;abril;3; $73.684 
+1337;Banco Falabella;2019;mayo;5; $32.722 
+1338;Banco Falabella;2019;junio;4; $58.435 
+1339;Banco Falabella;2019;julio;4; $25.017 
+1340;Banco Falabella;2019;agosto;2; $95.782 
+1341;Banco Falabella;2019;septiembre;0; $- 
+1342;Banco Falabella;2019;octubre;3; $87.149 
+1343;Banco Falabella;2019;noviembre;5; $87.255 
+1344;Banco Falabella;2019;diciembre;2; $36.091 
+1345;Banco Falabella;2020;enero;0; $- 
+1346;Banco Falabella;2020;febrero;5; $69.776 
+1347;Banco Falabella;2020;marzo;1; $46.583 
+1348;Banco Falabella;2020;abril;3; $65.015 
+1349;Banco Falabella;2020;mayo;4; $8.517 
+1350;Banco Falabella;2020;junio;3; $62.548 
+1351;Banco Falabella;2020;julio;5; $19.354 
+1352;Banco Falabella;2020;agosto;1; $99.620 
+1353;Banco Falabella;2020;septiembre;0; $- 
+1354;Banco Falabella;2020;octubre;3; $12.447 
+1355;Banco Falabella;2020;noviembre;5; $80.300 
+1356;Banco Falabella;2020;diciembre;0; $- 
+1357;Banco Falabella;2021;enero;0; $- 
+1358;Banco Falabella;2021;febrero;0; $- 
+1359;Banco Falabella;2021;marzo;2; $81.669 
+1360;Banco Falabella;2021;abril;0; $- 
+1361;Banco Falabella;2021;mayo;4; $80.664 
+1362;Banco Falabella;2021;junio;4; $12.723 
+1363;Banco Falabella;2021;julio;4; $71.745 
+1364;Banco Falabella;2021;agosto;4; $91.036 
+1365;Banco Falabella;2021;septiembre;4; $69.818 
+1366;Banco Falabella;2021;octubre;1; $70.864 
+1367;Banco Falabella;2021;noviembre;4; $15.857 
+1368;Banco Falabella;2021;diciembre;5; $72.883 
+1369;Banco Falabella;2022;enero;4; $66.714 
+1370;Banco Falabella;2022;febrero;0; $- 
+1371;Banco Falabella;2022;marzo;1; $80.135 
+1372;Banco Falabella;2022;abril;0; $- 
+1373;Banco Falabella;2022;mayo;5; $31.574 
+1374;Banco Falabella;2022;junio;4; $88.677 
+1375;Banco Falabella;2022;julio;0; $- 
+1376;Banco Falabella;2022;agosto;0; $- 
+1377;Banco Falabella;2022;septiembre;0; $- 
+1378;Banco Falabella;2022;octubre;1; $6.710 
+1379;Banco Falabella;2022;noviembre;2; $92.410 
+1380;Banco Falabella;2022;diciembre;1; $23.696 
+1381;Banco Internacional;2000;enero;4; $44.438 
+1382;Banco Internacional;2000;febrero;0; $- 
+1383;Banco Internacional;2000;marzo;2; $81.960 
+1384;Banco Internacional;2000;abril;4; $83.869 
+1385;Banco Internacional;2000;mayo;0; $- 
+1386;Banco Internacional;2000;junio;0; $- 
+1387;Banco Internacional;2000;julio;1; $56.504 
+1388;Banco Internacional;2000;agosto;3; $80.054 
+1389;Banco Internacional;2000;septiembre;1; $10.452 
+1390;Banco Internacional;2000;octubre;1; $77.389 
+1391;Banco Internacional;2000;noviembre;5; $55.909 
+1392;Banco Internacional;2000;diciembre;0; $- 
+1393;Banco Internacional;2001;enero;3; $28.484 
+1394;Banco Internacional;2001;febrero;5; $32.943 
+1395;Banco Internacional;2001;marzo;4; $60.656 
+1396;Banco Internacional;2001;abril;5; $62.850 
+1397;Banco Internacional;2001;mayo;3; $82.546 
+1398;Banco Internacional;2001;junio;4; $27.653 
+1399;Banco Internacional;2001;julio;1; $74.408 
+1400;Banco Internacional;2001;agosto;4; $97.550 
+1401;Banco Internacional;2001;septiembre;2; $68.023 
+1402;Banco Internacional;2001;octubre;3; $52.843 
+1403;Banco Internacional;2001;noviembre;3; $47.005 
+1404;Banco Internacional;2001;diciembre;1; $39.381 
+1405;Banco Internacional;2002;enero;3; $55.845 
+1406;Banco Internacional;2002;febrero;0; $- 
+1407;Banco Internacional;2002;marzo;4; $83.860 
+1408;Banco Internacional;2002;abril;3; $78.145 
+1409;Banco Internacional;2002;mayo;3; $21.046 
+1410;Banco Internacional;2002;junio;5; $28.670 
+1411;Banco Internacional;2002;julio;3; $58.918 
+1412;Banco Internacional;2002;agosto;1; $7.290 
+1413;Banco Internacional;2002;septiembre;4; $34.035 
+1414;Banco Internacional;2002;octubre;5; $25.824 
+1415;Banco Internacional;2002;noviembre;3; $81.362 
+1416;Banco Internacional;2002;diciembre;2; $68.080 
+1417;Banco Internacional;2003;enero;4; $77.399 
+1418;Banco Internacional;2003;febrero;4; $38.912 
+1419;Banco Internacional;2003;marzo;1; $74.192 
+1420;Banco Internacional;2003;abril;4; $9.475 
+1421;Banco Internacional;2003;mayo;5; $89.388 
+1422;Banco Internacional;2003;junio;5; $42.069 
+1423;Banco Internacional;2003;julio;0; $- 
+1424;Banco Internacional;2003;agosto;5; $29.984 
+1425;Banco Internacional;2003;septiembre;3; $43.904 
+1426;Banco Internacional;2003;octubre;4; $30.789 
+1427;Banco Internacional;2003;noviembre;5; $45.403 
+1428;Banco Internacional;2003;diciembre;5; $42.667 
+1429;Banco Internacional;2004;enero;4; $42.732 
+1430;Banco Internacional;2004;febrero;0; $- 
+1431;Banco Internacional;2004;marzo;0; $- 
+1432;Banco Internacional;2004;abril;3; $79.341 
+1433;Banco Internacional;2004;mayo;5; $57.373 
+1434;Banco Internacional;2004;junio;3; $30.947 
+1435;Banco Internacional;2004;julio;0; $- 
+1436;Banco Internacional;2004;agosto;4; $43.035 
+1437;Banco Internacional;2004;septiembre;2; $42.451 
+1438;Banco Internacional;2004;octubre;3; $95.488 
+1439;Banco Internacional;2004;noviembre;2; $37.400 
+1440;Banco Internacional;2004;diciembre;2; $43.320 
+1441;Banco Internacional;2005;enero;0; $- 
+1442;Banco Internacional;2005;febrero;3; $85.846 
+1443;Banco Internacional;2005;marzo;3; $99.704 
+1444;Banco Internacional;2005;abril;3; $99.995 
+1445;Banco Internacional;2005;mayo;3; $70.110 
+1446;Banco Internacional;2005;junio;0; $- 
+1447;Banco Internacional;2005;julio;4; $48.504 
+1448;Banco Internacional;2005;agosto;2; $78.837 
+1449;Banco Internacional;2005;septiembre;3; $53.178 
+1450;Banco Internacional;2005;octubre;1; $60.460 
+1451;Banco Internacional;2005;noviembre;4; $75.008 
+1452;Banco Internacional;2005;diciembre;5; $47.649 
+1453;Banco Internacional;2006;enero;2; $34.137 
+1454;Banco Internacional;2006;febrero;2; $34.407 
+1455;Banco Internacional;2006;marzo;1; $39.903 
+1456;Banco Internacional;2006;abril;3; $80.903 
+1457;Banco Internacional;2006;mayo;4; $16.454 
+1458;Banco Internacional;2006;junio;3; $29.432 
+1459;Banco Internacional;2006;julio;3; $53.977 
+1460;Banco Internacional;2006;agosto;0; $- 
+1461;Banco Internacional;2006;septiembre;4; $97.531 
+1462;Banco Internacional;2006;octubre;2; $65.235 
+1463;Banco Internacional;2006;noviembre;0; $- 
+1464;Banco Internacional;2006;diciembre;0; $- 
+1465;Banco Internacional;2007;enero;0; $- 
+1466;Banco Internacional;2007;febrero;0; $- 
+1467;Banco Internacional;2007;marzo;2; $39.715 
+1468;Banco Internacional;2007;abril;4; $39.633 
+1469;Banco Internacional;2007;mayo;4; $36.765 
+1470;Banco Internacional;2007;junio;4; $71.259 
+1471;Banco Internacional;2007;julio;4; $68.976 
+1472;Banco Internacional;2007;agosto;0; $- 
+1473;Banco Internacional;2007;septiembre;2; $59.929 
+1474;Banco Internacional;2007;octubre;5; $58.377 
+1475;Banco Internacional;2007;noviembre;2; $48.527 
+1476;Banco Internacional;2007;diciembre;4; $50.028 
+1477;Banco Internacional;2008;enero;4; $76.657 
+1478;Banco Internacional;2008;febrero;3; $26.976 
+1479;Banco Internacional;2008;marzo;1; $34.645 
+1480;Banco Internacional;2008;abril;4; $77.995 
+1481;Banco Internacional;2008;mayo;1; $47.514 
+1482;Banco Internacional;2008;junio;0; $- 
+1483;Banco Internacional;2008;julio;2; $83.294 
+1484;Banco Internacional;2008;agosto;0; $- 
+1485;Banco Internacional;2008;septiembre;1; $40.745 
+1486;Banco Internacional;2008;octubre;4; $63.955 
+1487;Banco Internacional;2008;noviembre;2; $75.386 
+1488;Banco Internacional;2008;diciembre;3; $39.279 
+1489;Banco Internacional;2009;enero;2; $93.594 
+1490;Banco Internacional;2009;febrero;2; $40.517 
+1491;Banco Internacional;2009;marzo;3; $85.383 
+1492;Banco Internacional;2009;abril;1; $81.572 
+1493;Banco Internacional;2009;mayo;2; $36.909 
+1494;Banco Internacional;2009;junio;0; $- 
+1495;Banco Internacional;2009;julio;5; $56.023 
+1496;Banco Internacional;2009;agosto;0; $- 
+1497;Banco Internacional;2009;septiembre;3; $68.924 
+1498;Banco Internacional;2009;octubre;4; $62.264 
+1499;Banco Internacional;2009;noviembre;4; $41.230 
+1500;Banco Internacional;2009;diciembre;4; $10.449 
+1501;Banco Internacional;2010;enero;1; $99.013 
+1502;Banco Internacional;2010;febrero;1; $62.228 
+1503;Banco Internacional;2010;marzo;1; $76.364 
+1504;Banco Internacional;2010;abril;0; $- 
+1505;Banco Internacional;2010;mayo;2; $75.363 
+1506;Banco Internacional;2010;junio;4; $85.534 
+1507;Banco Internacional;2010;julio;2; $39.590 
+1508;Banco Internacional;2010;agosto;0; $- 
+1509;Banco Internacional;2010;septiembre;5; $47.583 
+1510;Banco Internacional;2010;octubre;5; $69.487 
+1511;Banco Internacional;2010;noviembre;0; $- 
+1512;Banco Internacional;2010;diciembre;2; $49.250 
+1513;Banco Internacional;2011;enero;5; $44.016 
+1514;Banco Internacional;2011;febrero;4; $29.511 
+1515;Banco Internacional;2011;marzo;3; $56.521 
+1516;Banco Internacional;2011;abril;1; $80.975 
+1517;Banco Internacional;2011;mayo;4; $22.289 
+1518;Banco Internacional;2011;junio;4; $77.081 
+1519;Banco Internacional;2011;julio;3; $59.352 
+1520;Banco Internacional;2011;agosto;0; $- 
+1521;Banco Internacional;2011;septiembre;3; $72.042 
+1522;Banco Internacional;2011;octubre;4; $11.833 
+1523;Banco Internacional;2011;noviembre;4; $23.654 
+1524;Banco Internacional;2011;diciembre;3; $61.434 
+1525;Banco Internacional;2012;enero;2; $78.679 
+1526;Banco Internacional;2012;febrero;3; $24.103 
+1527;Banco Internacional;2012;marzo;3; $68.216 
+1528;Banco Internacional;2012;abril;0; $- 
+1529;Banco Internacional;2012;mayo;2; $61.856 
+1530;Banco Internacional;2012;junio;3; $28.419 
+1531;Banco Internacional;2012;julio;2; $10.757 
+1532;Banco Internacional;2012;agosto;3; $99.437 
+1533;Banco Internacional;2012;septiembre;5; $38.864 
+1534;Banco Internacional;2012;octubre;4; $11.309 
+1535;Banco Internacional;2012;noviembre;1; $75.344 
+1536;Banco Internacional;2012;diciembre;2; $56.537 
+1537;Banco Internacional;2013;enero;4; $22.061 
+1538;Banco Internacional;2013;febrero;1; $22.155 
+1539;Banco Internacional;2013;marzo;3; $62.855 
+1540;Banco Internacional;2013;abril;3; $24.504 
+1541;Banco Internacional;2013;mayo;5; $87.175 
+1542;Banco Internacional;2013;junio;3; $21.220 
+1543;Banco Internacional;2013;julio;5; $73.818 
+1544;Banco Internacional;2013;agosto;2; $83.360 
+1545;Banco Internacional;2013;septiembre;1; $70.959 
+1546;Banco Internacional;2013;octubre;0; $- 
+1547;Banco Internacional;2013;noviembre;2; $85.125 
+1548;Banco Internacional;2013;diciembre;1; $46.095 
+1549;Banco Internacional;2014;enero;5; $7.503 
+1550;Banco Internacional;2014;febrero;4; $65.981 
+1551;Banco Internacional;2014;marzo;3; $54.689 
+1552;Banco Internacional;2014;abril;5; $88.642 
+1553;Banco Internacional;2014;mayo;0; $- 
+1554;Banco Internacional;2014;junio;2; $91.331 
+1555;Banco Internacional;2014;julio;3; $18.165 
+1556;Banco Internacional;2014;agosto;2; $76.894 
+1557;Banco Internacional;2014;septiembre;2; $49.217 
+1558;Banco Internacional;2014;octubre;0; $- 
+1559;Banco Internacional;2014;noviembre;1; $6.945 
+1560;Banco Internacional;2014;diciembre;0; $- 
+1561;Banco Internacional;2015;enero;0; $- 
+1562;Banco Internacional;2015;febrero;0; $- 
+1563;Banco Internacional;2015;marzo;5; $60.320 
+1564;Banco Internacional;2015;abril;0; $- 
+1565;Banco Internacional;2015;mayo;0; $- 
+1566;Banco Internacional;2015;junio;1; $93.821 
+1567;Banco Internacional;2015;julio;2; $19.050 
+1568;Banco Internacional;2015;agosto;2; $87.690 
+1569;Banco Internacional;2015;septiembre;1; $20.810 
+1570;Banco Internacional;2015;octubre;4; $99.487 
+1571;Banco Internacional;2015;noviembre;5; $54.655 
+1572;Banco Internacional;2015;diciembre;0; $- 
+1573;Banco Internacional;2016;enero;2; $24.233 
+1574;Banco Internacional;2016;febrero;4; $26.037 
+1575;Banco Internacional;2016;marzo;4; $96.705 
+1576;Banco Internacional;2016;abril;0; $- 
+1577;Banco Internacional;2016;mayo;3; $13.057 
+1578;Banco Internacional;2016;junio;4; $26.913 
+1579;Banco Internacional;2016;julio;4; $34.002 
+1580;Banco Internacional;2016;agosto;4; $93.509 
+1581;Banco Internacional;2016;septiembre;2; $91.505 
+1582;Banco Internacional;2016;octubre;5; $71.485 
+1583;Banco Internacional;2016;noviembre;0; $- 
+1584;Banco Internacional;2016;diciembre;4; $82.475 
+1585;Banco Internacional;2017;enero;3; $53.115 
+1586;Banco Internacional;2017;febrero;2; $72.323 
+1587;Banco Internacional;2017;marzo;4; $47.008 
+1588;Banco Internacional;2017;abril;1; $5.192 
+1589;Banco Internacional;2017;mayo;4; $13.705 
+1590;Banco Internacional;2017;junio;2; $66.167 
+1591;Banco Internacional;2017;julio;2; $24.375 
+1592;Banco Internacional;2017;agosto;1; $17.069 
+1593;Banco Internacional;2017;septiembre;0; $- 
+1594;Banco Internacional;2017;octubre;0; $- 
+1595;Banco Internacional;2017;noviembre;4; $67.548 
+1596;Banco Internacional;2017;diciembre;1; $20.990 
+1597;Banco Internacional;2018;enero;5; $93.706 
+1598;Banco Internacional;2018;febrero;4; $95.870 
+1599;Banco Internacional;2018;marzo;3; $29.673 
+1600;Banco Internacional;2018;abril;4; $50.275 
+1601;Banco Internacional;2018;mayo;3; $85.257 
+1602;Banco Internacional;2018;junio;5; $24.831 
+1603;Banco Internacional;2018;julio;1; $13.903 
+1604;Banco Internacional;2018;agosto;3; $95.576 
+1605;Banco Internacional;2018;septiembre;4; $94.777 
+1606;Banco Internacional;2018;octubre;2; $6.238 
+1607;Banco Internacional;2018;noviembre;5; $41.260 
+1608;Banco Internacional;2018;diciembre;5; $21.039 
+1609;Banco Internacional;2019;enero;4; $25.868 
+1610;Banco Internacional;2019;febrero;1; $7.125 
+1611;Banco Internacional;2019;marzo;0; $- 
+1612;Banco Internacional;2019;abril;4; $55.569 
+1613;Banco Internacional;2019;mayo;4; $74.343 
+1614;Banco Internacional;2019;junio;3; $51.347 
+1615;Banco Internacional;2019;julio;1; $68.875 
+1616;Banco Internacional;2019;agosto;3; $63.717 
+1617;Banco Internacional;2019;septiembre;1; $40.200 
+1618;Banco Internacional;2019;octubre;4; $30.481 
+1619;Banco Internacional;2019;noviembre;2; $26.436 
+1620;Banco Internacional;2019;diciembre;3; $47.898 
+1621;Banco Internacional;2020;enero;1; $25.518 
+1622;Banco Internacional;2020;febrero;0; $- 
+1623;Banco Internacional;2020;marzo;0; $- 
+1624;Banco Internacional;2020;abril;2; $37.012 
+1625;Banco Internacional;2020;mayo;1; $93.335 
+1626;Banco Internacional;2020;junio;2; $56.224 
+1627;Banco Internacional;2020;julio;2; $39.282 
+1628;Banco Internacional;2020;agosto;3; $34.919 
+1629;Banco Internacional;2020;septiembre;2; $17.658 
+1630;Banco Internacional;2020;octubre;4; $8.982 
+1631;Banco Internacional;2020;noviembre;0; $- 
+1632;Banco Internacional;2020;diciembre;1; $77.494 
+1633;Banco Internacional;2021;enero;5; $39.996 
+1634;Banco Internacional;2021;febrero;5; $10.288 
+1635;Banco Internacional;2021;marzo;4; $74.708 
+1636;Banco Internacional;2021;abril;1; $91.539 
+1637;Banco Internacional;2021;mayo;2; $66.757 
+1638;Banco Internacional;2021;junio;5; $13.004 
+1639;Banco Internacional;2021;julio;4; $21.235 
+1640;Banco Internacional;2021;agosto;3; $53.904 
+1641;Banco Internacional;2021;septiembre;5; $94.947 
+1642;Banco Internacional;2021;octubre;1; $28.076 
+1643;Banco Internacional;2021;noviembre;4; $77.521 
+1644;Banco Internacional;2021;diciembre;3; $82.521 
+1645;Banco Internacional;2022;enero;3; $89.748 
+1646;Banco Internacional;2022;febrero;5; $12.371 
+1647;Banco Internacional;2022;marzo;3; $48.508 
+1648;Banco Internacional;2022;abril;0; $- 
+1649;Banco Internacional;2022;mayo;5; $29.097 
+1650;Banco Internacional;2022;junio;3; $22.960 
+1651;Banco Internacional;2022;julio;4; $69.921 
+1652;Banco Internacional;2022;agosto;0; $- 
+1653;Banco Internacional;2022;septiembre;0; $- 
+1654;Banco Internacional;2022;octubre;5; $26.170 
+1655;Banco Internacional;2022;noviembre;5; $66.369 
+1656;Banco Internacional;2022;diciembre;4; $26.687 
+1657;Banco Santander;2000;enero;2; $12.397 
+1658;Banco Santander;2000;febrero;3; $36.120 
+1659;Banco Santander;2000;marzo;1; $27.683 
+1660;Banco Santander;2000;abril;4; $72.920 
+1661;Banco Santander;2000;mayo;1; $39.396 
+1662;Banco Santander;2000;junio;2; $30.650 
+1663;Banco Santander;2000;julio;0; $- 
+1664;Banco Santander;2000;agosto;5; $96.767 
+1665;Banco Santander;2000;septiembre;0; $- 
+1666;Banco Santander;2000;octubre;3; $19.385 
+1667;Banco Santander;2000;noviembre;2; $15.637 
+1668;Banco Santander;2000;diciembre;3; $73.564 
+1669;Banco Santander;2001;enero;5; $29.689 
+1670;Banco Santander;2001;febrero;0; $- 
+1671;Banco Santander;2001;marzo;0; $- 
+1672;Banco Santander;2001;abril;4; $38.609 
+1673;Banco Santander;2001;mayo;5; $73.141 
+1674;Banco Santander;2001;junio;1; $7.294 
+1675;Banco Santander;2001;julio;0; $- 
+1676;Banco Santander;2001;agosto;2; $16.851 
+1677;Banco Santander;2001;septiembre;0; $- 
+1678;Banco Santander;2001;octubre;4; $38.012 
+1679;Banco Santander;2001;noviembre;4; $27.316 
+1680;Banco Santander;2001;diciembre;5; $40.047 
+1681;Banco Santander;2002;enero;2; $16.699 
+1682;Banco Santander;2002;febrero;0; $- 
+1683;Banco Santander;2002;marzo;3; $40.951 
+1684;Banco Santander;2002;abril;2; $36.751 
+1685;Banco Santander;2002;mayo;3; $82.322 
+1686;Banco Santander;2002;junio;2; $98.065 
+1687;Banco Santander;2002;julio;0; $- 
+1688;Banco Santander;2002;agosto;3; $45.091 
+1689;Banco Santander;2002;septiembre;2; $23.848 
+1690;Banco Santander;2002;octubre;2; $33.975 
+1691;Banco Santander;2002;noviembre;3; $98.875 
+1692;Banco Santander;2002;diciembre;1; $51.001 
+1693;Banco Santander;2003;enero;0; $- 
+1694;Banco Santander;2003;febrero;4; $91.708 
+1695;Banco Santander;2003;marzo;2; $77.615 
+1696;Banco Santander;2003;abril;1; $57.690 
+1697;Banco Santander;2003;mayo;5; $7.322 
+1698;Banco Santander;2003;junio;4; $60.669 
+1699;Banco Santander;2003;julio;5; $5.562 
+1700;Banco Santander;2003;agosto;1; $29.133 
+1701;Banco Santander;2003;septiembre;1; $11.179 
+1702;Banco Santander;2003;octubre;4; $9.639 
+1703;Banco Santander;2003;noviembre;5; $42.305 
+1704;Banco Santander;2003;diciembre;2; $85.910 
+1705;Banco Santander;2004;enero;1; $8.426 
+1706;Banco Santander;2004;febrero;3; $77.621 
+1707;Banco Santander;2004;marzo;3; $32.164 
+1708;Banco Santander;2004;abril;3; $30.676 
+1709;Banco Santander;2004;mayo;2; $54.845 
+1710;Banco Santander;2004;junio;1; $8.906 
+1711;Banco Santander;2004;julio;3; $9.529 
+1712;Banco Santander;2004;agosto;2; $37.765 
+1713;Banco Santander;2004;septiembre;5; $35.234 
+1714;Banco Santander;2004;octubre;4; $12.553 
+1715;Banco Santander;2004;noviembre;3; $58.578 
+1716;Banco Santander;2004;diciembre;2; $53.426 
+1717;Banco Santander;2005;enero;1; $85.635 
+1718;Banco Santander;2005;febrero;1; $62.400 
+1719;Banco Santander;2005;marzo;1; $32.473 
+1720;Banco Santander;2005;abril;1; $55.292 
+1721;Banco Santander;2005;mayo;2; $78.338 
+1722;Banco Santander;2005;junio;4; $89.774 
+1723;Banco Santander;2005;julio;3; $76.777 
+1724;Banco Santander;2005;agosto;5; $80.125 
+1725;Banco Santander;2005;septiembre;5; $61.207 
+1726;Banco Santander;2005;octubre;1; $93.352 
+1727;Banco Santander;2005;noviembre;4; $85.913 
+1728;Banco Santander;2005;diciembre;5; $29.946 
+1729;Banco Santander;2006;enero;5; $33.378 
+1730;Banco Santander;2006;febrero;5; $91.946 
+1731;Banco Santander;2006;marzo;5; $16.301 
+1732;Banco Santander;2006;abril;0; $- 
+1733;Banco Santander;2006;mayo;3; $84.314 
+1734;Banco Santander;2006;junio;4; $26.530 
+1735;Banco Santander;2006;julio;4; $34.201 
+1736;Banco Santander;2006;agosto;5; $77.457 
+1737;Banco Santander;2006;septiembre;1; $60.784 
+1738;Banco Santander;2006;octubre;3; $12.303 
+1739;Banco Santander;2006;noviembre;4; $9.769 
+1740;Banco Santander;2006;diciembre;2; $69.380 
+1741;Banco Santander;2007;enero;0; $- 
+1742;Banco Santander;2007;febrero;1; $39.580 
+1743;Banco Santander;2007;marzo;5; $7.075 
+1744;Banco Santander;2007;abril;1; $98.286 
+1745;Banco Santander;2007;mayo;2; $92.517 
+1746;Banco Santander;2007;junio;5; $73.771 
+1747;Banco Santander;2007;julio;3; $68.563 
+1748;Banco Santander;2007;agosto;3; $26.903 
+1749;Banco Santander;2007;septiembre;4; $86.076 
+1750;Banco Santander;2007;octubre;0; $- 
+1751;Banco Santander;2007;noviembre;0; $- 
+1752;Banco Santander;2007;diciembre;3; $27.028 
+1753;Banco Santander;2008;enero;3; $68.249 
+1754;Banco Santander;2008;febrero;5; $34.158 
+1755;Banco Santander;2008;marzo;0; $- 
+1756;Banco Santander;2008;abril;1; $34.192 
+1757;Banco Santander;2008;mayo;3; $44.531 
+1758;Banco Santander;2008;junio;3; $9.254 
+1759;Banco Santander;2008;julio;5; $10.763 
+1760;Banco Santander;2008;agosto;0; $- 
+1761;Banco Santander;2008;septiembre;3; $92.651 
+1762;Banco Santander;2008;octubre;5; $58.773 
+1763;Banco Santander;2008;noviembre;0; $- 
+1764;Banco Santander;2008;diciembre;5; $69.119 
+1765;Banco Santander;2009;enero;0; $- 
+1766;Banco Santander;2009;febrero;1; $70.246 
+1767;Banco Santander;2009;marzo;4; $99.280 
+1768;Banco Santander;2009;abril;3; $6.744 
+1769;Banco Santander;2009;mayo;3; $18.991 
+1770;Banco Santander;2009;junio;3; $67.510 
+1771;Banco Santander;2009;julio;4; $70.956 
+1772;Banco Santander;2009;agosto;1; $94.783 
+1773;Banco Santander;2009;septiembre;3; $77.158 
+1774;Banco Santander;2009;octubre;1; $47.920 
+1775;Banco Santander;2009;noviembre;2; $60.418 
+1776;Banco Santander;2009;diciembre;5; $88.190 
+1777;Banco Santander;2010;enero;3; $46.918 
+1778;Banco Santander;2010;febrero;0; $- 
+1779;Banco Santander;2010;marzo;0; $- 
+1780;Banco Santander;2010;abril;5; $65.579 
+1781;Banco Santander;2010;mayo;1; $60.822 
+1782;Banco Santander;2010;junio;3; $82.562 
+1783;Banco Santander;2010;julio;1; $98.667 
+1784;Banco Santander;2010;agosto;2; $67.446 
+1785;Banco Santander;2010;septiembre;3; $38.410 
+1786;Banco Santander;2010;octubre;0; $- 
+1787;Banco Santander;2010;noviembre;3; $90.446 
+1788;Banco Santander;2010;diciembre;5; $50.898 
+1789;Banco Santander;2011;enero;2; $91.797 
+1790;Banco Santander;2011;febrero;5; $6.033 
+1791;Banco Santander;2011;marzo;4; $12.096 
+1792;Banco Santander;2011;abril;5; $50.840 
+1793;Banco Santander;2011;mayo;4; $42.811 
+1794;Banco Santander;2011;junio;5; $60.387 
+1795;Banco Santander;2011;julio;5; $33.299 
+1796;Banco Santander;2011;agosto;5; $63.566 
+1797;Banco Santander;2011;septiembre;5; $10.677 
+1798;Banco Santander;2011;octubre;4; $78.079 
+1799;Banco Santander;2011;noviembre;5; $25.060 
+1800;Banco Santander;2011;diciembre;5; $9.683 
+1801;Banco Santander;2012;enero;0; $- 
+1802;Banco Santander;2012;febrero;0; $- 
+1803;Banco Santander;2012;marzo;3; $24.423 
+1804;Banco Santander;2012;abril;1; $53.722 
+1805;Banco Santander;2012;mayo;0; $- 
+1806;Banco Santander;2012;junio;0; $- 
+1807;Banco Santander;2012;julio;4; $83.166 
+1808;Banco Santander;2012;agosto;5; $32.482 
+1809;Banco Santander;2012;septiembre;1; $33.521 
+1810;Banco Santander;2012;octubre;1; $43.796 
+1811;Banco Santander;2012;noviembre;0; $- 
+1812;Banco Santander;2012;diciembre;3; $95.794 
+1813;Banco Santander;2013;enero;3; $26.788 
+1814;Banco Santander;2013;febrero;5; $24.018 
+1815;Banco Santander;2013;marzo;2; $69.139 
+1816;Banco Santander;2013;abril;3; $22.266 
+1817;Banco Santander;2013;mayo;2; $67.634 
+1818;Banco Santander;2013;junio;1; $78.107 
+1819;Banco Santander;2013;julio;2; $59.911 
+1820;Banco Santander;2013;agosto;3; $55.572 
+1821;Banco Santander;2013;septiembre;4; $16.640 
+1822;Banco Santander;2013;octubre;0; $- 
+1823;Banco Santander;2013;noviembre;4; $24.455 
+1824;Banco Santander;2013;diciembre;3; $87.607 
+1825;Banco Santander;2014;enero;5; $5.827 
+1826;Banco Santander;2014;febrero;3; $37.671 
+1827;Banco Santander;2014;marzo;0; $- 
+1828;Banco Santander;2014;abril;0; $- 
+1829;Banco Santander;2014;mayo;0; $- 
+1830;Banco Santander;2014;junio;4; $54.673 
+1831;Banco Santander;2014;julio;3; $37.151 
+1832;Banco Santander;2014;agosto;0; $- 
+1833;Banco Santander;2014;septiembre;3; $43.084 
+1834;Banco Santander;2014;octubre;2; $51.472 
+1835;Banco Santander;2014;noviembre;3; $7.939 
+1836;Banco Santander;2014;diciembre;4; $13.890 
+1837;Banco Santander;2015;enero;1; $15.505 
+1838;Banco Santander;2015;febrero;4; $98.225 
+1839;Banco Santander;2015;marzo;1; $14.630 
+1840;Banco Santander;2015;abril;1; $57.937 
+1841;Banco Santander;2015;mayo;0; $- 
+1842;Banco Santander;2015;junio;2; $20.777 
+1843;Banco Santander;2015;julio;4; $72.879 
+1844;Banco Santander;2015;agosto;5; $16.192 
+1845;Banco Santander;2015;septiembre;2; $87.911 
+1846;Banco Santander;2015;octubre;4; $26.244 
+1847;Banco Santander;2015;noviembre;5; $22.657 
+1848;Banco Santander;2015;diciembre;4; $81.896 
+1849;Banco Santander;2016;enero;1; $70.473 
+1850;Banco Santander;2016;febrero;0; $- 
+1851;Banco Santander;2016;marzo;1; $62.655 
+1852;Banco Santander;2016;abril;2; $60.826 
+1853;Banco Santander;2016;mayo;1; $23.750 
+1854;Banco Santander;2016;junio;4; $51.063 
+1855;Banco Santander;2016;julio;2; $65.778 
+1856;Banco Santander;2016;agosto;1; $93.386 
+1857;Banco Santander;2016;septiembre;3; $64.746 
+1858;Banco Santander;2016;octubre;5; $82.569 
+1859;Banco Santander;2016;noviembre;3; $54.237 
+1860;Banco Santander;2016;diciembre;1; $75.666 
+1861;Banco Santander;2017;enero;1; $76.563 
+1862;Banco Santander;2017;febrero;5; $48.788 
+1863;Banco Santander;2017;marzo;2; $45.954 
+1864;Banco Santander;2017;abril;1; $94.092 
+1865;Banco Santander;2017;mayo;0; $- 
+1866;Banco Santander;2017;junio;5; $6.648 
+1867;Banco Santander;2017;julio;5; $94.458 
+1868;Banco Santander;2017;agosto;3; $97.804 
+1869;Banco Santander;2017;septiembre;2; $84.116 
+1870;Banco Santander;2017;octubre;1; $25.147 
+1871;Banco Santander;2017;noviembre;5; $29.883 
+1872;Banco Santander;2017;diciembre;4; $5.039 
+1873;Banco Santander;2018;enero;4; $8.847 
+1874;Banco Santander;2018;febrero;2; $82.795 
+1875;Banco Santander;2018;marzo;0; $- 
+1876;Banco Santander;2018;abril;4; $49.936 
+1877;Banco Santander;2018;mayo;2; $84.805 
+1878;Banco Santander;2018;junio;5; $90.078 
+1879;Banco Santander;2018;julio;1; $67.730 
+1880;Banco Santander;2018;agosto;5; $87.563 
+1881;Banco Santander;2018;septiembre;0; $- 
+1882;Banco Santander;2018;octubre;1; $21.474 
+1883;Banco Santander;2018;noviembre;4; $84.558 
+1884;Banco Santander;2018;diciembre;2; $54.524 
+1885;Banco Santander;2019;enero;4; $59.474 
+1886;Banco Santander;2019;febrero;0; $- 
+1887;Banco Santander;2019;marzo;2; $55.619 
+1888;Banco Santander;2019;abril;5; $86.832 
+1889;Banco Santander;2019;mayo;0; $- 
+1890;Banco Santander;2019;junio;5; $6.952 
+1891;Banco Santander;2019;julio;5; $92.899 
+1892;Banco Santander;2019;agosto;2; $31.036 
+1893;Banco Santander;2019;septiembre;4; $94.689 
+1894;Banco Santander;2019;octubre;1; $7.393 
+1895;Banco Santander;2019;noviembre;0; $- 
+1896;Banco Santander;2019;diciembre;5; $93.654 
+1897;Banco Santander;2020;enero;5; $8.377 
+1898;Banco Santander;2020;febrero;3; $21.251 
+1899;Banco Santander;2020;marzo;4; $17.422 
+1900;Banco Santander;2020;abril;5; $5.637 
+1901;Banco Santander;2020;mayo;5; $45.584 
+1902;Banco Santander;2020;junio;3; $35.667 
+1903;Banco Santander;2020;julio;5; $25.243 
+1904;Banco Santander;2020;agosto;1; $24.567 
+1905;Banco Santander;2020;septiembre;2; $39.883 
+1906;Banco Santander;2020;octubre;0; $- 
+1907;Banco Santander;2020;noviembre;1; $42.511 
+1908;Banco Santander;2020;diciembre;4; $40.270 
+1909;Banco Santander;2021;enero;4; $77.065 
+1910;Banco Santander;2021;febrero;1; $13.588 
+1911;Banco Santander;2021;marzo;4; $30.002 
+1912;Banco Santander;2021;abril;2; $69.685 
+1913;Banco Santander;2021;mayo;0; $- 
+1914;Banco Santander;2021;junio;4; $82.044 
+1915;Banco Santander;2021;julio;3; $45.881 
+1916;Banco Santander;2021;agosto;3; $19.675 
+1917;Banco Santander;2021;septiembre;4; $47.416 
+1918;Banco Santander;2021;octubre;4; $25.206 
+1919;Banco Santander;2021;noviembre;4; $90.334 
+1920;Banco Santander;2021;diciembre;4; $55.632 
+1921;Banco Santander;2022;enero;1; $47.552 
+1922;Banco Santander;2022;febrero;4; $32.101 
+1923;Banco Santander;2022;marzo;3; $71.529 
+1924;Banco Santander;2022;abril;2; $77.939 
+1925;Banco Santander;2022;mayo;5; $91.296 
+1926;Banco Santander;2022;junio;0; $- 
+1927;Banco Santander;2022;julio;2; $50.199 
+1928;Banco Santander;2022;agosto;1; $43.563 
+1929;Banco Santander;2022;septiembre;1; $17.235 
+1930;Banco Santander;2022;octubre;0; $- 
+1931;Banco Santander;2022;noviembre;5; $40.594 
+1932;Banco Santander;2022;diciembre;0; $- 
+1933;Banco Scotiabank;2000;enero;1; $74.888 
+1934;Banco Scotiabank;2000;febrero;2; $86.377 
+1935;Banco Scotiabank;2000;marzo;5; $37.903 
+1936;Banco Scotiabank;2000;abril;1; $65.680 
+1937;Banco Scotiabank;2000;mayo;4; $45.576 
+1938;Banco Scotiabank;2000;junio;2; $84.347 
+1939;Banco Scotiabank;2000;julio;5; $80.960 
+1940;Banco Scotiabank;2000;agosto;2; $86.635 
+1941;Banco Scotiabank;2000;septiembre;3; $54.775 
+1942;Banco Scotiabank;2000;octubre;0; $- 
+1943;Banco Scotiabank;2000;noviembre;2; $17.509 
+1944;Banco Scotiabank;2000;diciembre;4; $21.077 
+1945;Banco Scotiabank;2001;enero;1; $97.317 
+1946;Banco Scotiabank;2001;febrero;1; $39.476 
+1947;Banco Scotiabank;2001;marzo;4; $82.916 
+1948;Banco Scotiabank;2001;abril;3; $50.289 
+1949;Banco Scotiabank;2001;mayo;0; $- 
+1950;Banco Scotiabank;2001;junio;4; $98.348 
+1951;Banco Scotiabank;2001;julio;3; $94.052 
+1952;Banco Scotiabank;2001;agosto;0; $- 
+1953;Banco Scotiabank;2001;septiembre;3; $79.431 
+1954;Banco Scotiabank;2001;octubre;4; $82.614 
+1955;Banco Scotiabank;2001;noviembre;3; $35.673 
+1956;Banco Scotiabank;2001;diciembre;5; $90.922 
+1957;Banco Scotiabank;2002;enero;0; $- 
+1958;Banco Scotiabank;2002;febrero;4; $87.302 
+1959;Banco Scotiabank;2002;marzo;1; $57.949 
+1960;Banco Scotiabank;2002;abril;5; $50.319 
+1961;Banco Scotiabank;2002;mayo;4; $94.546 
+1962;Banco Scotiabank;2002;junio;4; $12.003 
+1963;Banco Scotiabank;2002;julio;0; $- 
+1964;Banco Scotiabank;2002;agosto;4; $69.883 
+1965;Banco Scotiabank;2002;septiembre;2; $86.704 
+1966;Banco Scotiabank;2002;octubre;0; $- 
+1967;Banco Scotiabank;2002;noviembre;2; $40.795 
+1968;Banco Scotiabank;2002;diciembre;0; $- 
+1969;Banco Scotiabank;2003;enero;1; $39.982 
+1970;Banco Scotiabank;2003;febrero;4; $75.667 
+1971;Banco Scotiabank;2003;marzo;3; $90.258 
+1972;Banco Scotiabank;2003;abril;4; $14.028 
+1973;Banco Scotiabank;2003;mayo;2; $57.958 
+1974;Banco Scotiabank;2003;junio;1; $56.695 
+1975;Banco Scotiabank;2003;julio;2; $68.810 
+1976;Banco Scotiabank;2003;agosto;4; $78.121 
+1977;Banco Scotiabank;2003;septiembre;0; $- 
+1978;Banco Scotiabank;2003;octubre;3; $9.681 
+1979;Banco Scotiabank;2003;noviembre;5; $66.272 
+1980;Banco Scotiabank;2003;diciembre;2; $12.089 
+1981;Banco Scotiabank;2004;enero;5; $11.557 
+1982;Banco Scotiabank;2004;febrero;0; $- 
+1983;Banco Scotiabank;2004;marzo;2; $49.741 
+1984;Banco Scotiabank;2004;abril;2; $56.735 
+1985;Banco Scotiabank;2004;mayo;5; $18.302 
+1986;Banco Scotiabank;2004;junio;1; $86.523 
+1987;Banco Scotiabank;2004;julio;1; $43.396 
+1988;Banco Scotiabank;2004;agosto;4; $40.513 
+1989;Banco Scotiabank;2004;septiembre;1; $97.612 
+1990;Banco Scotiabank;2004;octubre;4; $65.164 
+1991;Banco Scotiabank;2004;noviembre;0; $- 
+1992;Banco Scotiabank;2004;diciembre;4; $46.524 
+1993;Banco Scotiabank;2005;enero;2; $83.819 
+1994;Banco Scotiabank;2005;febrero;4; $37.388 
+1995;Banco Scotiabank;2005;marzo;0; $- 
+1996;Banco Scotiabank;2005;abril;1; $99.555 
+1997;Banco Scotiabank;2005;mayo;3; $38.843 
+1998;Banco Scotiabank;2005;junio;1; $40.032 
+1999;Banco Scotiabank;2005;julio;1; $11.671 
+2000;Banco Scotiabank;2005;agosto;0; $- 
+2001;Banco Scotiabank;2005;septiembre;2; $77.042 
+2002;Banco Scotiabank;2005;octubre;2; $73.611 
+2003;Banco Scotiabank;2005;noviembre;0; $- 
+2004;Banco Scotiabank;2005;diciembre;0; $- 
+2005;Banco Scotiabank;2006;enero;1; $88.340 
+2006;Banco Scotiabank;2006;febrero;3; $73.715 
+2007;Banco Scotiabank;2006;marzo;1; $86.849 
+2008;Banco Scotiabank;2006;abril;0; $- 
+2009;Banco Scotiabank;2006;mayo;4; $15.625 
+2010;Banco Scotiabank;2006;junio;3; $54.235 
+2011;Banco Scotiabank;2006;julio;0; $- 
+2012;Banco Scotiabank;2006;agosto;1; $25.236 
+2013;Banco Scotiabank;2006;septiembre;5; $11.480 
+2014;Banco Scotiabank;2006;octubre;4; $24.858 
+2015;Banco Scotiabank;2006;noviembre;2; $59.759 
+2016;Banco Scotiabank;2006;diciembre;1; $62.790 
+2017;Banco Scotiabank;2007;enero;3; $68.102 
+2018;Banco Scotiabank;2007;febrero;3; $24.435 
+2019;Banco Scotiabank;2007;marzo;4; $32.347 
+2020;Banco Scotiabank;2007;abril;5; $71.887 
+2021;Banco Scotiabank;2007;mayo;2; $15.945 
+2022;Banco Scotiabank;2007;junio;2; $93.790 
+2023;Banco Scotiabank;2007;julio;0; $- 
+2024;Banco Scotiabank;2007;agosto;5; $29.362 
+2025;Banco Scotiabank;2007;septiembre;4; $44.000 
+2026;Banco Scotiabank;2007;octubre;2; $18.579 
+2027;Banco Scotiabank;2007;noviembre;5; $35.317 
+2028;Banco Scotiabank;2007;diciembre;3; $79.362 
+2029;Banco Scotiabank;2008;enero;4; $71.607 
+2030;Banco Scotiabank;2008;febrero;5; $33.696 
+2031;Banco Scotiabank;2008;marzo;4; $59.651 
+2032;Banco Scotiabank;2008;abril;0; $- 
+2033;Banco Scotiabank;2008;mayo;0; $- 
+2034;Banco Scotiabank;2008;junio;1; $7.846 
+2035;Banco Scotiabank;2008;julio;0; $- 
+2036;Banco Scotiabank;2008;agosto;4; $25.068 
+2037;Banco Scotiabank;2008;septiembre;1; $19.244 
+2038;Banco Scotiabank;2008;octubre;5; $18.059 
+2039;Banco Scotiabank;2008;noviembre;3; $94.734 
+2040;Banco Scotiabank;2008;diciembre;3; $52.415 
+2041;Banco Scotiabank;2009;enero;3; $70.891 
+2042;Banco Scotiabank;2009;febrero;4; $22.450 
+2043;Banco Scotiabank;2009;marzo;0; $- 
+2044;Banco Scotiabank;2009;abril;1; $55.253 
+2045;Banco Scotiabank;2009;mayo;1; $11.167 
+2046;Banco Scotiabank;2009;junio;4; $53.331 
+2047;Banco Scotiabank;2009;julio;0; $- 
+2048;Banco Scotiabank;2009;agosto;5; $30.052 
+2049;Banco Scotiabank;2009;septiembre;2; $59.083 
+2050;Banco Scotiabank;2009;octubre;5; $54.130 
+2051;Banco Scotiabank;2009;noviembre;4; $91.130 
+2052;Banco Scotiabank;2009;diciembre;4; $88.987 
+2053;Banco Scotiabank;2010;enero;2; $16.549 
+2054;Banco Scotiabank;2010;febrero;0; $- 
+2055;Banco Scotiabank;2010;marzo;2; $10.798 
+2056;Banco Scotiabank;2010;abril;0; $- 
+2057;Banco Scotiabank;2010;mayo;4; $97.580 
+2058;Banco Scotiabank;2010;junio;0; $- 
+2059;Banco Scotiabank;2010;julio;1; $29.506 
+2060;Banco Scotiabank;2010;agosto;1; $37.699 
+2061;Banco Scotiabank;2010;septiembre;0; $- 
+2062;Banco Scotiabank;2010;octubre;1; $37.963 
+2063;Banco Scotiabank;2010;noviembre;0; $- 
+2064;Banco Scotiabank;2010;diciembre;0; $- 
+2065;Banco Scotiabank;2011;enero;2; $49.830 
+2066;Banco Scotiabank;2011;febrero;5; $76.922 
+2067;Banco Scotiabank;2011;marzo;0; $- 
+2068;Banco Scotiabank;2011;abril;2; $96.365 
+2069;Banco Scotiabank;2011;mayo;0; $- 
+2070;Banco Scotiabank;2011;junio;5; $34.606 
+2071;Banco Scotiabank;2011;julio;5; $26.344 
+2072;Banco Scotiabank;2011;agosto;0; $- 
+2073;Banco Scotiabank;2011;septiembre;1; $42.297 
+2074;Banco Scotiabank;2011;octubre;2; $94.272 
+2075;Banco Scotiabank;2011;noviembre;3; $68.637 
+2076;Banco Scotiabank;2011;diciembre;3; $77.145 
+2077;Banco Scotiabank;2012;enero;1; $86.932 
+2078;Banco Scotiabank;2012;febrero;1; $34.035 
+2079;Banco Scotiabank;2012;marzo;5; $23.739 
+2080;Banco Scotiabank;2012;abril;2; $41.826 
+2081;Banco Scotiabank;2012;mayo;2; $63.188 
+2082;Banco Scotiabank;2012;junio;5; $17.686 
+2083;Banco Scotiabank;2012;julio;3; $65.626 
+2084;Banco Scotiabank;2012;agosto;5; $13.931 
+2085;Banco Scotiabank;2012;septiembre;1; $36.160 
+2086;Banco Scotiabank;2012;octubre;1; $19.598 
+2087;Banco Scotiabank;2012;noviembre;5; $11.037 
+2088;Banco Scotiabank;2012;diciembre;4; $55.197 
+2089;Banco Scotiabank;2013;enero;4; $95.114 
+2090;Banco Scotiabank;2013;febrero;2; $23.735 
+2091;Banco Scotiabank;2013;marzo;5; $57.847 
+2092;Banco Scotiabank;2013;abril;1; $24.787 
+2093;Banco Scotiabank;2013;mayo;5; $93.795 
+2094;Banco Scotiabank;2013;junio;3; $69.017 
+2095;Banco Scotiabank;2013;julio;4; $88.447 
+2096;Banco Scotiabank;2013;agosto;5; $55.295 
+2097;Banco Scotiabank;2013;septiembre;1; $97.508 
+2098;Banco Scotiabank;2013;octubre;3; $26.567 
+2099;Banco Scotiabank;2013;noviembre;2; $58.999 
+2100;Banco Scotiabank;2013;diciembre;1; $41.070 
+2101;Banco Scotiabank;2014;enero;5; $49.997 
+2102;Banco Scotiabank;2014;febrero;0; $- 
+2103;Banco Scotiabank;2014;marzo;2; $26.074 
+2104;Banco Scotiabank;2014;abril;5; $64.080 
+2105;Banco Scotiabank;2014;mayo;3; $56.099 
+2106;Banco Scotiabank;2014;junio;4; $19.280 
+2107;Banco Scotiabank;2014;julio;0; $- 
+2108;Banco Scotiabank;2014;agosto;2; $43.855 
+2109;Banco Scotiabank;2014;septiembre;2; $99.842 
+2110;Banco Scotiabank;2014;octubre;2; $13.938 
+2111;Banco Scotiabank;2014;noviembre;3; $7.297 
+2112;Banco Scotiabank;2014;diciembre;1; $43.827 
+2113;Banco Scotiabank;2015;enero;0; $- 
+2114;Banco Scotiabank;2015;febrero;5; $53.833 
+2115;Banco Scotiabank;2015;marzo;4; $16.013 
+2116;Banco Scotiabank;2015;abril;1; $8.511 
+2117;Banco Scotiabank;2015;mayo;2; $78.396 
+2118;Banco Scotiabank;2015;junio;1; $49.054 
+2119;Banco Scotiabank;2015;julio;2; $97.358 
+2120;Banco Scotiabank;2015;agosto;3; $30.548 
+2121;Banco Scotiabank;2015;septiembre;1; $70.203 
+2122;Banco Scotiabank;2015;octubre;1; $20.820 
+2123;Banco Scotiabank;2015;noviembre;2; $22.153 
+2124;Banco Scotiabank;2015;diciembre;4; $38.969 
+2125;Banco Scotiabank;2016;enero;4; $73.562 
+2126;Banco Scotiabank;2016;febrero;0; $- 
+2127;Banco Scotiabank;2016;marzo;3; $72.586 
+2128;Banco Scotiabank;2016;abril;0; $- 
+2129;Banco Scotiabank;2016;mayo;5; $77.774 
+2130;Banco Scotiabank;2016;junio;0; $- 
+2131;Banco Scotiabank;2016;julio;2; $37.451 
+2132;Banco Scotiabank;2016;agosto;1; $61.597 
+2133;Banco Scotiabank;2016;septiembre;2; $69.493 
+2134;Banco Scotiabank;2016;octubre;2; $64.477 
+2135;Banco Scotiabank;2016;noviembre;1; $42.563 
+2136;Banco Scotiabank;2016;diciembre;1; $46.948 
+2137;Banco Scotiabank;2017;enero;2; $64.664 
+2138;Banco Scotiabank;2017;febrero;5; $40.548 
+2139;Banco Scotiabank;2017;marzo;0; $- 
+2140;Banco Scotiabank;2017;abril;5; $94.548 
+2141;Banco Scotiabank;2017;mayo;5; $55.140 
+2142;Banco Scotiabank;2017;junio;0; $- 
+2143;Banco Scotiabank;2017;julio;3; $32.673 
+2144;Banco Scotiabank;2017;agosto;0; $- 
+2145;Banco Scotiabank;2017;septiembre;1; $61.452 
+2146;Banco Scotiabank;2017;octubre;0; $- 
+2147;Banco Scotiabank;2017;noviembre;1; $66.973 
+2148;Banco Scotiabank;2017;diciembre;5; $18.236 
+2149;Banco Scotiabank;2018;enero;4; $97.191 
+2150;Banco Scotiabank;2018;febrero;5; $72.357 
+2151;Banco Scotiabank;2018;marzo;5; $54.509 
+2152;Banco Scotiabank;2018;abril;1; $28.438 
+2153;Banco Scotiabank;2018;mayo;2; $5.405 
+2154;Banco Scotiabank;2018;junio;1; $39.747 
+2155;Banco Scotiabank;2018;julio;1; $23.306 
+2156;Banco Scotiabank;2018;agosto;5; $13.490 
+2157;Banco Scotiabank;2018;septiembre;4; $68.928 
+2158;Banco Scotiabank;2018;octubre;4; $62.496 
+2159;Banco Scotiabank;2018;noviembre;3; $43.962 
+2160;Banco Scotiabank;2018;diciembre;1; $49.090 
+2161;Banco Scotiabank;2019;enero;0; $- 
+2162;Banco Scotiabank;2019;febrero;0; $- 
+2163;Banco Scotiabank;2019;marzo;1; $34.057 
+2164;Banco Scotiabank;2019;abril;4; $38.139 
+2165;Banco Scotiabank;2019;mayo;4; $81.853 
+2166;Banco Scotiabank;2019;junio;5; $81.110 
+2167;Banco Scotiabank;2019;julio;1; $11.812 
+2168;Banco Scotiabank;2019;agosto;0; $- 
+2169;Banco Scotiabank;2019;septiembre;4; $25.798 
+2170;Banco Scotiabank;2019;octubre;2; $59.396 
+2171;Banco Scotiabank;2019;noviembre;1; $60.277 
+2172;Banco Scotiabank;2019;diciembre;2; $42.822 
+2173;Banco Scotiabank;2020;enero;0; $- 
+2174;Banco Scotiabank;2020;febrero;3; $27.719 
+2175;Banco Scotiabank;2020;marzo;3; $29.404 
+2176;Banco Scotiabank;2020;abril;3; $80.269 
+2177;Banco Scotiabank;2020;mayo;0; $- 
+2178;Banco Scotiabank;2020;junio;4; $86.256 
+2179;Banco Scotiabank;2020;julio;2; $47.596 
+2180;Banco Scotiabank;2020;agosto;3; $97.676 
+2181;Banco Scotiabank;2020;septiembre;4; $62.683 
+2182;Banco Scotiabank;2020;octubre;5; $38.537 
+2183;Banco Scotiabank;2020;noviembre;1; $45.109 
+2184;Banco Scotiabank;2020;diciembre;2; $82.889 
+2185;Banco Scotiabank;2021;enero;5; $29.895 
+2186;Banco Scotiabank;2021;febrero;2; $92.902 
+2187;Banco Scotiabank;2021;marzo;0; $- 
+2188;Banco Scotiabank;2021;abril;2; $63.903 
+2189;Banco Scotiabank;2021;mayo;4; $90.576 
+2190;Banco Scotiabank;2021;junio;0; $- 
+2191;Banco Scotiabank;2021;julio;2; $81.878 
+2192;Banco Scotiabank;2021;agosto;5; $18.808 
+2193;Banco Scotiabank;2021;septiembre;3; $66.036 
+2194;Banco Scotiabank;2021;octubre;2; $17.441 
+2195;Banco Scotiabank;2021;noviembre;5; $13.969 
+2196;Banco Scotiabank;2021;diciembre;0; $- 
+2197;Banco Scotiabank;2022;enero;1; $11.514 
+2198;Banco Scotiabank;2022;febrero;1; $20.768 
+2199;Banco Scotiabank;2022;marzo;5; $68.707 
+2200;Banco Scotiabank;2022;abril;0; $- 
+2201;Banco Scotiabank;2022;mayo;2; $48.635 
+2202;Banco Scotiabank;2022;junio;2; $44.638 
+2203;Banco Scotiabank;2022;julio;3; $75.017 
+2204;Banco Scotiabank;2022;agosto;2; $91.825 
+2205;Banco Scotiabank;2022;septiembre;1; $57.315 
+2206;Banco Scotiabank;2022;octubre;3; $16.357 
+2207;Banco Scotiabank;2022;noviembre;1; $6.249 
+2208;Banco Scotiabank;2022;diciembre;3; $62.009 
+2209;Seguros Banesco;2000;enero;4; $39.077 
+2210;Seguros Banesco;2000;febrero;0; $- 
+2211;Seguros Banesco;2000;marzo;3; $16.068 
+2212;Seguros Banesco;2000;abril;4; $38.909 
+2213;Seguros Banesco;2000;mayo;1; $9.924 
+2214;Seguros Banesco;2000;junio;5; $24.263 
+2215;Seguros Banesco;2000;julio;5; $76.443 
+2216;Seguros Banesco;2000;agosto;0; $- 
+2217;Seguros Banesco;2000;septiembre;1; $27.717 
+2218;Seguros Banesco;2000;octubre;4; $18.361 
+2219;Seguros Banesco;2000;noviembre;5; $97.534 
+2220;Seguros Banesco;2000;diciembre;0; $- 
+2221;Seguros Banesco;2001;enero;3; $42.747 
+2222;Seguros Banesco;2001;febrero;0; $- 
+2223;Seguros Banesco;2001;marzo;5; $12.482 
+2224;Seguros Banesco;2001;abril;5; $15.439 
+2225;Seguros Banesco;2001;mayo;5; $81.756 
+2226;Seguros Banesco;2001;junio;2; $17.942 
+2227;Seguros Banesco;2001;julio;3; $49.066 
+2228;Seguros Banesco;2001;agosto;0; $- 
+2229;Seguros Banesco;2001;septiembre;1; $10.913 
+2230;Seguros Banesco;2001;octubre;0; $- 
+2231;Seguros Banesco;2001;noviembre;5; $34.249 
+2232;Seguros Banesco;2001;diciembre;3; $16.713 
+2233;Seguros Banesco;2002;enero;5; $19.284 
+2234;Seguros Banesco;2002;febrero;0; $- 
+2235;Seguros Banesco;2002;marzo;4; $45.644 
+2236;Seguros Banesco;2002;abril;2; $13.966 
+2237;Seguros Banesco;2002;mayo;0; $- 
+2238;Seguros Banesco;2002;junio;0; $- 
+2239;Seguros Banesco;2002;julio;3; $32.991 
+2240;Seguros Banesco;2002;agosto;3; $8.075 
+2241;Seguros Banesco;2002;septiembre;2; $81.235 
+2242;Seguros Banesco;2002;octubre;2; $76.191 
+2243;Seguros Banesco;2002;noviembre;4; $7.192 
+2244;Seguros Banesco;2002;diciembre;3; $78.213 
+2245;Seguros Banesco;2003;enero;0; $- 
+2246;Seguros Banesco;2003;febrero;5; $7.604 
+2247;Seguros Banesco;2003;marzo;1; $66.375 
+2248;Seguros Banesco;2003;abril;5; $12.710 
+2249;Seguros Banesco;2003;mayo;5; $19.342 
+2250;Seguros Banesco;2003;junio;2; $47.612 
+2251;Seguros Banesco;2003;julio;4; $16.045 
+2252;Seguros Banesco;2003;agosto;2; $17.378 
+2253;Seguros Banesco;2003;septiembre;4; $44.317 
+2254;Seguros Banesco;2003;octubre;3; $38.213 
+2255;Seguros Banesco;2003;noviembre;0; $- 
+2256;Seguros Banesco;2003;diciembre;2; $70.006 
+2257;Seguros Banesco;2004;enero;4; $76.888 
+2258;Seguros Banesco;2004;febrero;3; $68.116 
+2259;Seguros Banesco;2004;marzo;4; $37.723 
+2260;Seguros Banesco;2004;abril;2; $23.496 
+2261;Seguros Banesco;2004;mayo;1; $33.837 
+2262;Seguros Banesco;2004;junio;1; $47.745 
+2263;Seguros Banesco;2004;julio;0; $- 
+2264;Seguros Banesco;2004;agosto;3; $77.303 
+2265;Seguros Banesco;2004;septiembre;4; $18.244 
+2266;Seguros Banesco;2004;octubre;4; $69.352 
+2267;Seguros Banesco;2004;noviembre;5; $13.326 
+2268;Seguros Banesco;2004;diciembre;4; $23.419 
+2269;Seguros Banesco;2005;enero;0; $- 
+2270;Seguros Banesco;2005;febrero;4; $86.645 
+2271;Seguros Banesco;2005;marzo;4; $75.542 
+2272;Seguros Banesco;2005;abril;3; $21.023 
+2273;Seguros Banesco;2005;mayo;4; $18.298 
+2274;Seguros Banesco;2005;junio;0; $- 
+2275;Seguros Banesco;2005;julio;1; $34.856 
+2276;Seguros Banesco;2005;agosto;0; $- 
+2277;Seguros Banesco;2005;septiembre;3; $27.640 
+2278;Seguros Banesco;2005;octubre;1; $78.037 
+2279;Seguros Banesco;2005;noviembre;1; $52.490 
+2280;Seguros Banesco;2005;diciembre;1; $51.492 
+2281;Seguros Banesco;2006;enero;1; $71.108 
+2282;Seguros Banesco;2006;febrero;1; $59.383 
+2283;Seguros Banesco;2006;marzo;0; $- 
+2284;Seguros Banesco;2006;abril;3; $82.825 
+2285;Seguros Banesco;2006;mayo;5; $16.525 
+2286;Seguros Banesco;2006;junio;2; $24.168 
+2287;Seguros Banesco;2006;julio;5; $45.875 
+2288;Seguros Banesco;2006;agosto;4; $7.133 
+2289;Seguros Banesco;2006;septiembre;5; $19.746 
+2290;Seguros Banesco;2006;octubre;4; $78.232 
+2291;Seguros Banesco;2006;noviembre;5; $53.807 
+2292;Seguros Banesco;2006;diciembre;1; $95.437 
+2293;Seguros Banesco;2007;enero;4; $78.653 
+2294;Seguros Banesco;2007;febrero;4; $17.823 
+2295;Seguros Banesco;2007;marzo;1; $64.716 
+2296;Seguros Banesco;2007;abril;0; $- 
+2297;Seguros Banesco;2007;mayo;2; $21.912 
+2298;Seguros Banesco;2007;junio;5; $77.771 
+2299;Seguros Banesco;2007;julio;1; $30.788 
+2300;Seguros Banesco;2007;agosto;4; $52.658 
+2301;Seguros Banesco;2007;septiembre;1; $55.733 
+2302;Seguros Banesco;2007;octubre;3; $47.060 
+2303;Seguros Banesco;2007;noviembre;3; $32.084 
+2304;Seguros Banesco;2007;diciembre;0; $- 
+2305;Seguros Banesco;2008;enero;4; $16.323 
+2306;Seguros Banesco;2008;febrero;3; $65.193 
+2307;Seguros Banesco;2008;marzo;1; $28.124 
+2308;Seguros Banesco;2008;abril;0; $- 
+2309;Seguros Banesco;2008;mayo;4; $18.385 
+2310;Seguros Banesco;2008;junio;2; $97.659 
+2311;Seguros Banesco;2008;julio;3; $57.886 
+2312;Seguros Banesco;2008;agosto;0; $- 
+2313;Seguros Banesco;2008;septiembre;5; $75.902 
+2314;Seguros Banesco;2008;octubre;2; $75.645 
+2315;Seguros Banesco;2008;noviembre;1; $51.662 
+2316;Seguros Banesco;2008;diciembre;2; $15.379 
+2317;Seguros Banesco;2009;enero;5; $48.595 
+2318;Seguros Banesco;2009;febrero;0; $- 
+2319;Seguros Banesco;2009;marzo;1; $52.613 
+2320;Seguros Banesco;2009;abril;0; $- 
+2321;Seguros Banesco;2009;mayo;4; $79.191 
+2322;Seguros Banesco;2009;junio;4; $30.982 
+2323;Seguros Banesco;2009;julio;2; $34.247 
+2324;Seguros Banesco;2009;agosto;3; $41.766 
+2325;Seguros Banesco;2009;septiembre;2; $15.528 
+2326;Seguros Banesco;2009;octubre;4; $64.020 
+2327;Seguros Banesco;2009;noviembre;1; $88.623 
+2328;Seguros Banesco;2009;diciembre;3; $77.570 
+2329;Seguros Banesco;2010;enero;3; $83.972 
+2330;Seguros Banesco;2010;febrero;5; $40.289 
+2331;Seguros Banesco;2010;marzo;5; $46.278 
+2332;Seguros Banesco;2010;abril;2; $49.518 
+2333;Seguros Banesco;2010;mayo;2; $82.407 
+2334;Seguros Banesco;2010;junio;3; $24.273 
+2335;Seguros Banesco;2010;julio;5; $93.247 
+2336;Seguros Banesco;2010;agosto;0; $- 
+2337;Seguros Banesco;2010;septiembre;4; $50.339 
+2338;Seguros Banesco;2010;octubre;5; $26.439 
+2339;Seguros Banesco;2010;noviembre;3; $75.398 
+2340;Seguros Banesco;2010;diciembre;4; $94.559 
+2341;Seguros Banesco;2011;enero;4; $27.526 
+2342;Seguros Banesco;2011;febrero;5; $99.565 
+2343;Seguros Banesco;2011;marzo;3; $74.353 
+2344;Seguros Banesco;2011;abril;5; $13.406 
+2345;Seguros Banesco;2011;mayo;4; $73.333 
+2346;Seguros Banesco;2011;junio;4; $13.562 
+2347;Seguros Banesco;2011;julio;0; $- 
+2348;Seguros Banesco;2011;agosto;2; $90.930 
+2349;Seguros Banesco;2011;septiembre;0; $- 
+2350;Seguros Banesco;2011;octubre;1; $16.907 
+2351;Seguros Banesco;2011;noviembre;0; $- 
+2352;Seguros Banesco;2011;diciembre;2; $76.776 
+2353;Seguros Banesco;2012;enero;5; $13.616 
+2354;Seguros Banesco;2012;febrero;2; $99.685 
+2355;Seguros Banesco;2012;marzo;3; $42.756 
+2356;Seguros Banesco;2012;abril;5; $92.812 
+2357;Seguros Banesco;2012;mayo;3; $28.581 
+2358;Seguros Banesco;2012;junio;4; $36.847 
+2359;Seguros Banesco;2012;julio;5; $43.196 
+2360;Seguros Banesco;2012;agosto;4; $99.262 
+2361;Seguros Banesco;2012;septiembre;3; $24.530 
+2362;Seguros Banesco;2012;octubre;2; $48.224 
+2363;Seguros Banesco;2012;noviembre;2; $56.129 
+2364;Seguros Banesco;2012;diciembre;4; $49.165 
+2365;Seguros Banesco;2013;enero;3; $16.546 
+2366;Seguros Banesco;2013;febrero;3; $83.243 
+2367;Seguros Banesco;2013;marzo;0; $- 
+2368;Seguros Banesco;2013;abril;1; $61.159 
+2369;Seguros Banesco;2013;mayo;3; $73.370 
+2370;Seguros Banesco;2013;junio;2; $32.553 
+2371;Seguros Banesco;2013;julio;2; $37.857 
+2372;Seguros Banesco;2013;agosto;0; $- 
+2373;Seguros Banesco;2013;septiembre;3; $87.950 
+2374;Seguros Banesco;2013;octubre;5; $89.388 
+2375;Seguros Banesco;2013;noviembre;2; $50.279 
+2376;Seguros Banesco;2013;diciembre;2; $16.440 
+2377;Seguros Banesco;2014;enero;1; $36.035 
+2378;Seguros Banesco;2014;febrero;4; $50.506 
+2379;Seguros Banesco;2014;marzo;1; $76.179 
+2380;Seguros Banesco;2014;abril;4; $52.261 
+2381;Seguros Banesco;2014;mayo;0; $- 
+2382;Seguros Banesco;2014;junio;5; $32.329 
+2383;Seguros Banesco;2014;julio;3; $37.719 
+2384;Seguros Banesco;2014;agosto;4; $28.531 
+2385;Seguros Banesco;2014;septiembre;2; $39.479 
+2386;Seguros Banesco;2014;octubre;0; $- 
+2387;Seguros Banesco;2014;noviembre;5; $73.634 
+2388;Seguros Banesco;2014;diciembre;0; $- 
+2389;Seguros Banesco;2015;enero;5; $71.837 
+2390;Seguros Banesco;2015;febrero;1; $43.025 
+2391;Seguros Banesco;2015;marzo;3; $90.955 
+2392;Seguros Banesco;2015;abril;1; $62.751 
+2393;Seguros Banesco;2015;mayo;0; $- 
+2394;Seguros Banesco;2015;junio;2; $31.735 
+2395;Seguros Banesco;2015;julio;1; $40.866 
+2396;Seguros Banesco;2015;agosto;3; $11.916 
+2397;Seguros Banesco;2015;septiembre;3; $67.510 
+2398;Seguros Banesco;2015;octubre;3; $67.696 
+2399;Seguros Banesco;2015;noviembre;4; $47.460 
+2400;Seguros Banesco;2015;diciembre;0; $- 
+2401;Seguros Banesco;2016;enero;5; $38.048 
+2402;Seguros Banesco;2016;febrero;3; $76.586 
+2403;Seguros Banesco;2016;marzo;2; $90.591 
+2404;Seguros Banesco;2016;abril;5; $8.236 
+2405;Seguros Banesco;2016;mayo;0; $- 
+2406;Seguros Banesco;2016;junio;2; $90.672 
+2407;Seguros Banesco;2016;julio;4; $38.756 
+2408;Seguros Banesco;2016;agosto;5; $55.480 
+2409;Seguros Banesco;2016;septiembre;3; $89.853 
+2410;Seguros Banesco;2016;octubre;1; $35.984 
+2411;Seguros Banesco;2016;noviembre;5; $58.903 
+2412;Seguros Banesco;2016;diciembre;3; $13.041 
+2413;Seguros Banesco;2017;enero;3; $58.344 
+2414;Seguros Banesco;2017;febrero;1; $98.921 
+2415;Seguros Banesco;2017;marzo;2; $76.960 
+2416;Seguros Banesco;2017;abril;1; $48.994 
+2417;Seguros Banesco;2017;mayo;0; $- 
+2418;Seguros Banesco;2017;junio;3; $8.805 
+2419;Seguros Banesco;2017;julio;2; $58.095 
+2420;Seguros Banesco;2017;agosto;5; $18.280 
+2421;Seguros Banesco;2017;septiembre;2; $73.757 
+2422;Seguros Banesco;2017;octubre;4; $84.823 
+2423;Seguros Banesco;2017;noviembre;3; $11.984 
+2424;Seguros Banesco;2017;diciembre;0; $- 
+2425;Seguros Banesco;2018;enero;2; $44.209 
+2426;Seguros Banesco;2018;febrero;5; $57.609 
+2427;Seguros Banesco;2018;marzo;0; $- 
+2428;Seguros Banesco;2018;abril;4; $74.997 
+2429;Seguros Banesco;2018;mayo;4; $52.103 
+2430;Seguros Banesco;2018;junio;1; $16.048 
+2431;Seguros Banesco;2018;julio;5; $75.619 
+2432;Seguros Banesco;2018;agosto;1; $23.622 
+2433;Seguros Banesco;2018;septiembre;4; $17.350 
+2434;Seguros Banesco;2018;octubre;4; $47.845 
+2435;Seguros Banesco;2018;noviembre;2; $79.284 
+2436;Seguros Banesco;2018;diciembre;1; $34.918 
+2437;Seguros Banesco;2019;enero;0; $- 
+2438;Seguros Banesco;2019;febrero;2; $51.524 
+2439;Seguros Banesco;2019;marzo;4; $96.768 
+2440;Seguros Banesco;2019;abril;1; $24.368 
+2441;Seguros Banesco;2019;mayo;3; $19.113 
+2442;Seguros Banesco;2019;junio;1; $60.856 
+2443;Seguros Banesco;2019;julio;1; $9.147 
+2444;Seguros Banesco;2019;agosto;1; $66.314 
+2445;Seguros Banesco;2019;septiembre;0; $- 
+2446;Seguros Banesco;2019;octubre;5; $61.061 
+2447;Seguros Banesco;2019;noviembre;0; $- 
+2448;Seguros Banesco;2019;diciembre;0; $- 
+2449;Seguros Banesco;2020;enero;2; $23.330 
+2450;Seguros Banesco;2020;febrero;4; $15.449 
+2451;Seguros Banesco;2020;marzo;0; $- 
+2452;Seguros Banesco;2020;abril;0; $- 
+2453;Seguros Banesco;2020;mayo;4; $81.302 
+2454;Seguros Banesco;2020;junio;0; $- 
+2455;Seguros Banesco;2020;julio;5; $94.967 
+2456;Seguros Banesco;2020;agosto;5; $21.296 
+2457;Seguros Banesco;2020;septiembre;1; $77.101 
+2458;Seguros Banesco;2020;octubre;5; $19.999 
+2459;Seguros Banesco;2020;noviembre;5; $79.859 
+2460;Seguros Banesco;2020;diciembre;3; $70.087 
+2461;Seguros Banesco;2021;enero;5; $20.600 
+2462;Seguros Banesco;2021;febrero;2; $56.905 
+2463;Seguros Banesco;2021;marzo;1; $29.302 
+2464;Seguros Banesco;2021;abril;1; $22.392 
+2465;Seguros Banesco;2021;mayo;5; $58.435 
+2466;Seguros Banesco;2021;junio;5; $74.390 
+2467;Seguros Banesco;2021;julio;0; $- 
+2468;Seguros Banesco;2021;agosto;0; $- 
+2469;Seguros Banesco;2021;septiembre;2; $12.835 
+2470;Seguros Banesco;2021;octubre;5; $65.120 
+2471;Seguros Banesco;2021;noviembre;5; $8.341 
+2472;Seguros Banesco;2021;diciembre;2; $13.143 
+2473;Seguros Banesco;2022;enero;1; $10.029 
+2474;Seguros Banesco;2022;febrero;3; $32.122 
+2475;Seguros Banesco;2022;marzo;0; $- 
+2476;Seguros Banesco;2022;abril;3; $10.601 
+2477;Seguros Banesco;2022;mayo;3; $41.204 
+2478;Seguros Banesco;2022;junio;2; $27.228 
+2479;Seguros Banesco;2022;julio;0; $- 
+2480;Seguros Banesco;2022;agosto;3; $14.133 
+2481;Seguros Banesco;2022;septiembre;2; $91.772 
+2482;Seguros Banesco;2022;octubre;2; $11.354 
+2483;Seguros Banesco;2022;noviembre;4; $61.990 
+2484;Seguros Banesco;2022;diciembre;5; $92.799 
+2485;Seguros Mercantil;2000;enero;3; $68.059 
+2486;Seguros Mercantil;2000;febrero;5; $69.886 
+2487;Seguros Mercantil;2000;marzo;1; $9.133 
+2488;Seguros Mercantil;2000;abril;1; $26.131 
+2489;Seguros Mercantil;2000;mayo;0; $- 
+2490;Seguros Mercantil;2000;junio;1; $70.799 
+2491;Seguros Mercantil;2000;julio;0; $- 
+2492;Seguros Mercantil;2000;agosto;1; $81.785 
+2493;Seguros Mercantil;2000;septiembre;2; $57.758 
+2494;Seguros Mercantil;2000;octubre;0; $- 
+2495;Seguros Mercantil;2000;noviembre;1; $71.025 
+2496;Seguros Mercantil;2000;diciembre;5; $69.909 
+2497;Seguros Mercantil;2001;enero;4; $32.970 
+2498;Seguros Mercantil;2001;febrero;1; $11.266 
+2499;Seguros Mercantil;2001;marzo;3; $63.566 
+2500;Seguros Mercantil;2001;abril;5; $84.685 
+2501;Seguros Mercantil;2001;mayo;3; $89.607 
+2502;Seguros Mercantil;2001;junio;5; $35.074 
+2503;Seguros Mercantil;2001;julio;3; $67.442 
+2504;Seguros Mercantil;2001;agosto;1; $99.439 
+2505;Seguros Mercantil;2001;septiembre;1; $75.931 
+2506;Seguros Mercantil;2001;octubre;3; $71.068 
+2507;Seguros Mercantil;2001;noviembre;3; $11.403 
+2508;Seguros Mercantil;2001;diciembre;5; $52.174 
+2509;Seguros Mercantil;2002;enero;3; $99.930 
+2510;Seguros Mercantil;2002;febrero;1; $76.670 
+2511;Seguros Mercantil;2002;marzo;1; $44.818 
+2512;Seguros Mercantil;2002;abril;0; $- 
+2513;Seguros Mercantil;2002;mayo;2; $7.561 
+2514;Seguros Mercantil;2002;junio;1; $98.978 
+2515;Seguros Mercantil;2002;julio;1; $14.023 
+2516;Seguros Mercantil;2002;agosto;3; $65.076 
+2517;Seguros Mercantil;2002;septiembre;3; $44.058 
+2518;Seguros Mercantil;2002;octubre;0; $- 
+2519;Seguros Mercantil;2002;noviembre;2; $23.429 
+2520;Seguros Mercantil;2002;diciembre;1; $71.647 
+2521;Seguros Mercantil;2003;enero;0; $- 
+2522;Seguros Mercantil;2003;febrero;1; $28.862 
+2523;Seguros Mercantil;2003;marzo;5; $50.983 
+2524;Seguros Mercantil;2003;abril;1; $89.394 
+2525;Seguros Mercantil;2003;mayo;1; $19.411 
+2526;Seguros Mercantil;2003;junio;2; $68.688 
+2527;Seguros Mercantil;2003;julio;3; $85.106 
+2528;Seguros Mercantil;2003;agosto;4; $64.125 
+2529;Seguros Mercantil;2003;septiembre;1; $71.271 
+2530;Seguros Mercantil;2003;octubre;0; $- 
+2531;Seguros Mercantil;2003;noviembre;4; $26.889 
+2532;Seguros Mercantil;2003;diciembre;2; $52.741 
+2533;Seguros Mercantil;2004;enero;5; $5.871 
+2534;Seguros Mercantil;2004;febrero;3; $42.064 
+2535;Seguros Mercantil;2004;marzo;0; $- 
+2536;Seguros Mercantil;2004;abril;3; $66.693 
+2537;Seguros Mercantil;2004;mayo;4; $19.421 
+2538;Seguros Mercantil;2004;junio;1; $12.379 
+2539;Seguros Mercantil;2004;julio;1; $23.737 
+2540;Seguros Mercantil;2004;agosto;2; $65.958 
+2541;Seguros Mercantil;2004;septiembre;0; $- 
+2542;Seguros Mercantil;2004;octubre;3; $13.998 
+2543;Seguros Mercantil;2004;noviembre;1; $62.326 
+2544;Seguros Mercantil;2004;diciembre;0; $- 
+2545;Seguros Mercantil;2005;enero;4; $69.662 
+2546;Seguros Mercantil;2005;febrero;5; $39.372 
+2547;Seguros Mercantil;2005;marzo;3; $6.461 
+2548;Seguros Mercantil;2005;abril;4; $45.628 
+2549;Seguros Mercantil;2005;mayo;5; $28.147 
+2550;Seguros Mercantil;2005;junio;4; $79.851 
+2551;Seguros Mercantil;2005;julio;0; $- 
+2552;Seguros Mercantil;2005;agosto;4; $20.018 
+2553;Seguros Mercantil;2005;septiembre;3; $68.996 
+2554;Seguros Mercantil;2005;octubre;5; $57.718 
+2555;Seguros Mercantil;2005;noviembre;0; $- 
+2556;Seguros Mercantil;2005;diciembre;3; $64.087 
+2557;Seguros Mercantil;2006;enero;3; $12.328 
+2558;Seguros Mercantil;2006;febrero;4; $22.181 
+2559;Seguros Mercantil;2006;marzo;2; $38.457 
+2560;Seguros Mercantil;2006;abril;1; $63.639 
+2561;Seguros Mercantil;2006;mayo;5; $65.721 
+2562;Seguros Mercantil;2006;junio;1; $15.591 
+2563;Seguros Mercantil;2006;julio;1; $26.692 
+2564;Seguros Mercantil;2006;agosto;2; $6.679 
+2565;Seguros Mercantil;2006;septiembre;1; $13.711 
+2566;Seguros Mercantil;2006;octubre;5; $53.938 
+2567;Seguros Mercantil;2006;noviembre;5; $39.765 
+2568;Seguros Mercantil;2006;diciembre;1; $89.876 
+2569;Seguros Mercantil;2007;enero;5; $23.318 
+2570;Seguros Mercantil;2007;febrero;0; $- 
+2571;Seguros Mercantil;2007;marzo;0; $- 
+2572;Seguros Mercantil;2007;abril;1; $24.958 
+2573;Seguros Mercantil;2007;mayo;3; $33.194 
+2574;Seguros Mercantil;2007;junio;3; $73.753 
+2575;Seguros Mercantil;2007;julio;4; $15.982 
+2576;Seguros Mercantil;2007;agosto;0; $- 
+2577;Seguros Mercantil;2007;septiembre;5; $55.018 
+2578;Seguros Mercantil;2007;octubre;2; $5.211 
+2579;Seguros Mercantil;2007;noviembre;0; $- 
+2580;Seguros Mercantil;2007;diciembre;4; $16.592 
+2581;Seguros Mercantil;2008;enero;2; $10.361 
+2582;Seguros Mercantil;2008;febrero;2; $51.080 
+2583;Seguros Mercantil;2008;marzo;5; $48.979 
+2584;Seguros Mercantil;2008;abril;0; $- 
+2585;Seguros Mercantil;2008;mayo;0; $- 
+2586;Seguros Mercantil;2008;junio;3; $51.571 
+2587;Seguros Mercantil;2008;julio;3; $50.923 
+2588;Seguros Mercantil;2008;agosto;2; $44.596 
+2589;Seguros Mercantil;2008;septiembre;5; $16.854 
+2590;Seguros Mercantil;2008;octubre;0; $- 
+2591;Seguros Mercantil;2008;noviembre;3; $95.074 
+2592;Seguros Mercantil;2008;diciembre;1; $68.114 
+2593;Seguros Mercantil;2009;enero;3; $59.203 
+2594;Seguros Mercantil;2009;febrero;0; $- 
+2595;Seguros Mercantil;2009;marzo;1; $80.994 
+2596;Seguros Mercantil;2009;abril;1; $23.487 
+2597;Seguros Mercantil;2009;mayo;5; $50.749 
+2598;Seguros Mercantil;2009;junio;0; $- 
+2599;Seguros Mercantil;2009;julio;3; $15.092 
+2600;Seguros Mercantil;2009;agosto;2; $28.693 
+2601;Seguros Mercantil;2009;septiembre;4; $85.336 
+2602;Seguros Mercantil;2009;octubre;4; $74.957 
+2603;Seguros Mercantil;2009;noviembre;4; $90.405 
+2604;Seguros Mercantil;2009;diciembre;3; $38.277 
+2605;Seguros Mercantil;2010;enero;5; $17.973 
+2606;Seguros Mercantil;2010;febrero;3; $54.182 
+2607;Seguros Mercantil;2010;marzo;0; $- 
+2608;Seguros Mercantil;2010;abril;4; $38.929 
+2609;Seguros Mercantil;2010;mayo;1; $80.366 
+2610;Seguros Mercantil;2010;junio;3; $76.252 
+2611;Seguros Mercantil;2010;julio;4; $35.909 
+2612;Seguros Mercantil;2010;agosto;3; $86.088 
+2613;Seguros Mercantil;2010;septiembre;4; $11.654 
+2614;Seguros Mercantil;2010;octubre;3; $5.868 
+2615;Seguros Mercantil;2010;noviembre;2; $87.018 
+2616;Seguros Mercantil;2010;diciembre;0; $- 
+2617;Seguros Mercantil;2011;enero;3; $73.930 
+2618;Seguros Mercantil;2011;febrero;4; $49.838 
+2619;Seguros Mercantil;2011;marzo;3; $10.441 
+2620;Seguros Mercantil;2011;abril;0; $- 
+2621;Seguros Mercantil;2011;mayo;0; $- 
+2622;Seguros Mercantil;2011;junio;4; $70.760 
+2623;Seguros Mercantil;2011;julio;4; $74.552 
+2624;Seguros Mercantil;2011;agosto;5; $88.619 
+2625;Seguros Mercantil;2011;septiembre;3; $24.548 
+2626;Seguros Mercantil;2011;octubre;0; $- 
+2627;Seguros Mercantil;2011;noviembre;3; $28.956 
+2628;Seguros Mercantil;2011;diciembre;1; $91.329 
+2629;Seguros Mercantil;2012;enero;2; $22.462 
+2630;Seguros Mercantil;2012;febrero;4; $77.813 
+2631;Seguros Mercantil;2012;marzo;2; $42.737 
+2632;Seguros Mercantil;2012;abril;1; $53.573 
+2633;Seguros Mercantil;2012;mayo;5; $60.271 
+2634;Seguros Mercantil;2012;junio;5; $5.645 
+2635;Seguros Mercantil;2012;julio;1; $9.586 
+2636;Seguros Mercantil;2012;agosto;3; $86.114 
+2637;Seguros Mercantil;2012;septiembre;3; $37.558 
+2638;Seguros Mercantil;2012;octubre;2; $84.242 
+2639;Seguros Mercantil;2012;noviembre;4; $22.973 
+2640;Seguros Mercantil;2012;diciembre;2; $63.152 
+2641;Seguros Mercantil;2013;enero;4; $10.244 
+2642;Seguros Mercantil;2013;febrero;0; $- 
+2643;Seguros Mercantil;2013;marzo;3; $77.066 
+2644;Seguros Mercantil;2013;abril;2; $25.184 
+2645;Seguros Mercantil;2013;mayo;2; $70.769 
+2646;Seguros Mercantil;2013;junio;0; $- 
+2647;Seguros Mercantil;2013;julio;3; $44.436 
+2648;Seguros Mercantil;2013;agosto;3; $5.317 
+2649;Seguros Mercantil;2013;septiembre;5; $94.849 
+2650;Seguros Mercantil;2013;octubre;5; $65.043 
+2651;Seguros Mercantil;2013;noviembre;5; $64.661 
+2652;Seguros Mercantil;2013;diciembre;1; $47.979 
+2653;Seguros Mercantil;2014;enero;0; $- 
+2654;Seguros Mercantil;2014;febrero;4; $21.672 
+2655;Seguros Mercantil;2014;marzo;0; $- 
+2656;Seguros Mercantil;2014;abril;0; $- 
+2657;Seguros Mercantil;2014;mayo;4; $7.244 
+2658;Seguros Mercantil;2014;junio;1; $45.996 
+2659;Seguros Mercantil;2014;julio;5; $80.966 
+2660;Seguros Mercantil;2014;agosto;1; $47.088 
+2661;Seguros Mercantil;2014;septiembre;5; $86.409 
+2662;Seguros Mercantil;2014;octubre;3; $5.538 
+2663;Seguros Mercantil;2014;noviembre;5; $60.814 
+2664;Seguros Mercantil;2014;diciembre;4; $91.867 
+2665;Seguros Mercantil;2015;enero;5; $49.498 
+2666;Seguros Mercantil;2015;febrero;4; $39.968 
+2667;Seguros Mercantil;2015;marzo;1; $59.505 
+2668;Seguros Mercantil;2015;abril;5; $71.906 
+2669;Seguros Mercantil;2015;mayo;2; $37.519 
+2670;Seguros Mercantil;2015;junio;3; $30.329 
+2671;Seguros Mercantil;2015;julio;5; $34.123 
+2672;Seguros Mercantil;2015;agosto;1; $96.278 
+2673;Seguros Mercantil;2015;septiembre;1; $20.330 
+2674;Seguros Mercantil;2015;octubre;0; $- 
+2675;Seguros Mercantil;2015;noviembre;3; $91.538 
+2676;Seguros Mercantil;2015;diciembre;0; $- 
+2677;Seguros Mercantil;2016;enero;2; $45.894 
+2678;Seguros Mercantil;2016;febrero;2; $8.450 
+2679;Seguros Mercantil;2016;marzo;5; $79.905 
+2680;Seguros Mercantil;2016;abril;3; $66.293 
+2681;Seguros Mercantil;2016;mayo;1; $36.574 
+2682;Seguros Mercantil;2016;junio;2; $28.632 
+2683;Seguros Mercantil;2016;julio;2; $82.390 
+2684;Seguros Mercantil;2016;agosto;3; $80.770 
+2685;Seguros Mercantil;2016;septiembre;1; $22.380 
+2686;Seguros Mercantil;2016;octubre;5; $50.061 
+2687;Seguros Mercantil;2016;noviembre;0; $- 
+2688;Seguros Mercantil;2016;diciembre;5; $50.982 
+2689;Seguros Mercantil;2017;enero;1; $17.671 
+2690;Seguros Mercantil;2017;febrero;5; $71.225 
+2691;Seguros Mercantil;2017;marzo;1; $95.854 
+2692;Seguros Mercantil;2017;abril;4; $86.832 
+2693;Seguros Mercantil;2017;mayo;1; $15.540 
+2694;Seguros Mercantil;2017;junio;5; $81.992 
+2695;Seguros Mercantil;2017;julio;2; $16.303 
+2696;Seguros Mercantil;2017;agosto;1; $41.855 
+2697;Seguros Mercantil;2017;septiembre;0; $- 
+2698;Seguros Mercantil;2017;octubre;2; $85.019 
+2699;Seguros Mercantil;2017;noviembre;2; $46.233 
+2700;Seguros Mercantil;2017;diciembre;2; $88.350 
+2701;Seguros Mercantil;2018;enero;4; $51.768 
+2702;Seguros Mercantil;2018;febrero;2; $26.505 
+2703;Seguros Mercantil;2018;marzo;0; $- 
+2704;Seguros Mercantil;2018;abril;2; $28.285 
+2705;Seguros Mercantil;2018;mayo;3; $17.143 
+2706;Seguros Mercantil;2018;junio;0; $- 
+2707;Seguros Mercantil;2018;julio;5; $20.846 
+2708;Seguros Mercantil;2018;agosto;0; $- 
+2709;Seguros Mercantil;2018;septiembre;1; $49.438 
+2710;Seguros Mercantil;2018;octubre;3; $17.104 
+2711;Seguros Mercantil;2018;noviembre;0; $- 
+2712;Seguros Mercantil;2018;diciembre;2; $73.220 
+2713;Seguros Mercantil;2019;enero;2; $44.081 
+2714;Seguros Mercantil;2019;febrero;1; $8.240 
+2715;Seguros Mercantil;2019;marzo;3; $96.085 
+2716;Seguros Mercantil;2019;abril;3; $41.203 
+2717;Seguros Mercantil;2019;mayo;5; $18.611 
+2718;Seguros Mercantil;2019;junio;3; $40.070 
+2719;Seguros Mercantil;2019;julio;5; $81.706 
+2720;Seguros Mercantil;2019;agosto;5; $90.494 
+2721;Seguros Mercantil;2019;septiembre;3; $51.770 
+2722;Seguros Mercantil;2019;octubre;2; $23.107 
+2723;Seguros Mercantil;2019;noviembre;2; $89.100 
+2724;Seguros Mercantil;2019;diciembre;0; $- 
+2725;Seguros Mercantil;2020;enero;3; $79.547 
+2726;Seguros Mercantil;2020;febrero;1; $60.260 
+2727;Seguros Mercantil;2020;marzo;3; $94.371 
+2728;Seguros Mercantil;2020;abril;3; $72.789 
+2729;Seguros Mercantil;2020;mayo;0; $- 
+2730;Seguros Mercantil;2020;junio;2; $44.915 
+2731;Seguros Mercantil;2020;julio;5; $75.540 
+2732;Seguros Mercantil;2020;agosto;0; $- 
+2733;Seguros Mercantil;2020;septiembre;5; $16.672 
+2734;Seguros Mercantil;2020;octubre;1; $72.400 
+2735;Seguros Mercantil;2020;noviembre;4; $83.245 
+2736;Seguros Mercantil;2020;diciembre;2; $8.258 
+2737;Seguros Mercantil;2021;enero;5; $34.643 
+2738;Seguros Mercantil;2021;febrero;4; $53.273 
+2739;Seguros Mercantil;2021;marzo;4; $76.209 
+2740;Seguros Mercantil;2021;abril;0; $- 
+2741;Seguros Mercantil;2021;mayo;4; $41.749 
+2742;Seguros Mercantil;2021;junio;0; $- 
+2743;Seguros Mercantil;2021;julio;4; $57.010 
+2744;Seguros Mercantil;2021;agosto;2; $15.091 
+2745;Seguros Mercantil;2021;septiembre;2; $31.121 
+2746;Seguros Mercantil;2021;octubre;2; $65.688 
+2747;Seguros Mercantil;2021;noviembre;0; $- 
+2748;Seguros Mercantil;2021;diciembre;3; $70.779 
+2749;Seguros Mercantil;2022;enero;5; $53.786 
+2750;Seguros Mercantil;2022;febrero;1; $80.172 
+2751;Seguros Mercantil;2022;marzo;4; $11.588 
+2752;Seguros Mercantil;2022;abril;1; $89.746 
+2753;Seguros Mercantil;2022;mayo;4; $63.892 
+2754;Seguros Mercantil;2022;junio;4; $99.913 
+2755;Seguros Mercantil;2022;julio;4; $97.062 
+2756;Seguros Mercantil;2022;agosto;5; $22.660 
+2757;Seguros Mercantil;2022;septiembre;1; $12.288 
+2758;Seguros Mercantil;2022;octubre;0; $- 
+2759;Seguros Mercantil;2022;noviembre;1; $50.892 
+2760;Seguros Mercantil;2022;diciembre;5; $62.930 
+2761;Seguros Patria;2000;enero;2; $12.196 
+2762;Seguros Patria;2000;febrero;0; $- 
+2763;Seguros Patria;2000;marzo;0; $- 
+2764;Seguros Patria;2000;abril;5; $60.844 
+2765;Seguros Patria;2000;mayo;0; $- 
+2766;Seguros Patria;2000;junio;5; $89.294 
+2767;Seguros Patria;2000;julio;2; $63.488 
+2768;Seguros Patria;2000;agosto;1; $77.270 
+2769;Seguros Patria;2000;septiembre;4; $11.893 
+2770;Seguros Patria;2000;octubre;4; $30.244 
+2771;Seguros Patria;2000;noviembre;1; $45.161 
+2772;Seguros Patria;2000;diciembre;4; $72.399 
+2773;Seguros Patria;2001;enero;1; $40.960 
+2774;Seguros Patria;2001;febrero;4; $95.066 
+2775;Seguros Patria;2001;marzo;2; $97.974 
+2776;Seguros Patria;2001;abril;4; $71.778 
+2777;Seguros Patria;2001;mayo;2; $18.272 
+2778;Seguros Patria;2001;junio;4; $32.820 
+2779;Seguros Patria;2001;julio;3; $54.856 
+2780;Seguros Patria;2001;agosto;0; $- 
+2781;Seguros Patria;2001;septiembre;4; $92.313 
+2782;Seguros Patria;2001;octubre;3; $79.259 
+2783;Seguros Patria;2001;noviembre;2; $26.835 
+2784;Seguros Patria;2001;diciembre;0; $- 
+2785;Seguros Patria;2002;enero;3; $6.556 
+2786;Seguros Patria;2002;febrero;2; $97.560 
+2787;Seguros Patria;2002;marzo;3; $33.453 
+2788;Seguros Patria;2002;abril;2; $6.035 
+2789;Seguros Patria;2002;mayo;2; $17.754 
+2790;Seguros Patria;2002;junio;4; $77.269 
+2791;Seguros Patria;2002;julio;2; $67.802 
+2792;Seguros Patria;2002;agosto;1; $85.995 
+2793;Seguros Patria;2002;septiembre;5; $95.337 
+2794;Seguros Patria;2002;octubre;1; $85.957 
+2795;Seguros Patria;2002;noviembre;4; $83.225 
+2796;Seguros Patria;2002;diciembre;4; $78.202 
+2797;Seguros Patria;2003;enero;5; $98.650 
+2798;Seguros Patria;2003;febrero;2; $59.158 
+2799;Seguros Patria;2003;marzo;5; $61.675 
+2800;Seguros Patria;2003;abril;4; $30.063 
+2801;Seguros Patria;2003;mayo;1; $9.281 
+2802;Seguros Patria;2003;junio;5; $52.195 
+2803;Seguros Patria;2003;julio;3; $31.266 
+2804;Seguros Patria;2003;agosto;1; $54.184 
+2805;Seguros Patria;2003;septiembre;1; $68.178 
+2806;Seguros Patria;2003;octubre;4; $71.535 
+2807;Seguros Patria;2003;noviembre;4; $95.718 
+2808;Seguros Patria;2003;diciembre;1; $65.430 
+2809;Seguros Patria;2004;enero;3; $71.870 
+2810;Seguros Patria;2004;febrero;0; $- 
+2811;Seguros Patria;2004;marzo;0; $- 
+2812;Seguros Patria;2004;abril;2; $20.229 
+2813;Seguros Patria;2004;mayo;0; $- 
+2814;Seguros Patria;2004;junio;3; $58.735 
+2815;Seguros Patria;2004;julio;4; $21.765 
+2816;Seguros Patria;2004;agosto;1; $55.487 
+2817;Seguros Patria;2004;septiembre;0; $- 
+2818;Seguros Patria;2004;octubre;0; $- 
+2819;Seguros Patria;2004;noviembre;3; $82.674 
+2820;Seguros Patria;2004;diciembre;5; $89.580 
+2821;Seguros Patria;2005;enero;1; $52.164 
+2822;Seguros Patria;2005;febrero;0; $- 
+2823;Seguros Patria;2005;marzo;2; $29.373 
+2824;Seguros Patria;2005;abril;1; $75.991 
+2825;Seguros Patria;2005;mayo;0; $- 
+2826;Seguros Patria;2005;junio;0; $- 
+2827;Seguros Patria;2005;julio;4; $31.270 
+2828;Seguros Patria;2005;agosto;4; $70.725 
+2829;Seguros Patria;2005;septiembre;5; $49.505 
+2830;Seguros Patria;2005;octubre;4; $14.533 
+2831;Seguros Patria;2005;noviembre;3; $78.226 
+2832;Seguros Patria;2005;diciembre;4; $63.879 
+2833;Seguros Patria;2006;enero;5; $90.820 
+2834;Seguros Patria;2006;febrero;0; $- 
+2835;Seguros Patria;2006;marzo;5; $99.383 
+2836;Seguros Patria;2006;abril;3; $36.001 
+2837;Seguros Patria;2006;mayo;1; $95.840 
+2838;Seguros Patria;2006;junio;1; $27.102 
+2839;Seguros Patria;2006;julio;0; $- 
+2840;Seguros Patria;2006;agosto;1; $98.641 
+2841;Seguros Patria;2006;septiembre;3; $45.905 
+2842;Seguros Patria;2006;octubre;2; $22.816 
+2843;Seguros Patria;2006;noviembre;5; $96.910 
+2844;Seguros Patria;2006;diciembre;2; $86.616 
+2845;Seguros Patria;2007;enero;5; $71.413 
+2846;Seguros Patria;2007;febrero;0; $- 
+2847;Seguros Patria;2007;marzo;2; $76.886 
+2848;Seguros Patria;2007;abril;1; $78.101 
+2849;Seguros Patria;2007;mayo;4; $78.640 
+2850;Seguros Patria;2007;junio;0; $- 
+2851;Seguros Patria;2007;julio;5; $86.683 
+2852;Seguros Patria;2007;agosto;5; $41.353 
+2853;Seguros Patria;2007;septiembre;2; $67.991 
+2854;Seguros Patria;2007;octubre;3; $42.223 
+2855;Seguros Patria;2007;noviembre;4; $29.158 
+2856;Seguros Patria;2007;diciembre;5; $50.226 
+2857;Seguros Patria;2008;enero;1; $8.728 
+2858;Seguros Patria;2008;febrero;2; $24.823 
+2859;Seguros Patria;2008;marzo;2; $29.867 
+2860;Seguros Patria;2008;abril;5; $33.510 
+2861;Seguros Patria;2008;mayo;0; $- 
+2862;Seguros Patria;2008;junio;0; $- 
+2863;Seguros Patria;2008;julio;2; $55.286 
+2864;Seguros Patria;2008;agosto;4; $66.042 
+2865;Seguros Patria;2008;septiembre;0; $- 
+2866;Seguros Patria;2008;octubre;3; $37.740 
+2867;Seguros Patria;2008;noviembre;4; $47.908 
+2868;Seguros Patria;2008;diciembre;1; $69.643 
+2869;Seguros Patria;2009;enero;2; $58.055 
+2870;Seguros Patria;2009;febrero;4; $33.110 
+2871;Seguros Patria;2009;marzo;5; $97.358 
+2872;Seguros Patria;2009;abril;2; $78.519 
+2873;Seguros Patria;2009;mayo;4; $98.704 
+2874;Seguros Patria;2009;junio;5; $81.464 
+2875;Seguros Patria;2009;julio;4; $99.949 
+2876;Seguros Patria;2009;agosto;1; $17.178 
+2877;Seguros Patria;2009;septiembre;3; $5.464 
+2878;Seguros Patria;2009;octubre;0; $- 
+2879;Seguros Patria;2009;noviembre;1; $59.855 
+2880;Seguros Patria;2009;diciembre;1; $95.213 
+2881;Seguros Patria;2010;enero;2; $13.854 
+2882;Seguros Patria;2010;febrero;0; $- 
+2883;Seguros Patria;2010;marzo;2; $82.416 
+2884;Seguros Patria;2010;abril;5; $43.244 
+2885;Seguros Patria;2010;mayo;5; $60.083 
+2886;Seguros Patria;2010;junio;0; $- 
+2887;Seguros Patria;2010;julio;4; $63.149 
+2888;Seguros Patria;2010;agosto;5; $37.589 
+2889;Seguros Patria;2010;septiembre;2; $20.317 
+2890;Seguros Patria;2010;octubre;0; $- 
+2891;Seguros Patria;2010;noviembre;3; $75.557 
+2892;Seguros Patria;2010;diciembre;0; $- 
+2893;Seguros Patria;2011;enero;2; $48.985 
+2894;Seguros Patria;2011;febrero;5; $90.456 
+2895;Seguros Patria;2011;marzo;0; $- 
+2896;Seguros Patria;2011;abril;1; $69.014 
+2897;Seguros Patria;2011;mayo;5; $40.377 
+2898;Seguros Patria;2011;junio;3; $82.100 
+2899;Seguros Patria;2011;julio;1; $52.478 
+2900;Seguros Patria;2011;agosto;5; $81.896 
+2901;Seguros Patria;2011;septiembre;5; $76.557 
+2902;Seguros Patria;2011;octubre;5; $95.937 
+2903;Seguros Patria;2011;noviembre;3; $61.517 
+2904;Seguros Patria;2011;diciembre;3; $29.295 
+2905;Seguros Patria;2012;enero;4; $6.696 
+2906;Seguros Patria;2012;febrero;3; $15.097 
+2907;Seguros Patria;2012;marzo;4; $5.245 
+2908;Seguros Patria;2012;abril;0; $- 
+2909;Seguros Patria;2012;mayo;3; $77.622 
+2910;Seguros Patria;2012;junio;1; $56.919 
+2911;Seguros Patria;2012;julio;4; $46.186 
+2912;Seguros Patria;2012;agosto;4; $66.886 
+2913;Seguros Patria;2012;septiembre;0; $- 
+2914;Seguros Patria;2012;octubre;3; $95.057 
+2915;Seguros Patria;2012;noviembre;2; $13.812 
+2916;Seguros Patria;2012;diciembre;2; $52.160 
+2917;Seguros Patria;2013;enero;3; $40.077 
+2918;Seguros Patria;2013;febrero;5; $33.978 
+2919;Seguros Patria;2013;marzo;3; $84.532 
+2920;Seguros Patria;2013;abril;2; $5.194 
+2921;Seguros Patria;2013;mayo;0; $- 
+2922;Seguros Patria;2013;junio;3; $66.430 
+2923;Seguros Patria;2013;julio;3; $65.272 
+2924;Seguros Patria;2013;agosto;5; $85.414 
+2925;Seguros Patria;2013;septiembre;1; $12.340 
+2926;Seguros Patria;2013;octubre;2; $47.454 
+2927;Seguros Patria;2013;noviembre;4; $98.782 
+2928;Seguros Patria;2013;diciembre;5; $39.006 
+2929;Seguros Patria;2014;enero;2; $8.079 
+2930;Seguros Patria;2014;febrero;5; $16.826 
+2931;Seguros Patria;2014;marzo;1; $12.504 
+2932;Seguros Patria;2014;abril;2; $80.250 
+2933;Seguros Patria;2014;mayo;5; $50.604 
+2934;Seguros Patria;2014;junio;0; $- 
+2935;Seguros Patria;2014;julio;3; $24.205 
+2936;Seguros Patria;2014;agosto;3; $38.618 
+2937;Seguros Patria;2014;septiembre;1; $82.122 
+2938;Seguros Patria;2014;octubre;5; $85.844 
+2939;Seguros Patria;2014;noviembre;5; $24.777 
+2940;Seguros Patria;2014;diciembre;0; $- 
+2941;Seguros Patria;2015;enero;1; $82.095 
+2942;Seguros Patria;2015;febrero;1; $63.620 
+2943;Seguros Patria;2015;marzo;4; $38.933 
+2944;Seguros Patria;2015;abril;3; $56.341 
+2945;Seguros Patria;2015;mayo;2; $26.373 
+2946;Seguros Patria;2015;junio;4; $22.400 
+2947;Seguros Patria;2015;julio;4; $42.631 
+2948;Seguros Patria;2015;agosto;2; $8.422 
+2949;Seguros Patria;2015;septiembre;1; $34.193 
+2950;Seguros Patria;2015;octubre;3; $70.203 
+2951;Seguros Patria;2015;noviembre;2; $61.616 
+2952;Seguros Patria;2015;diciembre;0; $- 
+2953;Seguros Patria;2016;enero;3; $72.925 
+2954;Seguros Patria;2016;febrero;4; $76.995 
+2955;Seguros Patria;2016;marzo;1; $70.211 
+2956;Seguros Patria;2016;abril;1; $92.173 
+2957;Seguros Patria;2016;mayo;1; $70.857 
+2958;Seguros Patria;2016;junio;1; $76.877 
+2959;Seguros Patria;2016;julio;4; $35.137 
+2960;Seguros Patria;2016;agosto;1; $56.942 
+2961;Seguros Patria;2016;septiembre;4; $96.764 
+2962;Seguros Patria;2016;octubre;0; $- 
+2963;Seguros Patria;2016;noviembre;0; $- 
+2964;Seguros Patria;2016;diciembre;4; $22.948 
+2965;Seguros Patria;2017;enero;0; $- 
+2966;Seguros Patria;2017;febrero;0; $- 
+2967;Seguros Patria;2017;marzo;2; $77.242 
+2968;Seguros Patria;2017;abril;2; $11.447 
+2969;Seguros Patria;2017;mayo;5; $74.066 
+2970;Seguros Patria;2017;junio;5; $37.423 
+2971;Seguros Patria;2017;julio;3; $61.032 
+2972;Seguros Patria;2017;agosto;3; $23.870 
+2973;Seguros Patria;2017;septiembre;0; $- 
+2974;Seguros Patria;2017;octubre;3; $26.626 
+2975;Seguros Patria;2017;noviembre;0; $- 
+2976;Seguros Patria;2017;diciembre;2; $55.393 
+2977;Seguros Patria;2018;enero;1; $14.395 
+2978;Seguros Patria;2018;febrero;3; $63.821 
+2979;Seguros Patria;2018;marzo;4; $18.248 
+2980;Seguros Patria;2018;abril;0; $- 
+2981;Seguros Patria;2018;mayo;3; $35.867 
+2982;Seguros Patria;2018;junio;4; $49.939 
+2983;Seguros Patria;2018;julio;1; $20.272 
+2984;Seguros Patria;2018;agosto;3; $14.403 
+2985;Seguros Patria;2018;septiembre;2; $91.446 
+2986;Seguros Patria;2018;octubre;2; $69.173 
+2987;Seguros Patria;2018;noviembre;5; $6.581 
+2988;Seguros Patria;2018;diciembre;5; $61.259 
+2989;Seguros Patria;2019;enero;2; $11.106 
+2990;Seguros Patria;2019;febrero;1; $51.583 
+2991;Seguros Patria;2019;marzo;2; $27.255 
+2992;Seguros Patria;2019;abril;3; $83.886 
+2993;Seguros Patria;2019;mayo;0; $- 
+2994;Seguros Patria;2019;junio;5; $37.223 
+2995;Seguros Patria;2019;julio;4; $84.987 
+2996;Seguros Patria;2019;agosto;3; $60.445 
+2997;Seguros Patria;2019;septiembre;4; $6.413 
+2998;Seguros Patria;2019;octubre;1; $98.502 
+2999;Seguros Patria;2019;noviembre;3; $80.365 
+3000;Seguros Patria;2019;diciembre;3; $26.500 
+3001;Seguros Patria;2020;enero;4; $16.345 
+3002;Seguros Patria;2020;febrero;2; $92.997 
+3003;Seguros Patria;2020;marzo;3; $22.967 
+3004;Seguros Patria;2020;abril;2; $58.366 
+3005;Seguros Patria;2020;mayo;4; $52.205 
+3006;Seguros Patria;2020;junio;0; $- 
+3007;Seguros Patria;2020;julio;3; $16.811 
+3008;Seguros Patria;2020;agosto;2; $41.847 
+3009;Seguros Patria;2020;septiembre;1; $15.818 
+3010;Seguros Patria;2020;octubre;0; $- 
+3011;Seguros Patria;2020;noviembre;3; $29.478 
+3012;Seguros Patria;2020;diciembre;4; $11.308 
+3013;Seguros Patria;2021;enero;1; $15.490 
+3014;Seguros Patria;2021;febrero;4; $30.130 
+3015;Seguros Patria;2021;marzo;2; $16.839 
+3016;Seguros Patria;2021;abril;3; $51.807 
+3017;Seguros Patria;2021;mayo;3; $33.730 
+3018;Seguros Patria;2021;junio;3; $75.854 
+3019;Seguros Patria;2021;julio;4; $34.838 
+3020;Seguros Patria;2021;agosto;2; $17.566 
+3021;Seguros Patria;2021;septiembre;4; $52.481 
+3022;Seguros Patria;2021;octubre;2; $37.496 
+3023;Seguros Patria;2021;noviembre;2; $46.878 
+3024;Seguros Patria;2021;diciembre;2; $66.187 
+3025;Seguros Patria;2022;enero;5; $60.766 
+3026;Seguros Patria;2022;febrero;0; $- 
+3027;Seguros Patria;2022;marzo;0; $- 
+3028;Seguros Patria;2022;abril;1; $69.676 
+3029;Seguros Patria;2022;mayo;1; $73.084 
+3030;Seguros Patria;2022;junio;5; $15.982 
+3031;Seguros Patria;2022;julio;0; $- 
+3032;Seguros Patria;2022;agosto;1; $80.150 
+3033;Seguros Patria;2022;septiembre;0; $- 
+3034;Seguros Patria;2022;octubre;2; $5.766 
+3035;Seguros Patria;2022;noviembre;1; $19.828 
+3036;Seguros Patria;2022;diciembre;3; $18.539 
+3037;Seguros Porvenir;2000;enero;4; $45.148 
+3038;Seguros Porvenir;2000;febrero;0; $- 
+3039;Seguros Porvenir;2000;marzo;5; $55.011 
+3040;Seguros Porvenir;2000;abril;4; $22.425 
+3041;Seguros Porvenir;2000;mayo;1; $5.189 
+3042;Seguros Porvenir;2000;junio;0; $- 
+3043;Seguros Porvenir;2000;julio;4; $8.392 
+3044;Seguros Porvenir;2000;agosto;0; $- 
+3045;Seguros Porvenir;2000;septiembre;4; $70.619 
+3046;Seguros Porvenir;2000;octubre;5; $34.979 
+3047;Seguros Porvenir;2000;noviembre;3; $45.190 
+3048;Seguros Porvenir;2000;diciembre;3; $30.039 
+3049;Seguros Porvenir;2001;enero;3; $79.649 
+3050;Seguros Porvenir;2001;febrero;3; $54.475 
+3051;Seguros Porvenir;2001;marzo;3; $88.661 
+3052;Seguros Porvenir;2001;abril;1; $43.230 
+3053;Seguros Porvenir;2001;mayo;1; $98.063 
+3054;Seguros Porvenir;2001;junio;3; $69.424 
+3055;Seguros Porvenir;2001;julio;2; $28.068 
+3056;Seguros Porvenir;2001;agosto;3; $10.359 
+3057;Seguros Porvenir;2001;septiembre;1; $73.643 
+3058;Seguros Porvenir;2001;octubre;5; $28.620 
+3059;Seguros Porvenir;2001;noviembre;0; $- 
+3060;Seguros Porvenir;2001;diciembre;2; $16.621 
+3061;Seguros Porvenir;2002;enero;0; $- 
+3062;Seguros Porvenir;2002;febrero;3; $61.739 
+3063;Seguros Porvenir;2002;marzo;1; $86.501 
+3064;Seguros Porvenir;2002;abril;1; $79.784 
+3065;Seguros Porvenir;2002;mayo;2; $82.674 
+3066;Seguros Porvenir;2002;junio;2; $40.384 
+3067;Seguros Porvenir;2002;julio;1; $91.093 
+3068;Seguros Porvenir;2002;agosto;1; $81.510 
+3069;Seguros Porvenir;2002;septiembre;0; $- 
+3070;Seguros Porvenir;2002;octubre;4; $50.929 
+3071;Seguros Porvenir;2002;noviembre;5; $87.768 
+3072;Seguros Porvenir;2002;diciembre;5; $30.550 
+3073;Seguros Porvenir;2003;enero;5; $24.070 
+3074;Seguros Porvenir;2003;febrero;4; $27.826 
+3075;Seguros Porvenir;2003;marzo;4; $85.103 
+3076;Seguros Porvenir;2003;abril;1; $7.406 
+3077;Seguros Porvenir;2003;mayo;1; $93.317 
+3078;Seguros Porvenir;2003;junio;5; $54.347 
+3079;Seguros Porvenir;2003;julio;3; $10.124 
+3080;Seguros Porvenir;2003;agosto;2; $7.487 
+3081;Seguros Porvenir;2003;septiembre;2; $45.560 
+3082;Seguros Porvenir;2003;octubre;4; $85.198 
+3083;Seguros Porvenir;2003;noviembre;0; $- 
+3084;Seguros Porvenir;2003;diciembre;1; $37.392 
+3085;Seguros Porvenir;2004;enero;4; $31.747 
+3086;Seguros Porvenir;2004;febrero;0; $- 
+3087;Seguros Porvenir;2004;marzo;0; $- 
+3088;Seguros Porvenir;2004;abril;4; $83.054 
+3089;Seguros Porvenir;2004;mayo;1; $80.189 
+3090;Seguros Porvenir;2004;junio;5; $67.869 
+3091;Seguros Porvenir;2004;julio;1; $61.942 
+3092;Seguros Porvenir;2004;agosto;4; $87.975 
+3093;Seguros Porvenir;2004;septiembre;0; $- 
+3094;Seguros Porvenir;2004;octubre;3; $49.242 
+3095;Seguros Porvenir;2004;noviembre;4; $63.584 
+3096;Seguros Porvenir;2004;diciembre;2; $53.223 
+3097;Seguros Porvenir;2005;enero;3; $24.433 
+3098;Seguros Porvenir;2005;febrero;1; $22.264 
+3099;Seguros Porvenir;2005;marzo;3; $82.763 
+3100;Seguros Porvenir;2005;abril;2; $14.274 
+3101;Seguros Porvenir;2005;mayo;1; $89.101 
+3102;Seguros Porvenir;2005;junio;2; $85.079 
+3103;Seguros Porvenir;2005;julio;5; $68.562 
+3104;Seguros Porvenir;2005;agosto;5; $17.921 
+3105;Seguros Porvenir;2005;septiembre;3; $62.969 
+3106;Seguros Porvenir;2005;octubre;4; $5.376 
+3107;Seguros Porvenir;2005;noviembre;5; $14.345 
+3108;Seguros Porvenir;2005;diciembre;5; $49.511 
+3109;Seguros Porvenir;2006;enero;5; $9.866 
+3110;Seguros Porvenir;2006;febrero;5; $15.131 
+3111;Seguros Porvenir;2006;marzo;3; $31.277 
+3112;Seguros Porvenir;2006;abril;3; $74.676 
+3113;Seguros Porvenir;2006;mayo;2; $24.103 
+3114;Seguros Porvenir;2006;junio;2; $88.667 
+3115;Seguros Porvenir;2006;julio;2; $8.666 
+3116;Seguros Porvenir;2006;agosto;4; $22.840 
+3117;Seguros Porvenir;2006;septiembre;2; $64.645 
+3118;Seguros Porvenir;2006;octubre;4; $97.408 
+3119;Seguros Porvenir;2006;noviembre;5; $82.258 
+3120;Seguros Porvenir;2006;diciembre;3; $59.714 
+3121;Seguros Porvenir;2007;enero;5; $26.837 
+3122;Seguros Porvenir;2007;febrero;4; $94.523 
+3123;Seguros Porvenir;2007;marzo;1; $92.215 
+3124;Seguros Porvenir;2007;abril;2; $93.572 
+3125;Seguros Porvenir;2007;mayo;4; $73.646 
+3126;Seguros Porvenir;2007;junio;4; $20.458 
+3127;Seguros Porvenir;2007;julio;4; $40.148 
+3128;Seguros Porvenir;2007;agosto;1; $13.951 
+3129;Seguros Porvenir;2007;septiembre;4; $21.900 
+3130;Seguros Porvenir;2007;octubre;5; $99.135 
+3131;Seguros Porvenir;2007;noviembre;2; $32.874 
+3132;Seguros Porvenir;2007;diciembre;3; $80.702 
+3133;Seguros Porvenir;2008;enero;5; $54.663 
+3134;Seguros Porvenir;2008;febrero;2; $13.805 
+3135;Seguros Porvenir;2008;marzo;3; $84.282 
+3136;Seguros Porvenir;2008;abril;1; $79.919 
+3137;Seguros Porvenir;2008;mayo;0; $- 
+3138;Seguros Porvenir;2008;junio;3; $34.504 
+3139;Seguros Porvenir;2008;julio;1; $72.786 
+3140;Seguros Porvenir;2008;agosto;4; $73.629 
+3141;Seguros Porvenir;2008;septiembre;5; $61.150 
+3142;Seguros Porvenir;2008;octubre;1; $94.348 
+3143;Seguros Porvenir;2008;noviembre;4; $27.708 
+3144;Seguros Porvenir;2008;diciembre;3; $47.767 
+3145;Seguros Porvenir;2009;enero;0; $- 
+3146;Seguros Porvenir;2009;febrero;5; $66.370 
+3147;Seguros Porvenir;2009;marzo;5; $99.698 
+3148;Seguros Porvenir;2009;abril;2; $18.111 
+3149;Seguros Porvenir;2009;mayo;0; $- 
+3150;Seguros Porvenir;2009;junio;4; $61.274 
+3151;Seguros Porvenir;2009;julio;4; $63.000 
+3152;Seguros Porvenir;2009;agosto;5; $79.763 
+3153;Seguros Porvenir;2009;septiembre;3; $73.453 
+3154;Seguros Porvenir;2009;octubre;2; $77.668 
+3155;Seguros Porvenir;2009;noviembre;3; $24.281 
+3156;Seguros Porvenir;2009;diciembre;3; $12.280 
+3157;Seguros Porvenir;2010;enero;3; $41.767 
+3158;Seguros Porvenir;2010;febrero;0; $- 
+3159;Seguros Porvenir;2010;marzo;2; $14.473 
+3160;Seguros Porvenir;2010;abril;2; $21.318 
+3161;Seguros Porvenir;2010;mayo;0; $- 
+3162;Seguros Porvenir;2010;junio;2; $73.023 
+3163;Seguros Porvenir;2010;julio;0; $- 
+3164;Seguros Porvenir;2010;agosto;3; $7.763 
+3165;Seguros Porvenir;2010;septiembre;1; $11.083 
+3166;Seguros Porvenir;2010;octubre;3; $63.653 
+3167;Seguros Porvenir;2010;noviembre;1; $37.564 
+3168;Seguros Porvenir;2010;diciembre;4; $30.426 
+3169;Seguros Porvenir;2011;enero;1; $78.570 
+3170;Seguros Porvenir;2011;febrero;3; $99.835 
+3171;Seguros Porvenir;2011;marzo;3; $20.061 
+3172;Seguros Porvenir;2011;abril;0; $- 
+3173;Seguros Porvenir;2011;mayo;2; $99.075 
+3174;Seguros Porvenir;2011;junio;4; $45.466 
+3175;Seguros Porvenir;2011;julio;0; $- 
+3176;Seguros Porvenir;2011;agosto;4; $9.070 
+3177;Seguros Porvenir;2011;septiembre;4; $66.884 
+3178;Seguros Porvenir;2011;octubre;2; $46.848 
+3179;Seguros Porvenir;2011;noviembre;5; $68.298 
+3180;Seguros Porvenir;2011;diciembre;1; $18.141 
+3181;Seguros Porvenir;2012;enero;5; $88.534 
+3182;Seguros Porvenir;2012;febrero;3; $56.391 
+3183;Seguros Porvenir;2012;marzo;2; $83.497 
+3184;Seguros Porvenir;2012;abril;5; $77.336 
+3185;Seguros Porvenir;2012;mayo;0; $- 
+3186;Seguros Porvenir;2012;junio;1; $16.598 
+3187;Seguros Porvenir;2012;julio;4; $72.451 
+3188;Seguros Porvenir;2012;agosto;0; $- 
+3189;Seguros Porvenir;2012;septiembre;4; $94.260 
+3190;Seguros Porvenir;2012;octubre;3; $86.812 
+3191;Seguros Porvenir;2012;noviembre;2; $41.410 
+3192;Seguros Porvenir;2012;diciembre;0; $- 
+3193;Seguros Porvenir;2013;enero;5; $47.246 
+3194;Seguros Porvenir;2013;febrero;4; $41.163 
+3195;Seguros Porvenir;2013;marzo;0; $- 
+3196;Seguros Porvenir;2013;abril;5; $48.027 
+3197;Seguros Porvenir;2013;mayo;2; $79.072 
+3198;Seguros Porvenir;2013;junio;2; $16.839 
+3199;Seguros Porvenir;2013;julio;4; $79.136 
+3200;Seguros Porvenir;2013;agosto;1; $8.859 
+3201;Seguros Porvenir;2013;septiembre;3; $36.784 
+3202;Seguros Porvenir;2013;octubre;5; $73.623 
+3203;Seguros Porvenir;2013;noviembre;4; $6.406 
+3204;Seguros Porvenir;2013;diciembre;1; $27.050 
+3205;Seguros Porvenir;2014;enero;1; $13.417 
+3206;Seguros Porvenir;2014;febrero;0; $- 
+3207;Seguros Porvenir;2014;marzo;0; $- 
+3208;Seguros Porvenir;2014;abril;5; $27.550 
+3209;Seguros Porvenir;2014;mayo;2; $74.969 
+3210;Seguros Porvenir;2014;junio;0; $- 
+3211;Seguros Porvenir;2014;julio;3; $89.094 
+3212;Seguros Porvenir;2014;agosto;4; $21.745 
+3213;Seguros Porvenir;2014;septiembre;5; $35.418 
+3214;Seguros Porvenir;2014;octubre;2; $29.173 
+3215;Seguros Porvenir;2014;noviembre;3; $20.578 
+3216;Seguros Porvenir;2014;diciembre;3; $35.880 
+3217;Seguros Porvenir;2015;enero;4; $67.146 
+3218;Seguros Porvenir;2015;febrero;1; $52.173 
+3219;Seguros Porvenir;2015;marzo;2; $72.807 
+3220;Seguros Porvenir;2015;abril;5; $44.362 
+3221;Seguros Porvenir;2015;mayo;3; $26.263 
+3222;Seguros Porvenir;2015;junio;2; $12.726 
+3223;Seguros Porvenir;2015;julio;5; $97.964 
+3224;Seguros Porvenir;2015;agosto;2; $24.248 
+3225;Seguros Porvenir;2015;septiembre;1; $18.439 
+3226;Seguros Porvenir;2015;octubre;3; $56.292 
+3227;Seguros Porvenir;2015;noviembre;4; $10.088 
+3228;Seguros Porvenir;2015;diciembre;4; $86.769 
+3229;Seguros Porvenir;2016;enero;5; $90.445 
+3230;Seguros Porvenir;2016;febrero;2; $48.160 
+3231;Seguros Porvenir;2016;marzo;0; $- 
+3232;Seguros Porvenir;2016;abril;3; $52.769 
+3233;Seguros Porvenir;2016;mayo;3; $96.442 
+3234;Seguros Porvenir;2016;junio;4; $73.707 
+3235;Seguros Porvenir;2016;julio;0; $- 
+3236;Seguros Porvenir;2016;agosto;5; $90.188 
+3237;Seguros Porvenir;2016;septiembre;4; $50.927 
+3238;Seguros Porvenir;2016;octubre;4; $78.286 
+3239;Seguros Porvenir;2016;noviembre;5; $49.143 
+3240;Seguros Porvenir;2016;diciembre;1; $14.706 
+3241;Seguros Porvenir;2017;enero;3; $52.133 
+3242;Seguros Porvenir;2017;febrero;5; $47.332 
+3243;Seguros Porvenir;2017;marzo;3; $10.435 
+3244;Seguros Porvenir;2017;abril;0; $- 
+3245;Seguros Porvenir;2017;mayo;3; $98.274 
+3246;Seguros Porvenir;2017;junio;5; $66.770 
+3247;Seguros Porvenir;2017;julio;5; $18.708 
+3248;Seguros Porvenir;2017;agosto;4; $51.822 
+3249;Seguros Porvenir;2017;septiembre;0; $- 
+3250;Seguros Porvenir;2017;octubre;2; $93.069 
+3251;Seguros Porvenir;2017;noviembre;2; $34.858 
+3252;Seguros Porvenir;2017;diciembre;3; $18.332 
+3253;Seguros Porvenir;2018;enero;2; $33.732 
+3254;Seguros Porvenir;2018;febrero;3; $95.571 
+3255;Seguros Porvenir;2018;marzo;3; $23.827 
+3256;Seguros Porvenir;2018;abril;3; $90.165 
+3257;Seguros Porvenir;2018;mayo;3; $30.863 
+3258;Seguros Porvenir;2018;junio;5; $62.767 
+3259;Seguros Porvenir;2018;julio;4; $39.964 
+3260;Seguros Porvenir;2018;agosto;1; $15.077 
+3261;Seguros Porvenir;2018;septiembre;4; $22.289 
+3262;Seguros Porvenir;2018;octubre;3; $17.144 
+3263;Seguros Porvenir;2018;noviembre;4; $20.113 
+3264;Seguros Porvenir;2018;diciembre;2; $21.895 
+3265;Seguros Porvenir;2019;enero;0; $- 
+3266;Seguros Porvenir;2019;febrero;1; $90.748 
+3267;Seguros Porvenir;2019;marzo;4; $65.693 
+3268;Seguros Porvenir;2019;abril;0; $- 
+3269;Seguros Porvenir;2019;mayo;2; $15.755 
+3270;Seguros Porvenir;2019;junio;1; $24.620 
+3271;Seguros Porvenir;2019;julio;5; $65.342 
+3272;Seguros Porvenir;2019;agosto;4; $81.071 
+3273;Seguros Porvenir;2019;septiembre;2; $76.287 
+3274;Seguros Porvenir;2019;octubre;2; $50.432 
+3275;Seguros Porvenir;2019;noviembre;4; $91.091 
+3276;Seguros Porvenir;2019;diciembre;2; $25.963 
+3277;Seguros Porvenir;2020;enero;0; $- 
+3278;Seguros Porvenir;2020;febrero;0; $- 
+3279;Seguros Porvenir;2020;marzo;4; $80.997 
+3280;Seguros Porvenir;2020;abril;1; $62.195 
+3281;Seguros Porvenir;2020;mayo;3; $27.352 
+3282;Seguros Porvenir;2020;junio;4; $68.665 
+3283;Seguros Porvenir;2020;julio;1; $12.212 
+3284;Seguros Porvenir;2020;agosto;3; $48.254 
+3285;Seguros Porvenir;2020;septiembre;2; $69.896 
+3286;Seguros Porvenir;2020;octubre;3; $48.380 
+3287;Seguros Porvenir;2020;noviembre;0; $- 
+3288;Seguros Porvenir;2020;diciembre;5; $48.615 
+3289;Seguros Porvenir;2021;enero;5; $41.322 
+3290;Seguros Porvenir;2021;febrero;5; $40.680 
+3291;Seguros Porvenir;2021;marzo;3; $42.801 
+3292;Seguros Porvenir;2021;abril;4; $99.226 
+3293;Seguros Porvenir;2021;mayo;1; $92.156 
+3294;Seguros Porvenir;2021;junio;3; $41.532 
+3295;Seguros Porvenir;2021;julio;4; $11.832 
+3296;Seguros Porvenir;2021;agosto;3; $13.376 
+3297;Seguros Porvenir;2021;septiembre;2; $90.906 
+3298;Seguros Porvenir;2021;octubre;1; $45.719 
+3299;Seguros Porvenir;2021;noviembre;0; $- 
+3300;Seguros Porvenir;2021;diciembre;0; $- 
+3301;Seguros Porvenir;2022;enero;5; $36.230 
+3302;Seguros Porvenir;2022;febrero;5; $89.656 
+3303;Seguros Porvenir;2022;marzo;3; $62.049 
+3304;Seguros Porvenir;2022;abril;1; $68.010 
+3305;Seguros Porvenir;2022;mayo;2; $31.491 
+3306;Seguros Porvenir;2022;junio;5; $9.539 
+3307;Seguros Porvenir;2022;julio;1; $88.359 
+3308;Seguros Porvenir;2022;agosto;5; $89.855 
+3309;Seguros Porvenir;2022;septiembre;3; $66.247 
+3310;Seguros Porvenir;2022;octubre;2; $35.637 
+3311;Seguros Porvenir;2022;noviembre;1; $90.516 
+3312;Seguros Porvenir;2022;diciembre;3; $69.984 
+3313;Seguros Turpial;2000;enero;4; $45.358 
+3314;Seguros Turpial;2000;febrero;3; $76.232 
+3315;Seguros Turpial;2000;marzo;1; $97.883 
+3316;Seguros Turpial;2000;abril;0; $- 
+3317;Seguros Turpial;2000;mayo;0; $- 
+3318;Seguros Turpial;2000;junio;5; $49.235 
+3319;Seguros Turpial;2000;julio;1; $45.828 
+3320;Seguros Turpial;2000;agosto;2; $9.908 
+3321;Seguros Turpial;2000;septiembre;2; $25.967 
+3322;Seguros Turpial;2000;octubre;0; $- 
+3323;Seguros Turpial;2000;noviembre;4; $44.581 
+3324;Seguros Turpial;2000;diciembre;0; $- 
+3325;Seguros Turpial;2001;enero;3; $32.134 
+3326;Seguros Turpial;2001;febrero;5; $27.015 
+3327;Seguros Turpial;2001;marzo;3; $32.430 
+3328;Seguros Turpial;2001;abril;3; $88.498 
+3329;Seguros Turpial;2001;mayo;0; $- 
+3330;Seguros Turpial;2001;junio;5; $32.622 
+3331;Seguros Turpial;2001;julio;4; $86.195 
+3332;Seguros Turpial;2001;agosto;0; $- 
+3333;Seguros Turpial;2001;septiembre;0; $- 
+3334;Seguros Turpial;2001;octubre;4; $34.264 
+3335;Seguros Turpial;2001;noviembre;2; $48.132 
+3336;Seguros Turpial;2001;diciembre;2; $63.992 
+3337;Seguros Turpial;2002;enero;5; $40.405 
+3338;Seguros Turpial;2002;febrero;5; $47.682 
+3339;Seguros Turpial;2002;marzo;3; $28.475 
+3340;Seguros Turpial;2002;abril;5; $19.734 
+3341;Seguros Turpial;2002;mayo;4; $66.335 
+3342;Seguros Turpial;2002;junio;2; $94.305 
+3343;Seguros Turpial;2002;julio;3; $86.876 
+3344;Seguros Turpial;2002;agosto;5; $84.794 
+3345;Seguros Turpial;2002;septiembre;5; $80.014 
+3346;Seguros Turpial;2002;octubre;3; $28.737 
+3347;Seguros Turpial;2002;noviembre;5; $89.716 
+3348;Seguros Turpial;2002;diciembre;5; $25.965 
+3349;Seguros Turpial;2003;enero;2; $34.194 
+3350;Seguros Turpial;2003;febrero;3; $41.959 
+3351;Seguros Turpial;2003;marzo;4; $54.049 
+3352;Seguros Turpial;2003;abril;3; $38.339 
+3353;Seguros Turpial;2003;mayo;2; $81.323 
+3354;Seguros Turpial;2003;junio;2; $86.442 
+3355;Seguros Turpial;2003;julio;2; $22.002 
+3356;Seguros Turpial;2003;agosto;0; $- 
+3357;Seguros Turpial;2003;septiembre;1; $6.155 
+3358;Seguros Turpial;2003;octubre;2; $11.296 
+3359;Seguros Turpial;2003;noviembre;4; $77.931 
+3360;Seguros Turpial;2003;diciembre;5; $33.329 
+3361;Seguros Turpial;2004;enero;1; $33.427 
+3362;Seguros Turpial;2004;febrero;5; $30.985 
+3363;Seguros Turpial;2004;marzo;5; $5.901 
+3364;Seguros Turpial;2004;abril;4; $18.308 
+3365;Seguros Turpial;2004;mayo;2; $94.507 
+3366;Seguros Turpial;2004;junio;1; $18.370 
+3367;Seguros Turpial;2004;julio;1; $88.251 
+3368;Seguros Turpial;2004;agosto;5; $82.486 
+3369;Seguros Turpial;2004;septiembre;5; $30.000 
+3370;Seguros Turpial;2004;octubre;0; $- 
+3371;Seguros Turpial;2004;noviembre;2; $45.625 
+3372;Seguros Turpial;2004;diciembre;3; $11.260 
+3373;Seguros Turpial;2005;enero;1; $49.802 
+3374;Seguros Turpial;2005;febrero;3; $19.735 
+3375;Seguros Turpial;2005;marzo;1; $34.479 
+3376;Seguros Turpial;2005;abril;1; $78.039 
+3377;Seguros Turpial;2005;mayo;3; $73.473 
+3378;Seguros Turpial;2005;junio;4; $87.866 
+3379;Seguros Turpial;2005;julio;4; $82.910 
+3380;Seguros Turpial;2005;agosto;0; $- 
+3381;Seguros Turpial;2005;septiembre;0; $- 
+3382;Seguros Turpial;2005;octubre;1; $72.181 
+3383;Seguros Turpial;2005;noviembre;3; $47.926 
+3384;Seguros Turpial;2005;diciembre;0; $- 
+3385;Seguros Turpial;2006;enero;5; $50.640 
+3386;Seguros Turpial;2006;febrero;1; $17.276 
+3387;Seguros Turpial;2006;marzo;5; $39.454 
+3388;Seguros Turpial;2006;abril;3; $13.305 
+3389;Seguros Turpial;2006;mayo;1; $67.858 
+3390;Seguros Turpial;2006;junio;0; $- 
+3391;Seguros Turpial;2006;julio;5; $6.334 
+3392;Seguros Turpial;2006;agosto;4; $75.556 
+3393;Seguros Turpial;2006;septiembre;1; $6.002 
+3394;Seguros Turpial;2006;octubre;0; $- 
+3395;Seguros Turpial;2006;noviembre;1; $63.384 
+3396;Seguros Turpial;2006;diciembre;5; $19.039 
+3397;Seguros Turpial;2007;enero;0; $- 
+3398;Seguros Turpial;2007;febrero;3; $33.786 
+3399;Seguros Turpial;2007;marzo;3; $74.792 
+3400;Seguros Turpial;2007;abril;3; $84.980 
+3401;Seguros Turpial;2007;mayo;1; $95.483 
+3402;Seguros Turpial;2007;junio;0; $- 
+3403;Seguros Turpial;2007;julio;4; $81.394 
+3404;Seguros Turpial;2007;agosto;4; $62.428 
+3405;Seguros Turpial;2007;septiembre;1; $86.616 
+3406;Seguros Turpial;2007;octubre;1; $58.212 
+3407;Seguros Turpial;2007;noviembre;0; $- 
+3408;Seguros Turpial;2007;diciembre;0; $- 
+3409;Seguros Turpial;2008;enero;3; $72.546 
+3410;Seguros Turpial;2008;febrero;3; $81.809 
+3411;Seguros Turpial;2008;marzo;2; $18.641 
+3412;Seguros Turpial;2008;abril;5; $28.911 
+3413;Seguros Turpial;2008;mayo;1; $76.837 
+3414;Seguros Turpial;2008;junio;2; $9.645 
+3415;Seguros Turpial;2008;julio;0; $- 
+3416;Seguros Turpial;2008;agosto;3; $64.444 
+3417;Seguros Turpial;2008;septiembre;5; $5.245 
+3418;Seguros Turpial;2008;octubre;1; $5.901 
+3419;Seguros Turpial;2008;noviembre;2; $62.503 
+3420;Seguros Turpial;2008;diciembre;3; $78.526 
+3421;Seguros Turpial;2009;enero;1; $23.378 
+3422;Seguros Turpial;2009;febrero;5; $52.553 
+3423;Seguros Turpial;2009;marzo;0; $- 
+3424;Seguros Turpial;2009;abril;4; $42.786 
+3425;Seguros Turpial;2009;mayo;4; $14.430 
+3426;Seguros Turpial;2009;junio;3; $34.557 
+3427;Seguros Turpial;2009;julio;1; $81.396 
+3428;Seguros Turpial;2009;agosto;0; $- 
+3429;Seguros Turpial;2009;septiembre;4; $97.836 
+3430;Seguros Turpial;2009;octubre;0; $- 
+3431;Seguros Turpial;2009;noviembre;5; $89.553 
+3432;Seguros Turpial;2009;diciembre;2; $68.662 
+3433;Seguros Turpial;2010;enero;0; $- 
+3434;Seguros Turpial;2010;febrero;2; $82.306 
+3435;Seguros Turpial;2010;marzo;2; $25.645 
+3436;Seguros Turpial;2010;abril;2; $59.964 
+3437;Seguros Turpial;2010;mayo;0; $- 
+3438;Seguros Turpial;2010;junio;4; $89.780 
+3439;Seguros Turpial;2010;julio;0; $- 
+3440;Seguros Turpial;2010;agosto;2; $27.927 
+3441;Seguros Turpial;2010;septiembre;1; $68.838 
+3442;Seguros Turpial;2010;octubre;4; $65.544 
+3443;Seguros Turpial;2010;noviembre;1; $5.783 
+3444;Seguros Turpial;2010;diciembre;1; $14.527 
+3445;Seguros Turpial;2011;enero;3; $89.685 
+3446;Seguros Turpial;2011;febrero;4; $78.615 
+3447;Seguros Turpial;2011;marzo;2; $19.786 
+3448;Seguros Turpial;2011;abril;0; $- 
+3449;Seguros Turpial;2011;mayo;2; $38.890 
+3450;Seguros Turpial;2011;junio;4; $21.839 
+3451;Seguros Turpial;2011;julio;0; $- 
+3452;Seguros Turpial;2011;agosto;0; $- 
+3453;Seguros Turpial;2011;septiembre;4; $65.690 
+3454;Seguros Turpial;2011;octubre;5; $95.206 
+3455;Seguros Turpial;2011;noviembre;0; $- 
+3456;Seguros Turpial;2011;diciembre;0; $- 
+3457;Seguros Turpial;2012;enero;1; $59.332 
+3458;Seguros Turpial;2012;febrero;5; $47.414 
+3459;Seguros Turpial;2012;marzo;3; $65.331 
+3460;Seguros Turpial;2012;abril;2; $77.246 
+3461;Seguros Turpial;2012;mayo;3; $95.461 
+3462;Seguros Turpial;2012;junio;0; $- 
+3463;Seguros Turpial;2012;julio;5; $26.646 
+3464;Seguros Turpial;2012;agosto;1; $30.311 
+3465;Seguros Turpial;2012;septiembre;2; $70.613 
+3466;Seguros Turpial;2012;octubre;2; $58.484 
+3467;Seguros Turpial;2012;noviembre;3; $66.777 
+3468;Seguros Turpial;2012;diciembre;5; $40.421 
+3469;Seguros Turpial;2013;enero;4; $9.398 
+3470;Seguros Turpial;2013;febrero;5; $40.319 
+3471;Seguros Turpial;2013;marzo;3; $62.533 
+3472;Seguros Turpial;2013;abril;5; $15.622 
+3473;Seguros Turpial;2013;mayo;0; $- 
+3474;Seguros Turpial;2013;junio;3; $16.506 
+3475;Seguros Turpial;2013;julio;3; $53.740 
+3476;Seguros Turpial;2013;agosto;1; $78.568 
+3477;Seguros Turpial;2013;septiembre;2; $48.076 
+3478;Seguros Turpial;2013;octubre;4; $40.453 
+3479;Seguros Turpial;2013;noviembre;2; $57.436 
+3480;Seguros Turpial;2013;diciembre;3; $55.589 
+3481;Seguros Turpial;2014;enero;5; $51.962 
+3482;Seguros Turpial;2014;febrero;2; $29.125 
+3483;Seguros Turpial;2014;marzo;5; $81.997 
+3484;Seguros Turpial;2014;abril;3; $13.786 
+3485;Seguros Turpial;2014;mayo;1; $37.471 
+3486;Seguros Turpial;2014;junio;3; $54.360 
+3487;Seguros Turpial;2014;julio;1; $80.603 
+3488;Seguros Turpial;2014;agosto;4; $41.102 
+3489;Seguros Turpial;2014;septiembre;2; $57.698 
+3490;Seguros Turpial;2014;octubre;4; $29.981 
+3491;Seguros Turpial;2014;noviembre;4; $7.258 
+3492;Seguros Turpial;2014;diciembre;4; $84.717 
+3493;Seguros Turpial;2015;enero;2; $91.392 
+3494;Seguros Turpial;2015;febrero;0; $- 
+3495;Seguros Turpial;2015;marzo;4; $67.916 
+3496;Seguros Turpial;2015;abril;4; $67.933 
+3497;Seguros Turpial;2015;mayo;0; $- 
+3498;Seguros Turpial;2015;junio;5; $19.608 
+3499;Seguros Turpial;2015;julio;1; $46.507 
+3500;Seguros Turpial;2015;agosto;5; $36.329 
+3501;Seguros Turpial;2015;septiembre;2; $48.513 
+3502;Seguros Turpial;2015;octubre;5; $84.599 
+3503;Seguros Turpial;2015;noviembre;2; $96.988 
+3504;Seguros Turpial;2015;diciembre;5; $19.712 
+3505;Seguros Turpial;2016;enero;5; $60.185 
+3506;Seguros Turpial;2016;febrero;0; $- 
+3507;Seguros Turpial;2016;marzo;5; $43.044 
+3508;Seguros Turpial;2016;abril;2; $38.240 
+3509;Seguros Turpial;2016;mayo;2; $18.965 
+3510;Seguros Turpial;2016;junio;3; $54.952 
+3511;Seguros Turpial;2016;julio;5; $5.141 
+3512;Seguros Turpial;2016;agosto;3; $54.175 
+3513;Seguros Turpial;2016;septiembre;3; $63.580 
+3514;Seguros Turpial;2016;octubre;5; $84.575 
+3515;Seguros Turpial;2016;noviembre;0; $- 
+3516;Seguros Turpial;2016;diciembre;5; $6.376 
+3517;Seguros Turpial;2017;enero;4; $58.117 
+3518;Seguros Turpial;2017;febrero;0; $- 
+3519;Seguros Turpial;2017;marzo;2; $52.766 
+3520;Seguros Turpial;2017;abril;0; $- 
+3521;Seguros Turpial;2017;mayo;2; $73.574 
+3522;Seguros Turpial;2017;junio;3; $66.576 
+3523;Seguros Turpial;2017;julio;4; $67.172 
+3524;Seguros Turpial;2017;agosto;2; $29.342 
+3525;Seguros Turpial;2017;septiembre;4; $60.851 
+3526;Seguros Turpial;2017;octubre;3; $23.199 
+3527;Seguros Turpial;2017;noviembre;4; $66.092 
+3528;Seguros Turpial;2017;diciembre;2; $8.961 
+3529;Seguros Turpial;2018;enero;1; $85.736 
+3530;Seguros Turpial;2018;febrero;2; $61.738 
+3531;Seguros Turpial;2018;marzo;1; $96.443 
+3532;Seguros Turpial;2018;abril;1; $58.008 
+3533;Seguros Turpial;2018;mayo;5; $25.873 
+3534;Seguros Turpial;2018;junio;3; $89.648 
+3535;Seguros Turpial;2018;julio;5; $64.905 
+3536;Seguros Turpial;2018;agosto;1; $26.844 
+3537;Seguros Turpial;2018;septiembre;5; $55.330 
+3538;Seguros Turpial;2018;octubre;2; $80.404 
+3539;Seguros Turpial;2018;noviembre;1; $11.206 
+3540;Seguros Turpial;2018;diciembre;2; $18.598 
+3541;Seguros Turpial;2019;enero;1; $5.521 
+3542;Seguros Turpial;2019;febrero;1; $82.718 
+3543;Seguros Turpial;2019;marzo;4; $16.210 
+3544;Seguros Turpial;2019;abril;1; $19.115 
+3545;Seguros Turpial;2019;mayo;2; $77.737 
+3546;Seguros Turpial;2019;junio;2; $95.138 
+3547;Seguros Turpial;2019;julio;5; $21.471 
+3548;Seguros Turpial;2019;agosto;1; $24.467 
+3549;Seguros Turpial;2019;septiembre;0; $- 
+3550;Seguros Turpial;2019;octubre;1; $44.178 
+3551;Seguros Turpial;2019;noviembre;1; $24.745 
+3552;Seguros Turpial;2019;diciembre;5; $35.942 
+3553;Seguros Turpial;2020;enero;0; $- 
+3554;Seguros Turpial;2020;febrero;3; $77.092 
+3555;Seguros Turpial;2020;marzo;3; $75.083 
+3556;Seguros Turpial;2020;abril;0; $- 
+3557;Seguros Turpial;2020;mayo;0; $- 
+3558;Seguros Turpial;2020;junio;3; $81.717 
+3559;Seguros Turpial;2020;julio;2; $89.492 
+3560;Seguros Turpial;2020;agosto;0; $- 
+3561;Seguros Turpial;2020;septiembre;5; $81.587 
+3562;Seguros Turpial;2020;octubre;2; $38.909 
+3563;Seguros Turpial;2020;noviembre;1; $84.449 
+3564;Seguros Turpial;2020;diciembre;4; $50.704 
+3565;Seguros Turpial;2021;enero;4; $61.828 
+3566;Seguros Turpial;2021;febrero;0; $- 
+3567;Seguros Turpial;2021;marzo;4; $8.444 
+3568;Seguros Turpial;2021;abril;1; $74.239 
+3569;Seguros Turpial;2021;mayo;0; $- 
+3570;Seguros Turpial;2021;junio;5; $87.063 
+3571;Seguros Turpial;2021;julio;3; $57.248 
+3572;Seguros Turpial;2021;agosto;1; $11.539 
+3573;Seguros Turpial;2021;septiembre;1; $12.161 
+3574;Seguros Turpial;2021;octubre;0; $- 
+3575;Seguros Turpial;2021;noviembre;2; $14.535 
+3576;Seguros Turpial;2021;diciembre;4; $19.837 
+3577;Seguros Turpial;2022;enero;0; $- 
+3578;Seguros Turpial;2022;febrero;1; $73.765 
+3579;Seguros Turpial;2022;marzo;1; $68.308 
+3580;Seguros Turpial;2022;abril;5; $86.605 
+3581;Seguros Turpial;2022;mayo;3; $89.328 
+3582;Seguros Turpial;2022;junio;5; $47.989 
+3583;Seguros Turpial;2022;julio;4; $41.900 
+3584;Seguros Turpial;2022;agosto;5; $58.794 
+3585;Seguros Turpial;2022;septiembre;1; $82.788 
+3586;Seguros Turpial;2022;octubre;0; $- 
+3587;Seguros Turpial;2022;noviembre;1; $78.849 
+3588;Seguros Turpial;2022;diciembre;2; $29.215 
+3589;Seguros Vida;2000;enero;5; $43.949 
+3590;Seguros Vida;2000;febrero;3; $12.584 
+3591;Seguros Vida;2000;marzo;2; $69.161 
+3592;Seguros Vida;2000;abril;4; $27.673 
+3593;Seguros Vida;2000;mayo;0; $- 
+3594;Seguros Vida;2000;junio;3; $63.080 
+3595;Seguros Vida;2000;julio;3; $69.170 
+3596;Seguros Vida;2000;agosto;3; $70.580 
+3597;Seguros Vida;2000;septiembre;5; $5.344 
+3598;Seguros Vida;2000;octubre;2; $66.193 
+3599;Seguros Vida;2000;noviembre;0; $- 
+3600;Seguros Vida;2000;diciembre;0; $- 
+3601;Seguros Vida;2001;enero;4; $31.421 
+3602;Seguros Vida;2001;febrero;5; $66.914 
+3603;Seguros Vida;2001;marzo;3; $15.007 
+3604;Seguros Vida;2001;abril;3; $68.114 
+3605;Seguros Vida;2001;mayo;0; $- 
+3606;Seguros Vida;2001;junio;1; $40.741 
+3607;Seguros Vida;2001;julio;0; $- 
+3608;Seguros Vida;2001;agosto;4; $61.526 
+3609;Seguros Vida;2001;septiembre;5; $44.700 
+3610;Seguros Vida;2001;octubre;1; $34.270 
+3611;Seguros Vida;2001;noviembre;3; $35.818 
+3612;Seguros Vida;2001;diciembre;5; $96.816 
+3613;Seguros Vida;2002;enero;3; $55.114 
+3614;Seguros Vida;2002;febrero;0; $- 
+3615;Seguros Vida;2002;marzo;1; $98.239 
+3616;Seguros Vida;2002;abril;3; $72.344 
+3617;Seguros Vida;2002;mayo;0; $- 
+3618;Seguros Vida;2002;junio;5; $49.741 
+3619;Seguros Vida;2002;julio;4; $21.122 
+3620;Seguros Vida;2002;agosto;2; $53.605 
+3621;Seguros Vida;2002;septiembre;4; $88.443 
+3622;Seguros Vida;2002;octubre;2; $44.640 
+3623;Seguros Vida;2002;noviembre;4; $84.283 
+3624;Seguros Vida;2002;diciembre;1; $25.594 
+3625;Seguros Vida;2003;enero;1; $22.069 
+3626;Seguros Vida;2003;febrero;3; $21.979 
+3627;Seguros Vida;2003;marzo;4; $59.455 
+3628;Seguros Vida;2003;abril;4; $22.263 
+3629;Seguros Vida;2003;mayo;2; $26.887 
+3630;Seguros Vida;2003;junio;3; $18.536 
+3631;Seguros Vida;2003;julio;2; $9.861 
+3632;Seguros Vida;2003;agosto;2; $11.610 
+3633;Seguros Vida;2003;septiembre;2; $77.230 
+3634;Seguros Vida;2003;octubre;1; $8.556 
+3635;Seguros Vida;2003;noviembre;4; $10.076 
+3636;Seguros Vida;2003;diciembre;4; $19.809 
+3637;Seguros Vida;2004;enero;4; $92.738 
+3638;Seguros Vida;2004;febrero;1; $41.395 
+3639;Seguros Vida;2004;marzo;0; $- 
+3640;Seguros Vida;2004;abril;5; $73.256 
+3641;Seguros Vida;2004;mayo;1; $63.503 
+3642;Seguros Vida;2004;junio;3; $64.055 
+3643;Seguros Vida;2004;julio;5; $6.251 
+3644;Seguros Vida;2004;agosto;0; $- 
+3645;Seguros Vida;2004;septiembre;0; $- 
+3646;Seguros Vida;2004;octubre;2; $50.255 
+3647;Seguros Vida;2004;noviembre;0; $- 
+3648;Seguros Vida;2004;diciembre;1; $34.743 
+3649;Seguros Vida;2005;enero;5; $19.904 
+3650;Seguros Vida;2005;febrero;4; $32.943 
+3651;Seguros Vida;2005;marzo;4; $48.324 
+3652;Seguros Vida;2005;abril;4; $24.494 
+3653;Seguros Vida;2005;mayo;1; $18.208 
+3654;Seguros Vida;2005;junio;3; $59.871 
+3655;Seguros Vida;2005;julio;0; $- 
+3656;Seguros Vida;2005;agosto;0; $- 
+3657;Seguros Vida;2005;septiembre;4; $70.522 
+3658;Seguros Vida;2005;octubre;4; $60.382 
+3659;Seguros Vida;2005;noviembre;0; $- 
+3660;Seguros Vida;2005;diciembre;3; $35.186 
+3661;Seguros Vida;2006;enero;5; $47.712 
+3662;Seguros Vida;2006;febrero;1; $96.962 
+3663;Seguros Vida;2006;marzo;0; $- 
+3664;Seguros Vida;2006;abril;1; $67.868 
+3665;Seguros Vida;2006;mayo;1; $19.788 
+3666;Seguros Vida;2006;junio;3; $27.708 
+3667;Seguros Vida;2006;julio;0; $- 
+3668;Seguros Vida;2006;agosto;2; $92.242 
+3669;Seguros Vida;2006;septiembre;2; $38.101 
+3670;Seguros Vida;2006;octubre;4; $84.686 
+3671;Seguros Vida;2006;noviembre;0; $- 
+3672;Seguros Vida;2006;diciembre;1; $57.724 
+3673;Seguros Vida;2007;enero;4; $67.136 
+3674;Seguros Vida;2007;febrero;3; $47.351 
+3675;Seguros Vida;2007;marzo;5; $55.467 
+3676;Seguros Vida;2007;abril;3; $19.444 
+3677;Seguros Vida;2007;mayo;3; $89.908 
+3678;Seguros Vida;2007;junio;5; $64.562 
+3679;Seguros Vida;2007;julio;2; $88.851 
+3680;Seguros Vida;2007;agosto;0; $- 
+3681;Seguros Vida;2007;septiembre;5; $82.803 
+3682;Seguros Vida;2007;octubre;4; $90.837 
+3683;Seguros Vida;2007;noviembre;0; $- 
+3684;Seguros Vida;2007;diciembre;2; $45.704 
+3685;Seguros Vida;2008;enero;5; $54.472 
+3686;Seguros Vida;2008;febrero;4; $65.020 
+3687;Seguros Vida;2008;marzo;5; $20.609 
+3688;Seguros Vida;2008;abril;1; $53.230 
+3689;Seguros Vida;2008;mayo;3; $66.673 
+3690;Seguros Vida;2008;junio;2; $38.987 
+3691;Seguros Vida;2008;julio;3; $76.414 
+3692;Seguros Vida;2008;agosto;3; $25.394 
+3693;Seguros Vida;2008;septiembre;2; $85.049 
+3694;Seguros Vida;2008;octubre;2; $46.269 
+3695;Seguros Vida;2008;noviembre;4; $43.665 
+3696;Seguros Vida;2008;diciembre;1; $16.302 
+3697;Seguros Vida;2009;enero;2; $5.917 
+3698;Seguros Vida;2009;febrero;0; $- 
+3699;Seguros Vida;2009;marzo;1; $43.712 
+3700;Seguros Vida;2009;abril;3; $65.700 
+3701;Seguros Vida;2009;mayo;4; $50.220 
+3702;Seguros Vida;2009;junio;1; $76.182 
+3703;Seguros Vida;2009;julio;1; $42.985 
+3704;Seguros Vida;2009;agosto;3; $97.486 
+3705;Seguros Vida;2009;septiembre;5; $87.281 
+3706;Seguros Vida;2009;octubre;0; $- 
+3707;Seguros Vida;2009;noviembre;1; $95.804 
+3708;Seguros Vida;2009;diciembre;0; $- 
+3709;Seguros Vida;2010;enero;1; $28.341 
+3710;Seguros Vida;2010;febrero;2; $56.580 
+3711;Seguros Vida;2010;marzo;1; $87.862 
+3712;Seguros Vida;2010;abril;0; $- 
+3713;Seguros Vida;2010;mayo;5; $16.750 
+3714;Seguros Vida;2010;junio;3; $40.842 
+3715;Seguros Vida;2010;julio;2; $76.048 
+3716;Seguros Vida;2010;agosto;3; $65.856 
+3717;Seguros Vida;2010;septiembre;0; $- 
+3718;Seguros Vida;2010;octubre;0; $- 
+3719;Seguros Vida;2010;noviembre;5; $96.046 
+3720;Seguros Vida;2010;diciembre;1; $16.063 
+3721;Seguros Vida;2011;enero;0; $- 
+3722;Seguros Vida;2011;febrero;5; $81.479 
+3723;Seguros Vida;2011;marzo;2; $26.650 
+3724;Seguros Vida;2011;abril;4; $79.245 
+3725;Seguros Vida;2011;mayo;4; $19.470 
+3726;Seguros Vida;2011;junio;1; $72.002 
+3727;Seguros Vida;2011;julio;0; $- 
+3728;Seguros Vida;2011;agosto;0; $- 
+3729;Seguros Vida;2011;septiembre;0; $- 
+3730;Seguros Vida;2011;octubre;0; $- 
+3731;Seguros Vida;2011;noviembre;2; $9.184 
+3732;Seguros Vida;2011;diciembre;3; $67.719 
+3733;Seguros Vida;2012;enero;3; $27.468 
+3734;Seguros Vida;2012;febrero;2; $71.554 
+3735;Seguros Vida;2012;marzo;2; $41.917 
+3736;Seguros Vida;2012;abril;0; $- 
+3737;Seguros Vida;2012;mayo;5; $80.804 
+3738;Seguros Vida;2012;junio;5; $8.443 
+3739;Seguros Vida;2012;julio;0; $- 
+3740;Seguros Vida;2012;agosto;4; $95.137 
+3741;Seguros Vida;2012;septiembre;2; $60.419 
+3742;Seguros Vida;2012;octubre;2; $59.276 
+3743;Seguros Vida;2012;noviembre;4; $98.181 
+3744;Seguros Vida;2012;diciembre;0; $- 
+3745;Seguros Vida;2013;enero;0; $- 
+3746;Seguros Vida;2013;febrero;2; $32.999 
+3747;Seguros Vida;2013;marzo;0; $- 
+3748;Seguros Vida;2013;abril;1; $72.705 
+3749;Seguros Vida;2013;mayo;1; $96.753 
+3750;Seguros Vida;2013;junio;2; $12.445 
+3751;Seguros Vida;2013;julio;4; $47.722 
+3752;Seguros Vida;2013;agosto;5; $93.869 
+3753;Seguros Vida;2013;septiembre;3; $61.613 
+3754;Seguros Vida;2013;octubre;0; $- 
+3755;Seguros Vida;2013;noviembre;5; $86.282 
+3756;Seguros Vida;2013;diciembre;5; $47.421 
+3757;Seguros Vida;2014;enero;3; $29.768 
+3758;Seguros Vida;2014;febrero;0; $- 
+3759;Seguros Vida;2014;marzo;0; $- 
+3760;Seguros Vida;2014;abril;5; $46.523 
+3761;Seguros Vida;2014;mayo;3; $91.034 
+3762;Seguros Vida;2014;junio;5; $53.661 
+3763;Seguros Vida;2014;julio;4; $83.674 
+3764;Seguros Vida;2014;agosto;2; $32.095 
+3765;Seguros Vida;2014;septiembre;2; $71.682 
+3766;Seguros Vida;2014;octubre;1; $78.854 
+3767;Seguros Vida;2014;noviembre;0; $- 
+3768;Seguros Vida;2014;diciembre;0; $- 
+3769;Seguros Vida;2015;enero;2; $71.709 
+3770;Seguros Vida;2015;febrero;1; $28.384 
+3771;Seguros Vida;2015;marzo;5; $52.924 
+3772;Seguros Vida;2015;abril;1; $58.805 
+3773;Seguros Vida;2015;mayo;2; $27.140 
+3774;Seguros Vida;2015;junio;1; $56.197 
+3775;Seguros Vida;2015;julio;5; $9.417 
+3776;Seguros Vida;2015;agosto;4; $77.244 
+3777;Seguros Vida;2015;septiembre;5; $34.737 
+3778;Seguros Vida;2015;octubre;4; $88.959 
+3779;Seguros Vida;2015;noviembre;1; $10.774 
+3780;Seguros Vida;2015;diciembre;5; $85.511 
+3781;Seguros Vida;2016;enero;5; $14.850 
+3782;Seguros Vida;2016;febrero;1; $47.507 
+3783;Seguros Vida;2016;marzo;1; $40.906 
+3784;Seguros Vida;2016;abril;5; $97.311 
+3785;Seguros Vida;2016;mayo;0; $- 
+3786;Seguros Vida;2016;junio;5; $99.069 
+3787;Seguros Vida;2016;julio;4; $83.437 
+3788;Seguros Vida;2016;agosto;1; $92.384 
+3789;Seguros Vida;2016;septiembre;2; $20.307 
+3790;Seguros Vida;2016;octubre;3; $48.719 
+3791;Seguros Vida;2016;noviembre;3; $61.229 
+3792;Seguros Vida;2016;diciembre;4; $44.854 
+3793;Seguros Vida;2017;enero;2; $38.010 
+3794;Seguros Vida;2017;febrero;3; $16.738 
+3795;Seguros Vida;2017;marzo;4; $69.365 
+3796;Seguros Vida;2017;abril;0; $- 
+3797;Seguros Vida;2017;mayo;5; $19.151 
+3798;Seguros Vida;2017;junio;5; $44.992 
+3799;Seguros Vida;2017;julio;1; $69.736 
+3800;Seguros Vida;2017;agosto;1; $40.998 
+3801;Seguros Vida;2017;septiembre;1; $51.810 
+3802;Seguros Vida;2017;octubre;1; $91.509 
+3803;Seguros Vida;2017;noviembre;5; $37.130 
+3804;Seguros Vida;2017;diciembre;5; $87.239 
+3805;Seguros Vida;2018;enero;4; $90.101 
+3806;Seguros Vida;2018;febrero;5; $93.901 
+3807;Seguros Vida;2018;marzo;3; $18.276 
+3808;Seguros Vida;2018;abril;0; $- 
+3809;Seguros Vida;2018;mayo;4; $6.069 
+3810;Seguros Vida;2018;junio;2; $91.124 
+3811;Seguros Vida;2018;julio;1; $66.229 
+3812;Seguros Vida;2018;agosto;0; $- 
+3813;Seguros Vida;2018;septiembre;3; $76.258 
+3814;Seguros Vida;2018;octubre;1; $5.372 
+3815;Seguros Vida;2018;noviembre;4; $66.170 
+3816;Seguros Vida;2018;diciembre;4; $15.733 
+3817;Seguros Vida;2019;enero;4; $43.482 
+3818;Seguros Vida;2019;febrero;3; $87.517 
+3819;Seguros Vida;2019;marzo;2; $99.409 
+3820;Seguros Vida;2019;abril;0; $- 
+3821;Seguros Vida;2019;mayo;5; $73.597 
+3822;Seguros Vida;2019;junio;4; $99.724 
+3823;Seguros Vida;2019;julio;2; $47.721 
+3824;Seguros Vida;2019;agosto;3; $21.934 
+3825;Seguros Vida;2019;septiembre;4; $62.069 
+3826;Seguros Vida;2019;octubre;4; $6.884 
+3827;Seguros Vida;2019;noviembre;1; $20.298 
+3828;Seguros Vida;2019;diciembre;0; $- 
+3829;Seguros Vida;2020;enero;2; $54.250 
+3830;Seguros Vida;2020;febrero;3; $5.493 
+3831;Seguros Vida;2020;marzo;5; $93.112 
+3832;Seguros Vida;2020;abril;2; $38.829 
+3833;Seguros Vida;2020;mayo;1; $13.565 
+3834;Seguros Vida;2020;junio;3; $10.482 
+3835;Seguros Vida;2020;julio;3; $92.637 
+3836;Seguros Vida;2020;agosto;1; $62.057 
+3837;Seguros Vida;2020;septiembre;1; $16.835 
+3838;Seguros Vida;2020;octubre;0; $- 
+3839;Seguros Vida;2020;noviembre;0; $- 
+3840;Seguros Vida;2020;diciembre;0; $- 
+3841;Seguros Vida;2021;enero;0; $- 
+3842;Seguros Vida;2021;febrero;0; $- 
+3843;Seguros Vida;2021;marzo;4; $75.026 
+3844;Seguros Vida;2021;abril;5; $68.150 
+3845;Seguros Vida;2021;mayo;1; $49.774 
+3846;Seguros Vida;2021;junio;2; $74.896 
+3847;Seguros Vida;2021;julio;2; $12.141 
+3848;Seguros Vida;2021;agosto;1; $62.658 
+3849;Seguros Vida;2021;septiembre;5; $43.570 
+3850;Seguros Vida;2021;octubre;0; $- 
+3851;Seguros Vida;2021;noviembre;4; $64.021 
+3852;Seguros Vida;2021;diciembre;4; $54.192 
+3853;Seguros Vida;2022;enero;2; $72.840 
+3854;Seguros Vida;2022;febrero;2; $91.121 
+3855;Seguros Vida;2022;marzo;0; $- 
+3856;Seguros Vida;2022;abril;2; $79.551 
+3857;Seguros Vida;2022;mayo;0; $- 
+3858;Seguros Vida;2022;junio;5; $57.501 
+3859;Seguros Vida;2022;julio;3; $86.798 
+3860;Seguros Vida;2022;agosto;2; $11.638 
+3861;Seguros Vida;2022;septiembre;4; $87.896 
+3862;Seguros Vida;2022;octubre;1; $44.280 
+3863;Seguros Vida;2022;noviembre;2; $5.523 
+3864;Seguros Vida;2022;diciembre;2; $45.623 

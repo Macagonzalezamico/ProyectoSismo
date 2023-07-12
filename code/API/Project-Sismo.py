@@ -105,7 +105,7 @@ def main(latitud, longitud, distancia_km):
         # Calcular la cantidad de sismos por día
         sismos_por_dia = df.groupby(df['Fecha_del_sismo'].dt.date).size().reset_index(name='Cantidad de Sismos')
 
-        model = ARIMA(sismos_por_dia['Cantidad de Sismos'], order=(3, 0, 0))
+        model = ARIMA(sismos_por_dia['Cantidad de Sismos'], order=(4, 0, 0))
         model_fit = model.fit()
 
         fecha_actual = datetime.now().date()

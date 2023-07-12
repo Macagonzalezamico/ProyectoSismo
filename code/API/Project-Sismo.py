@@ -90,11 +90,11 @@ def main(latitud, longitud, distancia_km):
     Cantidad = len(df)
     
     df["Magnitud"] = df["Magnitud"].astype(float)
-    sumatoriam55 = df[df["Magnitud"] > 5.5]["Magnitud"].count()
-    sumatoriam65 = df[df["Magnitud"] > 6.5]["Magnitud"].count()
-    sumatoria = df["Magnitud"].count()
-    probm55 = (sumatoriam55 / sumatoria).round(8)
-    probm65 = (sumatoriam65 / sumatoria).round(8)
+    countm55 = df[df["Magnitud"] > 5]["Magnitud"].count()
+    countm65 = df[df["Magnitud"] > 6.5]["Magnitud"].count()
+    count = len(df)
+    probm55 = (countm55 / count).round(8)
+    probm65 = (countm65 / count).round(8)
 
 
     if len(df) == 0:
@@ -105,7 +105,7 @@ def main(latitud, longitud, distancia_km):
         # Calcular la cantidad de sismos por día
         sismos_por_dia = df.groupby(df['Fecha_del_sismo'].dt.date).size().reset_index(name='Cantidad de Sismos')
 
-        model = ARIMA(sismos_por_dia['Cantidad de Sismos'], order=(1, 0, 0))
+        model = ARIMA(sismos_por_dia['Cantidad de Sismos'], order=(5, 0, 0))
         model_fit = model.fit()
 
         fecha_actual = datetime.now().date()
@@ -137,7 +137,7 @@ def main(latitud, longitud, distancia_km):
         prob2 = (probm65*sismos_predichos).round(5)
         st.write(f'Según nuestros pronósticos, en tu área se registrarán una cantidad de {sismos_predichos} sismos en los próximos 3 meses, y la probabilidad de que ocurra un sismo dañino es de:')
         st.markdown("<h2 style='font-size:13px;'>(Esta estimación se hace en base al registro histórico de sismos ocurridos en el área desde el año 2000 a la actualidad, se tiene en cuenta la cantidad de sismos de magnitud superior a la dicha ocurrieron en el lugar y no cerciora eventos futuros)</h2>", unsafe_allow_html=True)
-        st.write(f'Ligeramente dañino(Mg5.5 o superior): {prob1}%')
+        st.write(f'Moderadamente dañino(Mg5 o superior): {prob1}%')
         st.write(f'Muy dañino(Mg6.5 o superior): {prob2}%')
         st.write("")
         st.write("Los datos históricos según nuestros registros son los siguientes:")

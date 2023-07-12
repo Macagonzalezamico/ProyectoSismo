@@ -54,6 +54,24 @@ El scrum board del proyecto se encuentra en: https://michelvillot.atlassian.net/
 
 El Gantt del proyecto se encuentra en Jira y ha sido realizado utilizando epicas.
 
+## Entregables
+
+### Alcance
+
+El documento de alcance se encuentra en /entregables/alcance.md
+
+### Objetivos
+
+El documento de objetivos se encuentra en /entregables/objetivos.md
+
+### Stack tecnológico
+
+El documento de stack tecnológico se encuentra en /entregables/stack_tecnologico.md
+
+### Consulta de información en línea
+
+Dirigirse a esta URL: https://api-project-sismo.onrender.com/
+
 # Anexos
 
 ## Tipos de archivos

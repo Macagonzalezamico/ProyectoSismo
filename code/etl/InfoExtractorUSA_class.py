@@ -105,8 +105,8 @@ class InfoExtractorUSA(InfoExtractor):
         # Preparo un dataframe para incorporar la info
         usa_df = pd.DataFrame()
 
-        # Si el dataframe no está vacío, obtengo los datos desde el mismo
-        if not usa_df.empty:
+        # Si el diccionario no está vacío, obtengo los datos desde el mismo
+        if len(data['features']) > 1:
 
             # Recorro el diccionario para ir extrayendo la info
             fechaGeneracion = data['metadata']['generated']

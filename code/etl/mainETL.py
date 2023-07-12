@@ -99,10 +99,10 @@ def get_last_dates():
         date_chile = row[1]
         date_usa = row[2]
 
-        print('En get_last_dates')
-        print(' date_japon', date_japon)
-        print(' date_chile', date_chile)
-        print(' date_usa', date_usa)
+        logging.debug('En get_last_dates')
+        logging.debug(' date_japon ' + str(date_japon))
+        logging.debug(' date_chile ' + str(date_chile))
+        logging.debug(' date_usa ' + str(date_usa))
 
         ult_fecha_japon = dt.datetime(date_japon.year, date_japon.month, date_japon.day, 0, 0, 0)
         ult_fecha_chile = dt.datetime(date_chile.year, date_chile.month, date_chile.day, 0, 0, 0)

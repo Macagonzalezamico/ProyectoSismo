@@ -87,11 +87,11 @@ class DataLoadDispatcher():
          ('JP', 'urlJapon', dt.datetime(2023,  7,  1,  0,  0,  0), dt.datetime(2023,  7,  2, 23, 59, 59))]
         '''
 
-        print('En getSourcesFor')
-        print(' country', country)
-        print(' sinceDateTime', sinceDateTime)
-        print(' upToDateTime', upToDateTime)
-        
+        logging.debug('En getSourcesFor')
+        logging.debug(' country ' + country)
+        logging.debug(' sinceDateTime ' + str(sinceDateTime))
+        logging.debug(' upToDateTime ' + str(upToDateTime))
+
         countrySourcesAndDates = []
 
         for d_countries in self.context_d['countries']:
@@ -200,6 +200,13 @@ class DataLoadDispatcher():
             for tupla_param in tuplas_parametros_ejec:
 
                 # Las tuplas de parámetros contienen: (country, source, fromDateTime, toDateTime)
+                logging.info('Parámetros de ejecución:')
+                logging.info(' country ' + tupla_param[0])
+                logging.info(' source ' + tupla_param[1])
+                logging.info(' fromDateTime ' + str(tupla_param[2]))
+                logging.info(' toDateTime ' + str(tupla_param[3]))
+
+                # Despacho el workflow
                 country_and_source = tupla_param[0] + '_' + tupla_param[1]
                 self.dispatch_workflow(country, country_and_source, tupla_param)
 

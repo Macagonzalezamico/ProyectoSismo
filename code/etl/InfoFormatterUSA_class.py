@@ -40,7 +40,7 @@ class InfoFormatterUSA(InfoFormatter):
         # Elimino duplicados si los ubiera y en los casos de valores nulos en campos de interés,
         # elimino el registro o imputo los datos
         df.drop_duplicates(inplace=True)
-        df.dropna(subset=['mag', 'place', 'time', 'geometry_coord1', 'geometry_coord2', 'geometry_coord3', 'magType'])
+        df.dropna(subset=['mag', 'place', 'time', 'geometry_coord1', 'geometry_coord2', 'geometry_coord3', 'magType'], inplace=True)
 
         # Renombro los campos útiles
         df = df.rename(columns={'mag' : 'Magnitud',\
@@ -59,8 +59,6 @@ class InfoFormatterUSA(InfoFormatter):
 
         # Agrego la columna de ID del país
         df = df.assign(ID_Pais=country)
-
-        print(df.head())
 
         # Devuelvo el dataFrame con mensaje de error vacío
         return ('', df)

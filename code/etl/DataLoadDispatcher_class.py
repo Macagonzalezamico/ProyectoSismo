@@ -55,11 +55,11 @@ class DataLoadDispatcher():
                                          {'US' : {'sources' : [('urlUSA',
                                                                 dt.datetime(2000,  1,  1,  0,  0,  0),
                                                                 dt.datetime(9999, 12, 31, 23, 59, 59),
-                                                                30)]}},
+                                                                5)]}},
                                          {'JP' : {'sources' : [('urlUSA',
                                                                 dt.datetime(2000,  1,  1,  0,  0,  0),
                                                                 dt.datetime(2023,  6, 30, 23, 59, 59),
-                                                                30),
+                                                                5),
                                                                ('urlJapon',
                                                                 dt.datetime(2023,  7,  1,  0,  0,  0),
                                                                 dt.datetime(9999, 12, 31, 23, 59, 59),
@@ -206,9 +206,10 @@ class DataLoadDispatcher():
                 logging.info(' fromDateTime ' + str(tupla_param[2]))
                 logging.info(' toDateTime ' + str(tupla_param[3]))
 
-                # Despacho el workflow
-                country_and_source = tupla_param[0] + '_' + tupla_param[1]
-                self.dispatch_workflow(country, country_and_source, tupla_param)
+                # Mientras que la fecha desde sea menor o igual a la fecha hasta, despacho el workflow
+                if tupla_param[2] <= tupla_param[3]:
+                    country_and_source = tupla_param[0] + '_' + tupla_param[1]
+                    self.dispatch_workflow(country, country_and_source, tupla_param)
 
         except Exception as e:
 

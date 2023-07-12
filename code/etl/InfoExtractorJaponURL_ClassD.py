@@ -61,6 +61,8 @@ class InfoExtractorJaponURL(iex.InfoExtractor):
         for indice, elemento in enumerate(lista_fechas):
             if lista_fechas[indice].strftime('%Y-%m-%d') in lista_fechas_incremental:
                 indices.append(indice)
+            else:
+                pass
         
         #Lista Links
         lista_links = []

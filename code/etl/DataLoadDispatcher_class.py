@@ -43,9 +43,12 @@ class DataLoadDispatcher():
                                'JP_urlJapon' : self.extractor_JP_url,
                                'urlDamage' : self.extractor_Damage_url}
         
-        self.map_formatters = {'CL' : self.formatter_CL,
-                               'US' : self.formatter_USA,
-                               'JP' : self.formatter_JP,
+        self.map_formatters = {'CL_datasetChile' : self.formatter_CL,
+                               'CL_urlChile' : self.formatter_CL,
+                               'CL_urlUSA' : self.formatter_USA,
+                               'US_urlUSA' : self.formatter_USA,
+                               'JP_urlJapon' : self.formatter_JP,
+                               'JP_urlUSA' : self.formatter_USA,
                                'Damage' : self.formatter_Damage}
 
         self.context_d = {'countries' : [{'CL' : {'sources' : [('urlChile',
@@ -169,7 +172,7 @@ class DataLoadDispatcher():
                     logging.info('Dataframe vacío. Se aborta este workflow')
                 else:
                     logging.info('Modulo de formateo de datos despachado')
-                    formatter = self.map_formatters[country]
+                    formatter = self.map_formatters[country_and_source]
                     error = None
                     formatted_info = None
                     if formatter is not None:

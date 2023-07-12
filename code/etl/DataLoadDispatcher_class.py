@@ -87,6 +87,11 @@ class DataLoadDispatcher():
          ('JP', 'urlJapon', dt.datetime(2023,  7,  1,  0,  0,  0), dt.datetime(2023,  7,  2, 23, 59, 59))]
         '''
 
+        print('En getSourcesFor')
+        print(' country', country)
+        print(' sinceDateTime', sinceDateTime)
+        print(' upToDateTime', upToDateTime)
+        
         countrySourcesAndDates = []
 
         for d_countries in self.context_d['countries']:

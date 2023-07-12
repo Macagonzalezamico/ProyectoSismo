@@ -83,4 +83,11 @@ class InfoFormatterChile(ifc.InfoFormatter):
 
         Chile = Chile.reindex(columns=columnas)
 
+        #Para eliminar los registros que no pertenecen al rango solicitado:
+        MaxFecha = Chile["Fecha_del_sismo"].max()
+        MinFecha = Chile["Fecha_del_sismo"].min()
+
+        Chile = Chile.drop(Chile.loc[Chile["Fecha_del_sismo"] == MaxFecha].index)
+        Chile = Chile.drop(Chile.loc[Chile["Fecha_del_sismo"] == MinFecha].index)
+
         return ("", Chile)

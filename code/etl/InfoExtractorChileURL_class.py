@@ -29,14 +29,16 @@ class InfoExtractorChileURL(iex.InfoExtractor):
         # Para crear el listado de fechas:
         fechas = []
         delta = timedelta(days=1)  # Establecemos un incremento diario.
+        fechaposterior = toDateTime + delta
+        data = []
 
         # Para generar el listado de fechas:
-        while fromDateTime <= toDateTime:
+        while fromDateTime <= fechaposterior:
             fechas.append(fromDateTime)
             fromDateTime += delta
 
         #Creamos una lista vacía para los datos y establecemos la ruta de la url raíz:
-        data = []
+
         url = "https://www.sismologia.cl/sismicidad/catalogo/"
 
         #Iteramos fecha a fecha de la lista fechas creada en el paso anterior:

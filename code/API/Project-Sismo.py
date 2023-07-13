@@ -104,17 +104,21 @@ def main(latitud, longitud, distancia_km):
 
         # Calcular la cantidad de sismos por día
         sismos_por_dia = df.groupby(df['Fecha_del_sismo'].dt.date).size().reset_index(name='Cantidad de Sismos')
+        
         if len(sismos_por_dia) <= 1:
            st.write("El área es demasiado chica, no hay suficientes datos para ajustar el modelo.")
         else:
-            model = ARIMA(sismos_por_dia['Cantidad de Sismos'], order=(3, 0, 0))
+            fecha_actual = datetime.now().date()
+
+            sismos_por_dia = sismos_por_dia[sismos_por_dia['Fecha_del_sismo']>fecha_actual-timedelta(days=365)]
+            
+            model = ARIMA(sismos_por_dia['Cantidad de Sismos'], order=(5, 0, 0))
             model_fit = model.fit()
 
-            fecha_actual = datetime.now().date()
 
             # Obtener los últimos tres meses previos a la fecha actual
             fecha_tres_meses_atras = fecha_actual - timedelta(days=90)
-            ultimos_tres_meses = sismos_por_dia[(sismos_por_dia['Fecha_del_sismo'] >= fecha_tres_meses_atras) & (sismos_por_dia['Fecha_del_sismo'] < fecha_actual)]
+            ultimos_tres_meses = sismos_por_dia[(sismos_por_dia['Fecha_del_sismo'] >= fecha_tres_meses_atras)]
 
             # Generar las fechas para la predicción de los próximos tres meses desde la fecha actual
             fecha_tres_meses_adelante = fecha_actual + timedelta(days=90)
@@ -201,13 +205,14 @@ def opcion2():
     st.write(f'La distancia que ingresaste es: {distancia_km} km')
 
     if st.button('Ejecutar consulta'):
-        # Llamar a la función para ejecutar la consulta
-        latitud = float(latitud)
-        longitud = float(longitud)
-        distancia_km = float(distancia_km)
-        main(latitud, longitud, distancia_km)
-        #except (ValueError, UnboundLocalError):
-        #    st.write("Los parámetros ingresados son incorrectos.")
+        # Llamar a la función para ejecutar la consulta 
+        try:
+            latitud = float(latitud)
+            longitud = float(longitud)
+            distancia_km = float(distancia_km)
+            main(latitud, longitud, distancia_km)
+        except (ValueError, UnboundLocalError):
+            st.write("Los parámetros ingresados son incorrectos.")
 
 def main2():
     st.write("Seleccione en el menú de la izquierda la opción que desea utilizar")

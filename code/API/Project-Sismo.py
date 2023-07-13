@@ -90,11 +90,11 @@ def main(latitud, longitud, distancia_km):
     Cantidad = len(df)
     
     df["Magnitud"] = df["Magnitud"].astype(float)
-    sumatoriam55 = df[df["Magnitud"] > 5.5]["Magnitud"].count()
-    sumatoriam65 = df[df["Magnitud"] > 6.5]["Magnitud"].count()
-    sumatoria = df["Magnitud"].count()
-    probm55 = (sumatoriam55 / sumatoria).round(8)
-    probm65 = (sumatoriam65 / sumatoria).round(8)
+    countm55 = df[df["Magnitud"] > 5]["Magnitud"].count()
+    countm65 = df[df["Magnitud"] > 6.5]["Magnitud"].count()
+    count = len(df)
+    probm55 = (countm55 / count).round(8)
+    probm65 = (countm65 / count).round(8)
 
 
     if len(df) == 0:
@@ -104,47 +104,49 @@ def main(latitud, longitud, distancia_km):
 
         # Calcular la cantidad de sismos por día
         sismos_por_dia = df.groupby(df['Fecha_del_sismo'].dt.date).size().reset_index(name='Cantidad de Sismos')
+        if len(sismos_por_dia) <= 1:
+           st.write("El área es demasiado chica, no hay suficientes datos para ajustar el modelo.")
+        else:
+            model = ARIMA(sismos_por_dia['Cantidad de Sismos'], order=(3, 0, 0))
+            model_fit = model.fit()
 
-        model = ARIMA(sismos_por_dia['Cantidad de Sismos'], order=(1, 0, 0))
-        model_fit = model.fit()
+            fecha_actual = datetime.now().date()
 
-        fecha_actual = datetime.now().date()
+            # Obtener los últimos tres meses previos a la fecha actual
+            fecha_tres_meses_atras = fecha_actual - timedelta(days=90)
+            ultimos_tres_meses = sismos_por_dia[(sismos_por_dia['Fecha_del_sismo'] >= fecha_tres_meses_atras) & (sismos_por_dia['Fecha_del_sismo'] < fecha_actual)]
 
-        # Obtener los últimos tres meses previos a la fecha actual
-        fecha_tres_meses_atras = fecha_actual - timedelta(days=90)
-        ultimos_tres_meses = sismos_por_dia[(sismos_por_dia['Fecha_del_sismo'] >= fecha_tres_meses_atras) & (sismos_por_dia['Fecha_del_sismo'] < fecha_actual)]
+            # Generar las fechas para la predicción de los próximos tres meses desde la fecha actual
+            fecha_tres_meses_adelante = fecha_actual + timedelta(days=90)
+            fechas_prediccion = pd.date_range(start=fecha_actual, end=fecha_tres_meses_adelante, freq='D')
+            prediccion = model_fit.predict(start=len(ultimos_tres_meses), end=len(ultimos_tres_meses) + len(fechas_prediccion) - 1)
 
-        # Generar las fechas para la predicción de los próximos tres meses desde la fecha actual
-        fecha_tres_meses_adelante = fecha_actual + timedelta(days=90)
-        fechas_prediccion = pd.date_range(start=fecha_actual, end=fecha_tres_meses_adelante, freq='D')
-        prediccion = model_fit.predict(start=len(ultimos_tres_meses), end=len(ultimos_tres_meses) + len(fechas_prediccion) - 1)
+            # Crear una lista con las fechas de los últimos tres meses y las fechas de predicción
+            fechas = list(ultimos_tres_meses['Fecha_del_sismo']) + list(fechas_prediccion)
 
-        # Crear una lista con las fechas de los últimos tres meses y las fechas de predicción
-        fechas = list(ultimos_tres_meses['Fecha_del_sismo']) + list(fechas_prediccion)
+            # Crear una lista con la cantidad de sismos de los últimos tres meses y las predicciones
+            cantidad_sismos = list(ultimos_tres_meses['Cantidad de Sismos']) + list(prediccion)
 
-        # Crear una lista con la cantidad de sismos de los últimos tres meses y las predicciones
-        cantidad_sismos = list(ultimos_tres_meses['Cantidad de Sismos']) + list(prediccion)
+            # Crear el DataFrame con los datos de los últimos tres meses y las predicciones
+            datos_grafico = pd.DataFrame({'Fecha': fechas, 'Cantidad de Sismos': cantidad_sismos})
 
-        # Crear el DataFrame con los datos de los últimos tres meses y las predicciones
-        datos_grafico = pd.DataFrame({'Fecha': fechas, 'Cantidad de Sismos': cantidad_sismos})
-
-        # Configurar la aplicación de Streamlit
-        st.write('Gráfico de actividad sísmica de los últimos 3 meses y predicción de actividad para los próximos 3 meses:')
-        st.line_chart(datos_grafico.set_index('Fecha'))
-        
-        sismos_predichos = datos_grafico.iloc[-len(fechas_prediccion):]['Cantidad de Sismos'].sum().astype(int)
-        prob1 = (probm55*sismos_predichos).round(5)
-        prob2 = (probm65*sismos_predichos).round(5)
-        st.write(f'Según nuestros pronósticos, en tu área se registrarán una cantidad de {sismos_predichos} sismos en los próximos 3 meses, y la probabilidad de que ocurra un sismo dañino es de:')
-        st.markdown("<h2 style='font-size:13px;'>(Esta estimación se hace en base al registro histórico de sismos ocurridos en el área desde el año 2000 a la actualidad, se tiene en cuenta la cantidad de sismos de magnitud superior a la dicha ocurrieron en el lugar y no cerciora eventos futuros)</h2>", unsafe_allow_html=True)
-        st.write(f'Ligeramente dañino(Mg5.5 o superior): {prob1}%')
-        st.write(f'Muy dañino(Mg6.5 o superior): {prob2}%')
-        st.write("")
-        st.write("Los datos históricos según nuestros registros son los siguientes:")
-        st.write(f'La profundidad promedio es {ProfundidadPromedio}, y oscila entre {ProfundidadMinima} y {ProfundidadMaxima}.')
-        st.write(f'La magnitud promedio es {MagnitudPromedio}, y oscila entre {MagnitudMinima} y {MagnitudMaxima}.')
-        st.write(f'Contamos con registros de un total de {Cantidad} sismos en tu zona:')
-        return st.dataframe(df)
+            # Configurar la aplicación de Streamlit
+            st.write('Gráfico de actividad sísmica de los últimos 3 meses y predicción de actividad para los próximos 3 meses:')
+            st.line_chart(datos_grafico.set_index('Fecha'))
+            
+            sismos_predichos = datos_grafico.iloc[-len(fechas_prediccion):]['Cantidad de Sismos'].sum().astype(int)
+            prob1 = (probm55*sismos_predichos).round(5)
+            prob2 = (probm65*sismos_predichos).round(5)
+            st.write(f'Según nuestros pronósticos, en tu área se registrarán una cantidad de {sismos_predichos} sismos en los próximos 3 meses, y la probabilidad de que ocurra un sismo dañino es de:')
+            st.markdown("<h2 style='font-size:13px;'>(Esta estimación se hace en base al registro histórico de sismos ocurridos en el área desde el año 2000 a la actualidad, se tiene en cuenta la cantidad de sismos de magnitud superior a la dicha ocurrieron en el lugar y no cerciora eventos futuros)</h2>", unsafe_allow_html=True)
+            st.write(f'Moderadamente dañino(Mg5 o superior): {prob1}%')
+            st.write(f'Muy dañino(Mg6.5 o superior): {prob2}%')
+            st.write("")
+            st.write("Los datos históricos según nuestros registros son los siguientes:")
+            st.write(f'La profundidad promedio es {ProfundidadPromedio}, y oscila entre {ProfundidadMinima} y {ProfundidadMaxima}.')
+            st.write(f'La magnitud promedio es {MagnitudPromedio}, y oscila entre {MagnitudMinima} y {MagnitudMaxima}.')
+            st.write(f'Contamos con registros de un total de {Cantidad} sismos en tu zona:')
+            return st.dataframe(df)
 
 # Título de la aplicación
 st.title('Project-Sismo')

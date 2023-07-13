@@ -104,7 +104,7 @@ def main(latitud, longitud, distancia_km):
 
         # Calcular la cantidad de sismos por día
         sismos_por_dia = df.groupby(df['Fecha_del_sismo'].dt.date).size().reset_index(name='Cantidad de Sismos')
-        
+
         if len(sismos_por_dia) <= 1:
            st.write("El área es demasiado chica, no hay suficientes datos para ajustar el modelo.")
         else:
@@ -112,7 +112,7 @@ def main(latitud, longitud, distancia_km):
 
             sismos_por_dia = sismos_por_dia[sismos_por_dia['Fecha_del_sismo']>fecha_actual-timedelta(days=365)]
             
-            model = ARIMA(sismos_por_dia['Cantidad de Sismos'], order=(5, 0, 0))
+            model = ARIMA(sismos_por_dia['Cantidad de Sismos'], order=(3, 0, 0))
             model_fit = model.fit()
 
 

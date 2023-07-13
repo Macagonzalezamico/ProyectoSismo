@@ -38,6 +38,7 @@ class DataLoadDispatcher():
 
         self.map_extractors = {'CL_datasetChile' : self.extractor_CL_dataset,
                                'CL_urlChile' : self.extractor_CL_url,
+                               'CL_urlUSA' : self.extractor_USA_api,
                                'US_urlUSA' : self.extractor_USA_api,
                                'JP_urlUSA' : self.extractor_USA_api,
                                'JP_urlJapon' : self.extractor_JP_url,
@@ -47,8 +48,8 @@ class DataLoadDispatcher():
                                'CL_urlChile' : self.formatter_CL,
                                'CL_urlUSA' : self.formatter_USA,
                                'US_urlUSA' : self.formatter_USA,
-                               'JP_urlJapon' : self.formatter_JP,
                                'JP_urlUSA' : self.formatter_USA,
+                               'JP_urlJapon' : self.formatter_JP,
                                'Damage' : self.formatter_Damage}
 
         self.context_d = {'countries' : [{'CL' : {'sources' : [('urlChile',
@@ -61,12 +62,13 @@ class DataLoadDispatcher():
                                                                 3)]}},
                                          {'JP' : {'sources' : [('urlUSA',
                                                                 dt.datetime(2000,  1,  1,  0,  0,  0),
-                                                                dt.datetime(2023,  6, 30, 23, 59, 59),
-                                                                5),
-                                                               ('urlJapon',
-                                                                dt.datetime(2023,  7,  1,  0,  0,  0),
                                                                 dt.datetime(9999, 12, 31, 23, 59, 59),
-                                                                30)]}}],
+                                                                5)
+                                                               #('urlJapon',
+                                                               # dt.datetime(2023,  7,  1,  0,  0,  0),
+                                                               # dt.datetime(9999, 12, 31, 23, 59, 59),
+                                                               # 30)
+                                                                ]}}],
                          'damage' : ('urlDamage',
                                      dt.datetime(1800,  1,  1,  0,  0,  0),
                                      dt.datetime(9999, 12, 31, 23, 59, 59),

@@ -58,7 +58,7 @@ class DataLoadDispatcher():
                                          {'US' : {'sources' : [('urlUSA',
                                                                 dt.datetime(2000,  1,  1,  0,  0,  0),
                                                                 dt.datetime(9999, 12, 31, 23, 59, 59),
-                                                                5)]}},
+                                                                3)]}},
                                          {'JP' : {'sources' : [('urlUSA',
                                                                 dt.datetime(2000,  1,  1,  0,  0,  0),
                                                                 dt.datetime(2023,  6, 30, 23, 59, 59),

@@ -1,0 +1,1609 @@
+INFO:root:.
+INFO:root:----------------------------------------------
+INFO:root:Proceso iniciado el 2023-07-12 22:30:49.679596
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2022-01-01 00:00:00
+INFO:root: toDateTime 2022-01-05 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2022-01-06 00:00:00
+INFO:root: toDateTime 2022-01-10 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2022-01-11 00:00:00
+INFO:root: toDateTime 2022-01-15 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2022-01-16 00:00:00
+INFO:root: toDateTime 2022-01-20 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2022-01-21 00:00:00
+INFO:root: toDateTime 2022-01-25 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2022-01-26 00:00:00
+INFO:root: toDateTime 2022-01-30 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2022-01-31 00:00:00
+INFO:root: toDateTime 2022-02-04 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2022-02-05 00:00:00
+INFO:root: toDateTime 2022-02-09 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2022-02-10 00:00:00
+INFO:root: toDateTime 2022-02-14 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2022-02-15 00:00:00
+INFO:root: toDateTime 2022-02-19 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2022-02-20 00:00:00
+INFO:root: toDateTime 2022-02-24 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2022-02-25 00:00:00
+INFO:root: toDateTime 2022-03-01 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2022-03-02 00:00:00
+INFO:root: toDateTime 2022-03-06 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2022-03-07 00:00:00
+INFO:root: toDateTime 2022-03-11 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2022-03-12 00:00:00
+INFO:root: toDateTime 2022-03-16 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2022-03-17 00:00:00
+INFO:root: toDateTime 2022-03-21 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2022-03-22 00:00:00
+INFO:root: toDateTime 2022-03-26 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2022-03-27 00:00:00
+INFO:root: toDateTime 2022-03-31 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2022-04-01 00:00:00
+INFO:root: toDateTime 2022-04-05 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2022-04-06 00:00:00
+INFO:root: toDateTime 2022-04-10 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2022-04-11 00:00:00
+INFO:root: toDateTime 2022-04-15 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2022-04-16 00:00:00
+INFO:root: toDateTime 2022-04-20 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2022-04-21 00:00:00
+INFO:root: toDateTime 2022-04-25 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2022-04-26 00:00:00
+INFO:root: toDateTime 2022-04-30 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2022-05-01 00:00:00
+INFO:root: toDateTime 2022-05-05 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2022-05-06 00:00:00
+INFO:root: toDateTime 2022-05-10 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2022-05-11 00:00:00
+INFO:root: toDateTime 2022-05-15 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2022-05-16 00:00:00
+INFO:root: toDateTime 2022-05-20 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2022-05-21 00:00:00
+INFO:root: toDateTime 2022-05-25 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2022-05-26 00:00:00
+INFO:root: toDateTime 2022-05-30 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2022-05-31 00:00:00
+INFO:root: toDateTime 2022-06-04 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2022-06-05 00:00:00
+INFO:root: toDateTime 2022-06-09 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2022-06-10 00:00:00
+INFO:root: toDateTime 2022-06-14 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2022-06-15 00:00:00
+INFO:root: toDateTime 2022-06-19 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2022-06-20 00:00:00
+INFO:root: toDateTime 2022-06-24 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+WARNING:root:Ocurrió una excepción: error 400 Syntax error: Expected ")" or "," but got identifier "Brien" at [1:141704]
+
+Location: US
+Job ID: 557803ad-8c58-4973-a078-05406275a9e8
+
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2022-06-21 00:00:00
+INFO:root: toDateTime 2022-06-25 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2022-06-26 00:00:00
+INFO:root: toDateTime 2022-06-30 00:00:00
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2022-06-30 00:00:00
+INFO:root: toDateTime 2022-06-30 00:00:00
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Dataframe vacío. Se aborta este workflow
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2022-06-30 00:00:00
+INFO:root: toDateTime 2022-07-04 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2022-07-05 00:00:00
+INFO:root: toDateTime 2022-07-09 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2022-07-10 00:00:00
+INFO:root: toDateTime 2022-07-14 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2022-07-15 00:00:00
+INFO:root: toDateTime 2022-07-19 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2022-07-20 00:00:00
+INFO:root: toDateTime 2022-07-24 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2022-07-25 00:00:00
+INFO:root: toDateTime 2022-07-29 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2022-07-30 00:00:00
+INFO:root: toDateTime 2022-08-03 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2022-08-04 00:00:00
+INFO:root: toDateTime 2022-08-08 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2022-08-09 00:00:00
+INFO:root: toDateTime 2022-08-13 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2022-08-14 00:00:00
+INFO:root: toDateTime 2022-08-18 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2022-08-19 00:00:00
+INFO:root: toDateTime 2022-08-23 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2022-08-24 00:00:00
+INFO:root: toDateTime 2022-08-28 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2022-08-29 00:00:00
+INFO:root: toDateTime 2022-09-02 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2022-09-03 00:00:00
+INFO:root: toDateTime 2022-09-07 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2022-09-08 00:00:00
+INFO:root: toDateTime 2022-09-12 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2022-09-13 00:00:00
+INFO:root: toDateTime 2022-09-17 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2022-09-18 00:00:00
+INFO:root: toDateTime 2022-09-22 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2022-09-23 00:00:00
+INFO:root: toDateTime 2022-09-27 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2022-09-28 00:00:00
+INFO:root: toDateTime 2022-10-02 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2022-10-03 00:00:00
+INFO:root: toDateTime 2022-10-07 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2022-10-08 00:00:00
+INFO:root: toDateTime 2022-10-12 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2022-10-13 00:00:00
+INFO:root: toDateTime 2022-10-17 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2022-10-18 00:00:00
+INFO:root: toDateTime 2022-10-22 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2022-10-23 00:00:00
+INFO:root: toDateTime 2022-10-27 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2022-10-28 00:00:00
+INFO:root: toDateTime 2022-11-01 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2022-11-02 00:00:00
+INFO:root: toDateTime 2022-11-06 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2022-11-07 00:00:00
+INFO:root: toDateTime 2022-11-11 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2022-11-12 00:00:00
+INFO:root: toDateTime 2022-11-16 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2022-11-17 00:00:00
+INFO:root: toDateTime 2022-11-21 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2022-11-22 00:00:00
+INFO:root: toDateTime 2022-11-26 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2022-11-27 00:00:00
+INFO:root: toDateTime 2022-12-01 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2022-12-02 00:00:00
+INFO:root: toDateTime 2022-12-06 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2022-12-07 00:00:00
+INFO:root: toDateTime 2022-12-11 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2022-12-12 00:00:00
+INFO:root: toDateTime 2022-12-16 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2022-12-17 00:00:00
+INFO:root: toDateTime 2022-12-21 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2022-12-22 00:00:00
+INFO:root: toDateTime 2022-12-26 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2022-12-27 00:00:00
+INFO:root: toDateTime 2022-12-30 00:00:00
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-01-01 00:00:00
+INFO:root: toDateTime 2021-01-05 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-01-06 00:00:00
+INFO:root: toDateTime 2021-01-10 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-01-11 00:00:00
+INFO:root: toDateTime 2021-01-15 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-01-16 00:00:00
+INFO:root: toDateTime 2021-01-20 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-01-21 00:00:00
+INFO:root: toDateTime 2021-01-25 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-01-26 00:00:00
+INFO:root: toDateTime 2021-01-30 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-01-31 00:00:00
+INFO:root: toDateTime 2021-02-04 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-02-05 00:00:00
+INFO:root: toDateTime 2021-02-09 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-02-10 00:00:00
+INFO:root: toDateTime 2021-02-14 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-02-15 00:00:00
+INFO:root: toDateTime 2021-02-19 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-02-20 00:00:00
+INFO:root: toDateTime 2021-02-24 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-02-25 00:00:00
+INFO:root: toDateTime 2021-03-01 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-03-02 00:00:00
+INFO:root: toDateTime 2021-03-06 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-03-07 00:00:00
+INFO:root: toDateTime 2021-03-11 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-03-12 00:00:00
+INFO:root: toDateTime 2021-03-16 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-03-17 00:00:00
+INFO:root: toDateTime 2021-03-21 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-03-22 00:00:00
+INFO:root: toDateTime 2021-03-26 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-03-27 00:00:00
+INFO:root: toDateTime 2021-03-31 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-04-01 00:00:00
+INFO:root: toDateTime 2021-04-05 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-04-06 00:00:00
+INFO:root: toDateTime 2021-04-10 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-04-11 00:00:00
+INFO:root: toDateTime 2021-04-15 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-04-16 00:00:00
+INFO:root: toDateTime 2021-04-20 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-04-21 00:00:00
+INFO:root: toDateTime 2021-04-25 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-04-26 00:00:00
+INFO:root: toDateTime 2021-04-30 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-05-01 00:00:00
+INFO:root: toDateTime 2021-05-05 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-05-06 00:00:00
+INFO:root: toDateTime 2021-05-10 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-05-11 00:00:00
+INFO:root: toDateTime 2021-05-15 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-05-16 00:00:00
+INFO:root: toDateTime 2021-05-20 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-05-21 00:00:00
+INFO:root: toDateTime 2021-05-25 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-05-26 00:00:00
+INFO:root: toDateTime 2021-05-30 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-05-31 00:00:00
+INFO:root: toDateTime 2021-06-04 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-06-05 00:00:00
+INFO:root: toDateTime 2021-06-09 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+WARNING:root:Ocurrió una excepción: error 400 Resources exceeded during query execution: Not enough resources for query planning - too many subqueries or query is too complex.
+
+Location: US
+Job ID: 5e54af50-0a9f-43ac-a58d-0c00dc5b6c0f
+
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-06-06 00:00:00
+INFO:root: toDateTime 2021-06-10 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+WARNING:root:Ocurrió una excepción: error 400 Resources exceeded during query execution: Not enough resources for query planning - too many subqueries or query is too complex.
+
+Location: US
+Job ID: f8eb2b4f-f48f-4e44-b0e3-eedcfd4db3c1
+
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-06-05 00:00:00
+INFO:root: toDateTime 2021-06-06 00:00:00
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-06-07 00:00:00
+INFO:root: toDateTime 2021-06-08 00:00:00
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-06-09 00:00:00
+INFO:root: toDateTime 2021-06-10 00:00:00
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-06-11 00:00:00
+INFO:root: toDateTime 2021-06-15 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-06-16 00:00:00
+INFO:root: toDateTime 2021-06-20 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-06-21 00:00:00
+INFO:root: toDateTime 2021-06-25 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-06-26 00:00:00
+INFO:root: toDateTime 2021-06-30 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-07-01 00:00:00
+INFO:root: toDateTime 2021-07-05 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-07-06 00:00:00
+INFO:root: toDateTime 2021-07-10 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-07-11 00:00:00
+INFO:root: toDateTime 2021-07-15 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+WARNING:root:Ocurrió una excepción: error 400 Resources exceeded during query execution: Not enough resources for query planning - too many subqueries or query is too complex.
+
+Location: US
+Job ID: df922b74-5848-4fce-9c0a-8da1902cf3c8
+
+INFO:root:.
+INFO:root:----------------------------------------------
+INFO:root:Proceso iniciado el 2023-07-13 11:24:56.153535
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-07-12 00:00:00
+INFO:root: toDateTime 2021-07-14 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-07-15 00:00:00
+INFO:root: toDateTime 2021-07-17 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-07-18 00:00:00
+INFO:root: toDateTime 2021-07-20 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-07-21 00:00:00
+INFO:root: toDateTime 2021-07-23 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-07-24 00:00:00
+INFO:root: toDateTime 2021-07-26 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-07-27 00:00:00
+INFO:root: toDateTime 2021-07-29 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-07-30 00:00:00
+INFO:root: toDateTime 2021-08-01 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-08-02 00:00:00
+INFO:root: toDateTime 2021-08-04 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-08-05 00:00:00
+INFO:root: toDateTime 2021-08-07 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-08-08 00:00:00
+INFO:root: toDateTime 2021-08-10 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-08-11 00:00:00
+INFO:root: toDateTime 2021-08-13 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-08-14 00:00:00
+INFO:root: toDateTime 2021-08-16 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-08-17 00:00:00
+INFO:root: toDateTime 2021-08-19 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-08-20 00:00:00
+INFO:root: toDateTime 2021-08-22 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-08-23 00:00:00
+INFO:root: toDateTime 2021-08-25 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-08-26 00:00:00
+INFO:root: toDateTime 2021-08-28 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-08-29 00:00:00
+INFO:root: toDateTime 2021-08-31 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-09-01 00:00:00
+INFO:root: toDateTime 2021-09-03 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-09-04 00:00:00
+INFO:root: toDateTime 2021-09-06 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-09-07 00:00:00
+INFO:root: toDateTime 2021-09-09 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-09-10 00:00:00
+INFO:root: toDateTime 2021-09-12 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-09-13 00:00:00
+INFO:root: toDateTime 2021-09-15 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-09-16 00:00:00
+INFO:root: toDateTime 2021-09-18 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-09-19 00:00:00
+INFO:root: toDateTime 2021-09-21 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-09-22 00:00:00
+INFO:root: toDateTime 2021-09-24 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-09-25 00:00:00
+INFO:root: toDateTime 2021-09-27 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-09-28 00:00:00
+INFO:root: toDateTime 2021-09-30 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-10-01 00:00:00
+INFO:root: toDateTime 2021-10-03 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-10-04 00:00:00
+INFO:root: toDateTime 2021-10-06 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-10-07 00:00:00
+INFO:root: toDateTime 2021-10-09 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-10-10 00:00:00
+INFO:root: toDateTime 2021-10-12 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-10-13 00:00:00
+INFO:root: toDateTime 2021-10-15 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-10-16 00:00:00
+INFO:root: toDateTime 2021-10-18 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-10-19 00:00:00
+INFO:root: toDateTime 2021-10-21 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-10-22 00:00:00
+INFO:root: toDateTime 2021-10-24 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-10-25 00:00:00
+INFO:root: toDateTime 2021-10-27 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-10-28 00:00:00
+INFO:root: toDateTime 2021-10-30 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-10-31 00:00:00
+INFO:root: toDateTime 2021-11-02 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-11-03 00:00:00
+INFO:root: toDateTime 2021-11-05 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-11-06 00:00:00
+INFO:root: toDateTime 2021-11-08 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-11-09 00:00:00
+INFO:root: toDateTime 2021-11-11 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-11-12 00:00:00
+INFO:root: toDateTime 2021-11-14 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-11-15 00:00:00
+INFO:root: toDateTime 2021-11-17 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-11-18 00:00:00
+INFO:root: toDateTime 2021-11-20 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-11-21 00:00:00
+INFO:root: toDateTime 2021-11-23 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-11-24 00:00:00
+INFO:root: toDateTime 2021-11-26 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-11-27 00:00:00
+INFO:root: toDateTime 2021-11-29 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-11-30 00:00:00
+INFO:root: toDateTime 2021-12-02 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-12-03 00:00:00
+INFO:root: toDateTime 2021-12-05 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-12-06 00:00:00
+INFO:root: toDateTime 2021-12-08 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-12-09 00:00:00
+INFO:root: toDateTime 2021-12-11 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-12-12 00:00:00
+INFO:root: toDateTime 2021-12-14 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-12-15 00:00:00
+INFO:root: toDateTime 2021-12-17 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-12-18 00:00:00
+INFO:root: toDateTime 2021-12-20 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-12-21 00:00:00
+INFO:root: toDateTime 2021-12-23 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-12-24 00:00:00
+INFO:root: toDateTime 2021-12-26 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-12-27 00:00:00
+INFO:root: toDateTime 2021-12-29 23:59:59
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado
+INFO:root:Parámetros de ejecución:
+INFO:root: country US
+INFO:root: source urlUSA
+INFO:root: fromDateTime 2021-12-30 00:00:00
+INFO:root: toDateTime 2021-12-31 00:00:00
+INFO:root:Workflow para __US_urlUSA__ despachado
+INFO:root:Modulo de extracción de datos despachado
+INFO:root:Modulo de formateo de datos despachado
+INFO:root:Modulo de inserción de datos despachado

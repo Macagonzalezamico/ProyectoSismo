@@ -90,8 +90,8 @@ def main(latitud, longitud, distancia_km):
     Cantidad = len(df)
     
     df["Magnitud"] = df["Magnitud"].astype(float)
-    countm55 = df[df["Magnitud"] > 5]["Magnitud"].count()
-    countm65 = df[df["Magnitud"] > 6.5]["Magnitud"].count()
+    countm55 = df[df["Magnitud"] >= 5]["Magnitud"].count()
+    countm65 = df[df["Magnitud"] >= 6.5]["Magnitud"].count()
     count = len(df)
     probm55 = (countm55 / count).round(8)
     probm65 = (countm65 / count).round(8)

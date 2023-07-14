@@ -3,14 +3,17 @@ from google.cloud import bigquery
 from google.oauth2 import service_account
 from ETLEnvironment_class import ETLEnvironment
 import pandas as pd
-import numpy as np
 import googlemaps
 from statsmodels.tsa.arima.model import ARIMA
 import matplotlib.pyplot as plt
 from datetime import datetime, timedelta
+import folium
+from streamlit_folium import folium_static
+import math
 import os
 
 apikey = os.environ.get('apikey')
+
 
 def main(latitud, longitud, distancia_km):
     # Título de la aplicación
@@ -90,8 +93,8 @@ def main(latitud, longitud, distancia_km):
     Cantidad = len(df)
     
     df["Magnitud"] = df["Magnitud"].astype(float)
-    countm55 = df[df["Magnitud"] >= 5]["Magnitud"].count()
-    countm65 = df[df["Magnitud"] >= 6.5]["Magnitud"].count()
+    countm55 = df[df["Magnitud"] > 5]["Magnitud"].count()
+    countm65 = df[df["Magnitud"] > 6.5]["Magnitud"].count()
     count = len(df)
     probm55 = (countm55 / count).round(8)
     probm65 = (countm65 / count).round(8)
@@ -142,14 +145,52 @@ def main(latitud, longitud, distancia_km):
             prob1 = (probm55*sismos_predichos).round(5)
             prob2 = (probm65*sismos_predichos).round(5)
             st.write(f'Según nuestros pronósticos, en tu área se registrarán una cantidad de {sismos_predichos} sismos en los próximos 3 meses, y la probabilidad de que ocurra un sismo dañino es de:')
+            col1,col2 = st.columns(2)
+            with col1:
+                st.markdown(f'**Moderadamente dañino(Mg5 o superior):**')
+                st.markdown(f'<p style="font-size:34px">{prob1}%</p>', unsafe_allow_html=True)
+            with col2:
+                st.markdown(f'**Muy dañino(Mg6.5 o superior):**')
+                st.markdown(f'<p style="font-size:34px">{prob2}%</p>', unsafe_allow_html=True)
             st.markdown("<h2 style='font-size:13px;'>(Esta estimación se hace en base al registro histórico de sismos ocurridos en el área desde el año 2000 a la actualidad, se tiene en cuenta la cantidad de sismos de magnitud superior a la dicha ocurrieron en el lugar y no cerciora eventos futuros)</h2>", unsafe_allow_html=True)
-            st.write(f'Moderadamente dañino(Mg5 o superior): {prob1}%')
-            st.write(f'Muy dañino(Mg6.5 o superior): {prob2}%')
             st.write("")
-            st.write("Los datos históricos según nuestros registros son los siguientes:")
-            st.write(f'La profundidad promedio es {ProfundidadPromedio}, y oscila entre {ProfundidadMinima} y {ProfundidadMaxima}.')
-            st.write(f'La magnitud promedio es {MagnitudPromedio}, y oscila entre {MagnitudMinima} y {MagnitudMaxima}.')
-            st.write(f'Contamos con registros de un total de {Cantidad} sismos en tu zona:')
+
+
+            st.write("El siguiente mapa muestra los sismos de magnitud mayor a 5 registrados en tu área desde el año 2000:")
+            zoom_adjustment = 3.4  # Ajuste personalizado (puedes experimentar con diferentes valores)
+            zoom_start = int(15 - zoom_adjustment * math.log10(distancia_km))
+
+            # Crear un mapa centrado en una ubicación específica
+            mapa = folium.Map(location=[latitud, longitud], zoom_start=zoom_start)
+
+            # Obtener los puntos que cumplen la condición
+            puntos = df[df["Magnitud"] > 5]
+
+            # Agregar marcadores al mapa
+            for _, punto in puntos.iterrows():
+                folium.Marker(location=[punto['Latitud'], punto['Longitud']]).add_to(mapa)
+
+            folium.Circle(
+                location=[latitud, longitud],
+                radius=distancia_km * 1000,  # Convertir el radio a metros
+                color='blue',
+                fill=False,
+            ).add_to(mapa)
+
+            st.write("Mapa de sismos")
+            folium_static(mapa)
+
+            st.write("Los valores promedio, mínimo y máximo de profundidad y magnitud de los sismos en tu área son los siguientes:")
+
+            data = {
+                'Profundidad': [ProfundidadPromedio, ProfundidadMinima, ProfundidadMaxima],
+                'Magnitud': [MagnitudPromedio, MagnitudMinima, MagnitudMaxima]
+            }
+            df2 = pd.DataFrame(data, index=['Promedio', 'Mínimo', 'Máximo'])
+            st.table(df2)
+
+            st.write(f'Contamos con registros de un total de {Cantidad} sismos en tu área:')
+
             return st.dataframe(df)
 
 # Título de la aplicación
@@ -157,17 +198,18 @@ st.title('Project-Sismo')
 
 def opcion1():
     # Agregar contenido a la aplicación
-    st.write('Ingresa latitud, longitud y radio de la zona de la que quieres conocer la actividad sismica.')
 
-    # Ejemplo de widget interactivo
-    latitud = st.text_input('Ingresa la latitud')
-    st.write(f'La latitud que ingresaste es: {latitud}')
+    st.write('Ingresa latitud, longitud y radio del área de la que quieres conocer la actividad sismica.')
 
-    longitud = st.text_input('Ingresa la longitud')
-    st.write(f'La longitud que ingresaste es: {longitud}')
 
-    distancia_km = st.text_input('Ingresa la distancia del radio a tener en cuenta en Km')
-    st.write(f'La distancia que ingresaste es: {distancia_km} km')
+    col1, col2, col3 = st.columns(3)
+
+    with col1:
+        latitud = st.text_input('Latitud')
+    with col2:
+        longitud = st.text_input('Longitud')
+    with col3:
+        distancia_km = st.text_input('Radio del área (km)')
     
     if st.button('Ejecutar consulta'):
         # Llamar a la función para ejecutar la consulta 
@@ -177,14 +219,20 @@ def opcion1():
             distancia_km = float(distancia_km)
             main(latitud, longitud, distancia_km)
         except (ValueError, UnboundLocalError):
-            st.write("Los parámetros ingresados son incorrectos.")
+            st.write("Los parámetros ingresados son incorrectos o el área es demasiado chica.")
 
 
 def opcion2():
     gmaps = googlemaps.Client(key=apikey)
 
-    lugar = st.text_input("Ingrese el nombre del lugar y el país (Chile, Japon o EEUU):")
+    st.write('Ingresa el nombre del lugar, seguido del país(Chile, Japón o EEUU) y radio del área de la que quieres conocer la actividad sismica.')
 
+    col1, col2 = st.columns(2)
+
+    with col1:
+        lugar = st.text_input("Nombre del lugar:")
+    with col2:
+        distancia_km = st.text_input('Radio del área (km)')
     if lugar:
         # Realizar la solicitud de geocodificación inversa
         resultados = gmaps.geocode(lugar)
@@ -201,9 +249,6 @@ def opcion2():
     else:
         st.write("No se encontraron resultados para el lugar ingresado.")
 
-    distancia_km = st.text_input('Ingresa la distancia del radio a tener en cuenta en Km')
-    st.write(f'La distancia que ingresaste es: {distancia_km} km')
-
     if st.button('Ejecutar consulta'):
         # Llamar a la función para ejecutar la consulta 
         try:
@@ -212,7 +257,7 @@ def opcion2():
             distancia_km = float(distancia_km)
             main(latitud, longitud, distancia_km)
         except (ValueError, UnboundLocalError):
-            st.write("Los parámetros ingresados son incorrectos.")
+            st.write("Los parámetros ingresados son incorrectos o el área es demasiado chica.")
 
 def main2():
     st.write("Seleccione en el menú de la izquierda la opción que desea utilizar")

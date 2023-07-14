@@ -101,6 +101,9 @@ class DBUpdater():
         #print(' Lugar_del_Epicentro', row['Lugar_del_Epicentro'])
         #print(' ID_Pais', row['ID_Pais'])
 
+        lugar_del_epicentro = row['Lugar_del_Epicentro']
+        lugar_del_epicentro = lugar_del_epicentro.replace("'","")
+        
         query_row = '(' +\
                         'DATE(' +\
                         str(row['Fecha_del_sismo'].year) + ',' +\
@@ -122,7 +125,7 @@ class DBUpdater():
                         ', ' +\
                         '\'' + row['Tipo_Magnitud'] + '\'' +\
                         ', ' +\
-                        '\'' + ('' if row['Lugar_del_Epicentro'] is None else row['Lugar_del_Epicentro']) + '\'' +\
+                        '\'' + ('' if lugar_del_epicentro is None else lugar_del_epicentro) + '\'' +\
                         ', ' +\
                         '\'' + row['ID_Pais'] + '\'' +\
                     ')'

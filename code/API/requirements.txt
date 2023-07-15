@@ -2,7 +2,8 @@ streamlit
 google-cloud-bigquery
 google-auth
 pandas
-numpy
 googlemaps
 statsmodels
 matplotlib
+folium
+streamlit-folium

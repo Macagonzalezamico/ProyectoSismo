@@ -8,3 +8,5 @@ statsmodels
 matplotlib
 folium
 streamlit-folium
+style-metric-cards
+streamlit-extras

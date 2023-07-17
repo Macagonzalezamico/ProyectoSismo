@@ -9,6 +9,5 @@ folium
 streamlit-folium
 pytyped-metrics
 streamlit-extras
-streamlit-card
 streamlit-elements
 streamlit-option-menu

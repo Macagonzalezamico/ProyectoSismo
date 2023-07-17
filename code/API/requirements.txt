@@ -1,6 +1,5 @@
 streamlit
 Pillow
-style_metric_cards
 option_menu
 pydeck
 streamlit-extras

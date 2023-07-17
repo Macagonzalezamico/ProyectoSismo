@@ -3,3 +3,5 @@ archivos_personales/Fer/archive/
 archivos_personales/Fer/logETL.txt
 code/etl/ETLEnvironment_class.py
 code/etl/logETL.txt
+code/etl/__pycache__/
+code/etl/__pycache__

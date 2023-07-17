@@ -1,6 +1,5 @@
 streamlit
 Pillow
-time
 style_metric_cards
 option_menu
 pydeck

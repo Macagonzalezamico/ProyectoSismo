@@ -1,7 +1,6 @@
 streamlit
 Pillow
 pydeck
-streamlit-extras
 google-cloud-bigquery
 googlemaps
 statsmodels
@@ -10,3 +9,6 @@ folium
 streamlit-folium
 pytyped-metrics
 streamlit-extras
+streamlit-card
+streamlit-elements
+streamlit-option-menu

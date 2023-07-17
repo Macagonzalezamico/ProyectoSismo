@@ -1,6 +1,5 @@
 streamlit
 Pillow
-option_menu
 pydeck
 streamlit-extras
 google-cloud-bigquery

@@ -1,9 +1,13 @@
 streamlit
+Pillow
+pydeck
 google-cloud-bigquery
-google-auth
-pandas
 googlemaps
 statsmodels
 matplotlib
 folium
 streamlit-folium
+pytyped-metrics
+streamlit-extras
+streamlit-elements
+streamlit-option-menu

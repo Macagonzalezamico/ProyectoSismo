@@ -70,7 +70,7 @@ El documento de stack tecnológico se encuentra en /entregables/stack_tecnologic
 
 ### Consulta de información en línea
 
-Dirigirse a esta URL: https://api-project-sismo.onrender.com/
+Dirigirse a esta URL: [https://kegvinc.streamlit.app/]
 
 # Anexos
 
